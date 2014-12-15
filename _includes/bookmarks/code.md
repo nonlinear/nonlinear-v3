@@ -60,3 +60,4 @@
 1. [PhotoSwipe - JavaScript Image Gallery](http://photoswipe.com/)
 1. [SVG Articles by Sara Soueidan](http://sarasoueidan.com/articles/)
 1. [Sass Compatibility](http://sass-compatibility.github.io/)
+2. [Elastic SVG Elements](http://tympanus.net/Development/ElasticSVGElements/index.html)
