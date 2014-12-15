@@ -6,3 +6,4 @@
 1. [Feedly](http://feedly.com/#latest)
 1. [Dribble Infinite Scroll](http://mojotech.com/shots)
 1. [Unheap](http://unheap.com)
+1. [Feedly](https://feedly.com/#latest)
