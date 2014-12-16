@@ -101,14 +101,7 @@ a[data-toggle="collapse"] {
 	}
 	@include radius(50%);
 }
-body:before {
-	displaY: block;
-	position: fixed;
-	left: 0;
-	top: 70px;
-	font-size: 20px;
-	background-color: red;
-	padding: $g1;
+.os:before {
 	@include only(mac) {
 		content: "mac";
 	}
@@ -125,14 +118,7 @@ body:before {
 		content: "linux";
 	}
 }
-body:after {
-	displaY: block;
-	position: fixed;
-	left: 0;
-	top:100px;
-	font-size: 20px;
-	background-color: red;
-	padding: $g1;
+.browser:before {
 	@include only(safari) {
 		content: "safari";
 	}
@@ -145,7 +131,7 @@ body:after {
 			@include only(explorer) {
 		content: "explorer";
 	}
-				@include only(IE) {
-		content: "IE";
+				@include only(ie) {
+		content: "ie";
 	}
 }
