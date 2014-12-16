@@ -154,7 +154,7 @@
     padding: 0px;
     @include box;
     &:not(:last-of-type) {
-      padding-right: ($gutter / 2);
+          padding-right: ($gutter / 2);
     }
     &:not(:first-of-type) {
       padding-left: ($gutter / 2);
@@ -196,43 +196,25 @@
 
 @mixin reset($type: all) {
   @if $type == all {
-    margin:       0px !important;
-    padding:       0px !important;
-    border:       none;
-    background:   transparent;
-    -webkit-box-shadow:  none;
-    -moz-box-shadow:     none;
-    box-shadow:          none;
-    -webkit-text-shadow:  none;
-    -moz-text-shadow:     none;
-    text-shadow:          none;
-  } 
-  @else if $type == margin {
-    margin:       0px !important;
-  } 
-  @else if $type == shadow {
-    -webkit-box-shadow:  none;
-    -moz-box-shadow:     none;
-    box-shadow:          none;
-  } 
-    @else if $type == text-shadow {
-    -webkit-text-shadow:  none;
-    -moz-text-shadow:     none;
-    text-shadow:          none;
-  } 
-  @else if $type == padding {
-    padding:       0px !important;
-  } 
-  @else if $type == border {
-    border:       none;
-  } 
-  @else if $type == list {
-    list-style-type:  none;
-    padding: 0;
-    margin: 0;
-  } 
-  @else {
-  }
+      margin:       0px !important;
+      padding:       0px !important;
+      border:       none;
+      background:   transparent;
+    } 
+    @else if $type == margin {
+      margin:       0px !important;
+    } 
+    @else if $type == padding {
+      padding:       0px !important;
+    } 
+    @else if $type == border {
+      border:       none;
+    } 
+    @else if $type == list {
+      list-style: none;
+    } 
+    @else {
+    }
 }
 /*
 from 
@@ -279,10 +261,10 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
   }
 }
 @mixin cover {
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
+      -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
 }
 @mixin animation($title: fade) {
   @keyframes $title          { @content }
@@ -356,13 +338,13 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
 }
 @include animation(touchleft) {
   0%   { 
-   @include translate(-210, 0); 
- }
+     @include translate(-210, 0); 
+  }
 }
 @include animation(touchright) {
   0%   { 
-   @include translate(210, 0); 
- }
+     @include translate(210, 0); 
+  }
 }
 @include animation(zoom) {
   0%   { 
@@ -379,4 +361,9 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
     -ms-filter: blur(10px); 
     filter: blur(10px);
   }
+}
+@mixin only($only: mac) {
+      html.#{$only} & {
+        @content
+      }
 }

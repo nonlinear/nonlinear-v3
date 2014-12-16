@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nicholas Frota</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://nonlinear.github.io/</link>
+    <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Dec 2014 23:06:10 -0500</pubDate>
+    <lastBuildDate>Mon, 15 Dec 2014 23:06:10 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>My Bookmarks</title>
+        <description>&lt;h3 id=&quot;daily-resources&quot;&gt;Daily Resources&lt;/h3&gt;
+
+&lt;h4 id=&quot;everyday&quot;&gt;Everyday&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://typographicposters.com&quot;&gt;Typographic Posters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mojotech.com/shots&quot;&gt;Dribble Infinite Scroll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;social&quot;&gt;Social&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://instagram.com&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thefancy.com&quot;&gt;Fancy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bootstrappers.io&quot;&gt;Bootstrappers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nonsensenyc.com/cgi-bin/dada/mail.cgi/archive/nonsensenyc/newest/&quot;&gt;Nonsense NYC&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;design&quot;&gt;Design&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://feedly.com/#saved&quot;&gt;Feedly, Saved&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://capptivate.co&quot;&gt;CAPTIVATE.co&lt;/a&gt;, iOS UI Animations&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bootsnipp.com&quot;&gt;Bootsnipp&lt;/a&gt;, home of free code snippets for Bootstrap&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ui-animations.tumblr.com&quot;&gt;UI Animations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sixux.com&quot;&gt;SIX UX Transitions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://benplum.com/formstone&quot;&gt;Formstone&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://selection.datavisualization.ch&quot;&gt;Datavisualization.ch Selected Tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://veerle.duoh.com/inspiration&quot;&gt;The inspiration Stream&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;uiGIFs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; - Daily Material Design Inspiration&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;coding-resources&quot;&gt;Coding Resources&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://apps.stupid-studio.com/&quot;&gt;The Sprite Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ProgressButtonStyles/&quot;&gt;Progress Button Styles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codeseven.github.io/toastr/demo.html&quot;&gt;toastr examples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://highcharttable.org/&quot;&gt;jQuery HighchartTable plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nth-test.com/&quot;&gt;NTH-TEST&lt;/a&gt;, nth-child and nth-of-type Tester&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://responsivedesign.is/articles/the-printer-is-a-device-too!&quot;&gt;The printer is a device too!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.emmet.io/cheat-sheet/&quot;&gt;Emmet Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kimonolabs.com/&quot;&gt;kimono&lt;/a&gt;, Turn websites into structured APIs from your browser in seconds&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://shapecatcher.com/&quot;&gt;Shapecatcher&lt;/a&gt;, Draw the Unicode character you want!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.csstrashman.com/&quot;&gt;CSS Trashman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://css2sass.heroku.com/&quot;&gt;css2sass&lt;/a&gt;, Convert CSS Snippets to Syntactically Awesome StyleSheets code&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gradientfinder.com/&quot;&gt;GradientFinder&lt;/a&gt;, Convert your Images into CSS Gradients&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dochub.io/#css/&quot;&gt;DocHub&lt;/a&gt;, Instant Documentation Search&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jsbeautifier.org/&quot;&gt;Online JavaScript beautifier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hackertyper.net/&quot;&gt;‎hackertyper.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://resizemybrowser.com/&quot;&gt;resizeMyBrowser&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mergely.com/editor&quot;&gt;Mergely&lt;/a&gt;, Diff online, merge documents&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://entitifier.sambowler.com/&quot;&gt;Entitifier&lt;/a&gt;, Convert obscure characters to the proper HTML entities&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://htmlkit.com/services/cssposter/&quot;&gt;HTMLKit.com CSS Poster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.css3factory.com/linear-gradients/&quot;&gt;CSS Gradient Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://colorblendy.com/&quot;&gt;ColorBlendy&lt;/a&gt;, Blend colors with different modes like multiply, overlay, dodge.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://primarycss.com/&quot;&gt;Primary CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scriptsrc.net/&quot;&gt;jQuery google api and other google hosted javascript libraries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://customelements.io/&quot;&gt;Custom Elements&lt;/a&gt;, A Web Components Gallery for Modern Web Apps&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://filterfactory.mobi/&quot;&gt;FilterFactory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tools.medialab.sciences-po.fr/iwanthue/&quot;&gt;iWantHue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://clippingmagic.com/&quot;&gt;Clipping Magic&lt;/a&gt;, Easily Remove Image Backgrounds Online&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://colourco.de/&quot;&gt;colourcode&lt;/a&gt;, find your colour scheme&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheet/ccc?key=0AiN0QfBTPpOCdDFjWlM0eU1ra21XanZkekxGbjA2WWc#gid=0&quot;&gt;Styleguide &amp;amp; Boilerplate Patterns&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://html.fwpolice.com/css/&quot;&gt;CSS Beautifier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://webcolourdata.com/&quot;&gt;Colours&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://copypastecharacter.com/&quot;&gt;CopyPasteCharacter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/audreyr/favicon-cheat-sheet&quot;&gt;favicon-cheat-sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://extractcss.com/&quot;&gt;extractCSS&lt;/a&gt;, Online CSS Extractor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fontastic.me/&quot;&gt;Free Icon Font Generator&lt;/a&gt;, Create your Icon Font in seconds with 6000 ready to use Vector Icons&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://welcomemat.co/&quot;&gt;WelcomeMat.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.grumpicon.com/&quot;&gt;Grumpicon&lt;/a&gt;, A Web app for the Grunticon workflow&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dpi.lv/&quot;&gt;DPI love&lt;/a&gt;, Easily find the DPI/PPI of any screen&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://screensiz.es/phone&quot;&gt;Screen Sizes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://newstoebook.com&quot;&gt;RSS feed to ebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.notehub.org&quot;&gt;NoteHub&lt;/a&gt;, Free Pastebin for One-Off Markdown Publishing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.browsersupport.net/CSS/&quot;&gt;Browser Support&lt;/a&gt;, CSS Properties, Selectors, @ rules, Values, Property/Value Pairs and Media features&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fronteed.com/iCheck/#features&quot;&gt;Checkboxes and radio buttons customization plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://unicode.johnholtripley.co.uk/&quot;&gt;Unify&lt;/a&gt;, Unicode support on browsers and devices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://easings.net/&quot;&gt;Easing Functions Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheet/lv?key=0AoUAJWmYgaHHdHZZWWpPQkx4eHpBaUxna3dyMGkzLUE&amp;amp;pli=1&quot;&gt;Device Viewport Widths&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lavishbootstrap.com/&quot;&gt;Lavish&lt;/a&gt;, Generate your own Bootstrap color scheme&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kanduvisla.github.io/httool/&quot;&gt;.htTool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://makeappicon.com/#&quot;&gt;Makeappicon &lt;/a&gt;Generate app icons of all sizes in a click!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://qrafti.com/&quot;&gt;Qrafti&lt;/a&gt;, The simple, powerful and free QR code generator.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://browserhacks.com/&quot;&gt;Browserhacks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dev.bowdenweb.com/a/css/media-queries-boilerplate.css&quot;&gt;‎media-queries-boilerplate.css&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uibox.in&quot;&gt;UIBox&lt;/a&gt;, curated HTML,CSS, JS UI Component&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.twitter.com/2014/open-sourcing-twitter-emoji-for-everyone&quot;&gt;Twitter emoji&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://zencode.in/lining.js/&quot;&gt;Lining.js&lt;/a&gt; creates CSS down-to-the-line control&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jex.im/regulex/&quot;&gt;Regulex&lt;/a&gt;JavaScript Regular Expression Visualizer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bennettfeely.com/clippy/&quot;&gt;Clippy&lt;/a&gt; — CSS clip-path maker&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://paymentfont.io/&quot;&gt;PaymentFont&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://samherbert.net/svg-loaders/&quot;&gt;SVG Loaders&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://photoswipe.com/&quot;&gt;PhotoSwipe - JavaScript Image Gallery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sarasoueidan.com/articles/&quot;&gt;SVG Articles by Sara Soueidan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-compatibility.github.io/&quot;&gt;Sass Compatibility&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ElasticSVGElements/index.html&quot;&gt;Elastic SVG Elements&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;design-resources&quot;&gt;Design Resources&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://madebyvadim.tumblr.com/&quot;&gt;Photoshoplr&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://madebyvadim.com/layrs/&quot;&gt;Layrs&lt;/a&gt;, free PS extension&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hackingui.com/design/export-photoshop-layer-to-svg/&quot;&gt;Free script&lt;/a&gt;, Export your layers from photoshop to SVG in a single click!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://niice.co/&quot;&gt;Niice&lt;/a&gt;, A search engine with taste.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://iloveligatures.tumblr.com/&quot;&gt;I Love Ligatures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lokeshdhakar.com/projects/color-thief/&quot;&gt;Color Thief&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thepatternlibrary.com/#wild-sea&quot;&gt;The Pattern Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://generatedpaper.com/en/graphandgrid&quot;&gt;Graph &amp;amp; Grid @ generatedpaper&lt;/a&gt;, free printable papers for the daily use&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.flickr.com/photos/bartsol/sets/72157627595663028/with/6115056022/&quot;&gt;The Bart&amp;amp;Co.&lt;/a&gt;, Historic Clip Art Collection&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tiff.herokuapp.com/&quot;&gt;Tiff&lt;/a&gt;, a visual typeface diff tool.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://paperkit.net/&quot;&gt;Paperkit&lt;/a&gt;, Printable graph paper template in PDF&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://retrovectors.com&quot;&gt;Retro Vectors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sketchmine.co&quot;&gt;Sketch App Sources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mapsdesign.tumblr.com&quot;&gt;Beautiful Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hudsandguis.com&quot;&gt;Huds and Guis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://quasimondo.com/ZorroSVG/&quot;&gt;ZorroSVG&lt;/a&gt; - Put a Mask on it&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;resources-for-prototyping&quot;&gt;Resources for Prototyping&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://facebook.github.io/origami/&quot;&gt;Origami&lt;/a&gt;, Design prototyping with Quartz Composer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://redpen.io&quot;&gt;Red Pen&lt;/a&gt;, Effing fast feedback&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uinames.com/&quot;&gt;uinames.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://randomuser.me/&quot;&gt;Random User Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usabilityhub.com/&quot;&gt;Five Second Test&lt;/a&gt;, Click Test and Nav Flow&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mockuphone.com/&quot;&gt;MockUPhone&lt;/a&gt;, One Click to Wrap App Screenshots in Device Mockup!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://powwowapp.net/&quot;&gt;PowWow&lt;/a&gt;, Making User Research Scheduling Easy&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://userium.com/&quot;&gt;Usability checklist&lt;/a&gt;, Catch common usability problems before user testing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uifaces.com/&quot;&gt;User Interfaces&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.docracy.com/&quot;&gt;Docracy&lt;/a&gt;, Free Legal Documents&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://useronboard.com&quot;&gt;User Onboarding&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;html-email-resources&quot;&gt;HTML Email Resources&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://backgrounds.cm/&quot;&gt;Bulletproof background images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/leemunroe/html-email-template&quot;&gt;html-email-template&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://putsmail.com/&quot;&gt;PutsMail&lt;/a&gt;, It’s a mail test tool to test your mails before sending them&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://beefree.io/index.aspx&quot;&gt;BeeFree&lt;/a&gt;, Free email editor to build responsive design messages&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;mapping-resources&quot;&gt;Mapping Resources&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.instantstreetview.com/&quot;&gt;Instant Google Street View&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://winstonwolf.pl/clickable-maps/europe.html&quot;&gt;Europe&lt;/a&gt;, CSS + jQuery clickable map&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.webiconset.com/map-icons/&quot;&gt;Map Icons Designer&lt;/a&gt;, Google Map Icons, Location Pins, Location Markers, POI, Map Application Design Kit&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://intridea.github.io/stately/&quot;&gt;Stately&lt;/a&gt;, The simple map font&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://maps.stamen.com/#terrain/12/37.7706/-122.3782&quot;&gt;Stamen Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://osvaldas.info/lazy-loading-google-maps&quot;&gt;Lazy-loading Google Maps&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;user-research-resources&quot;&gt;User Research Resources&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html&quot;&gt;Chinese Mobile App UI Trends&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.michaelvillar.com/motion&quot;&gt;Motion experiments&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wonderfulfeedback.com/client/&quot;&gt;Feedback Template&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.github.io/bookmarks/list/2014/12/12/bookmarks.html</link>
+        <guid isPermaLink="true">http://nonlinear.github.io/bookmarks/list/2014/12/12/bookmarks.html</guid>
+        
+        
+        <category>bookmarks</category>
+        
+        <category>list</category>
+        
+      </item>
+    
+  </channel>
+</rss>
