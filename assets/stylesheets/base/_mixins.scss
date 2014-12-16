@@ -367,3 +367,8 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
         @content
       }
 }
+@mixin except($except: mac) {
+      html:not(.#{$exception}) & {
+        @content
+      }
+}

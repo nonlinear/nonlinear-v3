@@ -122,16 +122,16 @@ a[data-toggle="collapse"] {
 	@include only(safari) {
 		content: "safari";
 	}
-		@include only(firefox) {
+	@include only(firefox) {
 		content: "firefox";
 	}
-		@include only(chrome) {
+	@include only(chrome) {
 		content: "chrome";
 	}
-			@include only(explorer) {
+	@include only(explorer) {
 		content: "explorer";
 	}
-				@include only(ie) {
+	@include only(ie) {
 		content: "ie";
 	}
 }
