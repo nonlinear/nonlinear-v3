@@ -1,8 +1,4 @@
-@import "vendors/bootstrap";
-
-/*@import "extends";*/
 @import "base/mixins";
-@import "base/animation";
 @import "base";
 @import "base/bootstrap";
 
@@ -104,4 +100,14 @@ a[data-toggle="collapse"] {
 	margin-left: -25%;
 }
 	@include radius(50%);
+}
+
+h1, h2, h3, h4 {
+	@include system(mac) {
+		border: dotted 1px green !important;
+				
+	}		
+		@include system(win) {
+		border: solid 1px blue !important;
+	}	
 }

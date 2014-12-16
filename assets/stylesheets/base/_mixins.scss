@@ -200,25 +200,9 @@
     padding:       0px !important;
     border:       none;
     background:   transparent;
-    -webkit-box-shadow:  none;
-    -moz-box-shadow:     none;
-    box-shadow:          none;
-    -webkit-text-shadow:  none;
-    -moz-text-shadow:     none;
-    text-shadow:          none;
   } 
   @else if $type == margin {
     margin:       0px !important;
-  } 
-  @else if $type == shadow {
-    -webkit-box-shadow:  none;
-    -moz-box-shadow:     none;
-    box-shadow:          none;
-  } 
-    @else if $type == text-shadow {
-    -webkit-text-shadow:  none;
-    -moz-text-shadow:     none;
-    text-shadow:          none;
   } 
   @else if $type == padding {
     padding:       0px !important;
@@ -227,9 +211,7 @@
     border:       none;
   } 
   @else if $type == list {
-    list-style-type:  none;
-    padding: 0;
-    margin: 0;
+    list-style: none;
   } 
   @else {
   }
@@ -379,4 +361,26 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
     -ms-filter: blur(10px); 
     filter: blur(10px);
   }
+}
+
+@mixin system($system: mac) {
+  @if $system == mac {
+    html.mac &                { 
+      @content 
+    }
+  } 
+  @else if $system == win {
+   html.windows &                { 
+    @content 
+  }
+} 
+@else if $system == linux {
+ html.linux &                { 
+  @content 
+}
+} 
+@else {
+ 
+}
+
 }
