@@ -51,8 +51,11 @@
 				.title {
 					@include reset(all);   
 					color: $color-3; 
-					line-height: 110%;
+					line-height: 35px;
 					width: 90%;
+					font-size: 35px;
+					height: 70px;
+					overflow: hidden;
 				}
 				.caption {
 					opacity: 0;
