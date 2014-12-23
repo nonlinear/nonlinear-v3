@@ -72,30 +72,30 @@
 						@include reset(list);
 						display: inline-block;
 						font-size: 12px;
+								@include reset;
 						background-image: url(../images/bg_tags.png);
 						background-repeat: repeat-y;
-						background-position: right 0;
+						background-position: right 0px;
 						float: right;
-						top: -190px;
+						top: -178px;
 						left: 40px;
-						width: 100px;
+						width: 60px;
 						position: relative;
 						li {
 							display: block;
 							background-color: white;
-							padding: 1px 5px;
+							padding: 0 5px !important;
 							&:first-of-type:before {
 								display: block;
 								position: absolute;
 								content: '';
 								margin-lefT: -12px;
-								margin-top: -1px;
 								background-image: url(../images/ribbon_start.png);
 								@include size(9px, 16px);
 							}
 							&:not(:last-of-type) {
 
-								margin-bottom: 7px;
+								margin-bottom: 7px !important;
 							}
 							&:last-of-type {
 								background: none;
