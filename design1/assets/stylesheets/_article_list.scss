@@ -52,6 +52,7 @@
 					@include reset(all);   
 					color: $color-3; 
 					line-height: 110%;
+					width: 90%;
 				}
 				.caption {
 					opacity: 0;
@@ -61,7 +62,7 @@
 					transform: translate3d(-10px,0,0);
 					p {	
 						display: inline-block;	
-						width: 85%;
+						width: 100%;
 						margin-top: 10px;
 					}
 					ul.tags {
@@ -72,7 +73,7 @@
 						background-repeat: repeat-y;
 						background-position: right 0;
 						float: right;
-						bottom: 80px;
+						top: -190px;
 						left: 40px;
 						width: 100px;
 						position: relative;
