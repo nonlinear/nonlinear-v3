@@ -7,7 +7,7 @@ $base-gap:      5px;
 $color-bg:      white;
 $color-text:    white;
 $color-accent:  $color-text;
-$color-3:       #ccc;
+$color-3:       #666;
 $color-4:       green;
 $color-5:       yellow;
 
@@ -137,3 +137,4 @@ a {
 }
 
 @import 'layout';
+@import 'article_list';

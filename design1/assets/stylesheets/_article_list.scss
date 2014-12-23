@@ -1,0 +1,122 @@
+.article_list {
+	@include reset;
+	width: 100%;
+	a {
+		position: relative;
+		display: inline-block;
+		overflow: hidden;
+		margin: -0.135em;
+		width: (100% / 3);
+		@media screen and (max-width: $ipad-all) {
+			width: 50%;
+		}
+		@media screen and (max-width: $iphone-5) {
+			width: 100%;
+		}
+		height: 250px;
+		background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+		background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+		.content {
+			color: $color-3;
+			padding: 50px;
+			&:before {
+				position: absolute;
+				top: 30px;
+				right: 30px;
+				bottom: 30px;
+				left: 30px;
+				border: 1px solid $color-3;
+				content: '';
+				opacity: 0;
+				-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+				transition: opacity 0.35s, transform 0.35s;
+				-webkit-transform: translate3d(-20px,0,0);
+				transform: translate3d(-20px,0,0);
+			}
+/*			&:after {
+				position: absolute;
+				background-color: $color-3;
+				padding: 3px 5px;
+				color: white;
+				content: 'Click to Read';
+				opacity: 0;
+				bottom: 30px;
+				right: 30px;
+				font-size: 12px;
+				-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+				transition: opacity 0.35s, transform 0.35s;
+				-webkit-transform: translate3d(-20px,0,0);
+				transform: translate3d(-20px,0,0);
+				}*/
+				.title {
+					@include reset(all);   
+					color: $color-3; 
+					line-height: 110%;
+				}
+				.caption {
+					opacity: 0;
+					-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+					transition: opacity 0.35s, transform 0.35s;
+					-webkit-transform: translate3d(-10px,0,0);
+					transform: translate3d(-10px,0,0);
+					p {	
+						display: inline-block;	
+						width: 85%;
+						margin-top: 10px;
+					}
+					ul.tags {
+						@include reset(list);
+						display: inline-block;
+						font-size: 12px;
+						background-image: url(../images/bg_tags.png);
+						background-repeat: repeat-y;
+						background-position: right 0;
+						float: right;
+						bottom: 80px;
+						left: 40px;
+						width: 100px;
+						position: relative;
+						li {
+							display: block;
+							background-color: white;
+							padding: 1px 5px;
+							&:first-of-type:before {
+								display: block;
+								position: absolute;
+								content: '';
+								margin-lefT: -12px;
+								margin-top: -1px;
+								background-image: url(../images/ribbon_start.png);
+								@include size(9px, 16px);
+							}
+							&:not(:last-of-type) {
+
+								margin-bottom: 7px;
+							}
+							&:last-of-type {
+								background: none;
+								background-image: url(../images/ribbon_end.png);
+								background-repeat: no-repeat;
+								background-position: right 0;
+							}
+						}
+					}
+				}
+			}
+			.content, a {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			&:hover {
+				background-position: -10px 0;
+				.content:before, .content:after, .caption {
+					opacity: 1;
+					-webkit-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
+				}
+			}
+		}
+	}
