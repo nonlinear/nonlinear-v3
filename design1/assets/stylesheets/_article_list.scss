@@ -75,7 +75,7 @@
 								@include reset;
 						background-image: url(../images/bg_tags.png);
 						background-repeat: repeat-y;
-						background-position: right 0px;
+						background-position: right 1px;
 						float: right;
 						top: -178px;
 						left: 40px;
@@ -95,7 +95,7 @@
 							}
 							&:not(:last-of-type) {
 
-								margin-bottom: 7px !important;
+								margin-bottom: 6px !important;
 							}
 							&:last-of-type {
 								background: none;
