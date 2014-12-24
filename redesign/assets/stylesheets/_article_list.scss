@@ -1,11 +1,11 @@
 .article_list {
 	@include reset;
 	width: 100%;
-	a {
+	& > a {
 		position: relative;
 		display: inline-block;
 		overflow: hidden;
-		margin: -0.135em;
+		margin: -0.2em;
 		width: (100% / 3);
 		@media screen and (max-width: $ipad-all) {
 			width: 50%;
