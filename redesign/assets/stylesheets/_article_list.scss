@@ -91,17 +91,18 @@
 								content: '';
 								margin-lefT: -12px;
 								background-image: url(../images/ribbon_start.png);
-								@include size(9px, 16px);
+								@include size(9px, 17px);
 							}
 							&:not(:last-of-type) {
-
-								margin-bottom: 6px !important;
+								margin-bottom: 6px;
 							}
 							&:last-of-type {
 								background: none;
 								background-image: url(../images/ribbon_end.png);
 								background-repeat: no-repeat;
 								background-position: right 0;
+
+							margin-bottom: 1px;
 							}
 						}
 					}
