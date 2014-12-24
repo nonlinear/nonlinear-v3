@@ -27,11 +27,13 @@
 				left: 30px;
 				border: 1px solid $color-3;
 				content: '';
+				@media screen and (min-width: ($ipad-all + 1)) {
 				opacity: 0;
 				-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 				transition: opacity 0.35s, transform 0.35s;
 				-webkit-transform: translate3d(-20px,0,0);
 				transform: translate3d(-20px,0,0);
+			}
 			}
 /*			&:after {
 				position: absolute;
@@ -53,16 +55,21 @@
 					color: $color-3; 
 					line-height: 35px;
 					width: 90%;
+					@media screen and (max-width: $ipad-all) {
+						width: 80%;
+					}
 					font-size: 35px;
 					height: 70px;
 					overflow: hidden;
 				}
 				.caption {
-					opacity: 0;
+					@media screen and (min-width: ($ipad-all + 1)) {
+						opacity: 0;
 					-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 					transition: opacity 0.35s, transform 0.35s;
 					-webkit-transform: translate3d(-10px,0,0);
 					transform: translate3d(-10px,0,0);
+					}
 					p {	
 						display: inline-block;	
 						width: 100%;
@@ -78,6 +85,9 @@
 						background-position: right 1px;
 						float: right;
 						top: -178px;
+						@media screen and (max-width: $ipad-all) {
+							top: -160px;
+						}
 						left: 40px;
 						width: 60px;
 						position: relative;
