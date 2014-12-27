@@ -8,5 +8,17 @@ body {
 	background-color: #eee;
 }
 
-@import "smooth1";
-@import "smooth2";
+
+.m-scene {
+  .scene_element {
+    &--fadein {
+      @include animate(fadeIn);
+    }
+  }
+  &.is-exiting .scene_element {
+    @include reverse; 
+    &--noexiting {
+      @include reverse;
+    }
+  }
+}
