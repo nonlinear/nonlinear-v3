@@ -1,11 +1,66 @@
 *, *:after, *:before { 
 	@include box;
 }
+$header-big: 100px;
+$header-small: 40px;
 body {
-	@include reset;
+  margin-top: $header-big;
+  @include trans;
+  @include but(trans) {
+    margin-top: $header-small;
+  }
 }
 .m-scene {
 	background-color: #eee;
+}
+
+a.logo {
+  background-color: #666;
+      display: inline-block;
+      @include square(80px);
+      @include radius(50%);
+      @include trans;
+      @include but(trans) {
+        @include square(50px); 
+        margin-top: -5px;  
+      }
+}
+header {
+  font-family: $font-title;
+  padding: 10px 0;
+  border-bottom: solid 1px #666;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: $header-big;
+  @include trans;
+  top: 0;
+  @include but(trans) {
+   height: $header-small;
+    background-color: rgba(255, 255, 255, .7);
+  }
+  a {
+    color: black;
+  }
+  ul {
+    @include reset(list);
+    float: right;
+    margin-top: -30px;
+    @include trans;
+    html.trans & {
+      margin-top: 0;
+    }
+    li {
+      display: inline-block;
+      &:not(:first-of-type):before {
+        content: "/ ";
+      }
+    }
+  }
+}
+.hero {
+height: 300px;
 }
 
 

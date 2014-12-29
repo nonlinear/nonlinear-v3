@@ -33,3 +33,20 @@ $('[data-toggle=popover]').popover();
       }).data('smoothState');
       //.data('smoothState') makes public methods available
 })(jQuery);
+
+// scroll animation
+
+$(window).scroll(function() {
+// 100 = The point you would like to fade the nav in.
+  if ($(window).scrollTop() > 100 ){
+    $('html').addClass('trans'); 
+  } else { 
+    $('html').removeClass('trans'); 
+  };    
+});
+$('.scroll').on('click', function(e){   
+    e.preventDefault()
+  $('html, body').animate({
+      scrollTop : $(this.hash).offset().top
+    }, 1500);
+});
