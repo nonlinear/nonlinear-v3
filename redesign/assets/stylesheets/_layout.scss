@@ -23,18 +23,27 @@ a.logo {
   .title {
     font-size: 30px;
     margin-top: 7px;
+    @media screen and (min-width: ($iphone5-max + 1)) {
     @include but(trans) {
       margin-top: -7px;
       font-size: 25px;
     }
   }
+  @media screen and (max-width: $iphone5-max) {
+  @include but(trans) {
+   margin-top: 0px;
+       }
+  }
+  }
   .subtitle {
     font-size: 20px;
     margin-top: -7px;
+     @media screen and (min-width: ($iphone5-max + 1)) {
     @include but(trans) {
     font-size: 17px;
      @include opacity(0);
    }
+ }
  }
  &:hover  {
   text-decoration: none;
@@ -55,15 +64,19 @@ float: left;
     text-align: center;
     displaY: block;
     margin-top: 32px;
+    @media screen and (min-width: ($iphone5-max + 1)) {
     @include but(trans) {
       margin-top: 15px;
     }
   }
+  }
+  @media screen and (min-width: ($iphone5-max + 1)) {
   @include but(trans) {
     @include square(50px); 
     margin-top: -15px;  
   margin-right: 3px;
   }
+}
 }
 header {
   font-family: $f1;
@@ -77,8 +90,13 @@ header {
   @include trans;
   top: 0;
   color: $c1;
+    @media screen and (min-width: ($iphone5-max + 1)) {
   @include but(trans) {
    height: $header-small;
+    }
+  }
+
+   @include but(trans) {
    background-color: rgba(255, 255, 255, .9);
  }
  a {
@@ -93,9 +111,21 @@ ul {
   float: right;
   margin-top: -30px;
   @include trans;
-  html.trans & {
-    margin-top: 0;
+    @media screen and (max-width: $iphone5-max) {
+    float: left;
+    @include opacity(0);
+    margin-left: 44px;
+  margin-top: -10px;
+  @include but(trans) {
+    @include opacity(100);
+      margin-top: -20px;
   }
+  }
+   @media screen and (min-width: ($iphone5-max + 1)) {
+@include but(trans) {
+  margin-top: 0;
+}
+}
   li {
     display: inline-block;
     &:not(:first-of-type):before {
@@ -121,6 +151,26 @@ ul {
       background-size: 300px 200px;
     }
   }
+  h1, h2, h3, h4 {
+
+        background-color: $c0;
+  }
+      h2 {
+        displaY: inline-block;
+        @media screen and (min-width: ($ipad-max + 1)) {
+width: 50%;
+  }
+        @media screen and (max-width: $iphone5-max) {
+@include opacity(0);
+  }
+    }
+    h3 {
+      width: 20%;
+        @media screen and (max-width: $ipad-max) {
+@include opacity(0);
+  }
+    }
+
 }
 
 
