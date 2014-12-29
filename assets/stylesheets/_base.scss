@@ -139,12 +139,3 @@ h1, h2, h3, h4 {
 .hidden {
 	display: none;
 }
-.grid {
-	@include grid;
-	&.three {
-	@include grid(3);
-	}
-		&.four {
-	@include grid(3);
-	}
-}
