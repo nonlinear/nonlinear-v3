@@ -1,5 +1,9 @@
 $f1: Adam;                               // title font
-$f2: Arial, Helvetica, sans-serif;       // text font
+$f2: "HelveticaNeue-Light", 
+	 "Helvetica Neue Light", 
+	 "Helvetica Neue", 
+	 Helvetica, Arial, 
+	 "Lucida Grande", sans-serif;        // text font
 $f3: "Courier New", Courier, monospace;  // code font
 $g1: 10px;                               // base gap
 $c0: #F9F3E1;                            // bg color
@@ -116,6 +120,14 @@ $screen-lg:        1200px;
 $ipad-max:         1024px;
 $device:           $ipad-max;
 
+/* scroll animation */
+
+$nav-big: 100px;
+$nav-small: $g4;
+$margin-big: $g3;
+$internal-big: $g2;
+$squeeze: 0;
+
 /* base rules */
 
 h1, h2, h3, h4 {
@@ -126,6 +138,7 @@ h1, h2, h3, h4 {
 body {
 	font-family: $f2;
 	background-color: $c0;
+	font-weight: 300;
 }
 :focus {
 	outline-color: transparent;

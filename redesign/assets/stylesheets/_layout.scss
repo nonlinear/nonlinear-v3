@@ -1,13 +1,11 @@
 *, *:after, *:before { 
 	@include box;
 }
-$header-big: 100px;
-$header-small: 40px;
 body {
-  margin-top: $header-big;
+  margin-top: $nav-big;
   @include trans;
   @include but(trans) {
-    margin-top: $header-small;
+    margin-top: $nav-small;
   }
 }
 .m-scene {
@@ -86,13 +84,19 @@ header {
   position: fixed;
   z-index: 1000;
   width: 100%;
-  height: $header-big;
+  height: $nav-big;
   @include trans;
   top: 0;
   color: $c1;
+      @media screen and (min-width: ($ipad-max + 1)) {
+  .container {
+    padding-left: 0;
+     padding-right: 0;
+  }
+}
     @media screen and (min-width: ($iphone5-max + 1)) {
   @include but(trans) {
-   height: $header-small;
+   height: $nav-small;
     }
   }
 
