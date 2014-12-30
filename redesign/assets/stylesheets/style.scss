@@ -1,11 +1,9 @@
 @import 'mixins';
 @import 'variables';
 @import 'fonts';
-@import "nav";
-@import "callout";
-@import "hero";
-@import "list";
-@import "blog";
+@import 'nav';
+@import 'hero';
+@import 'article';
 
 .m-scene {
   background-color: #eee;
