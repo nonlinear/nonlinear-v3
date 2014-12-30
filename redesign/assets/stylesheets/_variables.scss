@@ -1,9 +1,9 @@
 $f1: Adam;                               // title font
 $f2: "HelveticaNeue-Light", 
-	 "Helvetica Neue Light", 
-	 "Helvetica Neue", 
-	 Helvetica, Arial, 
-	 "Lucida Grande", sans-serif;        // text font
+"Helvetica Neue Light", 
+"Helvetica Neue", 
+Helvetica, Arial, 
+"Lucida Grande", sans-serif;        // text font
 $f3: "Courier New", Courier, monospace;  // code font
 $g1: 10px;                               // base gap
 $c0: #F9F3E1;                            // bg color
@@ -124,6 +124,8 @@ $device:           $ipad-max;
 
 $nav-big: 100px;
 $nav-small: $g4;
+$margin: $g3;
+
 $margin-big: $g3;
 $internal-big: $g2;
 $squeeze: 0;
@@ -139,6 +141,11 @@ body {
 	font-family: $f2;
 	background-color: $c0;
 	font-weight: 300;
+	margin-top: $nav-big;
+	@include trans;
+	@include but(trans) {
+		margin-top: $nav-small;
+	}
 }
 :focus {
 	outline-color: transparent;
@@ -154,4 +161,10 @@ h1, h2, h3, h4 {
 }
 .hidden {
 	display: none;
+}
+*, *:after, *:before { 
+	@include box;
+}
+.container {
+	max-width: 750px;
 }

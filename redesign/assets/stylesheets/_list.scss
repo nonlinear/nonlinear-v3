@@ -1,0 +1,137 @@
+
+.callout {
+	color: $c1; 
+	font-size: 18px;
+	.border {
+		border: solid 1px $c1;
+
+	}
+	.title {
+		float: left;
+		margin: $g2;
+		margin-bottom: $g1;
+		line-height: 35px;
+		font-family: $f1;
+		font-size: 35px;
+		heighT: 70px;
+		overflow: hidden;
+	}
+	.description {
+		float: left;
+		margin: 0 $g2;
+		overflow: hidden;
+	}
+	.list & {
+		margin-bottom: -0.323em;
+		padding: $g3;
+		displaY: inline-block;
+		width: (100% / 3);
+		@media screen and (max-width: $ipad-max) {
+			width: 50%;
+		}
+		@media screen and (max-width: $iphone5-max) {
+			width: 100%;
+		}
+		@include allbut(touchscreen) {
+			.border, .description {
+				@include trans;
+				@include translate(-20, 0);
+				@include opacity(0);
+			}
+			&:hover {
+				.border, .description {
+					@include translate(0, 0);
+					@include opacity(100);
+				}
+				background-position: -20px 0;
+			}				
+		}
+		.border {
+			height: 190px;
+		}
+		.description {
+			height: 80px;
+		}
+		&:hover {
+			color: $c1; 
+			text-decoration: none;
+		}
+	}
+	.header & {
+		padding: $g3 0;
+		@media screen and (max-width: $ipad-max) {
+			padding: $g3;
+		}
+		.border {
+			height: 200px;
+		}
+		.title {
+			@media screen and (min-width: ($ipad-max + 1)) {
+				width: 70%;
+			}
+		}
+		.description {
+			height: 70px;
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+ul.tags {
+	@include reset(list);
+	font-size: 12px;
+	@include reset;
+	font-family: $f1;
+	@include trans;
+	background-image: url(../images/bg_tags.png);
+	background-repeat: repeat-y;
+	background-position: right 1px;
+	width: 60px;
+	.header & {
+
+		float: right;
+		@include translate(40, -80);
+		@media only screen and 
+		(max-width : $ipad-max) { 
+			@include translate(30, -80);
+		}
+	}
+	li {
+		display: block;
+		background-color: white;
+		padding: 0 5px !important;
+		a {
+			display: block;
+			color: $c1;
+			&:hover {
+				color: $c2;
+			}
+		}
+		&:first-of-type:before {
+			display: block;
+			position: absolute;
+			content: '';
+			margin-lefT: -12px;
+			background-image: url(../images/ribbon_start.png);
+			@include size(9px, 17px);
+		}
+		&:not(:last-of-type) {
+			margin-bottom: 6px;
+		}
+		&:last-of-type {
+			background: none;
+			background-image: url(../images/ribbon_end.png);
+			background-repeat: no-repeat;
+			background-position: right 0;
+			margin-bottom: 1px;
+		}
+	}
+}

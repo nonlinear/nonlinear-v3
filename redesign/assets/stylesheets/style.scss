@@ -1,5 +1,23 @@
 @import 'mixins';
 @import 'variables';
 @import 'fonts';
-@import 'layout';
-@import 'articles';
+@import "nav";
+@import "callout";
+@import "hero";
+@import "list";
+@import "blog";
+
+.m-scene {
+  background-color: #eee;
+  .scene_element {
+    &--fadein {
+      @include animate(fadeIn);
+    }
+  }
+  &.is-exiting .scene_element {
+    @include reverse; 
+    &--noexiting {
+      @include reverse;
+    }
+  }
+}

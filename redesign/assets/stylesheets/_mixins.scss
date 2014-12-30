@@ -272,7 +272,7 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
       }
 }
 @mixin allbut($except: mac) {
-      html:not(.#{$exception}) & {
+      html:not(.#{$except}) & {
         @content
       }
 }

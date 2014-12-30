@@ -1,0 +1,63 @@
+header {
+  font-family: $f1;
+  padding: 10px 0;
+  border-bottom: solid 1px $c3;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: $nav-big;
+  @include trans;
+  top: 0;
+  color: $c1;
+  @media screen and (min-width: ($ipad-max + 1)) {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  @media screen and (min-width: ($iphone5-max + 1)) {
+    @include but(trans) {
+     height: $nav-small;
+   }
+ }
+
+ @include but(trans) {
+   background-color: rgba(255, 255, 255, .9);
+ }
+ a {
+  color: $c1;
+  @include trans;
+  &:hover {
+    color: $c2;
+  }
+}
+ul {
+  @include reset(list);
+  float: right;
+  margin-top: -30px;
+    @include opacity(0);
+  @include trans;
+  @media screen and (max-width: $iphone5-max) {
+    float: left;
+    margin-left: 44px;
+    margin-top: -10px;
+    @include but(trans) {
+      @include opacity(100);
+      margin-top: -20px;
+    }
+  }
+  @media screen and (min-width: ($iphone5-max + 1)) {
+    @include but(trans) {
+      margin-top: 0;
+      @include opacity(100);
+    }
+  }
+  li {
+    display: inline-block;
+    &:not(:first-of-type):before {
+      content: "/ ";
+    }
+  }
+}
+}
