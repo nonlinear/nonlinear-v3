@@ -115,16 +115,19 @@ width: 60px;
 		@include translate(40, -80);
 		@media only screen and 
 		(max-width : $ipad-max) { 
-		@include translate(20, -80);
+		@include translate(30, -80);
 		}
 	}
 
 	.articles a & {
 			position: absolute;
-		@include opacity(0);
+
 		top: -80px;
 				right: -10px;
 	width: 60px;
+				@media screen and (min-width: ($ipad-max + 1)) {
+		@include opacity(0);
+	}
 	}
 	
 	li {
