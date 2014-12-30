@@ -1,4 +1,7 @@
+.list {
 
+  border-top: solid 1px $c3;
+}
 .callout {
 	color: $c1; 
 	font-size: 18px;
@@ -130,7 +133,7 @@
 			}
 		}
 		.description {
-			height: 70px;
+			height: 80px;
 		}
 	}
 }
