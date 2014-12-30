@@ -11,15 +11,20 @@
 			@include reset;
 			font-family: $f1;
 			float: right;
-			top: -15px;
+			top: -8px;
 			right: -20px;
-			/*background-image: url(../images/bg_tags.png);*/
+			.header & {
+				background-image: url(../images/bg_ribbon_1.png);
+			}
+						.list & {
+				background-image: url(../images/bg_ribbon_2.png);
+			}
 			background-repeat: repeat-y;
-			background-position: right 1px;
+			background-position: right 0px;
 			width: 60px;
 			li {
 				background-color: white;
-				padding: 0px 3px !important;
+				padding: 0px 3px;
 				a {
 					display: block;
 					color: $c1;
@@ -33,19 +38,20 @@
 						position: absolute;
 						content: '';
 						margin-lefT: -12px;
-						/*background-image: url(../images/ribbon_start.png);*/
-						@include size(9px, 17px);
+						background-image: url(../images/bg_ribbon_start.png);
+						@include size(9px, 15px);
 					}
 				}
 				&:not(:last-of-type) {
 					margin-bottom: 6px;
 				}
 				&:last-of-type {
-					/*background: none;*/
-					/*background-image: url(../images/ribbon_end.png);*/
+					background: none;
+					background-image: url(../images/bg_ribbon_end.png);
 					background-repeat: no-repeat;
 					background-position: right 0;
 					margin-bottom: 1px;
+							
 				}
 			}
 		}
@@ -114,7 +120,7 @@
 			height: 200px;
 			ul {
 				/* moves object left, top. negative values ok. */
-				@include translate(20, -184);
+				@include translate(20, -178);
 			}
 		}
 		.title {
