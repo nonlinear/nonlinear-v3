@@ -4,7 +4,51 @@
 	font-size: 18px;
 	.border {
 		border: solid 1px $c1;
-
+		z-index: 1000;
+		ul {
+			@include reset(list);
+			font-size: 10px;
+			@include reset;
+			font-family: $f1;
+			float: right;
+			top: -15px;
+			right: -20px;
+			/*background-image: url(../images/bg_tags.png);*/
+			background-repeat: repeat-y;
+			background-position: right 1px;
+			width: 60px;
+			li {
+				background-color: white;
+				padding: 0px 3px !important;
+				a {
+					display: block;
+					color: $c1;
+					&:hover {
+						color: $c2;
+					}
+				}
+				&:first-of-type {
+					&:before {
+						display: block;
+						position: absolute;
+						content: '';
+						margin-lefT: -12px;
+						/*background-image: url(../images/ribbon_start.png);*/
+						@include size(9px, 17px);
+					}
+				}
+				&:not(:last-of-type) {
+					margin-bottom: 6px;
+				}
+				&:last-of-type {
+					/*background: none;*/
+					/*background-image: url(../images/ribbon_end.png);*/
+					background-repeat: no-repeat;
+					background-position: right 0;
+					margin-bottom: 1px;
+				}
+			}
+		}
 	}
 	.title {
 		float: left;
@@ -48,6 +92,9 @@
 		}
 		.border {
 			height: 190px;
+			ul {
+				position: absolute;
+			}
 		}
 		.description {
 			height: 80px;
@@ -59,11 +106,16 @@
 	}
 	.header & {
 		padding: $g3 0;
+		height: 260px;
 		@media screen and (max-width: $ipad-max) {
 			padding: $g3;
 		}
 		.border {
 			height: 200px;
+			ul {
+				/* moves object left, top. negative values ok. */
+				@include translate(20, -184);
+			}
 		}
 		.title {
 			@media screen and (min-width: ($ipad-max + 1)) {
@@ -72,66 +124,6 @@
 		}
 		.description {
 			height: 70px;
-		}
-	}
-	
-}
-
-
-
-
-
-
-
-
-
-ul.tags {
-	@include reset(list);
-	font-size: 12px;
-	@include reset;
-	font-family: $f1;
-	@include trans;
-	background-image: url(../images/bg_tags.png);
-	background-repeat: repeat-y;
-	background-position: right 1px;
-	width: 60px;
-	.header & {
-
-		float: right;
-		@include translate(40, -80);
-		@media only screen and 
-		(max-width : $ipad-max) { 
-			@include translate(30, -80);
-		}
-	}
-	li {
-		display: block;
-		background-color: white;
-		padding: 0 5px !important;
-		a {
-			display: block;
-			color: $c1;
-			&:hover {
-				color: $c2;
-			}
-		}
-		&:first-of-type:before {
-			display: block;
-			position: absolute;
-			content: '';
-			margin-lefT: -12px;
-			background-image: url(../images/ribbon_start.png);
-			@include size(9px, 17px);
-		}
-		&:not(:last-of-type) {
-			margin-bottom: 6px;
-		}
-		&:last-of-type {
-			background: none;
-			background-image: url(../images/ribbon_end.png);
-			background-repeat: no-repeat;
-			background-position: right 0;
-			margin-bottom: 1px;
 		}
 	}
 }
