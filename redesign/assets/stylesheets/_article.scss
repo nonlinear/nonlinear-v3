@@ -86,7 +86,7 @@
 		@media screen and (max-width: $iphone5-max) {
 			width: 100%;
 		}
-		@include allbut(touchscreen) {
+		@include allbut(touch) {
 			.border, .description {
 				@include trans;
 				@include translate(-20, 0);
