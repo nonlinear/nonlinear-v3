@@ -6,12 +6,113 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Dec 2014 17:36:52 -0500</pubDate>
-    <lastBuildDate>Tue, 16 Dec 2014 17:36:52 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 16:28:49 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 16:28:49 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
-        <title>My Bookmarks</title>
+        <title>My Portfolio</title>
+        <description>&lt;div class=&quot;grid three&quot;&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+    &lt;h3&gt;Clients&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;JP Morgan Chase&lt;/li&gt;
+      &lt;li&gt;Fresh Direct&lt;/li&gt;
+      &lt;li&gt;Verizon&lt;/li&gt;
+      &lt;li&gt;MoMA&lt;/li&gt;
+      &lt;li&gt;Pfizer&lt;/li&gt;
+      &lt;li&gt;Ithaka/JSTOR&lt;/li&gt;
+      &lt;li&gt;TicketEvolution&lt;/li&gt;
+      &lt;li&gt;Snapple&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;cell&quot;&gt;
+        &lt;h3&gt;Contact&lt;/h3&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Nicholas Frota,&lt;/li&gt;
+        &lt;li&gt;Interface Designer&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;mailto:info@nicholasfrota.com?Subject=Nicholas Frota, Portfolio&quot;&gt;info@nicholasfrota.com&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;tel://+1-917-512-1486&quot;&gt;+1-917-512-1486&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/in/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://www.twitter.com/nonlinear&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+      &lt;h3&gt;Github&lt;/h3&gt;
+      &lt;iframe frameborder=&quot;0&quot; height=&quot;450px&quot; scrolling=&quot;no&quot; src=&quot;/octocard.html&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;grid three&quot;&gt;
+  
+    &lt;div class=&quot;cell&quot;&gt;
+      &lt;h3&gt;Projects&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;http://nycmeshnet.github.io&quot; target=&quot;_blank&quot;&gt;NYC Mesh&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://nonlinear.github.io/codecode&quot; target=&quot;_blank&quot;&gt;Code/Code&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://carbon.ticketevolution.com&quot; target=&quot;_blank&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://cheaptickets.com/events&quot; target=&quot;_blank&quot;&gt;CheapTickets Events&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- &lt;li&gt;&lt;a href=&quot;http://binsapp.com&quot; target=&quot;_blank&quot;&gt;Bins&lt;/a&gt;&lt;/li&gt; --&gt;
+        &lt;li&gt;&lt;a href=&quot;http://stephenmayes.co&quot; target=&quot;_blank&quot;&gt;Stephen Mayes&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://plants.jstor.org/&quot; target=&quot;_blank&quot;&gt;JSTOR Plants Science&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://audit.portico.org/portico&quot; target=&quot;_blank&quot;&gt;Portico Audit&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+      &lt;h3&gt;Prototypes&lt;/h3&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/infoFD/&quot; target=&quot;_blank&quot;&gt;Fresh Direct HR&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/design-prototypes/carbon/RC35/&quot; target=&quot;_blank&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/design-prototypes/cheaptickets/&quot; target=&quot;_blank&quot;&gt;CheapTickets Events&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/mesh&quot; target=&quot;_blank&quot;&gt;Serval Mesh&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/goodtalk&quot; target=&quot;_blank&quot;&gt;Good Talk&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/partnerportal/home.html&quot; target=&quot;_blank&quot;&gt;On Deck Capital Partner Portal&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/instantdecision/index.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/instantdecision/business.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/conprep/&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+    &lt;h3&gt;Wireframes&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/agent_v1.pdf&quot; target=&quot;_blank&quot;&gt;Fresh Direct 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/JPMC_campus_events.pdf&quot; target=&quot;_blank&quot;&gt;JP Morgan Chase 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/nicholasfrota/bins-1&quot; target=&quot;_blank&quot;&gt;Bins Environments&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/nicholasfrota/makers-badge-wireframe&quot; target=&quot;_blank&quot;&gt;Makers Badge&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ativity_alpha_wireframe.pdf&quot; target=&quot;_blank&quot;&gt;Ativiti 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ConPrep_List.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ConPrep_Record.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 2&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ConPrep_Stories.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 3&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/eBooks_02.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka E-Books&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/UI_Design_Presentation.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/view_complete_list.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;2&lt;/a&gt;, pdf&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  </description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.github.io/portfolio/</link>
+        <guid isPermaLink="true">http://nonlinear.github.io/portfolio/</guid>
+        
+        <category>me</category>
+        
+        <category>work</category>
+        
+        <category>list</category>
+        
+        
+        <category>me</category>
+        
+        <category>portfolio</category>
+        
+        <category>work</category>
+        
+        <category>list</category>
+        
+      </item>
+    
+      <item>
+        <title>Design and Coding Resources</title>
         <description>&lt;h3 id=&quot;daily-resources&quot;&gt;Daily Resources&lt;/h3&gt;
 
 &lt;h4 id=&quot;everyday&quot;&gt;Everyday&lt;/h4&gt;
@@ -24,7 +125,6 @@
   &lt;li&gt;&lt;a href=&quot;http://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://mojotech.com/shots&quot;&gt;Dribble Infinite Scroll&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;social&quot;&gt;Social&lt;/h4&gt;
@@ -116,6 +216,7 @@
   &lt;li&gt;&lt;a href=&quot;http://sarasoueidan.com/articles/&quot;&gt;SVG Articles by Sara Soueidan&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://sass-compatibility.github.io/&quot;&gt;Sass Compatibility&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ElasticSVGElements/index.html&quot;&gt;Elastic SVG Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://libscore.com/#*&quot;&gt;Libscore&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;design-resources&quot;&gt;Design Resources&lt;/h3&gt;
@@ -176,14 +277,77 @@
   &lt;li&gt;&lt;a href=&quot;http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html&quot;&gt;Chinese Mobile App UI Trends&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.michaelvillar.com/motion&quot;&gt;Motion experiments&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://wonderfulfeedback.com/client/&quot;&gt;Feedback Template&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxmas.com/2014/7-things-i-wish-everyone-knew-about-interaction-design&quot;&gt;7 Things I Wish Everyone Knew About Interaction Design&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.github.io/bookmarks/list/2014/12/12/bookmarks.html</link>
-        <guid isPermaLink="true">http://nonlinear.github.io/bookmarks/list/2014/12/12/bookmarks.html</guid>
+        <link>http://nonlinear.github.io/resources/</link>
+        <guid isPermaLink="true">http://nonlinear.github.io/resources/</guid>
+        
+        <category>resource</category>
+        
+        <category>list</category>
+        
+        <category>link</category>
         
         
         <category>bookmarks</category>
+        
+        <category>list</category>
+        
+      </item>
+    
+      <item>
+        <title>About Me</title>
+        <description>&lt;div class=&quot;grid three&quot;&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;&lt;ul&gt;&lt;li&gt;Interface designer.&lt;/li&gt;
+		&lt;li&gt;Illustrator.&lt;/li&gt;
+		&lt;li&gt;Brazilian-american.&lt;/li&gt;
+		&lt;li&gt;Aquarius.&lt;/li&gt;
+		&lt;li&gt;Left-handed.&lt;/li&gt;
+		&lt;li&gt;40 yo.&lt;/li&gt;
+		&lt;li&gt;What else?&lt;/li&gt;
+	&lt;/ul&gt;&lt;/div&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;h3&gt;Links&lt;/h3&gt;
+		&lt;p&gt;I’m all over the place:&lt;/p&gt;
+		&lt;ol&gt;
+			&lt;li&gt;&lt;a href=&quot;http://twitter.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://instagram.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://github.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://ello.co/nonlinear&quot; target=&quot;_blank&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://nonlinear.tumblr.com&quot; target=&quot;_blank&quot;&gt;Inspiration Blog&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/in/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;https://soundcloud.com/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Soundcloud&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.last.fm/user/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Last.FM&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.thefancy.com/nonlinear&quot; target=&quot;_blank&quot;&gt;The Fancy&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.amazon.com/registry/wishlist/UZ8VC79375WE/ref=cm_sw_r_tw_ws_c1ZDqb11943A2&quot; target=&quot;_blank&quot;&gt;Amazon Wish List&lt;/a&gt;&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;h3&gt;Contact&lt;/h3&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;mailto:info@nicholasfrota.com?Subject=Nicholas%20Frota%20Portfolio&quot;&gt;info@nicholasfrota.com&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;tel://917-512-1486&quot;&gt;917-512-1486&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.twitter.com/nonlinear&quot;&gt;@nonlinear&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.github.io/about/</link>
+        <guid isPermaLink="true">http://nonlinear.github.io/about/</guid>
+        
+        <category>me</category>
+        
+        <category>master</category>
+        
+        <category>list</category>
+        
+        
+        <category>me</category>
+        
+        <category>master</category>
         
         <category>list</category>
         

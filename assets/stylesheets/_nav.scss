@@ -1,0 +1,148 @@
+a.logo {
+  .title, .subtitle {
+    white-space: nowrap;
+    @include trans;
+  }
+  .title {
+    font-size: 30px;
+    margin-top: 7px;
+    @media screen and (max-width: $iphone5-min) {
+  font-size: 23px;
+    margin-top: 12px;
+}
+    @media screen and (min-width: ($iphone5-max + 1)) {
+      @include but(trans) {
+        margin-top: -7px;
+        font-size: 25px;
+      }
+    }
+    @media screen and (max-width: $iphone5-max) {
+      @include but(trans) {
+       margin-top: 0px;
+     }
+   }
+       @media screen and (max-width: $iphone5-min) {
+      @include but(trans) {
+       margin-top: 7px;
+     }
+}
+        
+ }
+ .subtitle {
+  font-size: 20px;
+  margin-top: -7px;
+      @media screen and (max-width: $iphone5-max) {
+  font-size: 19px;
+      
+}
+  @media screen and (min-width: ($iphone5-max + 1)) {
+    @include but(trans) {
+      font-size: 17px;
+      @include opacity(0);
+    }
+  }
+}
+&:hover  {
+  text-decoration: none;
+}
+float: left;
+}
+.symbol {
+  background-color: lighten($c3, 20%);
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  @include square(80px);
+  @include radius(50%);
+  @include trans;
+  &:before {
+    content: "logo";
+    color: white;
+    text-align: center;
+    displaY: block;
+    margin-top: 32px;
+    @media screen and (min-width: ($iphone5-max + 1)) {
+      @include but(trans) {
+        margin-top: 15px;
+      }
+    }
+  }
+  @media screen and (min-width: ($iphone5-max + 1)) {
+    @include but(trans) {
+      @include square(50px); 
+      margin-top: -15px;  
+      margin-right: 3px;
+    }
+  }
+}
+
+
+header {
+  font-family: $f1;
+  padding: 10px 0;
+  border-bottom: solid 1px $c3;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: $nav-big;
+  @include trans;
+  top: 0;
+  color: $c1;
+  @media screen and (min-width: ($ipad-max + 1)) {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  @media screen and (min-width: ($iphone5-max + 1)) {
+    @include but(trans) {
+     height: $nav-small;
+   }
+ }
+
+ @include but(trans) {
+   background-color: rgba(255, 255, 255, .9);
+ }
+ a {
+  color: $c1;
+  @include trans;
+  &:hover {
+    color: $c2;
+  }
+}
+ul {
+  @include reset(list);
+  float: right;
+  margin-top: -30px;
+    @include opacity(0);
+  @include trans;
+  @media screen and (max-width: $iphone5-max) {
+    float: left;
+    margin-left: 44px;
+    margin-top: -10px;
+    @include but(trans) {
+      @include opacity(100);
+      margin-top: -20px;
+    }
+  }
+  @media screen and (min-width: ($iphone5-max + 1)) {
+    @include but(trans) {
+      margin-top: 0;
+      @include opacity(100);
+    }
+  }
+  @media screen and (max-width: $iphone5-min) {
+  font-size: 13px;
+  @include but(trans) {
+      margin-top: -24px;
+    }
+}
+  li {
+    display: inline-block;
+    &:not(:first-of-type):before {
+      content: "/ ";
+    }
+  }
+}
+}
