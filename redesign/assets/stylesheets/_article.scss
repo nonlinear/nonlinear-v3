@@ -80,7 +80,7 @@
 		padding: $g3;
 		displaY: inline-block;
 		width: (100% / 3);
-		@media screen and (max-width: $ipad-max) {
+		@media screen and (max-width: $ipad-min) {
 			width: 50%;
 		}
 		@media screen and (max-width: $iphone5-max) {
