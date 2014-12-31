@@ -6,8 +6,8 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Dec 2014 17:02:31 -0500</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2014 17:02:31 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 17:03:08 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 17:03:08 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -23,7 +23,9 @@
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;permalink on jekyll&lt;/li&gt;
-  &lt;li&gt;octocard iframe, devices&lt;/li&gt;
+  &lt;li&gt;hero cover&lt;/li&gt;
+  &lt;li&gt;logo design&lt;/li&gt;
+  &lt;li&gt;octocard iframe on devices&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
