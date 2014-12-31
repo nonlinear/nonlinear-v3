@@ -7,9 +7,9 @@ a.logo {
     font-size: 30px;
     margin-top: 7px;
     @media screen and (max-width: $iphone5-min) {
-  font-size: 23px;
-    margin-top: 12px;
-}
+      font-size: 23px;
+      margin-top: 12px;
+    }
     @media screen and (min-width: ($iphone5-max + 1)) {
       @include but(trans) {
         margin-top: -7px;
@@ -21,20 +21,20 @@ a.logo {
        margin-top: 0px;
      }
    }
-       @media screen and (max-width: $iphone5-min) {
-      @include but(trans) {
-       margin-top: 7px;
-     }
-}
-        
+   @media screen and (max-width: $iphone5-min) {
+    @include but(trans) {
+     margin-top: 7px;
+   }
  }
- .subtitle {
+
+}
+.subtitle {
   font-size: 20px;
   margin-top: -7px;
-      @media screen and (max-width: $iphone5-max) {
-  font-size: 19px;
-      
-}
+  @media screen and (max-width: $iphone5-max) {
+    font-size: 19px;
+
+  }
   @media screen and (min-width: ($iphone5-max + 1)) {
     @include but(trans) {
       font-size: 17px;
@@ -55,18 +55,6 @@ float: left;
   @include square(80px);
   @include radius(50%);
   @include trans;
-  &:before {
-    content: "logo";
-    color: white;
-    text-align: center;
-    displaY: block;
-    margin-top: 32px;
-    @media screen and (min-width: ($iphone5-max + 1)) {
-      @include but(trans) {
-        margin-top: 15px;
-      }
-    }
-  }
   @media screen and (min-width: ($iphone5-max + 1)) {
     @include but(trans) {
       @include square(50px); 
@@ -115,8 +103,12 @@ ul {
   @include reset(list);
   float: right;
   margin-top: -30px;
-    @include opacity(0);
+  @include opacity(0);
   @include trans;
+  header:hover ul {
+      margin-top: 0;
+      @include opacity(100);
+  }
   @media screen and (max-width: $iphone5-max) {
     float: left;
     margin-left: 44px;
@@ -133,11 +125,11 @@ ul {
     }
   }
   @media screen and (max-width: $iphone5-min) {
-  font-size: 13px;
-  @include but(trans) {
+    font-size: 13px;
+    @include but(trans) {
       margin-top: -24px;
     }
-}
+  }
   li {
     display: inline-block;
     &:not(:first-of-type):before {

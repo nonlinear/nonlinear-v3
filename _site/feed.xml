@@ -6,9 +6,59 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Dec 2014 16:28:49 -0500</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2014 16:28:49 -0500</lastBuildDate>
+    <pubDate>Wed, 31 Dec 2014 17:02:31 -0500</pubDate>
+    <lastBuildDate>Wed, 31 Dec 2014 17:02:31 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>List of TODO</title>
+        <description>&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://weblinc.github.io/jquery.smoothState.js/typical-implementation.html&quot;&gt;Jquery SmoothState&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;randomize bg if nothing set&lt;/li&gt;
+  &lt;li&gt;tags
+    &lt;ul&gt;
+      &lt;li&gt;link&lt;/li&gt;
+      &lt;li&gt;position&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;permalink on jekyll&lt;/li&gt;
+  &lt;li&gt;octocard iframe, devices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;code/code
+    &lt;ul&gt;
+      &lt;li&gt;modularize, automate, document (tutorial, news)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;only, unless mixins&lt;/li&gt;
+  &lt;li&gt;serval mesh, no php&lt;/li&gt;
+  &lt;li&gt;search notes&lt;/li&gt;
+  &lt;li&gt;search onenote ideas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;codecode&quot;&gt;code/code&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;generify bootstrap flat, extends, mixins, base (with tabs)&lt;/li&gt;
+  &lt;li&gt;input, self contained, using :empty, :not&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 31 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.github.io/todo/</link>
+        <guid isPermaLink="true">http://nonlinear.github.io/todo/</guid>
+        
+        <category>todo</category>
+        
+        <category>meta</category>
+        
+        
+        <category>todo</category>
+        
+        <category>meta</category>
+        
+      </item>
     
       <item>
         <title>My Portfolio</title>
