@@ -1,0 +1,59 @@
+// gap variations
+
+$g2: $g1 * 2;
+$g3: $g1 * 3;
+$g4: $g1 * 4;
+$g5: $g1 * 5;
+$g6: $g1 * 6;
+$g7: $g1 * 7;
+$g8: $g1 * 8;
+$g9: $g1 * 9;
+$g10: $g1 * 10;
+$g11: $g1 * 11;
+$g12: $g1 * 12;
+$g13: $g1 * 13;
+$g14: $g1 * 14;
+$g15: $g1 * 15;
+$g16: $g1 * 16;
+$g17: $g1 * 17;
+$g18: $g1 * 18;
+$g19: $g1 * 19;
+$g20: $g1 * 20;
+
+// base rules
+
+h1, h2, h3, h4 {
+    font-family: $f1;
+    color: $c1;
+}
+
+body {
+    font-family: $f2;
+    background-color: $c0;
+}
+
+:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+
+a {
+    color: $c2;
+      -webkit-transition:  all 300ms ease-out;
+      -moz-transition:     all 300ms ease-out;
+      -ms-transition:      all 300ms ease-out;
+      -o-transition:       all 300ms ease-out;
+      transition:          all 300ms ease-out;
+      &:hover {
+      color: $c3;
+      }
+}
+
+h1, h2, h3, h4 {
+    $font-family: $f1;
+    font-weight: normal;
+}
+
+.hidden {
+    display: none;
+}

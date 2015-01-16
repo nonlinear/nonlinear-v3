@@ -10,13 +10,9 @@
 	</script>
 		{% if page %}
 		{% if page.title %}
-<div class="header" style="background: url(/assets/images/bg_header.gif) center 130px no-repeat, url(/assets/images/bgs/{{ page.image }}.png) center center repeat;">
+<div class="header" style="background: url(/assets/images/bgs/{{ page.image }}.png) center center repeat;">
 		<div class="callout container">
 			<div class="title">{{ page.title }}</div>
-			<div class="description">
-				{{ page.description }}
-				
-			</div>
 			<div class="border">
 				{% if page.tags %}
 				<ul>
@@ -40,7 +36,6 @@
 	  <div class="list">
     {% for post in site.posts %}<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="callout" style="background-image: url(/assets/images/bgs/{{ post.image }}.png);">
     <div class="title">{{ post.title }}</div>
-    <div class="description">{{ post.description }}</div>
     <div class="border">
       {% if page.tags %}
 				<ul>

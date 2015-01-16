@@ -6,41 +6,42 @@ a.logo {
   .title {
     font-size: 30px;
     margin-top: 7px;
-    @media screen and (max-width: $iphone5-min) {
+    @include media(iphone5, portrait) {
       font-size: 23px;
       margin-top: 12px;
     }
-    @media screen and (min-width: ($iphone5-max + 1)) {
-      @include but(trans) {
+    @include media(321px, min) {
+        @include only(trans) {
         margin-top: -7px;
         font-size: 25px;
       }
     }
-    @media screen and (max-width: $iphone5-max) {
-      @include but(trans) {
+@include media(iphone5, landscape) {
+     @include only(trans) {
        margin-top: 0px;
      }
-   }
-   @media screen and (max-width: $iphone5-min) {
-    @include but(trans) {
+}
+
+@include media(iphone5, portrait) {
+    @include only(trans) {
      margin-top: 7px;
    }
- }
-
+}
 }
 .subtitle {
   font-size: 20px;
   margin-top: -7px;
-  @media screen and (max-width: $iphone5-max) {
+  @include media(iphone5, landscape) {
     font-size: 19px;
 
   }
-  @media screen and (min-width: ($iphone5-max + 1)) {
-    @include but(trans) {
+  @include media(569px, min) {
+      @include only(trans) {
       font-size: 17px;
       @include opacity(0);
     }
   }
+
 }
 &:hover  {
   text-decoration: none;
@@ -55,8 +56,8 @@ float: left;
   @include square(80px);
   @include radius(50%);
   @include trans;
-  @media screen and (min-width: ($iphone5-max + 1)) {
-    @include but(trans) {
+  @include media(569px, min) {
+    @include only(trans) {
       @include square(50px); 
       margin-top: -15px;  
       margin-right: 3px;
@@ -66,7 +67,8 @@ float: left;
 
 
 header {
-  font-family: $f1;
+  font-family: $f3;
+  text-transform: uppercase;
   padding: 10px 0;
   border-bottom: solid 1px $c3;
   background-color: #fff;
@@ -77,19 +79,19 @@ header {
   @include trans;
   top: 0;
   color: $c1;
-  @media screen and (min-width: ($ipad-max + 1)) {
+  @include media(1025px, min) {
     .container {
       padding-left: 0;
       padding-right: 0;
     }
   }
-  @media screen and (min-width: ($iphone5-max + 1)) {
-    @include but(trans) {
+  @include media(569px, min) {
+    @include only(trans) {
      height: $nav-small;
    }
  }
 
- @include but(trans) {
+ @include only(trans) {
    background-color: rgba(255, 255, 255, .9);
  }
  a {
@@ -109,24 +111,24 @@ ul {
       margin-top: 0;
       @include opacity(100);
   }
-  @media screen and (max-width: $iphone5-max) {
+  @include media(iphone5, landscape) {
     float: left;
     margin-left: 44px;
     margin-top: -10px;
-    @include but(trans) {
+    @include only(trans) {
       @include opacity(100);
       margin-top: -20px;
     }
   }
-  @media screen and (min-width: ($iphone5-max + 1)) {
-    @include but(trans) {
+  @include media(569px, min) {
+    @include only(trans) {
       margin-top: 0;
       @include opacity(100);
     }
   }
-  @media screen and (max-width: $iphone5-min) {
+  @include media(iphone5, portrait) {
     font-size: 13px;
-    @include but(trans) {
+    @include only(trans) {
       margin-top: -24px;
     }
   }

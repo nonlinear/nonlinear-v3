@@ -6,9 +6,36 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Dec 2014 17:04:09 -0500</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2014 17:04:09 -0500</lastBuildDate>
+    <pubDate>Thu, 15 Jan 2015 21:27:32 -0500</pubDate>
+    <lastBuildDate>Thu, 15 Jan 2015 21:27:32 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Code/Code Project</title>
+        <description>&lt;p&gt;Pending content. Case study for &lt;a href=&quot;http://www.nicholasfrota.com/codecode&quot;&gt;code/code project&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.github.io/codecode-project/</link>
+        <guid isPermaLink="true">http://nonlinear.github.io/codecode-project/</guid>
+        
+        <category>project</category>
+        
+        <category>code</category>
+        
+        <category>design</category>
+        
+        <category>css</category>
+        
+        
+        <category>project</category>
+        
+        <category>code</category>
+        
+        <category>design</category>
+        
+        <category>css</category>
+        
+      </item>
     
       <item>
         <title>List of TODO</title>
@@ -19,11 +46,12 @@
   &lt;li&gt;tags
     &lt;ul&gt;
       &lt;li&gt;link&lt;/li&gt;
-      &lt;li&gt;position&lt;/li&gt;
+      &lt;li&gt;position on header&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;permalink on jekyll&lt;/li&gt;
-  &lt;li&gt;hero cover&lt;/li&gt;
+  &lt;li&gt;menu appear on .header:hover&lt;/li&gt;
+  &lt;li&gt;hero cover, design&lt;/li&gt;
   &lt;li&gt;logo design&lt;/li&gt;
   &lt;li&gt;octocard iframe on devices&lt;/li&gt;
 &lt;/ul&gt;
@@ -269,6 +297,7 @@
   &lt;li&gt;&lt;a href=&quot;http://sass-compatibility.github.io/&quot;&gt;Sass Compatibility&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ElasticSVGElements/index.html&quot;&gt;Elastic SVG Elements&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://libscore.com/#*&quot;&gt;Libscore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pleeease.io/play/&quot;&gt;Pleeease Play&lt;/a&gt; · Prefix CSS3, convert rem, CSS filters, pleeease.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;design-resources&quot;&gt;Design Resources&lt;/h3&gt;

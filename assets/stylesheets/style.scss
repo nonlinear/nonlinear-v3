@@ -1,6 +1,52 @@
+// brand variables
+// make sure most of your rules point to that
+
+// Title font
+$f1: dense;
+
+// Text font
+
+$f2: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+// Second Title font
+$f3: adam;
+
+// Icon font
+$f4: FontAwesome;
+
+// base gap
+$g1: 10px;
+
+// background color
+$c0: #F9F3E1;
+
+//text color
+$c1: darken($c0, 60%);
+
+// accent color
+$c2: darken($c1, 20%);
+
+// color 3
+$c3: darken($c0, 60%);
+
+// color 4
+$c4: green;
+
+// color 5
+$c5: yellow;
+
+// universal rules (try not to change it, and update often)
+
+@import 'base';
 @import 'mixins';
-@import 'variables';
 @import 'fonts';
+@import 'colors';
+@import 'animate';
+@import 'print';
+
+// project rules (feel free to edit)
+
+@import 'layout';
 @import 'nav';
 @import 'hero';
 @import 'article';
@@ -9,13 +55,13 @@
   background-color: #eee;
   .scene_element {
     &--fadein {
-      @include animate(fadeIn);
+      /*@include animate(fadeIn);*/
     }
   }
   &.is-exiting .scene_element {
-    @include reverse; 
+    /*@include reverse; */
     &--noexiting {
-      @include reverse;
+      /*@include reverse;*/
     }
   }
 }
