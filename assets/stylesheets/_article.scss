@@ -9,6 +9,7 @@
         border: solid 1px $c1;
         z-index: 1000;
         ul {
+        display: none;
             @include reset(list);
             font-size: 10px;
             @include reset;
