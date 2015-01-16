@@ -102,7 +102,6 @@ header {
   }
 }
 ul {
-display: none;
   @include reset(list);
   float: right;
   margin-top: -30px;
