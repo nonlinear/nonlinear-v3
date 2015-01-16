@@ -17,7 +17,3 @@
 - serval mesh, no php
 - search notes
 - search onenote ideas
-
-###code/code
-- generify bootstrap flat, extends, mixins, base (with tabs)
-- input, self contained, using :empty, :not

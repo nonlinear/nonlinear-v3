@@ -1,34 +1,30 @@
 .hero {
-    /*background-image: url(../images/hero.gif);*/
+    background-image: url(../images/hero.gif);
     height: 400px;
     -webkit-background-size: 600px 400px;
     background-size: 600px 400px;
     background-repeat: no-repeat;
     background-position: center center;
     @include trans;
+    font-family: $f3;
     @media screen and (max-width: $iphone5-max) {
-      height: 220px;
-      -webkit-background-size: 300px 200px;
-      background-size: 300px 200px;
+        height: 220px;
+        -webkit-background-size: 300px 200px;
+        background-size: 300px 200px;
     }
-    h1, h2, h3, h4 {
-
-    background-color: $c0;
-  }
-  h2 {
-    displaY: inline-block;
-    @media screen and (min-width: ($ipad-max + 1)) {
-      width: 50%;
+    h2 {
+        displaY: inline-block;
+        @media screen and (min-width: $ipad-max + 1) {
+            width: 50%;
+        }
+        @media screen and (max-width: $iphone5-max) {
+            @include opacity(0);
+        }
     }
-    @media screen and (max-width: $iphone5-max) {
-      @include opacity(0);
-    }
-  }
-  h3 {
-    width: 20%;
-    @media screen and (max-width: $ipad-max) {
-      @include opacity(0);
+    h3 {
+        width: 20%;
+        @media screen and (max-width: $ipad-max) {
+            @include opacity(0);
+        }
     }
 }
-  }
-  
