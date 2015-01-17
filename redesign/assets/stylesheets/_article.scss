@@ -1,18 +1,18 @@
 .list {
 
-  border-top: solid 1px $c3;
+  border-top: solid 1px $color-tertiary;
 }
 .callout {
-	color: $c1; 
+	color: $color-primary; 
 	font-size: 18px;
 	.border {
-		border: solid 1px $c1;
+		border: solid 1px $color-primary;
 		z-index: 1000;
 		ul {
 			@include reset(list);
 			font-size: 10px;
 			@include reset;
-			font-family: $f1;
+			font-family: $font-title;
 			float: right;
 			top: -8px;
 			right: -20px;
@@ -30,9 +30,9 @@
 				padding: 0px 3px;
 				a {
 					display: block;
-					color: $c1;
+					color: $color-primary;
 					&:hover {
-						color: $c2;
+						color: $color-secondary;
 					}
 				}
 				&:first-of-type {
@@ -61,10 +61,10 @@
 	}
 	.title {
 		float: left;
-		margin: $g2;
-		margin-bottom: $g1;
+		margin: $gap-2;
+		margin-bottom: $gap-1;
 		line-height: 35px;
-		font-family: $f1;
+		font-family: $font-title;
 		font-size: 35px;
  word-break: break-all;
 		heighT: 70px;
@@ -72,12 +72,12 @@
 	}
 	.description {
 		float: left;
-		margin: 0 $g2;
+		margin: 0 $gap-2;
 		overflow: hidden;
 	}
 	.list & {
 		margin-bottom: -0.323em;
-		padding: $g3;
+		padding: $gap-3;
 		displaY: inline-block;
 		width: (100% / 3);
 		@media screen and (max-width: $ipad-min) {
@@ -110,15 +110,15 @@
 			height: 80px;
 		}
 		&:hover {
-			color: $c1; 
+			color: $color-primary; 
 			text-decoration: none;
 		}
 	}
 	.header & {
-		padding: $g3 0;
+		padding: $gap-3 0;
 		height: 260px;
 		@media screen and (max-width: $ipad-max) {
-			padding: $g3;
+			padding: $gap-3;
 		}
 		.border {
 			height: 200px;

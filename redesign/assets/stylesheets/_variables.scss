@@ -1,86 +1,86 @@
-$f1: Adam;                               // title font
-$f2: "HelveticaNeue-Light", 
+$font-title: Adam;                               // Fonts
+$font-text: "HelveticaNeue-Light", 
 "Helvetica Neue Light", 
 "Helvetica Neue", 
 Helvetica, Arial, 
 "Lucida Grande", sans-serif;        // text font
-$f3: "Courier New", Courier, monospace;  // code font
-$g1: 10px;                               // base gap
-$c0: #F9F3E1;                            // bg color
-$c1: darken($c0, 60%);                   // text color
-$c2: darken($c1, 20%);                   // accent color
-$c3: darken($c0, 60%);                   // color 3
+$font-mono: "Courier New", Courier, monospace;  // code font
+$gap-1: 10px;                               // Gap
+$color-bg: #F9F3E1;                            // bg color
+$color-primary: darken($color-bg, 60%);                   // text color
+$color-secondary: darken($color-primary, 20%);                   // accent color
+$color-tertiary: darken($color-bg, 60%);                   // color 3
 $c4: green;                              // color 4
 $c5: yellow;                             // color 5
 
 /* gap variations */
 
-$g2: ($g1 * 2);
-$g3: ($g1 * 3);
-$g4: ($g1 * 4);
-$g5: ($g1 * 5);
-$g6: ($g1 * 6);
-$g7: ($g1 * 7);
-$g8: ($g1 * 8);
-$g9: ($g1 * 9);
-$g10: ($g1 * 10);
-$g11: ($g1 * 11);
-$g12: ($g1 * 12);
+$gap-2: ($gap-1 * 2);
+$gap-3: ($gap-1 * 3);
+$gap-4: ($gap-1 * 4);
+$gap-5: ($gap-1 * 5);
+$gap-6: ($gap-1 * 6);
+$gap-7: ($gap-1 * 7);
+$gap-8: ($gap-1 * 8);
+$gap-9: ($gap-1 * 9);
+$gap-10: ($gap-1 * 10);
+$gap-11: ($gap-1 * 11);
+$gap-12: ($gap-1 * 12);
 
 /* color variations
 to lighten, use color#l#
 to darken, use color#dark# */
 
-$c0l1: lighten($c0, 10%);
-$c0l2: lighten($c0, 20%);
-$c0l3: lighten($c0, 30%);
-$c0l4: lighten($c0, 40%);
-$c0l5: lighten($c0, 50%);
-$c0l6: lighten($c0, 60%);
-$c0d1: darken($c0,  10%);
-$c0d2: darken($c0,  20%);
-$c0d3: darken($c0,  30%);
-$c0d4: darken($c0,  40%);
-$c0d5: darken($c0,  50%);
-$c0d6: darken($c0,  60%);
-$c1l1: lighten($c1, 10%);
-$c1l2: lighten($c1, 20%);
-$c1l3: lighten($c1, 30%);
-$c1l4: lighten($c1, 40%);
-$c1l5: lighten($c1, 50%);
-$c1l6: lighten($c1, 60%);
-$c1l7: lighten($c1, 70%);
-$c1l8: lighten($c1, 80%);
-$c1d1: darken($c1,  10%);
-$c1d2: darken($c1,  20%);
-$c1d3: darken($c1,  30%);
-$c1d4: darken($c1,  40%);
-$c1d5: darken($c1,  50%);
-$c1d6: darken($c1,  60%);
-$c2l1: lighten($c2, 10%);
-$c2l2: lighten($c2, 20%);
-$c2l3: lighten($c2, 30%);
-$c2l4: lighten($c2, 40%);
-$c2l5: lighten($c2, 50%);
-$c2l6: lighten($c2, 60%);
-$c2d1: darken($c2,  10%);
-$c2d2: darken($c2,  20%);
-$c2d3: darken($c2,  30%);
-$c2d4: darken($c2,  40%);
-$c2d5: darken($c2,  50%);
-$c2d6: darken($c2,  60%);
-$c3l1: lighten($c3, 10%);
-$c3l2: lighten($c3, 20%);
-$c3l3: lighten($c3, 30%);
-$c3l4: lighten($c3, 40%);
-$c3l5: lighten($c3, 50%);
-$c3l6: lighten($c3, 60%);
-$c3d1: darken($c3,  10%);
-$c3d2: darken($c3,  20%);
-$c3d3: darken($c3,  30%);
-$c3d4: darken($c3,  40%);
-$c3d5: darken($c3,  50%);
-$c3d6: darken($c3,  60%);
+$color-bgl1: lighten($color-bg, 10%);
+$color-bgl2: lighten($color-bg, 20%);
+$color-bgl3: lighten($color-bg, 30%);
+$color-bgl4: lighten($color-bg, 40%);
+$color-bgl5: lighten($color-bg, 50%);
+$color-bgl6: lighten($color-bg, 60%);
+$color-bgd1: darken($color-bg,  10%);
+$color-bgd2: darken($color-bg,  20%);
+$color-bgd3: darken($color-bg,  30%);
+$color-bgd4: darken($color-bg,  40%);
+$color-bgd5: darken($color-bg,  50%);
+$color-bgd6: darken($color-bg,  60%);
+$color-primaryl1: lighten($color-primary, 10%);
+$color-primaryl2: lighten($color-primary, 20%);
+$color-primaryl3: lighten($color-primary, 30%);
+$color-primaryl4: lighten($color-primary, 40%);
+$color-primaryl5: lighten($color-primary, 50%);
+$color-primaryl6: lighten($color-primary, 60%);
+$color-primaryl7: lighten($color-primary, 70%);
+$color-primaryl8: lighten($color-primary, 80%);
+$color-primaryd1: darken($color-primary,  10%);
+$color-primaryd2: darken($color-primary,  20%);
+$color-primaryd3: darken($color-primary,  30%);
+$color-primaryd4: darken($color-primary,  40%);
+$color-primaryd5: darken($color-primary,  50%);
+$color-primaryd6: darken($color-primary,  60%);
+$color-secondaryl1: lighten($color-secondary, 10%);
+$color-secondaryl2: lighten($color-secondary, 20%);
+$color-secondaryl3: lighten($color-secondary, 30%);
+$color-secondaryl4: lighten($color-secondary, 40%);
+$color-secondaryl5: lighten($color-secondary, 50%);
+$color-secondaryl6: lighten($color-secondary, 60%);
+$color-secondaryd1: darken($color-secondary,  10%);
+$color-secondaryd2: darken($color-secondary,  20%);
+$color-secondaryd3: darken($color-secondary,  30%);
+$color-secondaryd4: darken($color-secondary,  40%);
+$color-secondaryd5: darken($color-secondary,  50%);
+$color-secondaryd6: darken($color-secondary,  60%);
+$color-tertiaryl1: lighten($color-tertiary, 10%);
+$color-tertiaryl2: lighten($color-tertiary, 20%);
+$color-tertiaryl3: lighten($color-tertiary, 30%);
+$color-tertiaryl4: lighten($color-tertiary, 40%);
+$color-tertiaryl5: lighten($color-tertiary, 50%);
+$color-tertiaryl6: lighten($color-tertiary, 60%);
+$color-tertiaryd1: darken($color-tertiary,  10%);
+$color-tertiaryd2: darken($color-tertiary,  20%);
+$color-tertiaryd3: darken($color-tertiary,  30%);
+$color-tertiaryd4: darken($color-tertiary,  40%);
+$color-tertiaryd5: darken($color-tertiary,  50%);
+$color-tertiaryd6: darken($color-tertiary,  60%);
 $c4l1: lighten($c4, 10%);
 $c4l2: lighten($c4, 20%);
 $c4l3: lighten($c4, 30%);
@@ -123,23 +123,23 @@ $device:           $ipad-max;
 /* scroll animation */
 
 $nav-big: 100px;
-$nav-small: $g4;
-$margin: $g3;
+$nav-small: $gap-4;
+$margin: $gap-3;
 
-$margin-big: $g3;
-$internal-big: $g2;
+$margin-big: $gap-3;
+$internal-big: $gap-2;
 $squeeze: 0;
 
 /* base rules */
 
 h1, h2, h3, h4 {
-	font-family: $f1;
-	bg-color: $c0;
-	color: $c1;
+	font-family: $font-title;
+	bg-color: $color-bg;
+	color: $color-primary;
 }
 body {
-	font-family: $f2;
-	background-color: $c0;
+	font-family: $font-text;
+	background-color: $color-bg;
 	font-weight: 300;
 	margin-top: $nav-big;
 	@include trans;
@@ -152,11 +152,11 @@ body {
 	outline-style: none;
 }
 a {
-	color: $c2;
+	color: $color-secondary;
 	@include trans;
 }
 h1, h2, h3, h4 {
-	$font-family: $f1;
+	$font-family: $font-title;
 	font-weight: normal;
 }
 .hidden {

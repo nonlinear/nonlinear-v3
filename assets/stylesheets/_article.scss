@@ -1,12 +1,12 @@
 .list {
-    border-top: solid 1px $c3;
+    border-top: solid 1px $color-4;
 }
 
 .callout {
-    color: $c1;
+    color: $color-1;
     font-size: 18px;
     .border {
-        border: solid 1px $c1;
+        border: solid 1px $color-1;
         z-index: 1000;
         @include shadow(2px 2px 0px rgba(255, 255, 255, 1));
         ul {
@@ -14,7 +14,7 @@
             @include reset(list);
             font-size: 10px;
             @include reset;
-            font-family: $f3;
+            font-family: $font-title-2;
             float: right;
             top: -8px;
             right: -20px;
@@ -32,9 +32,9 @@
                 padding: 0px 3px;
                 a {
                     display: block;
-                    color: $c1;
+                    color: $color-1;
                     &:hover {
-                        color: $c2;
+                        color: $color-2;
                     }
                 }
                 &:first-of-type {
@@ -63,10 +63,10 @@
     .title {
         float: left;
         margin: 15px;
-        margin-bottom: $g1;
+        margin-bottom: $gap-1;
         line-height: 37px;
         width: 70%;
-        font-family: $f1;
+        font-family: $font-title;
         text-transform: uppercase;
         @include shadow(2px 2px 0px rgba(255, 255, 255, 1), text);
         font-size: 45px;
@@ -75,12 +75,12 @@
     }
     .description {
         float: left;
-        margin: 0 $g2;
+        margin: 0 $gap-2;
         overflow: hidden;
     }
     .list & {
         margin-bottom: -0.323em;
-        padding: $g3;
+        padding: $gap-3;
         displaY: inline-block;
         width: (100% / 3);
         @media screen and (max-width: $ipad-min) {
@@ -114,15 +114,15 @@
             height: 80px;
         }
         &:hover {
-            color: $c1;
+            color: $color-1;
             text-decoration: none;
         }
     }
     .header & {
-        padding: $g3 0;
+        padding: $gap-3 0;
         height: 160px;
         @media screen and (max-width: $ipad-max) {
-            padding: $g3;
+            padding: $gap-3;
         }
         .border {
             height: 100px;
@@ -151,10 +151,10 @@
         }
     }
     a {
-        border-bottom: dotted 1px $c3;
+        border-bottom: dotted 1px $color-4;
         &:hover {
             text-decoration: none;
-            border-bottom: solid 1px $c3;
+            border-bottom: solid 1px $color-4;
         }
     }
 }

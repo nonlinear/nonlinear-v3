@@ -1,39 +1,23 @@
 // brand variables
 // make sure most of your rules point to that
 
-// Title font
-$f1: dense;
+// Fonts
+$font-title: dense;
+$font-title-2: adam;
+$font-text: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-mono: "Courier New", Courier, monospace;
+$font-icon: FontAwesome;
 
-// Text font
+// Gap
+$gap-1: 10px;
 
-$f2: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
-// Second Title font
-$f3: adam;
-
-// Icon font
-$f4: FontAwesome;
-
-// base gap
-$g1: 10px;
-
-// background color
-$c0: #F9F3E1;
-
-//text color
-$c1: darken($c0, 60%);
-
-// accent color
-$c2: darken($c1, 20%);
-
-// color 3
-$c3: darken($c0, 60%);
-
-// color 4
-$c4: green;
-
-// color 5
-$c5: yellow;
+// Colors
+$color-0: #F9F3E1;
+$color-1: darken($color-0, 60%);
+$color-2: darken($color-1, 20%);
+$color-4: darken($color-0, 60%);
+$color-4: green;
+$color-5: yellow;
 
 // universal rules (try not to change it, and update often)
 

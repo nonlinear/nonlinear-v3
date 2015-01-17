@@ -70,10 +70,10 @@ a.logo {
 }
 
 header {
-    font-family: $f3;
+    font-family: $font-title-2;
     text-transform: uppercase;
     padding: 10px 0;
-    border-bottom: solid 1px $c3;
+    border-bottom: solid 1px $color-4;
     background-color: #fff;
     position: fixed;
     z-index: 1000;
@@ -81,7 +81,7 @@ header {
     height: $nav-big;
     @include trans;
     top: 0;
-    color: $c1;
+    color: $color-1;
     @include media(1025px, min) {
         .container {
             padding-left: 0;
@@ -100,10 +100,10 @@ header {
     }
 
     a {
-        color: $c1;
+        color: $color-1;
         @include trans;
         &:hover {
-            color: $c2;
+            color: $color-2;
         }
     }
     ul {
