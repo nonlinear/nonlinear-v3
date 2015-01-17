@@ -6,8 +6,8 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Jan 2015 23:38:39 -0500</pubDate>
-    <lastBuildDate>Fri, 16 Jan 2015 23:38:39 -0500</lastBuildDate>
+    <pubDate>Fri, 16 Jan 2015 23:56:41 -0500</pubDate>
+    <lastBuildDate>Fri, 16 Jan 2015 23:56:41 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -46,59 +46,6 @@
         <category>design</category>
         
         <category>css</category>
-        
-      </item>
-    
-      <item>
-        <title>List of TODO</title>
-        <description>&lt;h3 id=&quot;design&quot;&gt;Design&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://weblinc.github.io/jquery.smoothState.js/typical-implementation.html&quot;&gt;Jquery SmoothState&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;randomize bg if nothing set&lt;/li&gt;
-  &lt;li&gt;tags
-    &lt;ul&gt;
-      &lt;li&gt;link&lt;/li&gt;
-      &lt;li&gt;position on header&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;permalink on jekyll&lt;/li&gt;
-  &lt;li&gt;menu appear on .header:hover&lt;/li&gt;
-  &lt;li&gt;hero cover, design&lt;/li&gt;
-  &lt;li&gt;logo design&lt;/li&gt;
-  &lt;li&gt;octocard iframe on devices&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;code/code
-    &lt;ul&gt;
-      &lt;li&gt;modularize, automate, document (tutorial, news)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;only, unless mixins&lt;/li&gt;
-  &lt;li&gt;serval mesh, no php&lt;/li&gt;
-  &lt;li&gt;search notes&lt;/li&gt;
-  &lt;li&gt;search onenote ideas&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;codecode&quot;&gt;code/code&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;generify bootstrap flat, extends, mixins, base (with tabs)&lt;/li&gt;
-  &lt;li&gt;input, self contained, using :empty, :not&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 31 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.github.io/todo/</link>
-        <guid isPermaLink="true">http://nonlinear.github.io/todo/</guid>
-        
-        <category>todo</category>
-        
-        <category>meta</category>
-        
-        
-        <category>todo</category>
-        
-        <category>meta</category>
         
       </item>
     
@@ -153,31 +100,31 @@
     &lt;div class=&quot;cell&quot;&gt;
       &lt;h3&gt;Prototypes&lt;/h3&gt;
       &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/infoFD/&quot; target=&quot;_blank&quot;&gt;Fresh Direct HR&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/infoFD/&quot; target=&quot;_blank&quot;&gt;Fresh Direct HR&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/design-prototypes/carbon/RC35/&quot; target=&quot;_blank&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/design-prototypes/cheaptickets/&quot; target=&quot;_blank&quot;&gt;CheapTickets Events&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/mesh&quot; target=&quot;_blank&quot;&gt;Serval Mesh&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/goodtalk&quot; target=&quot;_blank&quot;&gt;Good Talk&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/partnerportal/home.html&quot; target=&quot;_blank&quot;&gt;On Deck Capital Partner Portal&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/instantdecision/index.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 1&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/instantdecision/business.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 2&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;/assets/portfolio/prototypes/conprep/&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/partnerportal/home.html&quot; target=&quot;_blank&quot;&gt;On Deck Capital Partner Portal&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/instantdecision/index.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/instantdecision/business.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/conprep/&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
     &lt;div class=&quot;cell&quot;&gt;
     &lt;h3&gt;Wireframes&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/agent_v1.pdf&quot; target=&quot;_blank&quot;&gt;Fresh Direct 1&lt;/a&gt;, pdf&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/JPMC_campus_events.pdf&quot; target=&quot;_blank&quot;&gt;JP Morgan Chase 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/agent_v1.pdf&quot; target=&quot;_blank&quot;&gt;Fresh Direct 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/JPMC_campus_events.pdf&quot; target=&quot;_blank&quot;&gt;JP Morgan Chase 1&lt;/a&gt;, pdf&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/nicholasfrota/bins-1&quot; target=&quot;_blank&quot;&gt;Bins Environments&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/nicholasfrota/makers-badge-wireframe&quot; target=&quot;_blank&quot;&gt;Makers Badge&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ativity_alpha_wireframe.pdf&quot; target=&quot;_blank&quot;&gt;Ativiti 1&lt;/a&gt;, pdf&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ConPrep_List.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 1&lt;/a&gt;, pdf&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ConPrep_Record.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 2&lt;/a&gt;, pdf&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/ConPrep_Stories.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 3&lt;/a&gt;, pdf&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/eBooks_02.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka E-Books&lt;/a&gt;, pdf&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/UI_Design_Presentation.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;1&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;/assets/portfolio/wireframes/view_complete_list.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;2&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ativity_alpha_wireframe.pdf&quot; target=&quot;_blank&quot;&gt;Ativiti 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ConPrep_List.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ConPrep_Record.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 2&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ConPrep_Stories.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 3&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/eBooks_02.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka E-Books&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/UI_Design_Presentation.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/view_complete_list.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;2&lt;/a&gt;, pdf&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;/div&gt;
@@ -410,6 +357,7 @@
 			&lt;li&gt;&lt;a href=&quot;http://instagram.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://github.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://ello.co/nonlinear&quot; target=&quot;_blank&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://nicholasfrota.tumblr.com&quot; target=&quot;_blank&quot;&gt;Illustration Blog&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://nonlinear.tumblr.com&quot; target=&quot;_blank&quot;&gt;Inspiration Blog&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/in/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;https://soundcloud.com/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Soundcloud&lt;/a&gt;&lt;/li&gt;
