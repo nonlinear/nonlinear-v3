@@ -4,6 +4,7 @@
 ### Design
 - [Jquery SmoothState](http://weblinc.github.io/jquery.smoothState.js/typical-implementation.html)
 - randomize bg if nothing set
+- redo device header animation
 - tags
 	- link
 	- position

@@ -5,12 +5,9 @@
     margin-bottom: -20px;
     background-repeat: no-repeat;
     background-position: left 20px;
+    -webkit-background-size: 247px 591px;
+    background-size: 247px 591px;
     @include trans;
-    @media screen and (max-width: $iphone5-max) {
-        height: 220px;
-        -webkit-background-size: 300px 200px;
-        background-size: 300px 200px;
-    }
     .description {
         font-family: $f1;
         margin-top: 20px;
@@ -31,7 +28,30 @@
             }
         }
     }
+    @media screen and (max-width: $iphone5-max) {
+        .description {
+            p {
+                padding: 10px 0;
+                font-size: 40px;
+                line-height: 40px !important;
+            }
+        }
+        -webkit-background-size: (247px * 0.7) (591px * 0.7);
+        background-size: (247px * 0.7) (591px * 0.7);
+    }
+    @include media(iphone5, portrait) {
+         height: 380px;
+        background-position: center 230px;
+            -webkit-background-size: 247px 591px;
+    background-size: 247px 591px;
+        .description {
+        margin-top: 0;
+            float: none;
+            width: 100%; 
+        }
+    }
 }
+
 .social {
     a {
         height: 20px;
@@ -42,8 +62,8 @@
         @include radius(50%);
         i {
             color: black !important;
-        font-size: 20px;
-        line-height: 0;
+            font-size: 20px;
+            line-height: 0;
         }
     }
 }
