@@ -81,7 +81,7 @@
     .list & {
         margin-bottom: -0.323em;
         padding: $gap-3;
-        displaY: inline-block;
+        display: inline-block;
         width: (100% / 3);
         @media screen and (max-width: $ipad-min) {
             width: 50%;
@@ -100,7 +100,7 @@
                     @include translate(0, 0);
                     @include opacity(100);
                 }
-                background-position: -20px 0;
+                background-position: 30px 0px;
             }
         }
 
