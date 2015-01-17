@@ -104,12 +104,20 @@
 }
 
 @mixin trans($prop: all, $time: 300ms, $ease: ease-out) {
-    -webkit-transition: $prop $time $ease;
+/*    -webkit-transition: $prop $time $ease;
+    -moz-transition: $prop $time $ease;
+    -ms-transition: $prop $time $ease;
+    -o-transition: $prop $time $ease;
+    transition: $prop $time $ease;*/
+}
+@mixin trans2($prop: all, $time: 300ms, $ease: ease-out) {
+  -webkit-transition: $prop $time $ease;
     -moz-transition: $prop $time $ease;
     -ms-transition: $prop $time $ease;
     -o-transition: $prop $time $ease;
     transition: $prop $time $ease;
 }
+
 
 @mixin rotate($rotate: 0) {
     -webkit-transform: rotate($rotate + deg);

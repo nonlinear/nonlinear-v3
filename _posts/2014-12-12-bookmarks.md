@@ -5,7 +5,7 @@ permalink: /resources/
 categories: bookmarks list
 description: Some useful resources I collected over the years.
 tags: resource list link
-image: '02'
+image: 'resources'
 ---
 ###Daily Resources
 

@@ -70,8 +70,11 @@ $c5: yellow;
   @include radius(50%);
 }
 .grid {
-  @include grid;
+  @include grid(2);
   &.three {
      @include grid(3);
+  }
+    &.four {
+     @include grid(4);
   }
 }

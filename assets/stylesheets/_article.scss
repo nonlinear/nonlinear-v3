@@ -8,8 +8,9 @@
     .border {
         border: solid 1px $c1;
         z-index: 1000;
+        @include shadow(2px 2px 0px rgba(255, 255, 255, 1));
         ul {
-        display: none;
+            display: none;
             @include reset(list);
             font-size: 10px;
             @include reset;
@@ -67,6 +68,7 @@
         width: 70%;
         font-family: $f1;
         text-transform: uppercase;
+        @include shadow(2px 2px 0px rgba(255, 255, 255, 1), text);
         font-size: 45px;
         heighT: 70px;
         overflow: hidden;
@@ -142,10 +144,17 @@
     .container {
         padding-top: 20px;
         padding-bottom: 20px;
-        font-size: 18px;
+        font-size: ($font-gap * 1.5);
         @media screen and (max-width: $ipad-max) {
             padding-left: 50px;
             padding-right: 50px;
+        }
+    }
+    a {
+        border-bottom: dotted 1px $c3;
+        &:hover {
+            text-decoration: none;
+            border-bottom: solid 1px $c3;
         }
     }
 }

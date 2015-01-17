@@ -1,142 +1,150 @@
 a.logo {
-  .title, .subtitle {
-    white-space: nowrap;
-    @include trans;
-  }
-  .title {
-    font-size: 30px;
-    margin-top: 7px;
-    @include media(iphone5, portrait) {
-      font-size: 23px;
-      margin-top: 12px;
+    .title, .subtitle {
+        white-space: nowrap;
+        @include trans;
     }
-    @include media(321px, min) {
-        @include only(trans) {
+    .title {
+        font-size: 30px;
+        margin-top: 7px;
+        @include media(iphone5, portrait) {
+            font-size: 23px;
+            margin-top: 12px;
+        }
+
+        @include media(321px, min) {
+            @include only(trans) {
+                margin-top: -7px;
+                font-size: 25px;
+            }
+        }
+
+        @include media(iphone5, landscape) {
+            @include only(trans) {
+                margin-top: 0px;
+            }
+        }
+
+        @include media(iphone5, portrait) {
+            @include only(trans) {
+                margin-top: 7px;
+            }
+        }
+    }
+    .subtitle {
+        font-size: 20px;
         margin-top: -7px;
-        font-size: 25px;
-      }
+        @include media(iphone5, landscape) {
+            font-size: 19px;
+        }
+
+        @include media(569px, min) {
+            @include only(trans) {
+                font-size: 17px;
+                @include opacity(0);
+            }
+        }
     }
-@include media(iphone5, landscape) {
-     @include only(trans) {
-       margin-top: 0px;
-     }
-}
-
-@include media(iphone5, portrait) {
-    @include only(trans) {
-     margin-top: 7px;
-   }
-}
-}
-.subtitle {
-  font-size: 20px;
-  margin-top: -7px;
-  @include media(iphone5, landscape) {
-    font-size: 19px;
-
-  }
-  @include media(569px, min) {
-      @include only(trans) {
-      font-size: 17px;
-      @include opacity(0);
+    &:hover {
+        text-decoration: none;
     }
-  }
+    float: left;
+}
 
-}
-&:hover  {
-  text-decoration: none;
-}
-float: left;
-}
 .symbol {
-  background-color: lighten($c3, 20%);
-  display: inline-block;
-  float: left;
-  margin-right: 5px;
-  @include square(80px);
-  @include radius(50%);
-  @include trans;
-  @include media(569px, min) {
-    @include only(trans) {
-      @include square(50px); 
-      margin-top: -15px;  
-      margin-right: 3px;
+    background-image: url(../images/logo.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    @include square(80px);
+    @include radius(50%);
+    @include trans;
+    @include media(569px, min) {
+        @include only(trans) {
+            @include square(50px);
+            margin-top: -15px;
+            margin-right: 3px;
+        }
     }
-  }
 }
-
 
 header {
-  font-family: $f3;
-  text-transform: uppercase;
-  padding: 10px 0;
-  border-bottom: solid 1px $c3;
-  background-color: #fff;
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
-  height: $nav-big;
-  @include trans;
-  top: 0;
-  color: $c1;
-  @include media(1025px, min) {
-    .container {
-      padding-left: 0;
-      padding-right: 0;
+    font-family: $f3;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: solid 1px $c3;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: $nav-big;
+    @include trans;
+    top: 0;
+    color: $c1;
+    @include media(1025px, min) {
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
-  }
-  @include media(569px, min) {
-    @include only(trans) {
-     height: $nav-small;
-   }
- }
 
- @include only(trans) {
-   background-color: rgba(255, 255, 255, .9);
- }
- a {
-  color: $c1;
-  @include trans;
-  &:hover {
-    color: $c2;
-  }
-}
-ul {
-  @include reset(list);
-  float: right;
-  margin-top: -30px;
-  @include opacity(0);
-  @include trans;
-  header:hover ul {
-      margin-top: 0;
-      @include opacity(100);
-  }
-  @include media(iphone5, landscape) {
-    float: left;
-    margin-left: 44px;
-    margin-top: -10px;
+    @include media(569px, min) {
+        @include only(trans) {
+            height: $nav-small;
+        }
+    }
+
     @include only(trans) {
-      @include opacity(100);
-      margin-top: -20px;
+        background-color: rgba(255, 255, 255, 0.9);
     }
-  }
-  @include media(569px, min) {
-    @include only(trans) {
-      margin-top: 0;
-      @include opacity(100);
+
+    a {
+        color: $c1;
+        @include trans;
+        &:hover {
+            color: $c2;
+        }
     }
-  }
-  @include media(iphone5, portrait) {
-    font-size: 13px;
-    @include only(trans) {
-      margin-top: -24px;
+    ul {
+        @include reset(list);
+        float: right;
+        margin-top: -30px;
+        @include opacity(0);
+        @include trans;
+        header:hover ul {
+            margin-top: 0;
+            @include opacity(100);
+        }
+        @include media(iphone5, landscape) {
+            float: left;
+            margin-left: 44px;
+            margin-top: -10px;
+            @include only(trans) {
+                @include opacity(100);
+                margin-top: -20px;
+            }
+        }
+
+        @include media(569px, min) {
+            @include only(trans) {
+                margin-top: 0;
+                @include opacity(100);
+            }
+        }
+
+        @include media(iphone5, portrait) {
+            font-size: 13px;
+            @include only(trans) {
+                margin-top: -24px;
+            }
+        }
+
+        li {
+            display: inline-block;
+            &:not(:first-of-type):before {
+                content: "/ ";
+            }
+        }
     }
-  }
-  li {
-    display: inline-block;
-    &:not(:first-of-type):before {
-      content: "/ ";
-    }
-  }
-}
 }
