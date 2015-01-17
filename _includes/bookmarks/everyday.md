@@ -1,8 +1,0 @@
-1. [Sidebar.io](http://sidebar.io)
-1. [Newswordy](http://newswordy.com)
-1. [Designer News](http://news.layervault.com)
-1. [Ello](https://ello.co/friends)
-1. [Typographic Posters](http://typographicposters.com)
-1. [Feedly](http://feedly.com/#latest)
-1. [Dribble Infinite Scroll](http://mojotech.com/shots)
-1. [Unheap](http://unheap.com)
