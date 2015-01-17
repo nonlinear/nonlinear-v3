@@ -6,8 +6,8 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Jan 2015 17:26:27 -0500</pubDate>
-    <lastBuildDate>Sat, 17 Jan 2015 17:26:27 -0500</lastBuildDate>
+    <pubDate>Sat, 17 Jan 2015 18:30:24 -0500</pubDate>
+    <lastBuildDate>Sat, 17 Jan 2015 18:30:24 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -51,7 +51,8 @@
     
       <item>
         <title>Design and Coding Resources</title>
-        <description>&lt;div class=&quot;grid three&quot;&gt;
+        <description>&lt;div class=&quot;lady&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h3&gt;Everyday&lt;/h3&gt;
 &lt;ol&gt;

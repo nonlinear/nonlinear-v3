@@ -1419,3 +1419,20 @@ $visibilityDefault: hidden !default;
   @include fill-mode($fill);
   @include visibility($visibility);
 }
+
+// NEW STUFF
+
+@include keyframes(pan) {
+  100% {
+    background-position:  100% 0%;
+  }
+}
+@mixin pan($count: infinite, $duration: 30s, $delay: $delayDefault, $function: linear, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(pan);
+  @include count($count);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
