@@ -32,10 +32,10 @@
   @if $change == n {
     @return complement($color);
   }
-  @if $change == 1 { 
+  @if $change == 1 {
     @return complement($color);
   }
-  @if $change == 2 {  
+  @if $change == 2 {
     @return hsl(hue(complement($color)),saturation($color),70);
   }
   @if $change == 3 {
@@ -51,10 +51,10 @@
   @if $change == n {
     @return $color;
   }
-  @if $change == 1 { 
+  @if $change == 1 {
     @return adjust-hue($color, 120deg);
   }
-  @if $change == 2 {  
+  @if $change == 2 {
     @return adjust-hue($color, 240deg);
   }
 }
@@ -63,10 +63,10 @@
   @if $change == n {
     @return $color;
   }
-  @if $change == 1 { 
+  @if $change == 1 {
     @return adjust-hue($color, 45deg);
   }
-  @if $change == 2 {  
+  @if $change == 2 {
     @return adjust-hue($color, -45deg);
   }
 }
@@ -75,12 +75,10 @@
   @if $change == n {
     @return $color;
   }
-  @if $change == 1 { 
+  @if $change == 1 {
     @return adjust-hue($color, 150deg);
   }
-  @if $change == 2 {  
+  @if $change == 2 {
     @return adjust-hue($color, 210deg);
   }
 }
-
-

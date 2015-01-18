@@ -56,9 +56,9 @@ $color-5: yellow;
 .grid {
   @include grid(2);
   &.three {
-     @include grid(3);
-  }
-    &.four {
-     @include grid(4);
-  }
+   @include grid(3);
+ }
+ &.four {
+   @include grid(4);
+ }
 }
