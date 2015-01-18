@@ -6,8 +6,8 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 17 Jan 2015 18:41:15 -0500</pubDate>
-    <lastBuildDate>Sat, 17 Jan 2015 18:41:15 -0500</lastBuildDate>
+    <pubDate>Sat, 17 Jan 2015 19:34:55 -0500</pubDate>
+    <lastBuildDate>Sat, 17 Jan 2015 19:34:55 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -55,7 +55,7 @@
 &lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h3&gt;Everyday&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt;
@@ -64,21 +64,21 @@
   &lt;li&gt;&lt;a href=&quot;http://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://mojotech.com/shots&quot;&gt;Dribble Infinite Scroll&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 &lt;h3&gt;Social&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://instagram.com&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://thefancy.com&quot;&gt;Fancy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.bootstrappers.io&quot;&gt;Bootstrappers&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 &lt;h3&gt;Design&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://feedly.com/#saved&quot;&gt;Feedly, Saved&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://capptivate.co&quot;&gt;CAPTIVATE.co&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://bootsnipp.com&quot;&gt;Bootsnipp&lt;/a&gt;&lt;/li&gt;
@@ -89,12 +89,12 @@
   &lt;li&gt;&lt;a href=&quot;http://veerle.duoh.com/inspiration&quot;&gt;The inspiration Stream&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;uiGIFs&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h3&gt;Coding Resources&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://apps.stupid-studio.com/&quot;&gt;The Sprite Generator&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ProgressButtonStyles/&quot;&gt;Progress Button Styles&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://codeseven.github.io/toastr/demo.html&quot;&gt;toastr examples&lt;/a&gt;&lt;/li&gt;
@@ -160,10 +160,10 @@
   &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ElasticSVGElements/index.html&quot;&gt;Elastic SVG Elements&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://libscore.com/#*&quot;&gt;Libscore&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://pleeease.io/play/&quot;&gt;Pleeease Play&lt;/a&gt; · Prefix CSS3, convert rem, CSS filters, pleeease.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;Design Resources&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://madebyvadim.tumblr.com/&quot;&gt;Photoshoplr&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://madebyvadim.com/layrs/&quot;&gt;Layrs&lt;/a&gt;, free PS extension&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://hackingui.com/design/export-photoshop-layer-to-svg/&quot;&gt;Free script&lt;/a&gt;, Export your layers from photoshop to SVG in a single click!&lt;/li&gt;
@@ -180,10 +180,10 @@
   &lt;li&gt;&lt;a href=&quot;http://mapsdesign.tumblr.com&quot;&gt;Beautiful Maps&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://hudsandguis.com&quot;&gt;Huds and Guis&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://quasimondo.com/ZorroSVG/&quot;&gt;ZorroSVG&lt;/a&gt; - Put a Mask on it&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;Resources for Prototyping&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://facebook.github.io/origami/&quot;&gt;Origami&lt;/a&gt;, Design prototyping with Quartz Composer&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://redpen.io&quot;&gt;Red Pen&lt;/a&gt;, Effing fast feedback&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uinames.com/&quot;&gt;uinames.com&lt;/a&gt;&lt;/li&gt;
@@ -195,33 +195,33 @@
   &lt;li&gt;&lt;a href=&quot;http://uifaces.com/&quot;&gt;User Interfaces&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.docracy.com/&quot;&gt;Docracy&lt;/a&gt;, Free Legal Documents&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://useronboard.com&quot;&gt;User Onboarding&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;HTML Email Resources&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://backgrounds.cm/&quot;&gt;Bulletproof background images&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/leemunroe/html-email-template&quot;&gt;html-email-template&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://putsmail.com/&quot;&gt;PutsMail&lt;/a&gt;, It’s a mail test tool to test your mails before sending them&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://beefree.io/index.aspx&quot;&gt;BeeFree&lt;/a&gt;, Free email editor to build responsive design messages&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;Mapping Resources&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://www.instantstreetview.com/&quot;&gt;Instant Google Street View&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://winstonwolf.pl/clickable-maps/europe.html&quot;&gt;Europe&lt;/a&gt;, CSS + jQuery clickable map&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.webiconset.com/map-icons/&quot;&gt;Map Icons Designer&lt;/a&gt;, Google Map Icons, Location Pins, Location Markers, POI, Map Application Design Kit&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://intridea.github.io/stately/&quot;&gt;Stately&lt;/a&gt;, The simple map font&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://maps.stamen.com/#terrain/12/37.7706/-122.3782&quot;&gt;Stamen Maps&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://osvaldas.info/lazy-loading-google-maps&quot;&gt;Lazy-loading Google Maps&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;h3&gt;User Research Resources&lt;/h3&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html&quot;&gt;Chinese Mobile App UI Trends&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.michaelvillar.com/motion&quot;&gt;Motion experiments&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://wonderfulfeedback.com/client/&quot;&gt;Feedback Template&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uxmas.com/2014/7-things-i-wish-everyone-knew-about-interaction-design&quot;&gt;7 Things I Wish Everyone Knew About Interaction Design&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ul&gt;</description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
         <link>http://nonlinear.github.io/resources/</link>
         <guid isPermaLink="true">http://nonlinear.github.io/resources/</guid>

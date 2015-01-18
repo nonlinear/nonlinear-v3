@@ -63,4 +63,7 @@ h4 {
 ul, ol {
     padding-left: 0px;
 }
-
+ul {
+        @include reset(list);
+        
+}
