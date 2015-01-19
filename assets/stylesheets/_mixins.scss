@@ -293,33 +293,31 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
     @content
   }
 }
-
-
 @mixin font-face(
-  $font-family,
-  $font-filename: $font-family,
-  $font-weight: normal,
-  $font-style: normal,
-  $font-path: '../fonts/',
-  $font-stretch : normal,
+  $title,
+  $file: $title,
+  $weight: normal,
+  $style: normal,
+  $path: '../fonts/',
+  $stretch : normal,
   $text-transform: normal) {
   @font-face {
-    font-family: '#{$font-family}';
-    src: url('#{$font-path}#{$font-filename}.eot');
-    src: url('#{$font-path}#{$font-filename}.eot?#iefix') format('embedded-opentype'),
-    url('#{$font-path}#{$font-filename}.woff') format('woff'),
-    url('#{$font-path}#{$font-filename}.ttf') format('truetype'),
-    url('#{$font-path}#{$font-filename}.svg##{$font-family}') format('svg');
-    font-weight: $font-weight;
-    font-style: $font-style;
-    font-stretch: $font-stretch;
+    font-family: '#{$title}';
+    src: url('#{$path}#{$file}.eot');
+    src: url('#{$path}#{$file}.eot?#iefix') format('embedded-opentype'),
+    url('#{$path}#{$file}.woff') format('woff'),
+    url('#{$path}#{$file}.ttf') format('truetype'),
+    url('#{$path}#{$file}.svg##{$title}') format('svg');
+    font-weight: $weight;
+    font-style: $style;
+    font-stretch: $stretch;
     text-transform: $text-transform;
   }
   // Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
    @media screen and (-webkit-min-device-pixel-ratio: 0) {
      @font-face {
-       font-family: $font-family;
-         src: url('#{$font-path}+#{$font-filename}.svg##{$font-family}') format('svg');
+       font-family: $title;
+         src: url('#{$path}+#{$file}.svg##{$title}') format('svg');
      }
    }
 }
