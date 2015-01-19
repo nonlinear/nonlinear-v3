@@ -23,6 +23,8 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  }
+  @else if $type == "drag" {
     -webkit-user-drag: none;
     user-drag: none;
   }
@@ -290,6 +292,36 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
   html:not(.#{$unless}) & {
     @content
   }
+}
+
+
+@mixin font-face(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-path: '../fonts/',
+  $font-stretch : normal,
+  $text-transform: normal) {
+  @font-face {
+    font-family: '#{$font-family}';
+    src: url('#{$font-path}#{$font-filename}.eot');
+    src: url('#{$font-path}#{$font-filename}.eot?#iefix') format('embedded-opentype'),
+    url('#{$font-path}#{$font-filename}.woff') format('woff'),
+    url('#{$font-path}#{$font-filename}.ttf') format('truetype'),
+    url('#{$font-path}#{$font-filename}.svg##{$font-family}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+    text-transform: $text-transform;
+  }
+  // Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
+   @media screen and (-webkit-min-device-pixel-ratio: 0) {
+     @font-face {
+       font-family: $font-family;
+         src: url('#{$font-path}+#{$font-filename}.svg##{$font-family}') format('svg');
+     }
+   }
 }
 @mixin media($device: ipad, $scope: strict, $variation: mini) {
   @if $device == "ipad" {
