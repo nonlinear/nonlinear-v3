@@ -297,7 +297,7 @@ http://codepen.io/chriscoyier/blog/some-mini-sass-mixins-i-like
 
 @mixin font-face(
   $font-family,
-  $font-filename,
+  $font-filename: $font-family,
   $font-weight: normal,
   $font-style: normal,
   $font-path: '../fonts/',

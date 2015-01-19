@@ -2,7 +2,7 @@
 // make sure most of your rules point to that
 
 // Fonts
-$font-title: dense;
+$font-title: dense-regular;
 $font-title-2: adam;
 $font-text: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 $font-mono: "Courier New", Courier, monospace;
@@ -34,14 +34,9 @@ $color-5: yellow;
 @import 'hero';
 @import 'article';
 
-@include font-face(adam, 'adam.cg_pro-webfont');
-@include font-face(dense, 'dense-regular-webfont');
-@include font-face(bebas, 'bebasneue-webfont', $text-transform: uppercase);
+@include font-face(adam);
+@include font-face(dense-regular);
 
-* {
-  border: dotted 1px green !important;
-
-}
 .m-scene {
   background-color: #eee;
   .scene_element {
