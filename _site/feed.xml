@@ -6,8 +6,8 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jan 2015 23:13:28 -0500</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2015 23:13:28 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2015 23:23:03 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2015 23:23:03 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -49,7 +49,7 @@
     
       <item>
         <title>CSS exceptions</title>
-        <description>&lt;p&gt;Sometimes you need CSS rules for only for a certain browser to save the day. In this article, I&#39;ll explain a foolproof way to add exception rules only for a specific browser or system, leaving others intact.&lt;/p&gt;
+        <description>&lt;p&gt;Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, leaving other browasers/systems intact.&lt;/p&gt;
 &lt;h1&gt;Modernizr&lt;/h1&gt;
 &lt;p&gt;Modernizr scans browser capabilities and reports its findings as classes on html tag.&lt;/p&gt;
 &lt;p&gt;For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals &lt;tt&gt;touch&lt;/tt&gt; class on html. The same page, on desktops and notebooks reveals &lt;tt&gt;no-touch&lt;/tt&gt; class instead.&lt;/p&gt;
