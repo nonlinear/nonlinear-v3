@@ -6,46 +6,9 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jan 2015 23:40:31 -0500</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2015 23:40:31 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2015 23:53:09 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2015 23:53:09 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
-    
-      <item>
-        <title>Code/Code Project</title>
-        <description>&lt;h3 id=&quot;step-1-abstraction&quot;&gt;Step 1: Abstraction&lt;/h3&gt;
-&lt;p&gt;How to abstract code away from projects.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-2-automation&quot;&gt;Step 2: Automation&lt;/h3&gt;
-&lt;p&gt;How to create macros for abstractions.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-3-documentation&quot;&gt;Step 3: Documentation&lt;/h3&gt;
-&lt;p&gt;How the site operates.&lt;/p&gt;
-
-&lt;h3 id=&quot;step-4-update&quot;&gt;Step 4: Update&lt;/h3&gt;
-&lt;p&gt;Newsletter.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Jan 2015 23:10:50 -0500</pubDate>
-        <link>http://nonlinear.github.io/codecode-project/</link>
-        <guid isPermaLink="true">http://nonlinear.github.io/codecode-project/</guid>
-        
-        <category>project</category>
-        
-        <category>code</category>
-        
-        <category>design</category>
-        
-        <category>css</category>
-        
-        
-        <category>project</category>
-        
-        <category>code</category>
-        
-        <category>design</category>
-        
-        <category>css</category>
-        
-      </item>
     
       <item>
         <title>CSS exceptions</title>
@@ -56,11 +19,15 @@
 &lt;p&gt;You can &lt;a href=&quot;http://modernizr.com&quot;&gt;download it here&lt;/a&gt; or &lt;a href=&quot;https://cdnjs.com/libraries/modernizr&quot;&gt;use the CDN version&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;Detectizr&lt;/h1&gt;
 &lt;p&gt;Detectizr expands modernizr detection, by revealing browser operating system (&lt;tt&gt;mac&lt;/tt&gt;, &lt;tt&gt;android&lt;/tt&gt;, &lt;tt&gt;ios&lt;/tt&gt;, &lt;tt&gt;windows&lt;/tt&gt;, &lt;tt&gt;linux&lt;/tt&gt;, etc) browser type (&lt;tt&gt;safari&lt;/tt&gt;, &lt;tt&gt;chrome&lt;/tt&gt;, &lt;tt&gt;firefox&lt;/tt&gt;, &lt;tt&gt;ie&lt;/tt&gt;, etc) and even specific versions.&lt;/p&gt;
-&lt;p&gt;Wanna test? Look up this page &lt;tt&gt;html&lt;/tt&gt; tag source code.&lt;/p&gt;
 &lt;p&gt;You can &lt;a href=&quot;https://github.com/barisaydinoglu/Detectizr&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;write your CSS exceptions&lt;/h1&gt;
-&lt;p&gt;You get where we&#39;re heading, eh? Your page is using javascript for what it does best: detection, right on top of your DOM, so it can affect anything below it.&lt;/p&gt;
-&lt;p&gt;Now you can style CSS exceptions. For instance,&lt;/p&gt;
+&lt;p&gt;Your page is now using javascript for what it does best:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;detection&lt;/li&gt;
+  &lt;li&gt;right on top of your DOM&lt;/li&gt;
+  &lt;li&gt;affecting all below it&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You know where we&#39;re heading, correct? Now you can style CSS exceptions. For instance,&lt;/p&gt;
 &lt;tt&gt;.foo {&lt;br&gt;
 &amp;nbsp;&amp;nbsp;background-color: red;&lt;br&gt;
 }&lt;br&gt;
@@ -123,7 +90,7 @@ html.safari .foo {&lt;br&gt;
         <description>&lt;div class=&quot;lady&quot;&gt;&lt;/div&gt;
 &lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-		&lt;h3&gt;Everyday&lt;/h3&gt;
+		&lt;h1&gt;Everyday&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
@@ -136,7 +103,7 @@ html.safari .foo {&lt;br&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-&lt;h3&gt;Social&lt;/h3&gt;
+&lt;h1&gt;Social&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
@@ -146,7 +113,7 @@ html.safari .foo {&lt;br&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-&lt;h3&gt;Design&lt;/h3&gt;
+&lt;h1&gt;Design&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://feedly.com/#saved&quot;&gt;Feedly, Saved&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://capptivate.co&quot;&gt;CAPTIVATE.co&lt;/a&gt;&lt;/li&gt;
@@ -162,7 +129,7 @@ html.safari .foo {&lt;br&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h3&gt;Coding Resources&lt;/h3&gt;
+&lt;h1&gt;Coding Resources&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://apps.stupid-studio.com/&quot;&gt;The Sprite Generator&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ProgressButtonStyles/&quot;&gt;Progress Button Styles&lt;/a&gt;&lt;/li&gt;
@@ -235,7 +202,7 @@ html.safari .foo {&lt;br&gt;
 
 &lt;/ul&gt;
 
-&lt;h3&gt;Design Resources&lt;/h3&gt;
+&lt;h1&gt;Design Resources&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://madebyvadim.tumblr.com/&quot;&gt;Photoshoplr&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://madebyvadim.com/layrs/&quot;&gt;Layrs&lt;/a&gt;, free PS extension&lt;/li&gt;
@@ -256,7 +223,7 @@ html.safari .foo {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/&quot;&gt;7 tips for designing awesome animated GIFs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Resources for Prototyping&lt;/h3&gt;
+&lt;h1&gt;Resources for Prototyping&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://facebook.github.io/origami/&quot;&gt;Origami&lt;/a&gt;, Design prototyping with Quartz Composer&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://redpen.io&quot;&gt;Red Pen&lt;/a&gt;, Effing fast feedback&lt;/li&gt;
@@ -271,7 +238,7 @@ html.safari .foo {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://useronboard.com&quot;&gt;User Onboarding&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;HTML Email Resources&lt;/h3&gt;
+&lt;h1&gt;HTML Email Resources&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://backgrounds.cm/&quot;&gt;Bulletproof background images&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/leemunroe/html-email-template&quot;&gt;html-email-template&lt;/a&gt;&lt;/li&gt;
@@ -279,7 +246,7 @@ html.safari .foo {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;https://beefree.io/index.aspx&quot;&gt;BeeFree&lt;/a&gt;, Free email editor to build responsive design messages&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Mapping Resources&lt;/h3&gt;
+&lt;h1&gt;Mapping Resources&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://www.instantstreetview.com/&quot;&gt;Instant Google Street View&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://winstonwolf.pl/clickable-maps/europe.html&quot;&gt;Europe&lt;/a&gt;, CSS + jQuery clickable map&lt;/li&gt;
@@ -289,7 +256,7 @@ html.safari .foo {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://osvaldas.info/lazy-loading-google-maps&quot;&gt;Lazy-loading Google Maps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;User Research Resources&lt;/h3&gt;
+&lt;h1&gt;User Research Resources&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html&quot;&gt;Chinese Mobile App UI Trends&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.michaelvillar.com/motion&quot;&gt;Motion experiments&lt;/a&gt;&lt;/li&gt;
@@ -297,10 +264,11 @@ html.safari .foo {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://uxmas.com/2014/7-things-i-wish-everyone-knew-about-interaction-design&quot;&gt;7 Things I Wish Everyone Knew About Interaction Design&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Travel Resources&lt;/h3&gt;
+&lt;h1&gt;Travel Resources&lt;/h1&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
         <link>http://nonlinear.github.io/resources/</link>
         <guid isPermaLink="true">http://nonlinear.github.io/resources/</guid>
