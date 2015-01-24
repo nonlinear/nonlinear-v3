@@ -18,5 +18,5 @@ html:not(.safari) .visible-safari,
 html.safari .hidden-safari,
 html:not(.touch) .visible-touch,
 html.touch .hidden-touch  {
-    display: none;
+  display: none !important;
 }
