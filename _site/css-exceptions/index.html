@@ -66,17 +66,17 @@
 
 		<div class="article">
 		<div class="container">
-			<p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting other browsers or systems.</p>
+			<p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting <em>other</em> browsers or systems.</p>
 <h1>Modernizr</h1>
-<p>Modernizr scans browser capabilities and reports its findings as classes on html tag.</p>
-<p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on html. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
+<p>Modernizr scans browser capabilities and reports its findings as classes on <tt><tt>html</tt></tt> tag.</p>
+<p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on <tt>html</tt>. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
 <p>You can <a href="http://modernizr.com">download it here</a> or <a href="https://cdnjs.com/libraries/modernizr">use the CDN version</a>.</p>
 <h1>Detectizr</h1>
 <p>Detectizr expands modernizr detection, by revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even specific versions.</p>
-<p>Wanna test? Look up this page html tag source code.</p>
+<p>Wanna test? Look up this page <tt>html</tt> tag source code.</p>
 <p>You can <a href="https://github.com/barisaydinoglu/Detectizr">download it here</a>.</p>
 <h1>write your CSS exceptions</h1>
-<p>You get where we're heading, eh? Your page is using javascript for what it does best: detection, right on the top of your DOM, so it can affect all of it.</p>
+<p>You get where we're heading, eh? Your page is using javascript for what it does best: detection, right on top of your DOM, so it can affect anything below it.</p>
 <p>Now you can style CSS exceptions. For instance,</p>
 <tt>.foo {<br>
 &nbsp;&nbsp;background-color: red;<br>
@@ -84,32 +84,32 @@
 html.safari .foo {<br>
 &nbsp;&nbsp;background-color: blue;<br>
 }</tt>
-<p>will render any object with <tt>foo</tt> class as red except if browser is safari, rendering blue instead.</p>
+<p>renders any object with <tt>foo</tt> class as red except if browser is safari, rendering blue instead.</p>
 <p>You can use any of the classes above to differentiate.</p>
 <h1>Automation: Only and Unless Mixins</h1>
-<p>We can make the code better, correct? If you use SASS 3.1 above, save these mixins:</p>
+<p>We can make the code better, correct? If you use SASS 3.1+, use these mixins</p>
 <script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script>
-<p>Now you can write exceptions write inside the objects, easier to read:</p>
+<p>so you can write exceptions inside the objects, way easier to read:</p>
 <tt>.foo {<br>
 &nbsp;&nbsp;background-color: red;<br>
 &nbsp;&nbsp;@include only(safari) {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;background-color: blue;<br>
 &nbsp;&nbsp;}<br>
 }</tt>
-<p>You can do the inverse by writing rules for all browsers except the one listed with unless. For instance,</p>
+<p>You can do the inverse by writing rules for all browsers <em>except</em> the one listed with <tt>unless</tt>. For instance,</p>
 <tt>.foo {<br>
 &nbsp;&nbsp;@include unless(safari) {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;display: none;<br>
 &nbsp;&nbsp;}<br>
 }</tt>
-<p>hides objects with class <tt>foo</tt>, unless browser is safari.</p>
+<p>hides objects with class <tt>foo</tt>, <em>unless</em> browser is safari.</p>
 <h1>Bonus: Visibility</h1>
-<p>Why stop there? We can add visibility rules and show/hide objects at will.</p>
+<p>Why stop there? We can add visibility rules and show or hide objects at will.</p>
 <script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script>
 <p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
 <h1>Conclusion and More</h1>
-<p>There you have, powerful and easier to read exceptions for your CSS. It cetainly saved my life more than once.</p>
-<p>This and other CSS lifesavers can be used via a collection of macros to simplify coding I created, called Code/Code.</p>
+<p>There you have, powerful and easier to read exceptions for your CSS. It saved my skin more than once.</p>
+<p>This and other CSS lifesavers can be used via a collection of macros to simplify coding called Code/Code.</p>
 <p>If you use Sublime Text <a href="http://www.nicholasfrota.com/codecode">make sure to install it</a>, so you have it always at your fingertips.</p>
 
 		</div>
