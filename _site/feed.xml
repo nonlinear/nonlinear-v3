@@ -6,8 +6,8 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jan 2015 23:23:03 -0500</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2015 23:23:03 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2015 23:25:50 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2015 23:25:50 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -55,17 +55,17 @@
 &lt;p&gt;For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals &lt;tt&gt;touch&lt;/tt&gt; class on html. The same page, on desktops and notebooks reveals &lt;tt&gt;no-touch&lt;/tt&gt; class instead.&lt;/p&gt;
 &lt;p&gt;You can &lt;a href=&quot;http://modernizr.com&quot;&gt;download it here&lt;/a&gt; or &lt;a href=&quot;https://cdnjs.com/libraries/modernizr&quot;&gt;use the CDN version&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;Detectizr&lt;/h1&gt;
-&lt;p&gt;Detectizr goes further with modernizr detection, revealing browser operating system (&lt;tt&gt;mac&lt;/tt&gt;, &lt;tt&gt;android&lt;/tt&gt;, &lt;tt&gt;ios&lt;/tt&gt;, &lt;tt&gt;windows&lt;/tt&gt;, &lt;tt&gt;linux&lt;/tt&gt;, etc) browser type (&lt;tt&gt;safari&lt;/tt&gt;, &lt;tt&gt;chrome&lt;/tt&gt;, &lt;tt&gt;firefox&lt;/tt&gt;, &lt;tt&gt;ie&lt;/tt&gt;, etc) and even specific versions.&lt;/p&gt;
+&lt;p&gt;Detectizr expands modernizr detection, by revealing browser operating system (&lt;tt&gt;mac&lt;/tt&gt;, &lt;tt&gt;android&lt;/tt&gt;, &lt;tt&gt;ios&lt;/tt&gt;, &lt;tt&gt;windows&lt;/tt&gt;, &lt;tt&gt;linux&lt;/tt&gt;, etc) browser type (&lt;tt&gt;safari&lt;/tt&gt;, &lt;tt&gt;chrome&lt;/tt&gt;, &lt;tt&gt;firefox&lt;/tt&gt;, &lt;tt&gt;ie&lt;/tt&gt;, etc) and even specific versions.&lt;/p&gt;
 &lt;p&gt;Wanna test? Look up this page html tag source code.&lt;/p&gt;
 &lt;p&gt;You can &lt;a href=&quot;https://github.com/barisaydinoglu/Detectizr&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;write your CSS exceptions&lt;/h1&gt;
 &lt;p&gt;You get where we&#39;re heading, eh? Your page is using javascript for what it does best: detection, right on the top of your DOM, so it can affect all of it.&lt;/p&gt;
 &lt;p&gt;Now you can style CSS exceptions. For instance,&lt;/p&gt;
 &lt;tt&gt;.foo {&lt;br&gt;
-&amp;nbsp;background-color: red;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;background-color: red;&lt;br&gt;
 }&lt;br&gt;
 html.safari .foo {&lt;br&gt;
-  background-color: blue;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;background-color: blue;&lt;br&gt;
 }&lt;/tt&gt;
 &lt;p&gt;will render any object with &lt;tt&gt;foo&lt;/tt&gt; class as red except if browser is safari, rendering blue instead.&lt;/p&gt;
 &lt;p&gt;You can use any of the classes above to differentiate.&lt;/p&gt;
@@ -74,16 +74,16 @@ html.safari .foo {&lt;br&gt;
 &lt;script src=&quot;https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js&quot;&gt;&lt;/script&gt;
 &lt;p&gt;Now you can write exceptions write inside the objects, easier to read:&lt;/p&gt;
 &lt;tt&gt;.foo {&lt;br&gt;
-&amp;nbsp;background-color: red;&lt;br&gt;
-&amp;nbsp;@include only(safari) {&lt;br&gt;
-&amp;nbsp;&amp;nbsp;background-color: blue;&lt;br&gt;
-&amp;nbsp;}&lt;br&gt;
+&amp;nbsp;&amp;nbsp;background-color: red;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;@include only(safari) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color: blue;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
 }&lt;/tt&gt;
 &lt;p&gt;You can do the inverse by writing rules for all browsers except the one listed with unless. For instance,&lt;/p&gt;
 &lt;tt&gt;.foo {&lt;br&gt;
-&amp;nbsp;@include unless(safari) {&lt;br&gt;
-&amp;nbsp;&amp;nbsp;display: none;&lt;br&gt;
-&amp;nbsp;}&lt;br&gt;
+&amp;nbsp;&amp;nbsp;@include unless(safari) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;display: none;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
 }&lt;/tt&gt;
 &lt;p&gt;hides objects with class &lt;tt&gt;foo&lt;/tt&gt;, unless browser is safari.&lt;/p&gt;
 &lt;h1&gt;Bonus Points: visibility&lt;/h1&gt;

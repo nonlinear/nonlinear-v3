@@ -57,6 +57,9 @@ h4 {
 }
 tt {
     font-family: $font-mono;
+    background-color: lighten(yellow, 40%);
+    color: darken(yellow, 30%);
+    padding: 0 3px;
 }
 .container {
     max-width: 650px;

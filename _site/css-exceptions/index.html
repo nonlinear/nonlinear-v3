@@ -72,17 +72,17 @@
 <p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on html. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
 <p>You can <a href="http://modernizr.com">download it here</a> or <a href="https://cdnjs.com/libraries/modernizr">use the CDN version</a>.</p>
 <h1>Detectizr</h1>
-<p>Detectizr goes further with modernizr detection, revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even specific versions.</p>
+<p>Detectizr expands modernizr detection, by revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even specific versions.</p>
 <p>Wanna test? Look up this page html tag source code.</p>
 <p>You can <a href="https://github.com/barisaydinoglu/Detectizr">download it here</a>.</p>
 <h1>write your CSS exceptions</h1>
 <p>You get where we're heading, eh? Your page is using javascript for what it does best: detection, right on the top of your DOM, so it can affect all of it.</p>
 <p>Now you can style CSS exceptions. For instance,</p>
 <tt>.foo {<br>
-&nbsp;background-color: red;<br>
+&nbsp;&nbsp;background-color: red;<br>
 }<br>
 html.safari .foo {<br>
-  background-color: blue;<br>
+&nbsp;&nbsp;background-color: blue;<br>
 }</tt>
 <p>will render any object with <tt>foo</tt> class as red except if browser is safari, rendering blue instead.</p>
 <p>You can use any of the classes above to differentiate.</p>
@@ -91,16 +91,16 @@ html.safari .foo {<br>
 <script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script>
 <p>Now you can write exceptions write inside the objects, easier to read:</p>
 <tt>.foo {<br>
-&nbsp;background-color: red;<br>
-&nbsp;@include only(safari) {<br>
-&nbsp;&nbsp;background-color: blue;<br>
-&nbsp;}<br>
+&nbsp;&nbsp;background-color: red;<br>
+&nbsp;&nbsp;@include only(safari) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;background-color: blue;<br>
+&nbsp;&nbsp;}<br>
 }</tt>
 <p>You can do the inverse by writing rules for all browsers except the one listed with unless. For instance,</p>
 <tt>.foo {<br>
-&nbsp;@include unless(safari) {<br>
-&nbsp;&nbsp;display: none;<br>
-&nbsp;}<br>
+&nbsp;&nbsp;@include unless(safari) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;display: none;<br>
+&nbsp;&nbsp;}<br>
 }</tt>
 <p>hides objects with class <tt>foo</tt>, unless browser is safari.</p>
 <h1>Bonus Points: visibility</h1>
