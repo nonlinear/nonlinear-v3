@@ -6,12 +6,12 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Jan 2015 01:33:50 -0500</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 01:33:50 -0500</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 02:06:01 -0500</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 02:06:01 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
-        <title>CSS exceptions</title>
+        <title>CSS Exceptions</title>
         <description>&lt;p&gt;Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting &lt;em&gt;other&lt;/em&gt; browsers or systems.&lt;/p&gt;
 &lt;h1&gt;Step 1: Modernizr&lt;/h1&gt;
 &lt;p&gt;Modernizr scans browser capabilities and reports its findings as classes on &lt;tt&gt;&lt;tt&gt;html&lt;/tt&gt;&lt;/tt&gt; tag.&lt;/p&gt;
