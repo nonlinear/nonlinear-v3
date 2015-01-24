@@ -21,7 +21,7 @@ $margin: $gap-3;
 $margin-big: $gap-3;
 $internal-big: $gap-2;
 $squeeze: 0;
-$font-gap: 12px;
+$font-gap: 6px;
 
 body {
     margin-top: $nav-big;
@@ -55,7 +55,9 @@ h4 {
     font-size: $font-gap * 3;
     line-height: $font-gap * 3;
 }
-
+tt {
+    font-family: $font-mono;
+}
 .container {
     max-width: 650px;
 }
@@ -65,5 +67,5 @@ ul, ol {
 }
 ul {
         @include reset(list);
-        
+
 }

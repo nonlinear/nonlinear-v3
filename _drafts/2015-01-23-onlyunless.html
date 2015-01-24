@@ -1,0 +1,61 @@
+---
+layout: default
+title: "CSS exceptions"
+permalink: /css-exceptions/
+categories: project code design css
+tags: project code design css
+image: 'codecode'
+---
+<p>Sometimes you need different rules for different browsers. It's a patch yes, but it may save the day. In this article, I'll explain a foolproof way to add exception rules only for a specific browser or system, leaving others intact.</p>
+<h1>Modernizr</h1>
+<p>Modernizr is a javascript that scans browser capabilities and add reports findings as classes on html.</p>
+<p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on html. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
+<h1>Detectizr</h1>
+<p>Detectizr goes further with modernizr detection, revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even versions ()</p>
+<p>Wanna test? <a href="javascript:(function()%7Bvar%20a=window.open(%22about:blank%22).document;a.write(%22%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Ctitle%3ESource%20of%20%22+location.href+'%3C/title%3E%3Cmeta%20name=%22viewport%22%20content=%22width=device-width%22%20/%3E%3C/head%3E%3Cbody%3E%3C/body%3E%3C/html%3E');a.close();var%20b=a.body.appendChild(a.createElement(%22pre%22));b.style.overflow=%22auto%22;b.style.whiteSpace=%22pre-wrap%22;b.appendChild(a.createTextNode(document.documentElement.innerHTML))%7D)();">View this page source code</a> to see the results of modernizr + detectizr detection as classes in the HTML tag.</p>
+<h1>write your CSS exceptions</h1>
+<p>You get where we're heading, eh? Your page is using javascript for what it does best: detection, right on the top of your DOM, so it can affect all of it.</p>
+<p>Now you can style CSS exceptions. For instance,</p>
+<tt>.foo {<br>
+&nbsp;background-color: red;<br>
+}<br>
+html.safari .foo {<br>
+  background-color: blue;<br>
+}</tt>
+<p>will render any object with <tt>foo</tt> class as red except if browser is safari, rendering blue instead.</p>
+<p>You can use any of the classes above to differentiate.</p>
+<h1>Automation: Only and Unless Mixins</h1>
+<p>We can make the code better, correct? If you use SASS 3.1 above, save these mixins:</p>
+<script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script>
+<p>Now you can write exceptions write inside the objects, easier to read:</p>
+<tt>.foo {<br>
+&nbsp;background-color: red;<br>
+&nbsp;@include only(safari) {<br>
+&nbsp;&nbsp;background-color: blue;<br>
+&nbsp;}<br>
+}</tt>
+<p>You can do the inverse by writing rules for all browsers except the one listed with unless. For instance,</p>
+<tt>.foo {<br>
+&nbsp;@include unless(safari) {<br>
+&nbsp;&nbsp;display: none;<br>
+&nbsp;}<br>
+}</tt>
+<p>hides objects with class <tt>foo</tt>, unless browser is safari.</p>
+<h1>Bonus Points: visibility</h1>
+<p>Why stop there? We can add visibility rules and show/hide objects at will.</p>
+<script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script>
+<p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
+<h2>Conclusion</h2>
+Pending content. Case study for [code/code project](http://www.nicholasfrota.com/codecode)
+
+###Step 1: Abstraction
+How to abstract code away from projects.
+
+###Step 2: Automation
+How to create macros for abstractions.
+
+###Step 3: Documentation
+How the site operates.
+
+###Step 4: Update
+Newsletter.

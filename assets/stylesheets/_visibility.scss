@@ -1,0 +1,90 @@
+.visible-mac {
+  @include unless(mac) {
+    display: none;
+  }
+}
+.hidden-mac {
+  @include only(mac) {
+    display: none;
+  }
+}
+.visible-windows {
+  @include unless(windows) {
+    display: none;
+  }
+}
+.hidden-windows {
+  @include only(windows) {
+    display: none;
+  }
+}
+.visible-linux {
+  @include unless(linux) {
+    display: none;
+  }
+}
+.hidden-linux {
+  @include only(linux) {
+    display: none;
+  }
+}
+.visible-ios {
+  @include unless(ios) {
+    display: none;
+  }
+}
+.hidden-ios {
+  @include only(ios) {
+    display: none;
+  }
+}
+.visible-android {
+  @include unless(android) {
+    display: none;
+  }
+}
+.hidden-android {
+  @include only(android) {
+    display: none;
+  }
+}
+.visible-firefox {
+  @include unless(firefox) {
+    display: none;
+  }
+}
+.hidden-firefox {
+  @include only(firefox) {
+    display: none;
+  }
+}
+.visible-chrome {
+  @include unless(chrome) {
+    display: none;
+  }
+}
+.hidden-chrome {
+  @include only(chrome) {
+    display: none;
+  }
+}
+.visible-ie {
+  @include unless(ie) {
+    display: none;
+  }
+}
+.hidden-ie {
+  @include only(ie) {
+    display: none;
+  }
+}
+.visible-safari {
+  @include unless(safari) {
+    display: none;
+  }
+}
+.hidden-safari {
+  @include only(safari) {
+    display: none;
+  }
+}

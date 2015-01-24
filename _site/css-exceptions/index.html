@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>CSS exceptions</title>
+	<meta name="description" content="Sometimes you need different rules for different browsers. It's a patch yes, but it may save the day. In this article, I'll explain a foolproof way to add ex...">
+	<link rel="canonical" href="http://nonlinear.github.io/css-exceptions/">
+	<link rel="alternate" type="application/atom+xml" title="Nicholas Frota" href="http://nonlinear.github.io/feed.xml" />
+	<script src="//use.edgefonts.net/source-code-pro.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css" />
+</head>
+
+
+<body>
+		<header>
+		<div class="container">
+			<a href="/" class="logo">
+				<div class="symbol"></div>
+				<div class="title">Nicholas Frota</div>
+				<div class="subtitle">Interface Designer</div>
+			</a>
+			<ul>
+	<li><a href="/about">about</a></li>
+	<li><a href="/portfolio">portfolio</a></li>
+	<li><a href="/">blog</a></li>
+	<li><a href="/feed.xml"><i class="fa fa-rss"></i></a></li>
+</ul>
+
+		</div>
+	</header>
+
+
+
+	<script>
+	Math.floor(Math.random() * 6) + 1
+	</script>
+		
+		
+<div class="header" style="background: url(/assets/images/bgs/codecode.png) center center repeat;">
+		<div class="callout container">
+			<div class="title">CSS exceptions</div>
+			<div class="border">
+				
+				<ul>
+				
+<li><a href="index.html">project</a></li>
+
+<li><a href="index.html">code</a></li>
+
+<li><a href="index.html">design</a></li>
+
+<li><a href="index.html">css</a></li>
+
+</ul>
+
+
+			</div>
+		</div>
+	</div>
+
+
+		<div class="article">
+		<div class="container">
+			<p>Sometimes you need different rules for different browsers. It's a patch yes, but it may save the day. In this article, I'll explain a foolproof way to add exception rules only for a specific browser or system, leaving others intact.</p>
+<h1>Modernizr</h1>
+<p>Modernizr is a javascript that scans browser capabilities and add reports findings as classes on html.</p>
+<p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on html. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
+<h1>Detectizr</h1>
+<p>Detectizr goes further with modernizr detection, revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even versions ()</p>
+<p>Wanna test? <a href="javascript:(function()%7Bvar%20a=window.open(%22about:blank%22).document;a.write(%22%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Ctitle%3ESource%20of%20%22+location.href+'%3C/title%3E%3Cmeta%20name=%22viewport%22%20content=%22width=device-width%22%20/%3E%3C/head%3E%3Cbody%3E%3C/body%3E%3C/html%3E');a.close();var%20b=a.body.appendChild(a.createElement(%22pre%22));b.style.overflow=%22auto%22;b.style.whiteSpace=%22pre-wrap%22;b.appendChild(a.createTextNode(document.documentElement.innerHTML))%7D)();">View this page source code</a> to see the results of modernizr + detectizr detection as classes in the HTML tag.</p>
+<h1>write your CSS exceptions</h1>
+<p>You get where we're heading, eh? Your page is using javascript for what it does best: detection, right on the top of your DOM, so it can affect all of it.</p>
+<p>Now you can style CSS exceptions. For instance,</p>
+<tt>.foo {<br>
+&nbsp;background-color: red;<br>
+}<br>
+html.safari .foo {<br>
+  background-color: blue;<br>
+}</tt>
+<p>will render any object with <tt>foo</tt> class as red except if browser is safari, rendering blue instead.</p>
+<p>You can use any of the classes above to differentiate.</p>
+<h1>Automation: Only and Unless Mixins</h1>
+<p>We can make the code better, correct? If you use SASS 3.1 above, save these mixins:</p>
+<script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script>
+<p>Now you can write exceptions write inside the objects, easier to read:</p>
+<tt>.foo {<br>
+&nbsp;background-color: red;<br>
+&nbsp;@include only(safari) {<br>
+&nbsp;&nbsp;background-color: blue;<br>
+&nbsp;}<br>
+}</tt>
+<p>You can do the inverse by writing rules for all browsers except the one listed with unless. For instance,</p>
+<tt>.foo {<br>
+&nbsp;@include unless(safari) {<br>
+&nbsp;&nbsp;display: none;<br>
+&nbsp;}<br>
+}</tt>
+<p>hides objects with class <tt>foo</tt>, unless browser is safari.</p>
+<h1>Bonus Points: visibility</h1>
+<p>Why stop there? We can add visibility rules and show/hide objects at will.</p>
+<script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script>
+<p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
+<h2>Conclusion</h2>
+Pending content. Case study for [code/code project](http://www.nicholasfrota.com/codecode)
+
+###Step 1: Abstraction
+How to abstract code away from projects.
+
+###Step 2: Automation
+How to create macros for abstractions.
+
+###Step 3: Documentation
+How the site operates.
+
+###Step 4: Update
+Newsletter.
+
+		</div>
+	</div>
+	
+	  <div class="list">
+    <a href="http://nonlinear.github.io/css-exceptions/" class="callout" style="background-image: url(/assets/images/bgs/codecode.png);">
+    <div class="title">CSS exceptions</div>
+    <div class="border">
+      
+				<ul>
+				
+<li>project</li>
+
+<li>code</li>
+
+<li>design</li>
+
+<li>css</li>
+
+</ul>
+
+    </div>
+  </a><a href="http://nonlinear.github.io/resources/" class="callout" style="background-image: url(/assets/images/bgs/resources.png);">
+    <div class="title">Design and Coding Resources</div>
+    <div class="border">
+      
+				<ul>
+				
+<li>resource</li>
+
+<li>list</li>
+
+<li>link</li>
+
+</ul>
+
+    </div>
+  </a><a href="http://nonlinear.github.io/portfolio/" class="callout" style="background-image: url(/assets/images/bgs/code.png);">
+    <div class="title">My Portfolio</div>
+    <div class="border">
+      
+				<ul>
+				
+<li>me</li>
+
+<li>work</li>
+
+<li>list</li>
+
+</ul>
+
+    </div>
+  </a><a href="http://nonlinear.github.io/about/" class="callout" style="background-image: url(/assets/images/bgs/rampage.png);">
+    <div class="title">About Me</div>
+    <div class="border">
+      
+				<ul>
+				
+<li>me</li>
+
+<li>master</li>
+
+<li>list</li>
+
+</ul>
+
+    </div>
+  </a>
+  </div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="/assets/javascript/jquery.min.js"%3E%3C/script%3E'))</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="/assets/javascript/bootstrap.js"%3E%3C/script%3E'))</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="/assets/javascript/modernizr.js"%3E%3C/script%3E'))</script>
+<script src="/assets/javascript/detectizr.js"></script>
+<script src="/assets/javascript/smoothstate.js"></script>
+<script src="/assets/javascript/scripts.js"></script>
+
+</body>
+</html>

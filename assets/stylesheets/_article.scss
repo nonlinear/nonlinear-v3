@@ -144,7 +144,7 @@
     .container {
         padding-top: 20px;
         padding-bottom: 20px;
-        font-size: ($font-gap * 1.5);
+        font-size: ($font-gap * 3);
         @media screen and (max-width: $ipad-max) {
             padding-left: 50px;
             padding-right: 50px;
@@ -161,4 +161,9 @@
 
 .header {
    @include pan;
+}
+.gist-data {
+   max-height: 200px;
+   overflow: auto;
+
 }
