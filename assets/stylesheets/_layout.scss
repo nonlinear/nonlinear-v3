@@ -31,12 +31,18 @@ body {
     }
 }
 em {
-font-weight: 300;
+    font-weight: 300;
+}
+hr {
+    border-top: solid 1px $color-1;
 }
 
 h1, h2, h3, h4 {
     text-transform: uppercase;
     margin-top: 0;
+    em {
+        padding-right: 5px;
+    }
 }
 
 h1 {
@@ -72,6 +78,33 @@ ul, ol {
     padding-left: 0px;
 }
 ul {
-        @include reset(list);
+    @include reset(list);
 
+}
+.share {
+           color: $color-1;
+           font-family: $font-title;
+           text-transform: uppercase;
+           font-size: ($font-gap * 3.5);
+           vertical-align: center;
+           text-align: right;
+    a {
+        vertical-align: center;
+        background-color: $color-1;
+        @include square(30px);
+        color: white;
+
+        text-align: center;
+             &:not(:first-of-type) {
+            margin-left: -3px;
+        }
+  &:hover, &:active {
+    background-color: $color-2 !important;
+  }
+        i {
+            font-size: ($font-gap * 3);
+        }
+        @include radius(50%);
+        display: inline-block;
+    }
 }
