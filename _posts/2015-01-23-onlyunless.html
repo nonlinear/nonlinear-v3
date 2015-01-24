@@ -6,13 +6,15 @@ categories: project code design css
 tags: project code design css
 image: 'codecode'
 ---
-<p>Sometimes you need different rules for different browsers. It's a patch yes, but it may save the day. In this article, I'll explain a foolproof way to add exception rules only for a specific browser or system, leaving others intact.</p>
+<p>Sometimes you need CSS rules for only for a certain browser to save the day. In this article, I'll explain a foolproof way to add exception rules only for a specific browser or system, leaving others intact.</p>
 <h1>Modernizr</h1>
 <p>Modernizr is a javascript that scans browser capabilities and add reports findings as classes on html.</p>
 <p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on html. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
+<p>You can <a href="http://modernizr.com">download it here</a> or <a href="https://cdnjs.com/libraries/modernizr">use the CDN version</a>.</p>
 <h1>Detectizr</h1>
 <p>Detectizr goes further with modernizr detection, revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even versions ()</p>
 <p>Wanna test? <a href="javascript:(function()%7Bvar%20a=window.open(%22about:blank%22).document;a.write(%22%3C!DOCTYPE%20html%3E%3Chtml%3E%3Chead%3E%3Ctitle%3ESource%20of%20%22+location.href+'%3C/title%3E%3Cmeta%20name=%22viewport%22%20content=%22width=device-width%22%20/%3E%3C/head%3E%3Cbody%3E%3C/body%3E%3C/html%3E');a.close();var%20b=a.body.appendChild(a.createElement(%22pre%22));b.style.overflow=%22auto%22;b.style.whiteSpace=%22pre-wrap%22;b.appendChild(a.createTextNode(document.documentElement.innerHTML))%7D)();">View this page source code</a> to see the results of modernizr + detectizr detection as classes in the HTML tag.</p>
+<p>You can <a href="https://github.com/barisaydinoglu/Detectizr">download it here</a>.</p>
 <h1>write your CSS exceptions</h1>
 <p>You get where we're heading, eh? Your page is using javascript for what it does best: detection, right on the top of your DOM, so it can affect all of it.</p>
 <p>Now you can style CSS exceptions. For instance,</p>
@@ -45,17 +47,7 @@ html.safari .foo {<br>
 <p>Why stop there? We can add visibility rules and show/hide objects at will.</p>
 <script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script>
 <p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
-<h2>Conclusion</h2>
-Pending content. Case study for [code/code project](http://www.nicholasfrota.com/codecode)
-
-###Step 1: Abstraction
-How to abstract code away from projects.
-
-###Step 2: Automation
-How to create macros for abstractions.
-
-###Step 3: Documentation
-How the site operates.
-
-###Step 4: Update
-Newsletter.
+<h1>Conclusion and More</h1>
+<p>There you have, powerful and easier to read exceptions for your CSS.</p>
+<p>This and other CSS lifesavers can be used via a collection of macros to simplify coding I created, called Code/Code.</p>
+<p>If you use Sublime Text <a href="http://www.nicholasfrota.com/codecode">make sure to install it</a>, so you have it always at your fingertips.</p>
