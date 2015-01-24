@@ -6,8 +6,8 @@
 </description>
     <link>http://nonlinear.github.io/</link>
     <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Jan 2015 23:56:36 -0500</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2015 23:56:36 -0500</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2015 23:57:44 -0500</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2015 23:57:44 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -59,7 +59,7 @@ html.safari .foo {&lt;br&gt;
 &lt;p&gt;Now you can use class &lt;tt&gt;visible-&lt;/tt&gt; or &lt;tt&gt;hidden-&lt;/tt&gt; for any system or browser above.&lt;/p&gt;
 &lt;h1&gt;Conclusion and More&lt;/h1&gt;
 &lt;p&gt;There you have it, powerful and readable exception rules for your CSS. It saved my skin more than once at work.&lt;/p&gt;
-&lt;p&gt;This and other CSS lifesavers can be used via a collection of macros to simplify coding called Code/Code.&lt;/p&gt;
+&lt;p&gt;This and other CSS lifesavers are in &lt;a href=&quot;http://www.nicholasfrota.com/codecode&quot;&gt;Code/Code&lt;/a&gt;, a collection of macros that simplifies coding.&lt;/p&gt;
 &lt;p&gt;If you use Sublime Text &lt;a href=&quot;http://www.nicholasfrota.com/codecode&quot;&gt;make sure to install it&lt;/a&gt;, so you have it always at your fingertips.&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Jan 2015 00:00:00 -0500</pubDate>
