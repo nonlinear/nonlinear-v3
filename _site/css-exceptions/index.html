@@ -66,7 +66,7 @@
 
 		<div class="article">
 		<div class="container">
-			<p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, leaving other browasers/systems intact.</p>
+			<p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting other browsers or systems.</p>
 <h1>Modernizr</h1>
 <p>Modernizr scans browser capabilities and reports its findings as classes on html tag.</p>
 <p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on html. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
@@ -103,7 +103,7 @@ html.safari .foo {<br>
 &nbsp;&nbsp;}<br>
 }</tt>
 <p>hides objects with class <tt>foo</tt>, unless browser is safari.</p>
-<h1>Bonus Points: visibility</h1>
+<h1>Bonus: Visibility</h1>
 <p>Why stop there? We can add visibility rules and show/hide objects at will.</p>
 <script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script>
 <p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
