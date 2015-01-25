@@ -7,8 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<title>CSS Exceptions</title>
 	<meta name="description" content="Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rule...">
-	<link rel="canonical" href="http://nonlinear.github.io/css-exceptions/">
-	<link rel="alternate" type="application/atom+xml" title="Nicholas Frota" href="http://nonlinear.github.io/feed.xml" />
+	<link rel="canonical" href="http://www.nicholasfrota.com/css-exceptions/">
+	<link rel="alternate" type="application/atom+xml" title="Nicholas Frota" href="http://www.nicholasfrota.com/feed.xml" />
 	<script src="//use.edgefonts.net/source-code-pro.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css">
@@ -92,7 +92,17 @@ html.safari .foo {<br>
 <p>You can use any of the classes above to differentiate.</p>
 <h1>Automation: <em>Only</em> and <em>Unless</em> Mixins</h1>
 <p>We can make the code better, correct? If you use SASS 3.1+, use these mixins</p>
-<script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script>
+<tt>@mixin only($only) {<br>
+&nbsp;&nbsp;html.#{$only} & {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;@content;<br>
+&nbsp;&nbsp;}<br>
+}<br>
+@mixin unless($unless) {<br>
+&nbsp;&nbsp;html:not(.#{$unless}) & {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;@content;<br>
+&nbsp;&nbsp;}<br>
+}</tt>
+<!-- <script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script> -->
 <p>so you can write exceptions inside the objects, way easier to read:</p>
 <tt>.foo {<br>
 &nbsp;&nbsp;background-color: red;<br>
@@ -109,7 +119,30 @@ html.safari .foo {<br>
 <p>hides objects with class <tt>foo</tt>, <em>unless</em> browser is safari.</p>
 <h1>Bonus Phase: Visibility</h1>
 <p>Why stop there? We can add visibility rules and show or hide objects at will.</p>
-<script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script>
+<tt>
+html:not(.mac) .visible-mac,<br>
+html.mac .hidden-mac,<br>
+html:not(.windows) .visible-windows,<br>
+html.windows .hidden-windows,<br>
+html:not(.linux) .visible-linux,<br>
+html.linux .hidden-linux,<br>
+html:not(.ios) .visible-ios,<br>
+html.ios .hidden-ios,<br>
+html:not(.android) .visible-android,<br>
+html.android .hidden-android,<br>
+html:not(.firefox) .visible-firefox,<br>
+html.firefox .hidden-firefox,<br>
+html:not(.chrome) .visible-chrome,<br>
+html.chrome .hidden-chrome,<br>
+html:not(.ie) .visible-ie,<br>
+html.ie .hidden-ie,<br>
+html:not(.safari) .visible-safari,<br>
+html.safari .hidden-safari,<br>
+html:not(.touch) .visible-touch,<br>
+html.touch .hidden-touch  {<br>
+&nbsp;&nbsp;display: none !important;<br>
+}</tt>
+<!-- <script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script> -->
 <p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
 <hr>
 <h1>Conclusion and More</h1>
@@ -119,13 +152,13 @@ html.safari .foo {<br>
 
       <hr>
 <div class="share">Share via
-  <a href="http://twitter.com/home?status=CSS Exceptions http://nonlinear.github.io/css-exceptions/ via @nonlinear"  target="_blank">
+  <a href="http://twitter.com/home?status=CSS Exceptions http://www.nicholasfrota.com/css-exceptions/ via @nonlinear"  target="_blank">
     <i class="fa fa-twitter"></i>
   </a>
-  <a href="http://www.facebook.com/sharer.php?u=http://nonlinear.github.io/css-exceptions/"  target="_blank">
+  <a href="http://www.facebook.com/sharer.php?u=http://www.nicholasfrota.com/css-exceptions/"  target="_blank">
     <i class="fa fa-facebook"></i>
   </a>
-  <a href="mailto:?subject=CSS Exceptions&body=http://nonlinear.github.io/css-exceptions/">
+  <a href="mailto:?subject=CSS Exceptions&body=http://www.nicholasfrota.com/css-exceptions/">
     <i class="fa fa-envelope-o"></i>
   </a>
 </div>
@@ -133,7 +166,7 @@ html.safari .foo {<br>
 	</div>
 	
 	  <div class="list">
-    <a href="http://nonlinear.github.io/css-exceptions/" class="callout" style="background-image: url(/assets/images/bgs/codecode.png);">
+    <a href="http://www.nicholasfrota.com/css-exceptions/" class="callout" style="background-image: url(/assets/images/bgs/codecode.png);">
     <div class="title">CSS Exceptions</div>
     <div class="border">
       
@@ -150,7 +183,7 @@ html.safari .foo {<br>
 </ul>
 
     </div>
-  </a><a href="http://nonlinear.github.io/resources/" class="callout" style="background-image: url(/assets/images/bgs/resources.png);">
+  </a><a href="http://www.nicholasfrota.com/resources/" class="callout" style="background-image: url(/assets/images/bgs/resources.png);">
     <div class="title">Design and Coding Resources</div>
     <div class="border">
       
@@ -165,7 +198,7 @@ html.safari .foo {<br>
 </ul>
 
     </div>
-  </a><a href="http://nonlinear.github.io/portfolio/" class="callout" style="background-image: url(/assets/images/bgs/code.png);">
+  </a><a href="http://www.nicholasfrota.com/portfolio/" class="callout" style="background-image: url(/assets/images/bgs/code.png);">
     <div class="title">My Portfolio</div>
     <div class="border">
       
@@ -180,7 +213,7 @@ html.safari .foo {<br>
 </ul>
 
     </div>
-  </a><a href="http://nonlinear.github.io/about/" class="callout" style="background-image: url(/assets/images/bgs/rampage.png);">
+  </a><a href="http://www.nicholasfrota.com/about/" class="callout" style="background-image: url(/assets/images/bgs/rampage.png);">
     <div class="title">About Me</div>
     <div class="border">
       

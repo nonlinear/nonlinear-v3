@@ -68,7 +68,9 @@ tt {
     font-family: $font-mono;
     background-color: lighten(yellow, 40%);
     color: darken(yellow, 30%);
-    padding: 0 3px;
+    padding: 3px;
+    margin: 0;
+    line-height: 20px;
 }
 .container {
     max-width: 650px;
@@ -82,29 +84,29 @@ ul {
 
 }
 .share {
-           color: $color-1;
-           font-family: $font-title;
-           text-transform: uppercase;
-           font-size: ($font-gap * 3.5);
-           vertical-align: center;
-           text-align: right;
-    a {
-        vertical-align: center;
-        background-color: $color-1;
-        @include square(30px);
-        color: white;
+ color: $color-1;
+ font-family: $font-title;
+ text-transform: uppercase;
+ font-size: ($font-gap * 3.5);
+ vertical-align: center;
+ text-align: right;
+ a {
+    vertical-align: center;
+    background-color: $color-1;
+    @include square(30px);
+    color: white;
 
-        text-align: center;
-             &:not(:first-of-type) {
-            margin-left: -3px;
-        }
-  &:hover, &:active {
-    background-color: $color-2 !important;
-  }
-        i {
-            font-size: ($font-gap * 3);
-        }
-        @include radius(50%);
-        display: inline-block;
+    text-align: center;
+    &:not(:first-of-type) {
+        margin-left: -3px;
     }
+    &:hover, &:active {
+        background-color: $color-2 !important;
+    }
+    i {
+        font-size: ($font-gap * 3);
+    }
+    @include radius(50%);
+    display: inline-block;
+}
 }

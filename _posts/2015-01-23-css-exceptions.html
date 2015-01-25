@@ -32,7 +32,17 @@ html.safari .foo {<br>
 <p>You can use any of the classes above to differentiate.</p>
 <h1>Automation: <em>Only</em> and <em>Unless</em> Mixins</h1>
 <p>We can make the code better, correct? If you use SASS 3.1+, use these mixins</p>
-<script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script>
+<tt>@mixin only($only) {<br>
+&nbsp;&nbsp;html.#{$only} & {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;@content;<br>
+&nbsp;&nbsp;}<br>
+}<br>
+@mixin unless($unless) {<br>
+&nbsp;&nbsp;html:not(.#{$unless}) & {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;@content;<br>
+&nbsp;&nbsp;}<br>
+}</tt>
+<!-- <script src="https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js"></script> -->
 <p>so you can write exceptions inside the objects, way easier to read:</p>
 <tt>.foo {<br>
 &nbsp;&nbsp;background-color: red;<br>
@@ -49,7 +59,30 @@ html.safari .foo {<br>
 <p>hides objects with class <tt>foo</tt>, <em>unless</em> browser is safari.</p>
 <h1>Bonus Phase: Visibility</h1>
 <p>Why stop there? We can add visibility rules and show or hide objects at will.</p>
-<script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script>
+<tt>
+html:not(.mac) .visible-mac,<br>
+html.mac .hidden-mac,<br>
+html:not(.windows) .visible-windows,<br>
+html.windows .hidden-windows,<br>
+html:not(.linux) .visible-linux,<br>
+html.linux .hidden-linux,<br>
+html:not(.ios) .visible-ios,<br>
+html.ios .hidden-ios,<br>
+html:not(.android) .visible-android,<br>
+html.android .hidden-android,<br>
+html:not(.firefox) .visible-firefox,<br>
+html.firefox .hidden-firefox,<br>
+html:not(.chrome) .visible-chrome,<br>
+html.chrome .hidden-chrome,<br>
+html:not(.ie) .visible-ie,<br>
+html.ie .hidden-ie,<br>
+html:not(.safari) .visible-safari,<br>
+html.safari .hidden-safari,<br>
+html:not(.touch) .visible-touch,<br>
+html.touch .hidden-touch  {<br>
+&nbsp;&nbsp;display: none !important;<br>
+}</tt>
+<!-- <script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script> -->
 <p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
 <hr>
 <h1>Conclusion and More</h1>

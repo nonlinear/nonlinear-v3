@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicholas Frota</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>the anagram of my name is anarchist fool
 </description>
-    <link>http://nonlinear.github.io/</link>
-    <atom:link href="http://nonlinear.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Jan 2015 02:06:01 -0500</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 02:06:01 -0500</lastBuildDate>
+    <link>http://www.nicholasfrota.com/</link>
+    <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Jan 2015 19:37:36 -0500</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 19:37:36 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -38,7 +38,17 @@ html.safari .foo {&lt;br&gt;
 &lt;p&gt;You can use any of the classes above to differentiate.&lt;/p&gt;
 &lt;h1&gt;Automation: &lt;em&gt;Only&lt;/em&gt; and &lt;em&gt;Unless&lt;/em&gt; Mixins&lt;/h1&gt;
 &lt;p&gt;We can make the code better, correct? If you use SASS 3.1+, use these mixins&lt;/p&gt;
-&lt;script src=&quot;https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js&quot;&gt;&lt;/script&gt;
+&lt;tt&gt;@mixin only($only) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;html.#{$only} &amp; {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@content;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+}&lt;br&gt;
+@mixin unless($unless) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;html:not(.#{$unless}) &amp; {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@content;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+}&lt;/tt&gt;
+&lt;!-- &lt;script src=&quot;https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js&quot;&gt;&lt;/script&gt; --&gt;
 &lt;p&gt;so you can write exceptions inside the objects, way easier to read:&lt;/p&gt;
 &lt;tt&gt;.foo {&lt;br&gt;
 &amp;nbsp;&amp;nbsp;background-color: red;&lt;br&gt;
@@ -55,7 +65,30 @@ html.safari .foo {&lt;br&gt;
 &lt;p&gt;hides objects with class &lt;tt&gt;foo&lt;/tt&gt;, &lt;em&gt;unless&lt;/em&gt; browser is safari.&lt;/p&gt;
 &lt;h1&gt;Bonus Phase: Visibility&lt;/h1&gt;
 &lt;p&gt;Why stop there? We can add visibility rules and show or hide objects at will.&lt;/p&gt;
-&lt;script src=&quot;https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js&quot;&gt;&lt;/script&gt;
+&lt;tt&gt;
+html:not(.mac) .visible-mac,&lt;br&gt;
+html.mac .hidden-mac,&lt;br&gt;
+html:not(.windows) .visible-windows,&lt;br&gt;
+html.windows .hidden-windows,&lt;br&gt;
+html:not(.linux) .visible-linux,&lt;br&gt;
+html.linux .hidden-linux,&lt;br&gt;
+html:not(.ios) .visible-ios,&lt;br&gt;
+html.ios .hidden-ios,&lt;br&gt;
+html:not(.android) .visible-android,&lt;br&gt;
+html.android .hidden-android,&lt;br&gt;
+html:not(.firefox) .visible-firefox,&lt;br&gt;
+html.firefox .hidden-firefox,&lt;br&gt;
+html:not(.chrome) .visible-chrome,&lt;br&gt;
+html.chrome .hidden-chrome,&lt;br&gt;
+html:not(.ie) .visible-ie,&lt;br&gt;
+html.ie .hidden-ie,&lt;br&gt;
+html:not(.safari) .visible-safari,&lt;br&gt;
+html.safari .hidden-safari,&lt;br&gt;
+html:not(.touch) .visible-touch,&lt;br&gt;
+html.touch .hidden-touch  {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;display: none !important;&lt;br&gt;
+}&lt;/tt&gt;
+&lt;!-- &lt;script src=&quot;https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js&quot;&gt;&lt;/script&gt; --&gt;
 &lt;p&gt;Now you can use class &lt;tt&gt;visible-&lt;/tt&gt; or &lt;tt&gt;hidden-&lt;/tt&gt; for any system or browser above.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h1&gt;Conclusion and More&lt;/h1&gt;
@@ -64,8 +97,8 @@ html.safari .foo {&lt;br&gt;
 &lt;p&gt;If you use Sublime Text &lt;a href=&quot;http://www.nicholasfrota.com/codecode&quot;&gt;make sure to install it&lt;/a&gt;, so you have it always at your fingertips.&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Jan 2015 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.github.io/css-exceptions/</link>
-        <guid isPermaLink="true">http://nonlinear.github.io/css-exceptions/</guid>
+        <link>http://www.nicholasfrota.com/css-exceptions/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/css-exceptions/</guid>
         
         <category>project</category>
         
@@ -271,8 +304,8 @@ html.safari .foo {&lt;br&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.github.io/resources/</link>
-        <guid isPermaLink="true">http://nonlinear.github.io/resources/</guid>
+        <link>http://www.nicholasfrota.com/resources/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/resources/</guid>
         
         <category>resource</category>
         
@@ -368,8 +401,8 @@ html.safari .foo {&lt;br&gt;
   &lt;/div&gt;
   </description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.github.io/portfolio/</link>
-        <guid isPermaLink="true">http://nonlinear.github.io/portfolio/</guid>
+        <link>http://www.nicholasfrota.com/portfolio/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/portfolio/</guid>
         
         <category>me</category>
         
@@ -427,8 +460,8 @@ html.safari .foo {&lt;br&gt;
 	&lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.github.io/about/</link>
-        <guid isPermaLink="true">http://nonlinear.github.io/about/</guid>
+        <link>http://www.nicholasfrota.com/about/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/about/</guid>
         
         <category>me</category>
         
