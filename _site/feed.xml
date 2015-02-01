@@ -6,9 +6,49 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Jan 2015 19:04:56 -0500</pubDate>
-    <lastBuildDate>Wed, 28 Jan 2015 19:04:56 -0500</lastBuildDate>
+    <pubDate>Sat, 31 Jan 2015 20:51:29 -0500</pubDate>
+    <lastBuildDate>Sat, 31 Jan 2015 20:51:29 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Personal Resources</title>
+        <description>&lt;h1&gt;Home&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.instructables.com/id/How-to-Uncrease-Your-Sneakers/&quot;&gt;How to Uncrease Your Sneakers!!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/my-never-ending-search-for-comfortable-in-ear-headphone-1679696172&quot;&gt;My Never-Ending Search for Comfortable In-Ear Headphones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5774324/how-to-get-more-from-your-home-theater-without-paying-a-dime&quot;&gt;How to Get More From Your Home Theater Without Paying a Dime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rootsimple.com/2015/01/ghee-for-the-skin/&quot;&gt;Ghee for the skin | Root Simple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/dust-proof-your-home-with-a-diy-fabric-softener-and-wat-1682438375&quot;&gt;Dust-Proof Your Home With a DIY Fabric Softener and Water Solution&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;h1&gt;Travel&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.roomertravel.com/&quot;&gt;Roomer&lt;/a&gt; - Sell Hotel Reservation, Buy Cancelled Hotel Rooms&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;h1&gt;Finances&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;pending&lt;/li&gt;
+
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/home/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/home/</guid>
+        
+        <category>resource</category>
+        
+        <category>list</category>
+        
+        <category>link</category>
+        
+        
+        <category>bookmarks</category>
+        
+        <category>list</category>
+        
+      </item>
     
       <item>
         <title>CSS Exceptions</title>
@@ -120,13 +160,13 @@ html.touch .hidden-touch  {&lt;br&gt;
       </item>
     
       <item>
-        <title>Design and Coding Resources</title>
-        <description>&lt;div class=&quot;lady&quot;&gt;&lt;/div&gt;
-&lt;div class=&quot;grid three&quot;&gt;
+        <title>Design Resources</title>
+        <description>&lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Everyday&lt;/h1&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://useyourinterface.com&quot;&gt;Use Your Interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
@@ -134,6 +174,7 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://mojotech.com/shots&quot;&gt;Dribble Infinite Scroll&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;
 &lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
@@ -159,6 +200,7 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://veerle.duoh.com/inspiration&quot;&gt;The inspiration Stream&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;uiGIFs&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; &lt;/li&gt;
+
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -233,6 +275,7 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://kenwheeler.github.io/slick/&quot;&gt;slick - the last carousel you&#39;ll ever need&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://gist.github.com/aarontgrogg/06406ace9b9d592bb679&quot;&gt;Create a QR Code for the current page, so it can be easily scanned by other devices.&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://neilj.github.io/Squire/&quot;&gt;Squire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -296,12 +339,10 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.michaelvillar.com/motion&quot;&gt;Motion experiments&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://wonderfulfeedback.com/client/&quot;&gt;Feedback Template&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uxmas.com/2014/7-things-i-wish-everyone-knew-about-interaction-design&quot;&gt;7 Things I Wish Everyone Knew About Interaction Design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxrecipe.github.io&quot;&gt;UX Recipe&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;
 
-&lt;h1&gt;Travel Resources&lt;/h1&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
         <link>http://www.nicholasfrota.com/resources/</link>
