@@ -6,9 +6,73 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Feb 2015 00:25:37 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Feb 2015 00:25:37 -0500</lastBuildDate>
+    <pubDate>Mon, 09 Feb 2015 20:01:07 -0500</pubDate>
+    <lastBuildDate>Mon, 09 Feb 2015 20:01:07 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Serval Chat Project</title>
+        <description>explain what&#39;s serval mesh
+</description>
+        <pubDate>Mon, 09 Feb 2015 19:49:46 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/serval-project/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/serval-project/</guid>
+        
+        <category>project</category>
+        
+        <category>code</category>
+        
+        <category>design</category>
+        
+        <category>css</category>
+        
+        
+        <category>project</category>
+        
+        <category>code</category>
+        
+        <category>design</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Code/Code Project</title>
+        <description>&lt;h3 id=&quot;step-1-abstraction&quot;&gt;Step 1: Abstraction&lt;/h3&gt;
+&lt;p&gt;How to abstract code away from projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-automation&quot;&gt;Step 2: Automation&lt;/h3&gt;
+&lt;p&gt;How to create macros for abstractions.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-documentation&quot;&gt;Step 3: Documentation&lt;/h3&gt;
+&lt;p&gt;How the site operates.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-update&quot;&gt;Step 4: Update&lt;/h3&gt;
+&lt;p&gt;Newsletter.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Feb 2015 19:48:16 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/codecode-project/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/codecode-project/</guid>
+        
+        <category>project</category>
+        
+        <category>code</category>
+        
+        <category>design</category>
+        
+        <category>css</category>
+        
+        
+        <category>project</category>
+        
+        <category>code</category>
+        
+        <category>design</category>
+        
+        <category>css</category>
+        
+      </item>
     
       <item>
         <title>Personal Resources</title>
@@ -165,8 +229,7 @@ html.touch .hidden-touch  {&lt;br&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Everyday&lt;/h1&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://useyourinterface.com&quot;&gt;Use Your Interface&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
@@ -397,7 +460,7 @@ html.touch .hidden-touch  {&lt;br&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;div class=&quot;grid three&quot;&gt;
-  
+
     &lt;div class=&quot;cell&quot;&gt;
       &lt;h3&gt;Projects&lt;/h3&gt;
       &lt;ul&gt;
@@ -417,8 +480,8 @@ html.touch .hidden-touch  {&lt;br&gt;
         &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/infoFD/&quot; target=&quot;_blank&quot;&gt;Fresh Direct HR&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/design-prototypes/carbon/RC35/&quot; target=&quot;_blank&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/design-prototypes/cheaptickets/&quot; target=&quot;_blank&quot;&gt;CheapTickets Events&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/mesh&quot; target=&quot;_blank&quot;&gt;Serval Mesh&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/goodtalk&quot; target=&quot;_blank&quot;&gt;Good Talk&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://www.nicholasfrota.com/mesh&quot; target=&quot;_blank&quot;&gt;Serval Mesh&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/goodtalk&quot; target=&quot;_blank&quot;&gt;Good Talk&lt;/a&gt;&lt;/li&gt; --&gt;
         &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/partnerportal/home.html&quot; target=&quot;_blank&quot;&gt;On Deck Capital Partner Portal&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/instantdecision/index.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 1&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/instantdecision/business.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 2&lt;/a&gt;&lt;/li&gt;
@@ -442,7 +505,8 @@ html.touch .hidden-touch  {&lt;br&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;/div&gt;
-  </description>
+
+</description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
         <link>http://www.nicholasfrota.com/portfolio/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/portfolio/</guid>
