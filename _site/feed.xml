@@ -6,8 +6,8 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Feb 2015 15:37:33 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Feb 2015 15:37:33 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Feb 2015 15:42:21 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Feb 2015 15:42:21 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -536,7 +536,7 @@ html.touch .hidden-touch  {&lt;br&gt;
     
       <item>
         <title>About Me</title>
-        <description>&lt;div class=&quot;grid fthree&quot;&gt;
+        <description>&lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;&lt;ul&gt;&lt;li&gt;Interface designer.&lt;/li&gt;
 		&lt;li&gt;Illustrator.&lt;/li&gt;
