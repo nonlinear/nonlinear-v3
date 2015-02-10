@@ -8,58 +8,61 @@
 	<script>
 	Math.floor(Math.random() * 6) + 1
 	</script>
-		{% if page %}
-		{% if page.title %}
-<div class="header" style="background: url(/assets/images/bgs/{{ page.image }}.png) center center repeat;">
-		<div class="callout container">
-			<div class="title">{{ page.title }}</div>
-			<div class="border">
-				{% if page.tags %}
-				<ul>
-				{% for tag in page.tags %}
-<li><a href="index.html">{{ tag }}</a></li>
-{% endfor %}
-</ul>
-{% endif %}
-
-			</div>
-		</div>
-	</div>
-{% endif %}
-
-		<div class="article">
-		<div class="container">
-			{{ content }}
-      <hr>
-<div class="share">Share via
-  <a href="http://twitter.com/home?status={{ page.title }} {{ page.url | prepend: site.baseurl | prepend: site.url }} via @nonlinear"  target="_blank">
-    <i class="fa fa-twitter"></i>
-  </a>
-  <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl | prepend: site.url }}"  target="_blank">
-    <i class="fa fa-facebook"></i>
-  </a>
-  <a href="mailto:?subject={{ page.title }}&body={{ page.url | prepend: site.baseurl | prepend: site.url }}">
-    <i class="fa fa-envelope-o"></i>
-  </a>
-</div>
-		</div>
-	</div>
-	{% endif %}
-	  <div class="list">
-    {% for post in site.posts %}<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="callout" style="background-image: url(/assets/images/bgs/{{ post.image }}.png);">
-    <div class="title">{{ post.title }}</div>
-    <div class="border">
+  {% if page %}
+  {% if page.title %}
+  <div class="header" style="background: url(/assets/images/bgs/{{ page.image }}.png) center center repeat;">
+    <div class="callout container">
+     <div class="title">{{ page.title }}</div>
+     <div class="border">
       {% if page.tags %}
-				<ul>
-				{% for tag in post.tags %}
-<li>{{ tag }}</li>
-{% endfor %}
-</ul>
-{% endif %}
+      <ul>
+        {% for tag in page.tags %}
+        <li><a href="index.html">{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
     </div>
-  </a>{% endfor %}
   </div>
-	{% include footer.html %}
-	{% include javascript.html %}
+</div>
+{% endif %}
+
+<div class="article">
+  <div class="container">
+   {{ content }}
+  {% if page.title %}
+     <hr>
+<div class="share">Share via
+    <a href="http://twitter.com/home?status={{ page.title }} {{ page.url | prepend: site.baseurl | prepend: site.url }} via @nonlinear"  target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    <a href="http://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl | prepend: site.url }}"  target="_blank">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="mailto:?subject={{ page.title }}&body={{ page.url | prepend: site.baseurl | prepend: site.url }}">
+      <i class="fa fa-envelope-o"></i>
+    </a>
+  </div>
+{% endif %}
+
+</div>
+</div>
+{% endif %}
+<div class="list">
+  {% for post in site.posts %}<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="callout" style="background-image: url(/assets/images/bgs/{{ post.image }}.png);">
+  <div class="title">{{ post.title }}</div>
+  <div class="border">
+    {% if page.tags %}
+    <ul>
+      {% for tag in post.tags %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</a>{% endfor %}
+</div>
+{% include footer.html %}
+{% include javascript.html %}
 </body>
 </html>

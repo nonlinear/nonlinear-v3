@@ -6,15 +6,16 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Feb 2015 20:01:07 -0500</pubDate>
-    <lastBuildDate>Mon, 09 Feb 2015 20:01:07 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Feb 2015 15:37:33 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Feb 2015 15:37:33 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
         <title>Serval Chat Project</title>
-        <description>explain what&#39;s serval mesh
+        <description>&lt;p&gt;Explain whats serval mesh, youtube video&lt;/p&gt;
+&lt;p&gt;Explain the idea of serval chat, and how it changed&lt;/p&gt;
 </description>
-        <pubDate>Mon, 09 Feb 2015 19:49:46 -0500</pubDate>
+        <pubDate>Mon, 09 Feb 2015 21:39:16 -0500</pubDate>
         <link>http://www.nicholasfrota.com/serval-project/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/serval-project/</guid>
         
@@ -341,6 +342,7 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://neilj.github.io/Squire/&quot;&gt;Squire&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/christiannaths/Redacted-Font&quot;&gt;Redacted-Font&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jxnblk.com/shade/?base=00ccff&amp;hueShift=-130&amp;saturate=0&amp;lighten=0&quot;&gt;shade&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -363,6 +365,8 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://hudsandguis.com&quot;&gt;Huds and Guis&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://quasimondo.com/ZorroSVG/&quot;&gt;ZorroSVG&lt;/a&gt; - Put a Mask on it&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/&quot;&gt;7 tips for designing awesome animated GIFs&lt;/a&gt;&lt;/li&gt;
+
+
 &lt;/ul&gt;
 
 &lt;h1&gt;Resources for Prototyping&lt;/h1&gt;
@@ -405,6 +409,8 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://wonderfulfeedback.com/client/&quot;&gt;Feedback Template&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uxmas.com/2014/7-things-i-wish-everyone-knew-about-interaction-design&quot;&gt;7 Things I Wish Everyone Knew About Interaction Design&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uxrecipe.github.io&quot;&gt;UX Recipe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxchecklist.github.io/&quot;&gt;UX Project Checklist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeascraft.com/2015/02/02/transitioning-to-scss-at-scale/&quot;&gt;Transitioning to SCSS at Scale&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -430,7 +436,7 @@ html.touch .hidden-touch  {&lt;br&gt;
         <title>My Portfolio</title>
         <description>&lt;div class=&quot;grid three&quot;&gt;
     &lt;div class=&quot;cell&quot;&gt;
-    &lt;h3&gt;Clients&lt;/h3&gt;
+    &lt;h1&gt;Clients&lt;/h1&gt;
     &lt;ul&gt;
       &lt;li&gt;JP Morgan Chase&lt;/li&gt;
       &lt;li&gt;Fresh Direct&lt;/li&gt;
@@ -443,7 +449,7 @@ html.touch .hidden-touch  {&lt;br&gt;
     &lt;/ul&gt;
   &lt;/div&gt;
   &lt;div class=&quot;cell&quot;&gt;
-        &lt;h3&gt;Contact&lt;/h3&gt;
+        &lt;h1&gt;Contact&lt;/h1&gt;
         &lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;
         &lt;ul&gt;
           &lt;li&gt;Nicholas Frota,&lt;/li&gt;
@@ -455,14 +461,14 @@ html.touch .hidden-touch  {&lt;br&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
     &lt;div class=&quot;cell&quot;&gt;
-      &lt;h3&gt;Github&lt;/h3&gt;
+      &lt;h1&gt;Github&lt;/h1&gt;
       &lt;iframe frameborder=&quot;0&quot; height=&quot;450px&quot; scrolling=&quot;no&quot; src=&quot;/octocard.html&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;div class=&quot;grid three&quot;&gt;
 
     &lt;div class=&quot;cell&quot;&gt;
-      &lt;h3&gt;Projects&lt;/h3&gt;
+      &lt;h1&gt;Projects&lt;/h1&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&quot;http://nycmeshnet.github.io&quot; target=&quot;_blank&quot;&gt;NYC Mesh&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://nonlinear.github.io/codecode&quot; target=&quot;_blank&quot;&gt;Code/Code&lt;/a&gt;&lt;/li&gt;
@@ -475,7 +481,7 @@ html.touch .hidden-touch  {&lt;br&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
     &lt;div class=&quot;cell&quot;&gt;
-      &lt;h3&gt;Prototypes&lt;/h3&gt;
+      &lt;h1&gt;Prototypes&lt;/h1&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/infoFD/&quot; target=&quot;_blank&quot;&gt;Fresh Direct HR&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/design-prototypes/carbon/RC35/&quot; target=&quot;_blank&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
@@ -489,7 +495,7 @@ html.touch .hidden-touch  {&lt;br&gt;
       &lt;/ul&gt;
     &lt;/div&gt;
     &lt;div class=&quot;cell&quot;&gt;
-    &lt;h3&gt;Wireframes&lt;/h3&gt;
+    &lt;h1&gt;Wireframes&lt;/h1&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/agent_v1.pdf&quot; target=&quot;_blank&quot;&gt;Fresh Direct 1&lt;/a&gt;, pdf&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/JPMC_campus_events.pdf&quot; target=&quot;_blank&quot;&gt;JP Morgan Chase 1&lt;/a&gt;, pdf&lt;/li&gt;
@@ -530,7 +536,7 @@ html.touch .hidden-touch  {&lt;br&gt;
     
       <item>
         <title>About Me</title>
-        <description>&lt;div class=&quot;grid three&quot;&gt;
+        <description>&lt;div class=&quot;grid fthree&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;&lt;ul&gt;&lt;li&gt;Interface designer.&lt;/li&gt;
 		&lt;li&gt;Illustrator.&lt;/li&gt;
@@ -541,7 +547,7 @@ html.touch .hidden-touch  {&lt;br&gt;
 		&lt;li&gt;What else?&lt;/li&gt;
 	&lt;/ul&gt;&lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-		&lt;h3&gt;Links&lt;/h3&gt;
+		&lt;h1&gt;Links&lt;/h1&gt;
 		&lt;p&gt;I’m all over the place:&lt;/p&gt;
 		&lt;ol&gt;
 			&lt;li&gt;&lt;a href=&quot;http://twitter.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
@@ -558,14 +564,15 @@ html.touch .hidden-touch  {&lt;br&gt;
 		&lt;/ol&gt;
 	&lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-		&lt;h3&gt;Contact&lt;/h3&gt;
+		&lt;h1&gt;Contact&lt;/h1&gt;
 		&lt;ul&gt;
 			&lt;li&gt;&lt;a href=&quot;mailto:info@nicholasfrota.com?Subject=Nicholas%20Frota%20Portfolio&quot;&gt;info@nicholasfrota.com&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;tel://917-512-1486&quot;&gt;917-512-1486&lt;/a&gt;&lt;/li&gt;
 			&lt;li&gt;&lt;a href=&quot;http://www.twitter.com/nonlinear&quot;&gt;@nonlinear&lt;/a&gt;&lt;/li&gt;
 		&lt;/ul&gt;
 	&lt;/div&gt;
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
         <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
         <link>http://www.nicholasfrota.com/about/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/about/</guid>
