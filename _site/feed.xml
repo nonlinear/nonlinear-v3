@@ -6,8 +6,8 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Feb 2015 15:42:21 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Feb 2015 15:42:21 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Feb 2015 17:03:37 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Feb 2015 17:03:37 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -77,26 +77,45 @@
     
       <item>
         <title>Personal Resources</title>
-        <description>&lt;h1&gt;Home&lt;/h1&gt;
+        <description>&lt;div class=&quot;grid three&quot;&gt;
+  &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Home&lt;/h1&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://www.instructables.com/id/How-to-Uncrease-Your-Sneakers/&quot;&gt;How to Uncrease Your Sneakers!!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/my-never-ending-search-for-comfortable-in-ear-headphone-1679696172&quot;&gt;My Never-Ending Search for Comfortable In-Ear Headphones&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/my-never-ending-search-for-comfortable-in-ear-headphone-1679696172&quot;&gt;My Never-Ending Search for Comfortable In-Ear Headphones&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5774324/how-to-get-more-from-your-home-theater-without-paying-a-dime&quot;&gt;How to Get More From Your Home Theater Without Paying a Dime&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.rootsimple.com/2015/01/ghee-for-the-skin/&quot;&gt;Ghee for the skin | Root Simple&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/dust-proof-your-home-with-a-diy-fabric-softener-and-wat-1682438375&quot;&gt;Dust-Proof Your Home With a DIY Fabric Softener and Water Solution&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
-&lt;h1&gt;Travel&lt;/h1&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Fashion&lt;/h1&gt;
 &lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.instructables.com/id/How-to-Uncrease-Your-Sneakers/&quot;&gt;How to Uncrease Your Sneakers!!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/five-ways-to-tie-a-man-s-scarf-1684590695&quot;&gt;Five Ways to Tie a Man’s Scarf&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Travel&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.roomertravel.com/&quot;&gt;Roomer&lt;/a&gt; - Sell Hotel Reservation, Buy Cancelled Hotel Rooms&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/organize-and-share-your-vacation-with-this-travel-plann-1684919711&quot;&gt;Organize and Share Your Vacation with This Travel Planning Spreadsheet&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
-&lt;h1&gt;Finances&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;!--   &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Finances&lt;/h1&gt;
 &lt;ul&gt;
-	&lt;li&gt;pending&lt;/li&gt;
+  &lt;li&gt;pending&lt;/li&gt;
 
 &lt;/ul&gt;
+  &lt;/div&gt; --&gt;
+&lt;/div&gt;
+
+
 </description>
         <pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
         <link>http://www.nicholasfrota.com/home/</link>

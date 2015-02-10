@@ -7,16 +7,32 @@ description: Some useful resources I collected over the years.
 tags: resource list link
 image: 'resources'
 ---
+<div class="grid three">
+  <div class="cell">
+    <h1>Home</h1>
+<ul>
+  {% include bookmarks/home.html %}
+</ul>
+  </div>
+   <div class="cell">
+    <h1>Fashion</h1>
+<ul>
+  {% include bookmarks/fashion.html %}
+</ul>
+  </div>
+  <div class="cell">
+    <h1>Travel</h1>
+<ul>
+  {% include bookmarks/travel.html %}
+</ul>
+</div>
 
-<h1>Home</h1>
+<!--   <div class="cell">
+    <h1>Finances</h1>
 <ul>
-	{% include bookmarks/home.html %}
+  {% include bookmarks/finances.html %}
 </ul>
-<h1>Travel</h1>
-<ul>
-	{% include bookmarks/travel.html %}
-</ul>
-<h1>Finances</h1>
-<ul>
-	{% include bookmarks/finances.html %}
-</ul>
+  </div> -->
+</div>
+
+
