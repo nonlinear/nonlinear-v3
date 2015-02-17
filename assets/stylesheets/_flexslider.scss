@@ -15,9 +15,10 @@
  .flex-container a:active,
  .flexslider a:active,
  .flex-container a:focus,
- .flexslider a:focus  {
+ .flexslider a:focus {
   outline: none;
 }
+
 .slides,
 .flex-control-nav,
 .flex-direction-nav {
@@ -31,7 +32,7 @@
 .flexslider {
   margin: 0;
   padding: 0;
-  .slides  {
+  .slides {
     & > li {
       display: none;
       -webkit-backface-visibility: hidden;
@@ -43,6 +44,7 @@
     }
   }
 }
+
 .flex-pauseplay span {
   text-transform: capitalize;
 }
@@ -56,9 +58,11 @@
   line-height: 0;
   height: 0;
 }
+
 html[xmlns] .slides {
   display: block;
 }
+
 * html .slides {
   height: 1%;
 }
@@ -70,7 +74,6 @@ html[xmlns] .slides {
   display: block;
 }
 
-
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {
@@ -78,57 +81,57 @@ html[xmlns] .slides {
   position: relative;
   zoom: 1;
 }
+
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease;
 }
+
 .loading .flex-viewport {
   max-height: 300px;
 }
+
 .flexslider .slides {
   zoom: 1;
 }
+
 .carousel li {
   margin-right: 5px;
 }
 
 /* Direction Nav */
 .flex-direction-nav a {
- @include square($nav-size);
- margin: -20px 0 0;
- display: block;
- position: absolute;
- top: 50%;
- cursor: pointer;
- opacity: 0;
- font-family: $font-icon;
- -webkit-transition: all .3s ease;
-   background-color: $color-1;
-  border: none  !important;
- text-align: center;
- color: $color-0;
- @include radius(50%);
-
-
- display: block;
- &:before {
-  font-size: 25px;
-  content: '\279C';
-}
-&.flex-next {
-  right: $nav-size * -1;
-
-
-}
-&.flex-prev {
-  left: $nav-size * -1;
+  @include square($nav-size);
+  margin: -20px 0 0;
   display: block;
-  @include rotate(180);
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  opacity: 0;
+  font-family: $font-icon;
+  -webkit-transition: all .3s ease;
+  background-color: $color-1;
+  border: none  !important;
+  text-align: center;
+  color: $color-0;
+  @include radius(50%);
+  display: block;
+  &:before {
+    font-size: 25px;
+    content: '\279C';
+  }
+  &.flex-next {
+    right: $nav-size * -1;
+  }
+  &.flex-prev {
+    left: $nav-size * -1;
+    display: block;
+    @include rotate(180);
+  }
+}
 
-}
-}
 .flexslider:hover {
   .flex-next {
     opacity: 0.2;
@@ -139,14 +142,17 @@ html[xmlns] .slides {
     left: 5px;
   }
 }
+
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1;
 }
+
 .flex-direction-nav .disabled {
-  opacity: .3!important;
-  filter:alpha(opacity=30);
+  opacity: 0.3 !important;
+  filter: alpha(opacity = 30);
   cursor: default;
 }
+
 /* Control Nav */
 .flex-control-nav {
   width: 100%;
@@ -160,29 +166,30 @@ html[xmlns] .slides {
     *display: inline;
   }
 }
-.flex-control-paging li {
-vertical-align: middle;
-margin: 0;
-  a {
-  @include square(7px);
-  margin: 5px;
-  display: block;
-  @include trans;
-  background-color: white;
-  border: solid 1px $color-1;
-  cursor: pointer;
-  text-indent: -9999px;
-  @include radius(50%);
-  &:hover, &.flex-active {
-   @include square(15px);
 
- }
- &.flex-active {
-   cursor: default;
-    background-color: $color-1;
- }
+.flex-control-paging li {
+  vertical-align: middle;
+  margin: 0;
+  a {
+    @include square(7px);
+    margin: 5px;
+    display: block;
+    @include trans;
+    background-color: white;
+    border: solid 1px $color-1;
+    cursor: pointer;
+    text-indent: -9999px;
+    @include radius(50%);
+    &:hover, &.flex-active {
+      @include square(15px);
+    }
+    &.flex-active {
+      cursor: default;
+      background-color: $color-1;
+    }
+  }
 }
-}
+
 .flex-control-thumbs {
   margin: 5px 0 0;
   position: static;
@@ -207,18 +214,15 @@ margin: 0;
   }
 }
 
-@include media($device, max) {
-
-
+@include media(1024px, max) {
   .flex-direction-nav {
-   &.flex-prev {
-    opacity: 1;
-    left: 0;
+    &.flex-prev {
+      opacity: 1;
+      left: 0;
+    }
+    &.flex-next {
+      opacity: 1;
+      right: 0;
+    }
   }
-  &.flex-next {
-    opacity: 1;
-    right: 0;
-  }
-}
-
 }
