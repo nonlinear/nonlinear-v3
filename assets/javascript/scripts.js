@@ -5,12 +5,11 @@ $('[data-toggle=popover]').popover();
 
 // flexslider functions
 
-// $(window).load(function(){
-//   $('.flexslider').flexslider({
-//     animation: "slide"
-//   });
-// });
-
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
 // smoothstate functions
 
 // ;(function($) {
