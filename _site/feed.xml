@@ -6,8 +6,8 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 17:10:45 -0500</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 17:10:45 -0500</lastBuildDate>
+    <pubDate>Tue, 17 Feb 2015 10:07:40 -0500</pubDate>
+    <lastBuildDate>Tue, 17 Feb 2015 10:07:40 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -56,16 +56,8 @@
         <link>http://www.nicholasfrota.com/home/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/home/</guid>
         
-        <category>resource</category>
         
-        <category>list</category>
-        
-        <category>link</category>
-        
-        
-        <category>bookmarks</category>
-        
-        <category>list</category>
+        <category>resources</category>
         
       </item>
     
@@ -159,22 +151,8 @@ html.touch .hidden-touch  {&lt;br&gt;
         <link>http://www.nicholasfrota.com/css-exceptions/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/css-exceptions/</guid>
         
-        <category>project</category>
         
         <category>code</category>
-        
-        <category>design</category>
-        
-        <category>css</category>
-        
-        
-        <category>project</category>
-        
-        <category>code</category>
-        
-        <category>design</category>
-        
-        <category>css</category>
         
       </item>
     
@@ -183,8 +161,8 @@ html.touch .hidden-touch  {&lt;br&gt;
         <description>&lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Everyday&lt;/h1&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
@@ -193,22 +171,22 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://mojotech.com/shots&quot;&gt;Dribble Infinite Scroll&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
 
-&lt;/ul&gt;
-&lt;/div&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-&lt;h1&gt;Social&lt;/h1&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+		&lt;h1&gt;Social&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://instagram.com&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://thefancy.com&quot;&gt;Fancy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.bootstrappers.io&quot;&gt;Bootstrappers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-&lt;h1&gt;Design&lt;/h1&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://feedly.com/#saved&quot;&gt;Feedly, Saved&lt;/a&gt;&lt;/li&gt;
+		&lt;h1&gt;Design&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;http://feedly.com/#saved&quot;&gt;Feedly, Saved&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://capptivate.co&quot;&gt;CAPTIVATE.co&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://bootsnipp.com&quot;&gt;Bootsnipp&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://ui-animations.tumblr.com&quot;&gt;UI Animations&lt;/a&gt;&lt;/li&gt;
@@ -220,8 +198,8 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://useyourinterface.com&quot;&gt;Use Your Interface&lt;/a&gt;&lt;/li&gt;
 
-&lt;/ul&gt;
-&lt;/div&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h1&gt;Coding Resources&lt;/h1&gt;
@@ -373,16 +351,8 @@ html.touch .hidden-touch  {&lt;br&gt;
         <link>http://www.nicholasfrota.com/resources/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/resources/</guid>
         
-        <category>resource</category>
         
-        <category>list</category>
-        
-        <category>link</category>
-        
-        
-        <category>bookmarks</category>
-        
-        <category>list</category>
+        <category>resources</category>
         
       </item>
     
@@ -471,20 +441,8 @@ html.touch .hidden-touch  {&lt;br&gt;
         <link>http://www.nicholasfrota.com/portfolio/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/portfolio/</guid>
         
-        <category>me</category>
         
-        <category>work</category>
-        
-        <category>list</category>
-        
-        
-        <category>me</category>
-        
-        <category>portfolio</category>
-        
-        <category>work</category>
-        
-        <category>list</category>
+        <category>personal</category>
         
       </item>
     
@@ -538,11 +496,7 @@ html.touch .hidden-touch  {&lt;br&gt;
         <category>list</category>
         
         
-        <category>me</category>
-        
-        <category>master</category>
-        
-        <category>list</category>
+        <category>personal</category>
         
       </item>
     

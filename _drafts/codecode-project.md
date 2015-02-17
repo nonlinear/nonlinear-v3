@@ -2,9 +2,7 @@
 layout: default
 title: "Code/Code Project"
 permalink: /codecode-project/
-categories: project code design css
-tags: project code design css
-image: 'codecode'
+categories: code
 ---
 ###Step 1: Abstraction
 How to abstract code away from projects.
