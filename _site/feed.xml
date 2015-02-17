@@ -6,9 +6,46 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Feb 2015 13:38:08 -0500</pubDate>
-    <lastBuildDate>Tue, 17 Feb 2015 13:38:08 -0500</lastBuildDate>
+    <pubDate>Tue, 17 Feb 2015 14:24:04 -0500</pubDate>
+    <lastBuildDate>Tue, 17 Feb 2015 14:24:04 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Code/Code Project</title>
+        <description>&lt;h3 id=&quot;step-1-abstraction&quot;&gt;Step 1: Abstraction&lt;/h3&gt;
+&lt;p&gt;How to abstract code away from projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-automation&quot;&gt;Step 2: Automation&lt;/h3&gt;
+&lt;p&gt;How to create macros for abstractions.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-documentation&quot;&gt;Step 3: Documentation&lt;/h3&gt;
+&lt;p&gt;How the site operates.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-update&quot;&gt;Step 4: Update&lt;/h3&gt;
+&lt;p&gt;Newsletter.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2015 11:44:59 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/codecode-project/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/codecode-project/</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Serval Chat Project</title>
+        <description>&lt;p&gt;Explain whats serval mesh, youtube video&lt;/p&gt;
+&lt;p&gt;Explain the idea of serval chat, and how it changed&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2015 11:44:59 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/serval-project/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/serval-project/</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
     
       <item>
         <title>Fumetti Drawings</title>
@@ -201,7 +238,7 @@ html.touch .hidden-touch  {&lt;br&gt;
     
       <item>
         <title>Design Resources</title>
-        <description>&lt;div class=&quot;grid three&quot;&gt;
+        <description>&lt;div class=&quot;grid four&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Everyday&lt;/h1&gt;
 		&lt;ul&gt;
@@ -220,28 +257,43 @@ html.touch .hidden-touch  {&lt;br&gt;
 		&lt;h1&gt;Social&lt;/h1&gt;
 		&lt;ul&gt;
 			&lt;li&gt;&lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://instagram.com&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://thefancy.com&quot;&gt;Fancy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bootstrappers.io&quot;&gt;Bootstrappers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://instagram.com&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thefancy.com&quot;&gt;Fancy&lt;/a&gt;&lt;/li&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://www.bootstrappers.io&quot;&gt;Bootstrappers&lt;/a&gt;&lt;/li&gt; --&gt;
+
 		&lt;/ul&gt;
 	&lt;/div&gt;
+
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Design&lt;/h1&gt;
 		&lt;ul&gt;
 			&lt;li&gt;&lt;a href=&quot;http://feedly.com/#saved&quot;&gt;Feedly, Saved&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://capptivate.co&quot;&gt;CAPTIVATE.co&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bootsnipp.com&quot;&gt;Bootsnipp&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://ui-animations.tumblr.com&quot;&gt;UI Animations&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://sixux.com&quot;&gt;SIX UX Transitions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://benplum.com/formstone&quot;&gt;Formstone&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://selection.datavisualization.ch&quot;&gt;Datavisualization.ch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://veerle.duoh.com/inspiration&quot;&gt;The inspiration Stream&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;uiGIFs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://useyourinterface.com&quot;&gt;Use Your Interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://capptivate.co&quot;&gt;CAPTIVATE.co&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://bootsnipp.com&quot;&gt;Bootsnipp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ui-animations.tumblr.com&quot;&gt;UI Animations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sixux.com&quot;&gt;SIX UX Transitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://benplum.com/formstone&quot;&gt;Formstone&lt;/a&gt;&lt;/li&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://selection.datavisualization.ch&quot;&gt;Datavisualization.ch&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;li&gt;&lt;a href=&quot;http://veerle.duoh.com/inspiration&quot;&gt;The inspiration Stream&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;uiGIFs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; &lt;/li&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://useyourinterface.com&quot;&gt;Use Your Interface&lt;/a&gt;&lt;/li&gt; --&gt;
 
 		&lt;/ul&gt;
+	&lt;/div&gt;
+		&lt;div class=&quot;cell&quot;&gt;
+		&lt;h1&gt;Gigs&lt;/h1&gt;
+		&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.coroflot.com/jobs#location=New%20York,%20NY&amp;specialties=15&quot;&gt;Coroflot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weeklydesignjobs.com&quot;&gt;WDJ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/job/ui-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/job/interface-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;GlassDoor
+  &lt;p&gt;&lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=ui+designer&amp;locT=C&amp;locId=1132348&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=interface+designer&amp;locT=C&amp;locId=1132348&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://dribbble.com/jobs?utf8=✓&amp;location=New+York&quot;&gt;Dribble&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://designjobs.aiga.org/#keywords=Interaction%20Designer&amp;location=New%20York,%20NY&amp;job_levels=4,3,6&quot;&gt;AIGA&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
