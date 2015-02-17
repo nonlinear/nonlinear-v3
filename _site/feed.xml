@@ -6,23 +6,9 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Feb 2015 11:44:01 -0500</pubDate>
-    <lastBuildDate>Tue, 17 Feb 2015 11:44:01 -0500</lastBuildDate>
+    <pubDate>Tue, 17 Feb 2015 12:08:23 -0500</pubDate>
+    <lastBuildDate>Tue, 17 Feb 2015 12:08:23 -0500</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
-    
-      <item>
-        <title>Serval Chat Project</title>
-        <description>&lt;p&gt;Explain whats serval mesh, youtube video&lt;/p&gt;
-&lt;p&gt;Explain the idea of serval chat, and how it changed&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Feb 2015 10:05:21 -0500</pubDate>
-        <link>http://www.nicholasfrota.com/serval-project/</link>
-        <guid isPermaLink="true">http://www.nicholasfrota.com/serval-project/</guid>
-        
-        
-        <category>code</category>
-        
-      </item>
     
       <item>
         <title>Code/Code Project</title>
@@ -38,9 +24,23 @@
 &lt;h3 id=&quot;step-4-update&quot;&gt;Step 4: Update&lt;/h3&gt;
 &lt;p&gt;Newsletter.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 17 Feb 2015 10:05:18 -0500</pubDate>
+        <pubDate>Tue, 17 Feb 2015 11:44:59 -0500</pubDate>
         <link>http://www.nicholasfrota.com/codecode-project/</link>
         <guid isPermaLink="true">http://www.nicholasfrota.com/codecode-project/</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Serval Chat Project</title>
+        <description>&lt;p&gt;Explain whats serval mesh, youtube video&lt;/p&gt;
+&lt;p&gt;Explain the idea of serval chat, and how it changed&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2015 11:44:59 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/serval-project/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/serval-project/</guid>
         
         
         <category>code</category>
