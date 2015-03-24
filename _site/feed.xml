@@ -6,8 +6,13 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< Updated upstream
     <pubDate>Mon, 23 Feb 2015 18:54:28 -0500</pubDate>
     <lastBuildDate>Mon, 23 Feb 2015 18:54:28 -0500</lastBuildDate>
+=======
+    <pubDate>Thu, 05 Feb 2015 00:26:13 -0500</pubDate>
+    <lastBuildDate>Thu, 05 Feb 2015 00:26:13 -0500</lastBuildDate>
+>>>>>>> Stashed changes
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -243,8 +248,13 @@ html.touch .hidden-touch  {&lt;br&gt;
         <description>&lt;div class=&quot;grid four&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Everyday&lt;/h1&gt;
+<<<<<<< Updated upstream
 		&lt;ul&gt;
 			&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
+=======
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
+>>>>>>> Stashed changes
   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
