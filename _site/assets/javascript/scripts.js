@@ -36,7 +36,6 @@ $(window).load(function() {
 // scroll animation
 
 $(window).scroll(function() {
-// 100 = The point you would like to fade the nav in.
   if ($(window).scrollTop() > 150 ){
     $('html').addClass('trans');
   } else {

@@ -6,14 +6,9 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< Updated upstream
-    <pubDate>Mon, 23 Feb 2015 18:54:28 -0500</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2015 18:54:28 -0500</lastBuildDate>
-=======
-    <pubDate>Thu, 05 Feb 2015 00:26:13 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Feb 2015 00:26:13 -0500</lastBuildDate>
->>>>>>> Stashed changes
-    <generator>Jekyll v2.5.1</generator>
+    <pubDate>Thu, 23 Apr 2015 13:22:56 -0400</pubDate>
+    <lastBuildDate>Thu, 23 Apr 2015 13:22:56 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Podcasts I listen to</title>
@@ -51,6 +46,43 @@
         
         
         <category>resources</category>
+        
+      </item>
+    
+      <item>
+        <title>Code/Code Project</title>
+        <description>&lt;h3 id=&quot;step-1-abstraction&quot;&gt;Step 1: Abstraction&lt;/h3&gt;
+&lt;p&gt;How to abstract code away from projects.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-automation&quot;&gt;Step 2: Automation&lt;/h3&gt;
+&lt;p&gt;How to create macros for abstractions.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-documentation&quot;&gt;Step 3: Documentation&lt;/h3&gt;
+&lt;p&gt;How the site operates.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-update&quot;&gt;Step 4: Update&lt;/h3&gt;
+&lt;p&gt;Newsletter.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2015 11:44:59 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/codecode-project/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/codecode-project/</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Serval Chat Project</title>
+        <description>&lt;p&gt;Explain whats serval mesh, youtube video&lt;/p&gt;
+&lt;p&gt;Explain the idea of serval chat, and how it changed&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2015 11:44:59 -0500</pubDate>
+        <link>http://www.nicholasfrota.com/serval-project/</link>
+        <guid isPermaLink="true">http://www.nicholasfrota.com/serval-project/</guid>
+        
+        
+        <category>code</category>
         
       </item>
     
@@ -107,6 +139,9 @@
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5774324/how-to-get-more-from-your-home-theater-without-paying-a-dime&quot;&gt;How to Get More From Your Home Theater Without Paying a Dime&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.rootsimple.com/2015/01/ghee-for-the-skin/&quot;&gt;Ghee for the skin | Root Simple&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/dust-proof-your-home-with-a-diy-fabric-softener-and-wat-1682438375&quot;&gt;Dust-Proof Your Home With a DIY Fabric Softener and Water Solution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/hide-your-home-entertainment-accessories-behind-your-tv-1690551197&quot;&gt;Hide Your Home Theater Accessories Behind Your TV with Sugru and Hooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://learnairbnb.com/how-to-target-business-travelers-on-airbnb/&quot;&gt;How to Target Business Travelers on Airbnb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hackerspace.lifehacker.com/killer-tips-that-make-packing-and-moving-easier-1693637086&quot;&gt;Killer Tips That Make Packing and Moving Easier&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
   &lt;/div&gt;
@@ -124,6 +159,7 @@
   &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.roomertravel.com/&quot;&gt;Roomer&lt;/a&gt; - Sell Hotel Reservation, Buy Cancelled Hotel Rooms&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/organize-and-share-your-vacation-with-this-travel-plann-1684919711&quot;&gt;Organize and Share Your Vacation with This Travel Planning Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/book-cheap-fares-you-find-on-ita-matrix-with-hipmunk-1688454739&quot;&gt;Book Cheap Fares You Find on ITA Matrix with Hipmunk&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -131,7 +167,10 @@
 &lt;!--   &lt;div class=&quot;cell&quot;&gt;
     &lt;h1&gt;Finances&lt;/h1&gt;
 &lt;ul&gt;
-  &lt;li&gt;pending&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://twocents.lifehacker.com/how-to-build-an-easy-beginner-set-and-forget-investm-1686878594&quot;&gt;How to Build an Easy, Beginner “Set and Forget” Investment Portfoli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/jobhero-organizes-your-job-hunt-reminds-you-to-follow-1692336325&quot;&gt;JobHero Organizes Your Job Hunt, Reminds You to Follow Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twocents.lifehacker.com/effectively-negotiate-your-bills-with-the-silent-treatm-1691608228&quot;&gt;Effectively Negotiate Your Bills With the Silent Treatment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/negotiate-a-lower-credit-card-apr-with-this-script-1690542594&quot;&gt;Negotiate a Lower Credit Card APR with This Script&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
   &lt;/div&gt; --&gt;
@@ -245,23 +284,21 @@ html.touch .hidden-touch  {&lt;br&gt;
     
       <item>
         <title>Design Resources</title>
-        <description>&lt;div class=&quot;grid four&quot;&gt;
+        <description>&lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Everyday&lt;/h1&gt;
-<<<<<<< Updated upstream
 		&lt;ul&gt;
 			&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
-=======
-&lt;ul&gt;
-	&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
->>>>>>> Stashed changes
-  &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thenews.im/&quot;&gt;News 2&lt;/a&gt;&lt;/li&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt; --&gt;
   &lt;li&gt;&lt;a href=&quot;http://typographicposters.com&quot;&gt;Typographic Posters&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.pinterest.com&quot;&gt;Pinterest&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://mojotech.com/shots&quot;&gt;Dribble Infinite Scroll&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
+
+
 
 		&lt;/ul&gt;
 	&lt;/div&gt;
@@ -290,23 +327,12 @@ html.touch .hidden-touch  {&lt;br&gt;
 &lt;li&gt;&lt;a href=&quot;http://veerle.duoh.com/inspiration&quot;&gt;The inspiration Stream&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;uiGIFs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://instagram.com/userinterfacesio/&quot;&gt;userinterfacesio&lt;/a&gt;&lt;/li&gt;
 &lt;!--   &lt;li&gt;&lt;a href=&quot;http://useyourinterface.com&quot;&gt;Use Your Interface&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;li&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
 
 		&lt;/ul&gt;
-	&lt;/div&gt;
-		&lt;div class=&quot;cell&quot;&gt;
-		&lt;h1&gt;Gigs&lt;/h1&gt;
-		&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;http://www.coroflot.com/jobs#location=New%20York,%20NY&amp;specialties=15&quot;&gt;Coroflot&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://weeklydesignjobs.com&quot;&gt;WDJ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;LinkedIn
-&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/job/ui-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/job/interface-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;GlassDoor
-  &lt;p&gt;&lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=ui+designer&amp;locT=C&amp;locId=1132348&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=interface+designer&amp;locT=C&amp;locId=1132348&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href=&quot;https://dribbble.com/jobs?utf8=✓&amp;location=New+York&quot;&gt;Dribble&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://designjobs.aiga.org/#keywords=Interaction%20Designer&amp;location=New%20York,%20NY&amp;job_levels=4,3,6&quot;&gt;AIGA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://source.jobvite.com/js/jobseeker/applications.html?ticket=7C31268FEA7B0A0A2E92E05ED42BC8863D90A265F9216B93CD00D7CB55E1C7EC&amp;&amp;#/list&quot;&gt;JobVite&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -383,6 +409,22 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/christiannaths/Redacted-Font&quot;&gt;Redacted-Font&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://jxnblk.com/shade/?base=00ccff&amp;hueShift=-130&amp;saturate=0&amp;lighten=0&quot;&gt;shade&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mckl.webtype.com/&quot;&gt;MCKL&#39;s Fort and Shift on Webtype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://leaverou.github.io/awesomplete/&quot;&gt;Awesomplete: Ultra lightweight, highly customizable, simple autocomplete, by Lea Verou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://framerjs.tumblr.com/post/111565942792/framer-for-android&quot;&gt;Framer Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wicky.nillia.ms/enquire.js/&quot;&gt;enquire.js&lt;/a&gt; - Awesome Media Queries in JavaScript&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mckl.webtype.com/&quot;&gt;MCKL&#39;s Fort and Shift on Webtype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://leaverou.github.io/awesomplete/&quot;&gt;Awesomplete: Ultra lightweight, highly customizable, simple autocomplete, by Lea Verou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://alistapart.com/article/quantity-queries-for-css&quot;&gt;Quantity Queries for CSS · An A List Apart Article&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/&quot;&gt;More Transparent UI Code with Namespaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web&quot;&gt;Push Notifications on the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.nicholasfrota.com&amp;tab=desktop&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://speedcurve.com/&quot;&gt;SpeedCurve: Monitor front-end performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://smallpdf.com/&quot;&gt;Smallpdf.com - A Free Solution to all your PDF Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pmg.softwaretailoring.net/&quot;&gt;Pie Menu Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sebastianpontow.de/css2compass/&quot;&gt;css2scss - from css to scss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://callmecavs.github.io/layzr.js/&quot;&gt;Layzr.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://howtocenterincss.com/&quot;&gt;How to Center in CSS&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
@@ -405,6 +447,19 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://hudsandguis.com&quot;&gt;Huds and Guis&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://quasimondo.com/ZorroSVG/&quot;&gt;ZorroSVG&lt;/a&gt; - Put a Mask on it&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/&quot;&gt;7 tips for designing awesome animated GIFs&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt; &lt;a href=&quot;http://glench.com/hash/&quot;&gt;i&#39;m sorry&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://ai2html.org/&quot;&gt;ai2html&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://sarasoueidan.com/tools/circulus/&quot;&gt;CIRCULUS.SVG: The SVG Circular Menu Generator&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://github.com/MengTo/AppStoreSketch&quot;&gt;MengTo/AppStoreSketch&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://launchkit.io/screenshots&quot;&gt;App Store Screenshot Builder&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://typejs.org/&quot;&gt;type.js&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://videos.pexels.com/?ref=producthunt&quot;&gt;Free stock videos – Pexels Videos&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://thenuschool.com/free-stock-photos-websites-awesome-list/#list_starts&quot;&gt;The Badass List of Free Stock Photos Websites for Designers&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://viget.com/inspire/responsive-logos-part-2-making-logos-truly-responsive-with-svg&quot;&gt; Making Logos Truly Responsive with Inline SVG&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://markovuletic.com/store/15-iphone6-mockups/&quot;&gt;iPhone 6 Mockups&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://qrohlf.com/trianglify-generator/&quot;&gt;Trianglify Generator&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://peek.space/&quot;&gt;P E E K S P A C E&lt;/a&gt;&lt;/li&gt;
+
 
 
 &lt;/ul&gt;
@@ -422,6 +477,12 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://uifaces.com/&quot;&gt;User Interfaces&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.docracy.com/&quot;&gt;Docracy&lt;/a&gt;, Free Legal Documents&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://useronboard.com&quot;&gt;User Onboarding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cooper.com/prototyping-tools&quot;&gt;Prototyping Tools | Cooper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lukejamestaylor.com/portfolio/css-devices/&quot;&gt;CSS Devices&lt;/a&gt;, Simple pure CSS iOS devices for mockups&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/gifgrabber/id668208984?mt=12&quot;&gt;GifGrabber&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mockable.io/?ref=producthunt&quot;&gt;Mockable&lt;/a&gt;, Quickly create REST and SOAP mocks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mariuszostrowski/wireframingbrush&quot;&gt;mariuszostrowski/wireframingbrush&lt;/a&gt;&lt;/li&gt;
+
 &lt;/ul&gt;
 
 &lt;h1&gt;HTML Email Resources&lt;/h1&gt;
@@ -430,6 +491,12 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/leemunroe/html-email-template&quot;&gt;html-email-template&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://putsmail.com/&quot;&gt;PutsMail&lt;/a&gt;, It’s a mail test tool to test your mails before sending them&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://beefree.io/index.aspx&quot;&gt;BeeFree&lt;/a&gt;, Free email editor to build responsive design messages&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/uglyemail/ldgiafaliifpknmgofiifianlnbgflgj&quot;&gt;UglyEmail - Chrome Web Store&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://responsiveemailresources.com/&quot;&gt;Responsive Email Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://litmus.com/&quot;&gt;Litmus&lt;/a&gt;, Email Testing and Email Marketing Analytics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://glennsmith.me/email/framework/&quot;&gt;Email Framework - Version 1.0 Beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://seesparkbox.com/foundry/email_lab_a_starter_kit_for_html_emails&quot;&gt;Email Lab&lt;/a&gt;: A Starter Kit for HTML Emails&lt;/li&gt;
+
 &lt;/ul&gt;
 
 &lt;h1&gt;Mapping Resources&lt;/h1&gt;
@@ -440,6 +507,12 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://intridea.github.io/stately/&quot;&gt;Stately&lt;/a&gt;, The simple map font&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://maps.stamen.com/#terrain/12/37.7706/-122.3782&quot;&gt;Stamen Maps&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://osvaldas.info/lazy-loading-google-maps&quot;&gt;Lazy-loading Google Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.scottlogic.com/blog/2015/02/02/svg-layout-flexbox.html&quot;&gt;SVG layout with Flexbox for simpler D3 charts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flowingdata.com/2015/03/13/bivariate-choropleth-how-to/&quot;&gt;Bivariate choropleth how-to&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mapsdesign.tumblr.com/&quot;&gt;Beautiful Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flowingdata.com/2015/03/27/making-better-social-media-maps/&quot;&gt;Making better social media maps&lt;/a&gt;&lt;/li&gt;
+
+
 &lt;/ul&gt;
 
 &lt;h1&gt;User Research Resources&lt;/h1&gt;
@@ -451,6 +524,27 @@ html.touch .hidden-touch  {&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;http://uxrecipe.github.io&quot;&gt;UX Recipe&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://uxchecklist.github.io/&quot;&gt;UX Project Checklist&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://codeascraft.com/2015/02/02/transitioning-to-scss-at-scale/&quot;&gt;Transitioning to SCSS at Scale&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/yourbrowser-is-shares-your-browser-and-computer-info-by-1691305385&quot;&gt;Yourbrowser.is Shares Your Browser and Computer Info by Email&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webdesignquote.beewits.com/&quot;&gt;Web Design Quotation Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hbr.org/2015/03/a-checklist-for-planning-your-next-big-meeting&quot;&gt;A Checklist for Planning Your Next Big Meeting - HBR&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/yourbrowser-is-shares-your-browser-and-computer-info-by-1691305385&quot;&gt;Yourbrowser.is Shares Your Browser and Computer Info by Email&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.layervault.com/stories/47742-ask-dn-where-do-you-get-participants-for-uxusability-research&quot;&gt;Ask DN: Where do you get participants for UX/Usability Research? - Designer News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@houbenkristof/localise-designs-with-sketch-6300cd9165f6&quot;&gt;Localise designs with Sketch and Invision — Medium&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1&gt;Gigs&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.coroflot.com/jobs#location=New%20York,%20NY&amp;specialties=15&quot;&gt;Coroflot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weeklydesignjobs.com&quot;&gt;WDJ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/job/ui-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/job/interface-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;GlassDoor
+  &lt;p&gt;&lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=ui+designer&amp;locT=C&amp;locId=1132348&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=interface+designer&amp;locT=C&amp;locId=1132348&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://dribbble.com/jobs?utf8=✓&amp;location=New+York&quot;&gt;Dribble&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://designjobs.aiga.org/#keywords=Interaction%20Designer&amp;location=New%20York,%20NY&amp;job_levels=4,3,6&quot;&gt;AIGA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://source.jobvite.com/js/jobseeker/applications.html?ticket=7C31268FEA7B0A0A2E92E05ED42BC8863D90A265F9216B93CD00D7CB55E1C7EC&amp;&amp;#/list&quot;&gt;JobVite&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
