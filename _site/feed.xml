@@ -6,8 +6,8 @@
 </description>
     <link>http://www.nicholasfrota.com/</link>
     <atom:link href="http://www.nicholasfrota.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Apr 2015 18:13:21 -0400</pubDate>
-    <lastBuildDate>Tue, 28 Apr 2015 18:13:21 -0400</lastBuildDate>
+    <pubDate>Tue, 28 Apr 2015 18:14:24 -0400</pubDate>
+    <lastBuildDate>Tue, 28 Apr 2015 18:14:24 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -426,6 +426,7 @@ html.touch .hidden-touch  {&lt;br&gt;
 &lt;li&gt;&lt;a href=&quot;http://sebastianpontow.de/css2compass/&quot;&gt;css2scss - from css to scss&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://callmecavs.github.io/layzr.js/&quot;&gt;Layzr.js&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://howtocenterincss.com/&quot;&gt;How to Center in CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wheelnavjs.softwaretailoring.net/examples.html&quot;&gt;wheelnav.js&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 
