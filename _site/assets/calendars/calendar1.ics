@@ -1,0 +1,1194 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:Black Flowy\, Arts
+X-WR-CALDESC:Art\, Gallery Openings\, Art\, Museum\, Art\, Films\, Art\,
+  Books\, Art\, Performances\, ART.
+X-APPLE-CALENDAR-COLOR:#AB8B00
+X-WR-TIMEZONE:America/New_York
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND:20091206T000000Z
+UID:CFA82340-10B2-42C3-B6AF-74D4D3DB1CF9
+DTSTAMP:20150428T133101Z
+LOCATION:Our Lady of Consolation Church \n184 Metropolitan Ave \nWilliam
+ sburg\, Brooklyn
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._8d342e1i6cq
+ 30b9h61134b9k691j6ba26p0kcb9n6h238h1j8h132gq674
+DESCRIPTION:
+URL;VALUE=URI:message:%3C4CCCC7A7-8A5E-4D4B-A47A-35DF6316A90F@nonlinear.
+ cc%3E
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:Brooklyn Comics and Graphics Festival
+DTSTART:20091205T160000Z
+LAST-MODIFIED:20150428T133101Z
+CREATED:20150428T133101Z
+BEGIN:VALARM
+X-WR-ALARMUID:98D5C5A9-7AED-4CD4-933D-762F0E9C6B17
+UID:98D5C5A9-7AED-4CD4-933D-762F0E9C6B17
+TRIGGER:-PT10M
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20141011T180000
+UID:77A64E84-70B5-4850-A789-7702FC6337C5
+DTSTAMP:20141009T173303Z
+LOCATION:3931 29th St\nNew York NY 11101
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6srk2dhk8ks
+ 38b9n6113ab9k70qj0ba16ss3ib9n6so34hi36opj6dq36k
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6srk2dhk8ks
+ 38b9n6113ab9k70qj0ba16ss3ib9n6so34hi36opj6dq36k
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6srk2dhk8ks
+ 38b9n6113ab9k70qj0ba16ss3ib9n6so34hi36opj6dq36k
+DESCRIPTION:Access to the Internet for the majority of the public\, is c
+ ontrolled by a select few organizations. Mesh networks are an alternativ
+ e to the current centralized topology. We will explain the basic concept
+ s behind mesh networks and how they are different from traditional compu
+ ter networks as well as the specific technical requirements.
+URL;VALUE=URI:http://utopiaschool.org/node/123
+STATUS:CONFIRMED
+SEQUENCE:10
+SUMMARY:Introduction to Mesh Networks
+DTSTART;TZID=America/New_York:20141011T160000
+LAST-MODIFIED:20141009T173303Z
+CREATED:20141009T172925Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=3931 29th St\\nNew York 
+ NY 11101;X-APPLE-RADIUS=49;X-TITLE=3931 29th St:geo:40.752621,-73.934959
+ 
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140904T205000
+UID:dr3n5c86813aac3bbdtllksp54@google.com
+DTSTAMP:20140903T204641Z
+LOCATION:The Hole\, 312 Bowery\, New York\, NY\, United States
+DESCRIPTION:The Hole is the biggest edgy downtown gallery\nhttp://us2.ca
+ mpaign-archive1.com/?u=914ed92519d7112560659d083&id=6b9af3943b&e=bd4ed15
+ 37c
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:(opening) THE HOLE: Kadar Brock
+DTSTART;TZID=America/New_York:20140904T180000
+LAST-MODIFIED:20140903T204641Z
+CREATED:20140903T204631Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140909T215000
+UID:v4f90cmds72ifv49kr0o5cidfk@google.com
+DTSTAMP:20140904T001458Z
+LOCATION:Mason Hall\, 17 Lexington Ave\, New York\, NY\, United States
+DESCRIPTION:Baruch Performing Arts Center\, Mason Hall \n55 Lexington Av
+ e\, NY NY \n\nTickets $20 at www.baruch.cuny.edu/bpac
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:IN CONVERSATION: Laverne Cox (orange is the new black) and M Lam
+ ar\, as part of the GenderFluid festival 
+DTSTART;TZID=America/New_York:20140909T200000
+LAST-MODIFIED:20140904T001458Z
+CREATED:20140904T001407Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140907T230000
+UID:via1bt6vgsoh4objn86ojsjkpk@google.com
+DTSTAMP:20140903T210222Z
+LOCATION:389 Melrose St\, Brooklyn\, NY 11237\, USA
+DESCRIPTION:THE HOUSE OF BUSHWIG & SECRET PROJECT ROBOT ARE VERY PLEASED
+  TO ANNOUNCE ♡ BUSHWIG 2014 \n\nSATURDAY 6TH + SUNDAY 7TH SEPTEMBER 2014
+ \n\nBushwig now in its 3rd year! Weve been working our false nails off t
+ he mother-f***in chain to bring you a celebration of queer moments & hai
+ r balls!!! \n\nDue to extreme demand & with the addition of more live mu
+ sic and an extra day this year will be even more leg & dairy!\n\n\n\nDAY
+  #1:\nSATURDAY 6TH SEPTEMBER\n\n1pm-midnight @ secret project robot / mi
+ dnight - 4am @ bizarre / midnight-8am @ spectrum\n\n\n(saturday & weeken
+ d day passes allow you free into late shows before 1:30am)\n\n\n\nmusic:
+ \nsoft pink truth • bottoms • fem ladosha • quay dash • contessa stuto •
+  mind dynamics • #GIANT • ab soto • shigh • mat kastella • ghostlover \n
+ \nperformance:\nhorrorchata • merrie cherry • rachel ratchet • la freakq
+ uia • daphne sumtimez • untitled queen • sasha velour • january bones • 
+ issa israel • avi monster • lacy lane • leelu • patty spliff • stevie za
+ rr • bebe beretta • voxxa vine • erickatoure aviance - timantha jones • 
+ valentine stefan • alotta mcgriddles • lady quesa'dilla • boywolf • soph
+ ie skintight • baby born • Merci Killingspree • foxy squire • gage of th
+ e bone • roman showers • Lady Grackle • charlene • lucy balls • switch &
+  play • kitana kush • aja nicole • heidi glum • crimson kitty • hamm san
+ dwich • goldie peacock • moon baby • pearl • ellen degenerate • anna lie
+ berman • ari kiki • bianca de chanel • neocamp • svetlana stoli • jantin
+ a • bacchaus • elle emenope • maddelynn hatter • one half nelson • pussy
+  couture • sick nasty • soigne • cherri baum • mocha light • ruby roo • 
+ elizabeth james • sequinette • veruca la piranha • heather acs • Bulimia
+ nne Rhapsody • kitty buick • machine dazzles • krobottom • cecilia • han
+ nah lou • mariette moure • grammer • stanley • andy pandy • althea trix 
+ • demanda • darling arcie cola • david serotte • halcyon\n\n* SURPRISE G
+ UEST FROM RU PAUL SEASON 6 * \n\ndjs:\nfrankie sharp • jd samson • amber
+  valentine • merkin muffley • disko dumpling • jessamess • andreas fist 
+ (stockholm) \n\n\n\n\n\n\nDAY #2\nSUNDAY 7TH SEPTEMBER\n2pm - 11pm @ sec
+ ret project robot. 11pm-4am @ tandem.\n\n\nmusic:\nlauren devine • dynas
+ ty handbag • tami tamaki (berlin) • alexis penney • 2pretty • macy rodma
+ n • sparklez • the boobies • max steele\n\nperformance:\nlinda simpson •
+  rify royalty • k8 hardy • ladybearica andrews • enid ellen • momo shade
+  • moni lafemme • di ba • nicholas gorham • reverso • penny arcade • chr
+ is of hur • cherry pepsi • scarlet envy • david john sokolowski • eva de
+ struction • fluct • leo gugu • chris tyler • magony anny • manifestany s
+ quirtz • tyler ashley • raul de nieves • detoxx bústi-ae • severely mame
+  • miz jade • bailey stiles • amber alert • slater g string • lady simon
+  • miranda lanvin • dark momü • cher noble • kadavir • jake dibeler • pe
+ nny arcade • rhedd rhumm\n\ndjs: \nspecial secret guest! • night feeling
+ s • trey latrash • hampus (top nice/sweden) • beppe •\n\n\nLine up subje
+ ct to change\n♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ 
+ ♡\n\nVendors Sat & Sun >>>\nMuseum Of Drag ✿ BCALLA ✿ Lucy Roux ✿ Hot Do
+ g on a Stick \n\nfamily friendly (ish) before 9pm! ~ everyone welcome!\n
+ Under 12's in free before 6pm\n\n\nLIKE\; Bushwig \nFOLLOW\; http://inst
+ agram.com/bushwig\n#BUSHWIG\n\n\nMoneys raised at the bushwig festival t
+ his year will be partly going to the radical diva grant also we are look
+ ing into a creating a permanent full time drag space! \n\n\nWANT TO HELP
+  OUT TO GET IN FOR FREE? BushwigBK@gmail.com with the heading "HELP!"\n\
+ n\n\n♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡ ♡\n\nWEEK
+ END PASSES AVAILABLE FROM: \nhttp://www.secretprojectrobot.org/
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Bushwig Drag Festival
+DTSTART;TZID=America/New_York:20140906T130000
+LAST-MODIFIED:20140903T210222Z
+CREATED:20140903T210056Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20141114T180000
+UID:14m50hvhmlmc0jk1upm8cqil70@google.com
+DTSTAMP:20141104T204749Z
+LOCATION:66 W 12th St\, New York\, NY 10011\, USA
+DESCRIPTION:http://events.newschool.edu/event/digital_labor_sweatshops_p
+ icket_lines_barricades#.VFgAWEtCpP8
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:Digital Labor: Sweatshops\, Picket Lines\, Barricades
+DTSTART;TZID=America/New_York:20141114T090000
+LAST-MODIFIED:20141104T204749Z
+CREATED:20141103T222503Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20141021T230000
+UID:72fgq3t68mlua4r5jdqo6bteds@google.com
+DTSTAMP:20141017T183923Z
+LOCATION:IFC Center\, 323 Avenue of the Americas\, New York\, NY 10014\,
+  United States
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:DEPECHE MODE 101 SCREENING
+DTSTART;TZID=America/New_York:20141021T203000
+LAST-MODIFIED:20141017T183923Z
+CREATED:20141017T183923Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140905T205000
+UID:cdru90434jibf7043s6u5bbvd8@google.com
+DTSTAMP:20141018T195509Z
+LOCATION:The Hole\, 312 Bowery\, New York\, NY\, United States
+DESCRIPTION:(one of the edgiest galleries right now) - bowery & 2nd stzs
+ zs
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:(opening) Paintings about the fashion world @ THE HOLE
+DTSTART;TZID=America/New_York:20140905T190000
+LAST-MODIFIED:20141018T195509Z
+CREATED:20140903T204751Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140904T200000
+UID:ohapi5dqs5mjr8ie905jjo2f8k@google.com
+DTSTAMP:20140903T205546Z
+LOCATION:Chelsea Art District\, 514 W 25th St\, New York\, NY\, United S
+ tates
+DESCRIPTION:http://www.artslant.com/ny/events/list - unlimited wine & be
+ er!
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:(openings) ARTWALK: 30+ Chelsea Art gallery openings
+DTSTART;TZID=America/New_York:20140904T180000
+LAST-MODIFIED:20140903T205546Z
+CREATED:20140903T205539Z
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20140903T204923Z
+UID:1834r9hijpmqamk70qegcdvbto@google.com
+DTEND;TZID=America/New_York:20140908T225000
+TRANSP:OPAQUE
+SUMMARY:Queer Art Film @ IFC: WEST SIDE STORY
+DTSTART;TZID=America/New_York:20140908T200000
+DTSTAMP:20140903T204923Z
+LAST-MODIFIED:20140903T204923Z
+SEQUENCE:0
+DESCRIPTION:The format is a prominent gay artist presents the film that 
+ inspired their career and there's an open Q&A after. It's once a month..
+  http://www.ifccenter.com/series/queerartfilm/
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140927T100000
+UID:3F8C5E81-BFDC-4D47-9EA8-D1163C0BD969
+DTSTAMP:20140917T200916Z
+LOCATION:Abrons Arts Center
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6d33ggpl8ks
+ 32ba28p246b9k8gq3eb9p8l0jgba464ojccq361148e9m74
+DESCRIPTION:
+URL;VALUE=URI:http://www.abronsartscenter.org/performances/queernyintern
+ ational2014/qny-international-2014.html
+STATUS:CONFIRMED
+SEQUENCE:8
+SUMMARY:Queer New York International Arts Festival
+DTSTART;TZID=America/New_York:20140917T090000
+LAST-MODIFIED:20140917T200916Z
+CREATED:20140917T200916Z
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20140912T221734Z
+UID:dk9m8qlkafc5g4mq5uehjpcom4@google.com
+DTEND;TZID=America/New_York:20140913T162000
+TRANSP:OPAQUE
+SUMMARY:Markopoulos Screening @ Anthology Film Archives
+DTSTART;TZID=America/New_York:20140913T150000
+DTSTAMP:20140912T221739Z
+LAST-MODIFIED:20140912T221739Z
+SEQUENCE:0
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20140928
+UID:204B8599-27D1-4BCB-88E3-5E07DB9F7713
+DTSTAMP:20140911T155850Z
+LOCATION:The Hole\n312 Bowery\nNew York NY 10012
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._68o38gho6ks
+ jib9i6t232b9k891k4b9o712j6b9l8ko3eh227533edph6c
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._68o38gho6ks
+ jib9i6t232b9k891k4b9o712j6b9l8ko3eh227533edph6c
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._68o38gho6ks
+ jib9i6t232b9k891k4b9o712j6b9l8ko3eh227533edph6c
+DESCRIPTION:The Hole is proud to present the exhibition and performance 
+ series Future Feminism. Created by Antony\, Kembra Pfahler\, Johanna Con
+ stantine\, Bianca Casady and Sierra Casady\, Future Feminism will featur
+ e an exhibition of stoneworks in the main gallery and a thirteen-night p
+ erformance and lecture series in Gallery 3. In this exhibition\, they wi
+ ll debut the 13 Tenets of Future Feminism\, a manifesto the artists and 
+ musicians have honed over the past three years from numerous retreats an
+ d meetings representing a frontier feminist perspective.\n\n \n\nEach of
+  the 13 nights\, one of the 13 Tenets will be activated by the Future Fe
+ minists and their collaborators. Performances begin at 8pm\, doors at 7:
+ 45pm\, and all events are open to the public on a first come first serve
+  basis. Suggested donation: $10. The opening reception is free.\n\nEvent
+  schedule:\n\n \n\nThursday\, September 11:        Opening 6-9PM\n\nFrid
+ ay\, September 12:             Bianca and Sierra Casady\, Sarah Schulman
+ \n\nSaturday\, September 13:        Johanna Constantine\, Lydia Lunch\n\
+ nSunday\, September 14:           The Factress aka Lucy Sexton\, Clark R
+ ender as Margaret Thatcher\, Laurie Anderson\n\nWednesday\, September 17
+ :    Narcissister\, Dynasty Handbag\, No Bra\n\nThursday\, September 18:
+        Ann Snitow speaks with the Future Feminists\n\nFriday\, September
+  19:             Kiki Smith presents Anne Waldman\, Mei-Mei Berssenbrugg
+ e and Anne Carson\n\nSaturday\, September 20:        Kembra Pfahler and 
+ The Girls of Karen Black\n\nSunday\, September 21:           Lorraine O’
+ Grady\n\nWednesday\, September 24:   Marina Abramović\n\nThursday\, Sept
+ ember 25:       Carolee Schneemann\, Jessica Mitrani\, Melanie Bonajo\n\
+ nFriday\, September 26:            Terence Koh as Miss OO\n\nSaturday\, 
+ September 27:        Viva Ruiz\, Julianna Huxtable\, Alexyss K.  Tylor
+URL;VALUE=URI:http://theholenyc.com/2014/08/15/future-feminism-2/
+STATUS:CONFIRMED
+SEQUENCE:9
+SUMMARY:Future Feminism
+DTSTART;VALUE=DATE:20140911
+LAST-MODIFIED:20140911T155850Z
+CREATED:20140911T155827Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=312 Bowery\\nNew York NY
+  10012;X-APPLE-RADIUS=25;X-TITLE=The Hole:geo:40.725097,-73.992683
+BEGIN:VALARM
+X-WR-ALARMUID:F0A25ED8-4864-4174-A063-B68DF9B372DE
+UID:F0A25ED8-4864-4174-A063-B68DF9B372DE
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20140911T155850Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140907T210000
+UID:e46cgj8d7sjb2mu56f86oml8hc@google.com
+DTSTAMP:20140904T001105Z
+LOCATION:PARTICIPANT INC.\, 253 E Houston St\, New York\, NY\, United St
+ ates
+DESCRIPTION:Participant Inc. 253 E. Houston St NY 10002\n\nFlyer:\nhttp:
+ //us4.forward-to-friend1.com/forward/preview?u=b5e18219bca240e2af9fa33b3
+ &id=1e05f00d97
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:opening) NegroGothic @ PARTICIPANT INC
+DTSTART;TZID=America/New_York:20140907T190000
+LAST-MODIFIED:20140904T001105Z
+CREATED:20140904T001053Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;TZID=America/New_York:20140928T220000
+UID:l50ki6sg65sov26ddcq4ece53s@google.com
+DTSTAMP:20140911T155844Z
+LOCATION:Brooklyn Bridge Park Pier 5\, Joralemon St\, Brooklyn\, NY\, Un
+ ited States
+DESCRIPTION:http://www.photoville.com/p-2014/schedule/\n\n\n\nThe Upland
+ s of Pier 5 are located in Brooklyn Bridge Park\, off Furman Street and 
+ next to One Brooklyn Bridge Park\, whose address is 360 Furman Street\, 
+ Brooklyn 11201.\n\n\nPhotoville is:\n\na 10 minute walk down Joralemon S
+ treet from Borough Hall\, Brooklyn\na 3 minute walk from Atlantic Ave\na
+  15 minute walk from DUMBO along the greenway\n\n\nIf you are driving:\n
+ \nYou can drop off passengers on the Furman Street entrance before proce
+ eding to a nearby parking lot or on-street parking area. The Furman Stre
+ et entrance.\n\n\nIf you are coming from Pier 1/ Fulton Ferry Landing/ D
+ UMBO/ East River Ferry/ Columbia Heights:\n\nWalk along the footpath run
+ ning from Pier 1 to Pier 6. The waterfront will be on your right. This w
+ ill take approx. 15 minutes (you can also take this opportunity to enjoy
+  our 1000 foot Photo FENCE!)\n\n\nIf you are coming from Atlantic Avenue
+  & Pier 6 :\n\nWalk along the footpath running from Pier 6 to Pier 1. Th
+ e waterfront will be on your left. This will take approx. 3 minutes.\n\n
+ \n\n\nClick on map to view larger version\nClick on map to view larger v
+ ersion\n\n\n\n\nPHOTOVILLE is also accessible via public transportation:
+ \n\n\nSubway\n\n245 2/3/4/5 at Borough Hall Station (click here for dire
+ ctions)\n23 2/3 at Clark Street Station (click here for directions)\nR a
+ t Court Street Station (click here for directions)\nACF A/C/F/R at Jay S
+ t/Metrotech Station (click here for directions)\nCA A/C at High Street S
+ tation (click here for directions)\n\n\nBus\n\nB25 at Fulton Ferry Landi
+ ng (for Pier 1\, Empire Fulton Ferry and Main Street)\nB63 in the loop r
+ oad on Pier 6\, south of One Brooklyn Bridge Park (for Pier 6)\n\n\nEast
+  River Ferry\n\nERF\n\n\n\nNY Waterway’s East River Ferry offers frequen
+ t\, reliable service from Fulton Ferry Landing to destinations along the
+  Brooklyn\, Queens and Manhattan waterfront. All East River Ferries are 
+ bike friendly.\n\nFares are $4.00 per trip to and from any terminal and 
+ $12.00 for a hop-on-hop-off day pass. There is a $1.00 surcharge for bik
+ es. Monthly passes are also available. Download the route map and schedu
+ le here.
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Photoville (Free) & DUMBO Arts Festival
+DTSTART;TZID=America/New_York:20140925T160000
+LAST-MODIFIED:20140911T155844Z
+CREATED:20140904T074036Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140914T213000
+UID:lb6cmm4cf7tuhos7bftksfdnqk@google.com
+EXDATE;TZID=America/New_York:20140919T200000
+EXDATE;TZID=America/New_York:20140916T200000
+EXDATE;TZID=America/New_York:20140915T200000
+EXDATE;TZID=America/New_York:20140914T200000
+DTSTAMP:20140903T205338Z
+LOCATION:The Kitchen\, 512 W 19th St\, New York\, NY\, United States
+DESCRIPTION:The Kitchen (i took alex there for a show before!). Trajal's
+  a friend of mine who's blown up in the experimental dance world n been 
+ selling out\, it should be good. I can see if i can get a couple comp ti
+ ckets Nellee would probably love the voguing aspect to it too\n\nhttps:/
+ /www.facebook.com/events/471004943001951/\n====\n\n“What would have happ
+ ened in 1963 if someone from the voguing ballroom scene in Harlem had co
+ me downtown to perform alongside the early postmoderns at Judson Church?
+ ” Five years since posing this provocative question\, New York choreogra
+ pher Trajal Harrell has meshed the parallel traditions of postmodern dan
+ ce and voguing\, revealing sharp perspectives on race\, gender\, and not
+ ions of identity. For the first time in the U.S.\, experience the whole 
+ performance series – from extra small (XS) to made-to-measure (M2M) – in
+  the span of one week. Co-presented with FIAF’s Crossing the Line 2014.\
+ n\nSunday September 14 (XS)\, 4pm\, 5pm\, 7pm and 8pm\nMonday September 
+ 15 (S)\, 8pm\nTuesday September 16 (M)imosa\, 8pm\, co-created with Ceci
+ lia Bengolea\, François Chaignaud\, and Marlene Monteiro Freitas\nWednes
+ day September 17 (jr) Antigone Jr.\, 8pm \nWednesday September 17 (Plus)
+  Antigone Jr. ++\, 9:30pm\nFriday September 19 (L)\, Antigone Sr.\, 8pm\
+ nSaturday September 20 (M2M) Judson Church is Ringing in Harlem\, 8pm \n
+ Tickets $20\n\nSPECIAL OFFER: click here to purchase tickets to at least
+  three performances and receive 20% off each ticket: https://www.vendini
+ .com/ticket-software.html?p=9a65ff78192063dc9b7cbad313b9b0c0&t=package
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:(performance) Trajal Harrell: Twenty Looks or Paris is Burning a
+ t the Judson Church @ THE KITCHEN
+DTSTART;TZID=America/New_York:20140914T200000
+LAST-MODIFIED:20140903T205338Z
+CREATED:20140903T205313Z
+RRULE:FREQ=DAILY;COUNT=7
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140918T213000
+UID:lb6cmm4cf7tuhos7bftksfdnqk@google.com
+DTSTAMP:20140915T223116Z
+LOCATION:The Kitchen\, 512 W 19th St\, New York\, NY\, United States
+DESCRIPTION:THURSDAY 8pm is the only showing that has openings\, everyth
+ ing else is sold out!! this is private for friends\, trajal said we can 
+ go!\n\nhttps://www.facebook.com/events/471004943001951/\n====\n\n“What w
+ ould have happened in 1963 if someone from the voguing ballroom scene in
+  Harlem had come downtown to perform alongside the early postmoderns at 
+ Judson Church?” Five years since posing this provocative question\, New 
+ York choreographer Trajal Harrell has meshed the parallel traditions of 
+ postmodern dance and voguing\, revealing sharp perspectives on race\, ge
+ nder\, and notions of identity. For the first time in the U.S.\, experie
+ nce the whole performance series – from extra small (XS) to made-to-meas
+ ure (M2M) – in the span of one week. Co-presented with FIAF’s Crossing t
+ he Line 2014.\n\nSunday September 14 (XS)\, 4pm\, 5pm\, 7pm and 8pm\nMon
+ day September 15 (S)\, 8pm\nTuesday September 16 (M)imosa\, 8pm\, co-cre
+ ated with Cecilia Bengolea\, François Chaignaud\, and Marlene Monteiro F
+ reitas\nWednesday September 17 (jr) Antigone Jr.\, 8pm \nWednesday Septe
+ mber 17 (Plus) Antigone Jr. ++\, 9:30pm\nFriday September 19 (L)\, Antig
+ one Sr.\, 8pm\nSaturday September 20 (M2M) Judson Church is Ringing in H
+ arlem\, 8pm \nTickets $20\n\nSPECIAL OFFER: click here to purchase ticke
+ ts to at least three performances and receive 20% off each ticket: https
+ ://www.vendini.com/ticket-software.html?p=9a65ff78192063dc9b7cbad313b9b0
+ c0&t=package
+STATUS:CONFIRMED
+SEQUENCE:1
+RECURRENCE-ID;TZID=America/New_York:20140918T200000
+SUMMARY:(DRESS REHEARSAL performance) Trajal Harrell: Twenty Looks or Pa
+ ris is Burning at the Judson Church @ THE KITCHEN
+DTSTART;TZID=America/New_York:20140918T200000
+LAST-MODIFIED:20140915T223116Z
+CREATED:20140903T205313Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20141002T212000
+UID:2krrapoe72hsp1i6c5235tumqc@google.com
+DTSTAMP:20140922T205913Z
+LOCATION:Pangea\, 178 2nd Ave\, New York\, NY\, United States
+DESCRIPTION:6-9:30pm\n\nPangea \n178 2nd Ave
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:John Michael Rodriguez PHOTO SHOW @ Pangea 178 2nd Ave
+DTSTART;TZID=America/New_York:20141002T180000
+LAST-MODIFIED:20140922T205913Z
+CREATED:20140922T205812Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND:20140921T004500Z
+UID:hf0b970ud97c9378i78sah2tnc@google.com
+DTSTAMP:20140912T060541Z
+LOCATION:The Hole\, 312 Bowery\, New York\, NY\, United States
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Kembra Pfahler Future Feminism at The Hole
+DTSTART:20140920T234500Z
+LAST-MODIFIED:20140912T060541Z
+CREATED:20140912T060506Z
+END:VEVENT
+BEGIN:VEVENT
+STATUS:CONFIRMED
+CREATED:20140903T175555Z
+UID:82jombt1c1oeh96108p70iq1g8@google.com
+DTEND:20140908T000000Z
+TRANSP:OPAQUE
+SUMMARY:Simon Preston Gallery Jenny Perlin opening
+DTSTART:20140907T220000Z
+DTSTAMP:20140903T204331Z
+LAST-MODIFIED:20140903T204331Z
+SEQUENCE:0
+DESCRIPTION:
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140916T202000
+UID:ginlhqgnlvie0vkiu0ou7b68ac@google.com
+DTSTAMP:20140912T221757Z
+LOCATION:Light Industry\, 155 Freeman St\, Brooklyn\, NY\, United States
+ 
+DESCRIPTION: 155 Freeman Street\, Brooklyn\n\nhttp://www.lightindustry.o
+ rg/galaxie
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Gregory Markopoulos's Galaxie
+DTSTART;TZID=America/New_York:20140916T193000
+LAST-MODIFIED:20140912T221757Z
+CREATED:20140912T221449Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20140913T230000
+UID:18F9FDE4-5DC7-4D92-A193-27F69C83876E
+DTSTAMP:20140912T045530Z
+LOCATION:115 Grand St\, New York NY 11249
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._64s4cea68h2
+ j8b9l8h1jeb9k8gsj4ba164sj6b9i6t33cea370pjgdpm8k
+DESCRIPTION:The Goetia is a famous 17th century grimoire and refers to a
+  practice which includes the invocation of angels or demons. Each of the
+  seventy-two demons are illustrated with pen & ink\, coffee stain backgr
+ ound\, and embellished with white ink.
+URL;VALUE=URI:https://www.facebook.com/events/577157242395213
+STATUS:CONFIRMED
+SEQUENCE:9
+SUMMARY:Mister Beaudry's GOETIA: The Lesser Key of Solomon
+DTSTART;TZID=America/New_York:20140913T190000
+LAST-MODIFIED:20140912T045530Z
+CREATED:20140910T150643Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20141217T210000
+UID:23vi29j2pmc06avjq2vq6q9uag@google.com
+DTSTAMP:20141115T185943Z
+LOCATION:721 Broadway\, 4th Floor New York NY 10003
+DESCRIPTION:Wednesday\, December 17 from 5-9pm\nThursday\, December 18 f
+ rom 4-8pm\n\nA two day exhibition of the recent interactive media works 
+ by the students of ITP.\n\nhttp://itp.nyu.edu/shows/winter2014/\n\n721 B
+ roadway\, 4th Floor\nNew York NY 10003\n\nFree and open to the public\nN
+ o need to RSVP\nPlease spread the word far and wide!\n
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:ITP Winter Show 2014
+DTSTART;TZID=America/New_York:20141217T170000
+LAST-MODIFIED:20141115T185943Z
+CREATED:20141115T185917Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20141218T200000
+UID:a63o2ur3dc66va1i9b9s0mhsik@google.com
+DTSTAMP:20141115T185935Z
+LOCATION:721 Broadway\, 4th Floor New York NY 10003
+DESCRIPTION:Wednesday\, December 17 from 5-9pm\nThursday\, December 18 f
+ rom 4-8pm\n\nA two day exhibition of the recent interactive media works 
+ by the students of ITP.\n\nhttp://itp.nyu.edu/shows/winter2014/\n\n721 B
+ roadway\, 4th Floor\nNew York NY 10003\n\nFree and open to the public\nN
+ o need to RSVP\nPlease spread the word far and wide!\n
+STATUS:CONFIRMED
+SEQUENCE:1
+SUMMARY:ITP Winter Show 2014
+DTSTART;TZID=America/New_York:20141218T160000
+LAST-MODIFIED:20141115T185935Z
+CREATED:20141115T185718Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20141206T220000
+UID:18C6B438-417A-4124-9FD2-8C607D871C01
+DTSTAMP:20141202T154021Z
+LOCATION:Brooklyn Museum of Art\n200 Eastern Pkwy\nNew York NY 11238
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._64s46di26gp
+ jgb9k64rk2b9k64p38b9p8p234b9o8cr30dq470rj2gpg64
+DESCRIPTION:
+URL;VALUE=URI:https://www.facebook.com/events/315645738622074/3317452336
+ 78791/?notif_t=plan_mall_activity
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:(un)Heeled: A Fashion Show for the Unconventionally Masculine
+DTSTART;TZID=America/New_York:20141206T190000
+LAST-MODIFIED:20141202T154021Z
+CREATED:20141202T154020Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=200 Eastern Pkwy\\nNew Y
+ ork NY 11238;X-APPLE-RADIUS=183.7646964528124;X-TITLE=Brooklyn Museum of
+  Art:geo:40.670894,-73.963700
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150104
+UID:41B4939E-3816-454E-B3CD-C55D09C65459
+DTSTAMP:20141211T140015Z
+LOCATION:126 Baxter St\nNew York NY 10013
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6gok4d1p6cs
+ kab9j70ojcb9k6kq4aba26d1k8ba36kqk8c1p8cr3ad1l74
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6gok4d1p6cs
+ kab9j70ojcb9k6kq4aba26d1k8ba36kqk8c1p8cr3ad1l74
+DESCRIPTION:
+URL;VALUE=URI:http://www.baxterst.org
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Juan Bethancurt
+DTSTART;VALUE=DATE:20141212
+LAST-MODIFIED:20141211T140015Z
+CREATED:20141208T154634Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=126 Baxter St\\nNew York
+  NY 10013;X-APPLE-RADIUS=16.72876316159962;X-TITLE=126 Baxter St:geo:40.
+ 718239,-73.999133
+BEGIN:VALARM
+X-WR-ALARMUID:231D31E8-CBC7-4C4E-A46A-682AD8DE47F5
+UID:231D31E8-CBC7-4C4E-A46A-682AD8DE47F5
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20141211T140011Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150228T200000
+UID:8ED2D6B7-74B3-4B35-844B-CC86003E73ED
+DTSTAMP:20150216T153137Z
+LOCATION:Bluestockings\n172 Allen St\nNew York NY 10002
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._712k8ci46p1
+ 3eb9n6h136b9k88pjab9o6gq44ba38cs3cc1g6d2jecq58g
+DESCRIPTION:With Elvis\, Emma Caterine\, Jenna\, Jordan\, and Rachel\nYo
+ ur NYC Feminist Zine Fest organizers warm up for the 3rd almost-annual e
+ vent by reading from their zines. Themes addressed in their individual z
+ ines include queer history and lives\, being a workaholic librarian\, bo
+ oks\, self-care\, race\, family\, and the pursuit of higher education. T
+ heir work takes the forms of personal essays\, fiction and comics. The z
+ ine creators come from a variety of experiences and race\, sexuality and
+  gender identities and range in age from early 20s to late 40s. 
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Meet your Zine Fest Makers
+DTSTART;TZID=America/New_York:20150228T190000
+LAST-MODIFIED:20150216T153137Z
+CREATED:20150216T153137Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=172 Allen St\\nNew York 
+ NY 10002;X-APPLE-RADIUS=17.38136533002621;X-TITLE=Bluestockings:geo:40.7
+ 21394,-73.988916
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150308T133000
+UID:6BDA2C2A-817F-40DC-8CFF-8DF3C1EB3F47
+DTSTAMP:20150216T153420Z
+LOCATION:Bluestockings\n172 Allen St\nNew York NY 10002
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6p148g9i8cp
+ 42b9o64rkcb9k61246b9o8d34cb9o8h336gph8l136hhk6s
+DESCRIPTION:Join a group of educators of all settings for a discussion o
+ f pedagogical values and practices. March and April’s book will be Teach
+ ing to Transgress by bell hooks. Please contact bluestockingsraded@gmail
+ .com for more information.
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Radical Educators Meetup
+DTSTART;TZID=America/New_York:20150308T123000
+LAST-MODIFIED:20150216T153420Z
+CREATED:20150216T153420Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=172 Allen St\\nNew York 
+ NY 10002;X-APPLE-RADIUS=17.38136533002621;X-TITLE=Bluestockings:geo:40.7
+ 21394,-73.988916
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150315T200000
+UID:9DDA2A12-CD60-4394-A07F-E20A90FE0BE0
+DTSTAMP:20150216T153557Z
+LOCATION:Bluestockings\n172 Allen St\nNew York NY 10002
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._75248g9i84o
+ j4ba38gr30b9k6csj8ba160rkcba568o42e9g8p2j0gi560
+DESCRIPTION:This is a book discussion dedicated to building a dialog aro
+ und Critical Journeys: How 14 Librarians Came to Embrace Critical Practi
+ ce\, edited by Robert Schroeder (Library Juice Press\, 2014). What did w
+ e learn from these interviews and how can we support critical practice i
+ n our own lives? What does critical practice look like? All are welcome\
+ ; you don’t need to be an information professional to participate. Pleas
+ e have read the book.
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Critical Practice in Librarianship: Critical Journeys Book Discu
+ ssion 
+DTSTART;TZID=America/New_York:20150315T190000
+LAST-MODIFIED:20150216T153557Z
+CREATED:20150216T153557Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=172 Allen St\\nNew York 
+ NY 10002;X-APPLE-RADIUS=17.38136533002621;X-TITLE=Bluestockings:geo:40.7
+ 21394,-73.988916
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150304T170000
+UID:A93234E5-BF91-47AB-9478-3172BE45FA6F
+DTSTAMP:20150216T153237Z
+LOCATION:Bluestockings\n172 Allen St\nNew York NY 10002
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._84sj6chj6h2
+ jaba28osj2b9k6t0k4b9p6grjgb9j64rj4gi56gqkcg9m8o
+DESCRIPTION:Paths to Personal Transformation and Collective Liberation (
+ Bluestockings Education Project series)\nMad Maps are documents that we 
+ create for ourselves as reminders of our goals\, what is important to us
+ \, our personal signs of struggle and our strategies for self-determined
+  well-being. Though originally inspired by the idea of Advanced Directiv
+ es (legal documents to share with doctors and friends in the event of be
+ ing hospitalized)\, over time this idea has evolved further to include a
+  transformative element: how do we move beyond adapting and coping\, tow
+ ard actually changing the world that we live in? By creating documents t
+ hat help us to explore our mad gifts and better understand and get throu
+ gh tough times\, we are able to re-envision the boundaries of our indivi
+ dual and collective potential. This event\, hosted monthly\, is part of 
+ a series of events\, workshops\, and classes coordinated by the Bluestoc
+ kings Education Project.
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Icarus Project Radical Mental Health Series Mad Maps
+DTSTART;TZID=America/New_York:20150304T160000
+LAST-MODIFIED:20150216T153237Z
+CREATED:20150216T153237Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=172 Allen St\\nNew York 
+ NY 10002;X-APPLE-RADIUS=17.38136533002621;X-TITLE=Bluestockings:geo:40.7
+ 21394,-73.988916
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;TZID=America/New_York:20150306T100000
+UID:0EA2FBB8-B177-4022-9155-8875D6D19D9A
+DTSTAMP:20150306T191853Z
+LOCATION:Bluestockings\n172 Allen St\nNew York NY 10002
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._612k2ci6891
+ 3gba264rjeb9k60p34b9p64qjab9o70rjah1m8gojih1p84
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._612k2ci6891
+ 3gba264rjeb9k60p34b9p64qjab9o70rjah1m8gojih1p84
+DESCRIPTION:Join us for readings and discussion of this new and lively h
+ istory of labor and LGBT interests. Meet activists from among the 100 in
+ terviewed and enjoy their strong stories of organizing campaigns and inn
+ ovative labor politics. Out in the Union “flips our standard readings\, 
+ while suggesting powerful ways forward for the American workforce….Frank
+ ’s book couldn’t have come at a better time.” (Kate Redburn\, Dissent)\n
+ 
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Out in the Union: A Labor History of Queer America
+DTSTART;TZID=America/New_York:20150306T090000
+LAST-MODIFIED:20150306T191853Z
+CREATED:20150216T153314Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=172 Allen St\\nNew York 
+ NY 10002;X-APPLE-RADIUS=17.38136533002621;X-TITLE=Bluestockings:geo:40.7
+ 21394,-73.988916
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150908
+UID:DC250796-437B-4D81-8EEF-8EAEA319307C
+DTSTAMP:20150223T215244Z
+LOCATION:Neue Galerie New York\n1048 5th Ave\nNew York NY 10028
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._8h1j4d9g6ss
+ jcb9k6crk4b9k8gs32b9o8l2kcb9o8l0kag9j64sj6c1n8c
+DESCRIPTION:
+URL;VALUE=URI:http://www.neuegalerie.org/content/gustav-klimt-and-adele-
+ bloch-bauer-woman-gold
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Gustav Klimt and Adele Bloch-Bauer: The Woman in Gold
+DTSTART;VALUE=DATE:20150402
+LAST-MODIFIED:20150223T215244Z
+CREATED:20150223T215244Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=1048 5th Ave\\nNew York 
+ NY 10028;X-APPLE-RADIUS=25.61335002029265;X-TITLE=Neue Galerie New York:
+ geo:40.781268,-73.960237
+BEGIN:VALARM
+X-WR-ALARMUID:ECCCD1B4-F96C-4759-9B3C-4426F78CC2F1
+UID:ECCCD1B4-F96C-4759-9B3C-4426F78CC2F1
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150901
+UID:A074AAB0-962D-400C-8F6C-6A7AF5CB170A
+DTSTAMP:20150223T215338Z
+LOCATION:Neue Galerie New York\n1048 5th Ave\nNew York NY 10028
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._84o3ed21851
+ 30b9p6op48b9k60o46b9o8or46b9m84rk2hhl8d132dpg84
+DESCRIPTION:
+URL;VALUE=URI:http://www.neuegalerie.org/content/russian-modernism-cross
+ -currents-german-and-russian-art-1907-1917
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Russian Modernism: Cross-Currents in German and Russian Art\, 19
+ 07-1917
+DTSTART;VALUE=DATE:20150514
+LAST-MODIFIED:20150223T215338Z
+CREATED:20150223T215338Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=1048 5th Ave\\nNew York 
+ NY 10028;X-APPLE-RADIUS=25.61335002029265;X-TITLE=Neue Galerie New York:
+ geo:40.781268,-73.960237
+BEGIN:VALARM
+X-WR-ALARMUID:3D43907F-1F00-43C1-AD42-C37EE5774989
+UID:3D43907F-1F00-43C1-AD42-C37EE5774989
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150310
+UID:4EB8AB9A-20C0-46D8-BA7B-2A519412FE90
+DTSTAMP:20150223T215107Z
+LOCATION:Neue Galerie New York\n1048 5th Ave\nNew York NY 10028
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6h2k4e2188s
+ k2b9i611j0b9k6p23gba284rk4b9i84qj2e9k64p4ch9p60
+DESCRIPTION:
+URL;VALUE=URI:http://www.neuegalerie.org/content/austrian-war-bond-poste
+ rs-great-war
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Austrian War Bond Posters from the Great War
+DTSTART;VALUE=DATE:20141009
+LAST-MODIFIED:20150223T215107Z
+CREATED:20150223T215107Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=1048 5th Ave\\nNew York 
+ NY 10028;X-APPLE-RADIUS=25.61335002029265;X-TITLE=Neue Galerie New York:
+ geo:40.781268,-73.960237
+BEGIN:VALARM
+X-WR-ALARMUID:78786D35-0A64-482E-8504-7FBC4482A205
+UID:78786D35-0A64-482E-8504-7FBC4482A205
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150317
+UID:92507DCA-CF74-4A68-A8D5-315ABCEFA3FA
+DTSTAMP:20150223T215001Z
+LOCATION:Neue Galerie New York\n1048 5th Ave\nNew York NY 10028
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._74p3ac1n8h1
+ k2ba38orj8b9k84r3gba17123ab9j64qk2gi38l342cq684
+DESCRIPTION:
+URL;VALUE=URI:http://www.neuegalerie.org/content/austrian-portraiture-ea
+ rly-twentieth-century
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Austrian Portraiture in the Early Twentieth Century
+DTSTART;VALUE=DATE:20141009
+LAST-MODIFIED:20150223T215001Z
+CREATED:20150223T215001Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=1048 5th Ave\\nNew York 
+ NY 10028;X-APPLE-RADIUS=25.61335002029265;X-TITLE=Neue Galerie New York:
+ geo:40.781268,-73.960237
+BEGIN:VALARM
+X-WR-ALARMUID:BC87C9EF-75E2-43F7-8422-B20A1C98060C
+UID:BC87C9EF-75E2-43F7-8422-B20A1C98060C
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150421
+UID:D119E738-2B89-4ED3-BB1B-37DE70F49AF5
+DTSTAMP:20150223T214859Z
+LOCATION:Neue Galerie New York\n1048 5th Ave\nNew York NY 10028
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._8goj2ea56sp
+ jgb9i88s3ib9k8l236ba288ok4b9j6t24adpg8oq3iga66k
+DESCRIPTION:
+URL;VALUE=URI:http://www.neuegalerie.org/content/egon-schiele-portraits-
+ 0
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Egon Schiele: Portraits
+DTSTART;VALUE=DATE:20141009
+LAST-MODIFIED:20150223T214859Z
+CREATED:20150223T214859Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=1048 5th Ave\\nNew York 
+ NY 10028;X-APPLE-RADIUS=25.61335002029265;X-TITLE=Neue Galerie New York:
+ geo:40.781268,-73.960237
+BEGIN:VALARM
+X-WR-ALARMUID:3D86147B-B954-40B8-8680-0C48D4E7E526
+UID:3D86147B-B954-40B8-8680-0C48D4E7E526
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACTION:NONE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150304T113000
+ORGANIZER;CN="Black Flowy, Arts":mailto:bovlt0j8kat236p859h4adt3ck@group
+ .calendar.google.com
+UID:55855EF8-7A5B-4704-B445-53F2A242A067
+DTSTAMP:20150304T162414Z
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6kqjgd9l8l3
+ 3gb9n84qk4b9k6so38ba26gq3ab9l6d334g9i6gp42c1m6s
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6kqjgd9l8l3
+ 3gb9n84qk4b9k6so38ba26gq3ab9l6d334g9i6gp42c1m6s
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Mesh Networks interview
+DTSTART;TZID=America/New_York:20150304T110000
+LAST-MODIFIED:20150304T162414Z
+CREATED:20150303T171617Z
+ATTENDEE;CN="Black Flowy, Arts";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE
+ =REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:bovlt0j8kat236p859h4adt3ck@group.
+ calendar.google.com
+ATTENDEE;CN="Jim Epstein";CUTYPE=INDIVIDUAL;PARTSTAT=ACCEPTED;ROLE=REQ-P
+ ARTICIPANT;X-NUM-GUESTS=0:mailto:jimepstein@gmail.com
+BEGIN:VALARM
+X-WR-ALARMUID:378AF84E-5B69-4189-A6B8-73AFEDC7685D
+UID:378AF84E-5B69-4189-A6B8-73AFEDC7685D
+TRIGGER;VALUE=DATE-TIME:19760401T005545Z
+ACKNOWLEDGED:20150304T162414Z
+X-APPLE-DEFAULT-ALARM:TRUE
+ACTION:NONE
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:F4FCF043-21DE-448A-A53E-E109F40085DC
+UID:F4FCF043-21DE-448A-A53E-E109F40085DC
+DESCRIPTION:This is an event reminder
+ACKNOWLEDGED:20150304T162414Z
+TRIGGER:-PT30M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150402T223000
+UID:f8r6be5n55alhocv29ptnk5fv0@google.com
+DTSTAMP:20150324T172111Z
+LOCATION:509 Atlantic Avenue (corner of 3rd Avenue) BK
+DESCRIPTION:
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Experiments in Opera
+DTSTART;TZID=America/New_York:20150402T200000
+LAST-MODIFIED:20150324T172111Z
+CREATED:20150324T172111Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150503
+UID:bqs3o8qti3nidi680qt6455i50@google.com
+DTSTAMP:20150422T140242Z
+LOCATION:The Museum of Modern Art\, 11 West 53rd Street\, New York\, NY 
+ 10019\, United States
+DESCRIPTION:http://www.moma.org/visit/calendar/films/1566
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Movie: Series of films by Bruce LaBruce @ MOMA #queercinema
+DTSTART;VALUE=DATE:20150423
+LAST-MODIFIED:20150422T140242Z
+CREATED:20150410T022850Z
+BEGIN:VALARM
+X-WR-ALARMUID:5CEFA906-122D-41AB-B459-C9F867E37A4B
+UID:5CEFA906-122D-41AB-B459-C9F867E37A4B
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20150422T140242Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150502
+UID:ic6kdvivu4kp5hfmkl3ti1ch4g@google.com
+DTSTAMP:20150430T140120Z
+LOCATION:Whitney Museum of American Art\, 99 Gansevoort St\, New York\, 
+ NY 10014\, United States
+DESCRIPTION:http://whitney.org/
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Whitney museum opening in new building 
+DTSTART;VALUE=DATE:20150501
+LAST-MODIFIED:20150430T140120Z
+CREATED:20150410T021539Z
+BEGIN:VALARM
+X-WR-ALARMUID:8DF0D723-E554-4084-82DE-3DC1771BF988
+UID:8DF0D723-E554-4084-82DE-3DC1771BF988
+TRIGGER:-PT15H
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+X-APPLE-DEFAULT-ALARM:TRUE
+ACKNOWLEDGED:20150430T140105Z
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150525
+UID:17amt3p0rgql12ie96aeojs574@google.com
+DTSTAMP:20150410T021216Z
+LOCATION:New Museum\, 235 Bowery\, New York\, NY 10002\, United States
+DESCRIPTION:http://www.newmuseum.org/exhibitions/view/the-generational-t
+ riennial
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:New Museum Triennial
+DTSTART;VALUE=DATE:20150225
+LAST-MODIFIED:20150410T021216Z
+CREATED:20150410T021216Z
+BEGIN:VALARM
+X-WR-ALARMUID:944E830D-1225-428C-B73C-B3872E383178
+UID:944E830D-1225-428C-B73C-B3872E383178
+TRIGGER:-PT15H
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150417
+UID:u7suc2ghcir0uq0ls9g0pu0j20@google.com
+DTSTAMP:20150410T024759Z
+LOCATION:Cinema Village\, 22 East 12th Street\, New York\, NY 10003\, Un
+ ited States
+DESCRIPTION:http://www.kinofestivalnyc.com/
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:KINO 2015 FESTIVAL OF GERMAN FILMS @ Cinema Village
+DTSTART;VALUE=DATE:20150409
+LAST-MODIFIED:20150410T024759Z
+CREATED:20150410T024759Z
+BEGIN:VALARM
+X-WR-ALARMUID:CB258495-92B8-4E46-8E65-0F518E66C4BF
+UID:CB258495-92B8-4E46-8E65-0F518E66C4BF
+TRIGGER:-PT15H
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150425T180000
+UID:jp1oe696h7du8hp5impbpbb9bg@google.com
+DTSTAMP:20150424T235656Z
+LOCATION:Brooklyn Historical Society ( 128 Pierrepont Street\, Brooklyn\
+ , NY 11201\, United States )
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.jp1oe696h7du
+ 8hp5impbpbb9bg
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.jp1oe696h7du
+ 8hp5impbpbb9bg
+DESCRIPTION:
+URL;VALUE=URI:http://brooklynzinefest.com
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Brooklyn Zine Fest
+DTSTART;TZID=America/New_York:20150425T100000
+LAST-MODIFIED:20150424T235656Z
+CREATED:20150424T235628Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20150426T180000
+UID:A4CFEE33-47E1-45D2-9969-2F0536AEFE4B
+DTSTAMP:20150424T235723Z
+LOCATION:Brooklyn Historical Society ( 128 Pierrepont Street\, Brooklyn\
+ , NY 11201\, United States )
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._84q46hi58kp
+ j6b9k6t2j2b9k6l234b9p74r3ib9i8oo3acpm852kch9k88
+DESCRIPTION:
+URL;VALUE=URI:http://brooklynzinefest.com
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Brooklyn Zine Fest
+DTSTART;TZID=America/New_York:20150426T100000
+LAST-MODIFIED:20150424T235723Z
+CREATED:20150424T235723Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150607
+UID:sejanrfund5tpttesa3aioh4no@google.com
+DTSTAMP:20150506T141552Z
+LOCATION:Bird River Studios LLC ( 343 Grand Street\, Brooklyn\, NY 11211
+ \, United States )
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.sejanrfund5t
+ pttesa3aioh4no
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ.sejanrfund5t
+ pttesa3aioh4no
+DESCRIPTION:http://www.grandcomicsfest.com
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Grand Comics Fest
+DTSTART;VALUE=DATE:20150606
+LAST-MODIFIED:20150506T141552Z
+CREATED:20150428T133000Z
+BEGIN:VALARM
+X-WR-ALARMUID:95510721-FCDC-4086-A987-79F7F07FBBE4
+UID:95510721-FCDC-4086-A987-79F7F07FBBE4
+TRIGGER:-PT15H
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+END:VALARM
+BEGIN:VALARM
+X-WR-ALARMUID:21E319AE-4B34-4D71-81EF-681BC58CEEE9
+UID:21E319AE-4B34-4D71-81EF-681BC58CEEE9
+TRIGGER:-PT1H
+DESCRIPTION:This is an event reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:TRANSPARENT
+DTEND;VALUE=DATE:20150601
+UID:2FFDC3DC-96F7-4262-96BC-630DA5010D76
+DTSTAMP:20150506T141451Z
+LOCATION:200 6th St\nNew York NY 11215
+X-GOOGLE-HANGOUT:https://plus.google.com/hangouts/_/calendar/Ym92bHQwajh
+ rYXQyMzZwODU5aDRhZHQzY2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ._6934ch236d2
+ 46b9p6p33eb9k68r34b9p6p146b9m6co48g9l60oj0h1n6o
+DESCRIPTION:Gallery hours: Saturday- Sunday 12 - 5pm
+URL;VALUE=URI:http://www.dawnhuntergallery.com
+STATUS:CONFIRMED
+SEQUENCE:0
+SUMMARY:Myth\, Archaeology and the Itinerant Futures
+DTSTART;VALUE=DATE:20150513
+LAST-MODIFIED:20150506T141451Z
+CREATED:20150506T141451Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-ADDRESS=200 6th St\\nNew York NY
+  11215;X-APPLE-RADIUS=36.21619910173641;X-TITLE=200 6th St:geo:40.673412
+ ,-73.990310
+BEGIN:VALARM
+X-WR-ALARMUID:AE3D7BF0-46BF-45D0-A7F1-AE372FFBA240
+UID:AE3D7BF0-46BF-45D0-A7F1-AE372FFBA240
+TRIGGER:-PT15H
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+END:VALARM
+END:VEVENT
+END:VCALENDAR
