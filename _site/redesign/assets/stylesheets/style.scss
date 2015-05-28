@@ -1,5 +1,5 @@
 @import 'mixins';
-@import 'variables';
+// @import 'variables';
 @import 'fonts';
 @import 'nav';
 @import 'hero';
@@ -13,7 +13,7 @@
     }
   }
   &.is-exiting .scene_element {
-    @include reverse; 
+    @include reverse;
     &--noexiting {
       @include reverse;
     }

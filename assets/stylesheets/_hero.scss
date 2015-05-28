@@ -1,12 +1,13 @@
+
 .hero {
     height: 440px;
-    background-image: url(../images/hero.png);
+    background-image: url(../images/eveready.png);
     margin-top: -20px;
     margin-bottom: -20px;
     background-repeat: no-repeat;
-    background-position: left 20px;
-    -webkit-background-size: 247px 591px;
-    background-size: 247px 591px;
+    background-position: 0 0;
+    -webkit-background-size: 340px 340px;
+    background-size: 340px 340px;
     @include trans;
     .description {
         font-family: $font-title;
@@ -47,7 +48,7 @@
         .description {
         margin-top: 0;
             float: none;
-            width: 100%; 
+            width: 100%;
         }
     }
 }

@@ -1,12 +1,12 @@
 $font-title: Adam;                               // Fonts
-$font-text: "HelveticaNeue-Light", 
-"Helvetica Neue Light", 
-"Helvetica Neue", 
-Helvetica, Arial, 
+$font-text: "HelveticaNeue-Light",
+"Helvetica Neue Light",
+"Helvetica Neue",
+Helvetica, Arial,
 "Lucida Grande", sans-serif;        // text font
 $font-mono: "Courier New", Courier, monospace;  // code font
 $gap-1: 10px;                               // Gap
-$color-bg: #F9F3E1;                            // bg color
+$color-bg: #302758;                            // bg color
 $color-primary: darken($color-bg, 60%);                   // text color
 $color-secondary: darken($color-primary, 20%);                   // accent color
 $color-tertiary: darken($color-bg, 60%);                   // color 3
@@ -162,7 +162,7 @@ h1, h2, h3, h4 {
 .hidden {
 	display: none;
 }
-*, *:after, *:before { 
+*, *:after, *:before {
 	@include box;
 }
 .container {
