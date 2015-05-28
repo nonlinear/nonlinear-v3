@@ -95,13 +95,13 @@ ul {
     background-color: $color-1;
     @include square(30px);
     color: white;
-
     text-align: center;
+    border: none;
     &:not(:first-of-type) {
         margin-left: -3px;
     }
     &:hover, &:active {
-        background-color: $color-2 !important;
+        background-color: $color-3 !important;
     }
     i {
         font-size: ($font-gap * 3);

@@ -51,22 +51,23 @@ a.logo {
 }
 
 .symbol {
-    background-image: url(../images/logo.png);
-    -webkit-background-size: contain;
-    background-size: contain;
-    display: inline-block;
-    float: left;
-    margin-right: 5px;
-    @include square(80px);
-    @include radius(50%);
-    @include trans;
-    @include media(569px, min) {
-        @include only(trans) {
-            @include square(50px);
-            margin-top: -15px;
-            margin-right: 3px;
-        }
-    }
+    display: none;
+    // background-image: url(../images/logo.png);
+    // -webkit-background-size: contain;
+    // background-size: contain;
+    // display: inline-block;
+    // float: left;
+    // margin-right: 5px;
+    // @include square(80px);
+    // @include radius(50%);
+    // @include trans;
+    // @include media(569px, min) {
+    //     @include only(trans) {
+    //         @include square(50px);
+    //         margin-top: -15px;
+    //         margin-right: 3px;
+    //     }
+    // }
 }
 
 header {
@@ -103,7 +104,7 @@ header {
         color: $color-1;
         @include trans;
         &:hover {
-            color: $color-2;
+            color: $color-3;
         }
     }
     ul {
@@ -117,12 +118,14 @@ header {
             @include opacity(100);
         }
         @include media(iphone5, landscape) {
-            float: left;
-            margin-left: 44px;
-            margin-top: -10px;
+            position: fixed;
+            margin: 0;
+
+            left: 15px;
+            top: 55px;
             @include only(trans) {
                 @include opacity(100);
-                margin-top: -20px;
+              top: 65px;
             }
         }
 
@@ -130,13 +133,6 @@ header {
             @include only(trans) {
                 margin-top: 0;
                 @include opacity(100);
-            }
-        }
-
-        @include media(iphone5, portrait) {
-            font-size: 13px;
-            @include only(trans) {
-                margin-top: -24px;
             }
         }
 
