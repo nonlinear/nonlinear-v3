@@ -1,12 +1,13 @@
 # Site settings
-title: Nicholas Frota
+title: nonlinear.nyc
 email: info@nicholasfrota.com
-description: > # this means to ignore newlines until "baseurl:"
-  the anagram of my name is anarchist fool
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quo!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.nonlinear.nyc" # the base hostname & protocol for your site
+url: "http://nonlinear.nyc" # the base hostname & protocol for your site
 twitter_username: nonlinear
-github_username:  nonlinear
+github_username: nonlinear
+paginate: 10
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
 
-# Build settings
-markdown: kramdown

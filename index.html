@@ -1,15 +1,23 @@
 ---
 layout: default
 ---
-<div class="hero">
-<div class="description">
-	<p>Taming pixels</p>
-	<p><a href="/about">About me</a></p>
-	<p><a href="/portfolio">My Portfolio</a></p>
-	<!-- <p class="social">
-		<a href="http://twitter.com/nonlinear"><i class="fa fa-twitter"></i></a>
-		<a href="http://github.com/nonlinear"><i class="fa fa-github-alt"></i></a>
-		<a href="http://www.nicholasfrota.com/portfolio"><i class="fa fa-globe"></i></a>
-	</p> -->
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
-  </div>
