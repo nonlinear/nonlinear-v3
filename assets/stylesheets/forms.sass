@@ -1,0 +1,38 @@
+=scroll-hint($bgcolor: $color-bg)
+  overflow: auto
+  background: linear-gradient($bgcolor 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), $bgcolor 90%) 0 100%, radial-gradient(50% 0, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)), radial-gradient(50% 100%, farthest-side, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)) 0 100%
+  background: linear-gradient($bgcolor 30%, rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 255, 255, 0), $bgcolor 90%) 0 100%, radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)) 0 100%
+  background-repeat: no-repeat
+  background-color: $bgcolor
+  background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px
+  background-attachment: local, local, scroll, scroll
+
+=disable($type: link)
+  @if $type == "select"
+    -moz-user-select: none
+    -webkit-user-select: none
+    -ms-user-select: none
+    user-select: none
+  @else if $type == "drag"
+    -webkit-user-drag: none
+    user-drag: none
+  @else if $type == "link"
+    pointer-events: none
+    cursor: default
+
+=placeholder($animate: true)
+  &.placeholder
+    @content
+  &::-webkit-input-placeholder
+    @content
+  &:-moz-placeholder
+    @content
+  &::-moz-placeholder
+    @content
+  &:-ms-input-placeholder
+    @content
+  @if $animate == "true"
+    &:focus::-webkit-input-placeholder
+      transition: all 0.5s 0.1s ease
+      text-indent: -50%
+      opacity: 0

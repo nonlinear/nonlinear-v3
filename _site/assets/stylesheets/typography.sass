@@ -1,0 +1,63 @@
+// typography variables
+
+$rhythm-unit: 'px' !default
+// The length unit in which to output vertical rhythm values (px, em, rem)
+$strict-normalize: true !default
+$h1-font-size: 2 * $base-font-size !default
+$h2-font-size: 1.5 * $base-font-size !default
+$h3-font-size: 1.17 * $base-font-size !default
+$h4-font-size: 1 * $base-font-size !default
+$h5-font-size: 0.83 * $base-font-size !default
+$h6-font-size: 0.60 * $base-font-size !default
+
+// typography mixins
+
+=word-wrap
+  word-break: break-word
+  -webkit-hyphens: auto
+  -moz-hyphens: auto
+  hyphens: auto
+
+=ellipsis
+  overflow: hidden
+  white-space: nowrap
+  text-overflow: ellipsis
+
+=hide-text
+  font: 0 / 0 a
+  text-shadow: none
+  color: transparent
+
+=font-face ($title, $path: "../fonts/", $file: $title, $weight: normal, $style: normal, $stretch: normal, $transform: normal)
+  @font-face
+    font-family: #{$title}
+    src: url("#{$path}#{$file}.eot")
+    src: url("#{$path}#{$file}.eot?#iefix") format("embedded-opentype"), url("#{$path}#{$file}.woff") format("woff"), url("#{$path}#{$file}.ttf") format("truetype"), url("#{$path}#{$file}.svg##{$title}") format("svg")
+    font-weight: $weight
+    font-style: $style
+    font-stretch: $stretch
+    text-transform: transform
+  @media screen and (-webkit-min-device-pixel-ratio: 0)
+    @font-face
+      font-family: $title
+      src: url("#{$path}+#{$file}.svg##{$title}") format("svg")
+
+// typography rules
+
+h1
+  font-size: if($rhythm-unit == "px", $h1-font-size, ($h1-font-size / $base-font-size)#{$rhythm-unit})
+
+h2
+  font-size: if($rhythm-unit == "px", $h2-font-size, ($h2-font-size / $base-font-size)#{$rhythm-unit})
+
+h3
+  font-size: if($rhythm-unit == "px", $h3-font-size, ($h3-font-size / $base-font-size)#{$rhythm-unit})
+
+h4
+  font-size: if($rhythm-unit == "px", $h4-font-size, ($h4-font-size / $base-font-size)#{$rhythm-unit})
+
+h5
+  font-size: if($rhythm-unit == "px", $h5-font-size, ($h5-font-size / $base-font-size)#{$rhythm-unit})
+
+h6, body, p
+  font-size: if($rhythm-unit == "px", $h6-font-size, ($h6-font-size / $base-font-size)#{$rhythm-unit})

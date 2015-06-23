@@ -5,35 +5,715 @@
     <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quo!</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2015 19:19:59 -0400</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2015 19:19:59 -0400</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2015 11:36:44 -0400</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2015 11:36:44 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+        <title>Serval Chat Project</title>
+        <description>&lt;p&gt;Explain whats serval mesh, youtube video&lt;/p&gt;
+&lt;p&gt;Explain the idea of serval chat, and how it changed&lt;/p&gt;
 </description>
-        <pubDate>Mon, 22 Jun 2015 14:54:12 -0400</pubDate>
-        <link>http://nonlinear.nyc/jekyll/update/2015/06/22/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/jekyll/update/2015/06/22/welcome-to-jekyll/</guid>
+        <pubDate>Tue, 23 Jun 2015 11:34:42 -0400</pubDate>
+        <link>http://nonlinear.nyc/serval-project/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/serval-project/</guid>
         
         
-        <category>jekyll</category>
+        <category>code</category>
         
-        <category>update</category>
+      </item>
+    
+      <item>
+        <title>Code/Code Project</title>
+        <description>&lt;h3&gt;Step 1: Abstraction&lt;/h3&gt;
+
+&lt;p&gt;How to abstract code away from projects.&lt;/p&gt;
+
+&lt;h3&gt;Step 2: Automation&lt;/h3&gt;
+
+&lt;p&gt;How to create macros for abstractions.&lt;/p&gt;
+
+&lt;h3&gt;Step 3: Documentation&lt;/h3&gt;
+
+&lt;p&gt;How the site operates.&lt;/p&gt;
+
+&lt;h3&gt;Step 4: Update&lt;/h3&gt;
+
+&lt;p&gt;Newsletter.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2015 11:34:40 -0400</pubDate>
+        <link>http://nonlinear.nyc/codecode-project/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/codecode-project/</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Podcasts I listen to</title>
+        <description>&lt;p&gt;I&#39;m a major podcast listener for a while. Sadly, no podcast app gives me the ability to show my subscriptions to others, so below is a compilation of the ones I follow.&lt;/p&gt;
+&lt;p&gt;If you&#39;re new to all of it, I suggest using &lt;a href=&quot;http://www.shiftyjelly.com/pocketcasts&quot;&gt;PocketCasts&lt;/a&gt; as a player. It&#39;s what I use.&lt;/p&gt;
+&lt;h1&gt;Design&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://99percentinvisible.org/subscribe/&quot;&gt;99% Invisible&lt;/a&gt;&lt;br /&gt;short stories of man-made structures mostly invisible to us.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://theindustry.cc/category/podcast/&quot;&gt;The Industry Radio Show&lt;/a&gt;&lt;br /&gt;sometimes too opinionate, but nice talk on the industry I work on.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://shoptalkshow.com&quot;&gt;Shoptalk&lt;/a&gt;&lt;br /&gt;less rants, more interviews, more hands-on advice. get a notepad.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Magick&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://c-realmpodcast.podomatic.com&quot;&gt;C-Realm Podcast&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://disinfo.libsyn.com/webpage/category/Podcasts%2C%20DisinfoCast&quot;&gt;The DisinfoCast with Matt Staggs&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://occultsentinel.com&quot;&gt;Occult Sentinel Podcast&lt;/a&gt;&lt;br /&gt;A podcast covering the hermetic arts, secret societies and various spiritual traditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Music&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.beyondbooking.com/podcast.asp&quot;&gt;The Bunker Podcast&lt;/a&gt;&lt;br /&gt;my best techno party in brooklyn.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://ghostly.com/media&quot;&gt;GhostlyCast&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.rte.ie/2fm/white-noise/&quot;&gt;Dave Clarke&#39;s White Noise&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.verbotennewyork.com/transmissions/&quot;&gt;Verboten Transmissions&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.wolflambmusic.com&quot;&gt;Wolf + Lamb Radio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Politics&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.congressionaldish.com/how-to-subscribe/&quot;&gt;Congressional Dish&lt;/a&gt;&lt;br /&gt;a weekly podcast highlighting corporate influence in the bills passed by Congress.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.nbcnews.com/id/28981762/ns/msnbc-rachel_maddow_show/t/free-audio-video-downloaded-your-pc-or-portable-player/&quot;&gt;MSNBC Rachel Maddow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 23 Feb 2015 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.nyc/podcasts/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/podcasts/</guid>
+        
+        
+        <category>resources</category>
+        
+      </item>
+    
+      <item>
+        <title>Fumetti Drawings</title>
+        <description>&lt;div class=&quot;flexslider&quot;&gt;
+  &lt;ul class=&quot;slides&quot;&gt;
+    &lt;li&gt;
+     &lt;img src=&quot;/assets/galleries/fumetti/001.jpg&quot;&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+     &lt;img src=&quot;/assets/galleries/fumetti/002.jpg&quot;&gt;
+   &lt;/li&gt;
+   &lt;li&gt;
+    &lt;img src=&quot;/assets/galleries/fumetti/003.jpg&quot;&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+   &lt;img src=&quot;/assets/galleries/fumetti/004.jpg&quot;&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+   &lt;img src=&quot;/assets/galleries/fumetti/005.jpg&quot;&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+   &lt;img src=&quot;/assets/galleries/fumetti/006.jpg&quot;&gt;
+ &lt;/li&gt;
+ &lt;li&gt;
+  &lt;img src=&quot;/assets/galleries/fumetti/007.jpg&quot;&gt;
+&lt;/li&gt;
+&lt;li&gt;
+ &lt;img src=&quot;/assets/galleries/fumetti/008.jpg&quot;&gt;
+&lt;/li&gt;
+&lt;li&gt;
+ &lt;img src=&quot;/assets/galleries/fumetti/009.jpg&quot;&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2015 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.nyc/fumetti/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/fumetti/</guid>
+        
+        
+        <category>arts</category>
+        
+      </item>
+    
+      <item>
+        <title>Personal Resources</title>
+        <description>&lt;div class=&quot;grid three&quot;&gt;
+  &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Home&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/my-never-ending-search-for-comfortable-in-ear-headphone-1679696172&quot;&gt;My Never-Ending Search for Comfortable In-Ear Headphones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/5774324/how-to-get-more-from-your-home-theater-without-paying-a-dime&quot;&gt;How to Get More From Your Home Theater Without Paying a Dime&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rootsimple.com/2015/01/ghee-for-the-skin/&quot;&gt;Ghee for the skin | Root Simple&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/dust-proof-your-home-with-a-diy-fabric-softener-and-wat-1682438375&quot;&gt;Dust-Proof Your Home With a DIY Fabric Softener and Water Solution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/hide-your-home-entertainment-accessories-behind-your-tv-1690551197&quot;&gt;Hide Your Home Theater Accessories Behind Your TV with Sugru and Hooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://learnairbnb.com/how-to-target-business-travelers-on-airbnb/&quot;&gt;How to Target Business Travelers on Airbnb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://hackerspace.lifehacker.com/killer-tips-that-make-packing-and-moving-easier-1693637086&quot;&gt;Killer Tips That Make Packing and Moving Easier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://lawtendr.com/&quot;&gt;Lawtendr | Find a lawyer the easy way with Lawtendr&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Fashion&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.instructables.com/id/How-to-Uncrease-Your-Sneakers/&quot;&gt;How to Uncrease Your Sneakers!!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/five-ways-to-tie-a-man-s-scarf-1684590695&quot;&gt;Five Ways to Tie a Man’s Scarf&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Travel&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.roomertravel.com/&quot;&gt;Roomer&lt;/a&gt; - Sell Hotel Reservation, Buy Cancelled Hotel Rooms&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/organize-and-share-your-vacation-with-this-travel-plann-1684919711&quot;&gt;Organize and Share Your Vacation with This Travel Planning Spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/book-cheap-fares-you-find-on-ita-matrix-with-hipmunk-1688454739&quot;&gt;Book Cheap Fares You Find on ITA Matrix with Hipmunk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/dreamcheaper-automatically-rebooks-your-hotel-room-if-t-1702287245&quot;&gt;DreamCheaper Automatically Rebooks Your Hotel Room If the Rate Drops&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;!--   &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Finances&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://twocents.lifehacker.com/how-to-build-an-easy-beginner-set-and-forget-investm-1686878594&quot;&gt;How to Build an Easy, Beginner “Set and Forget” Investment Portfoli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/jobhero-organizes-your-job-hunt-reminds-you-to-follow-1692336325&quot;&gt;JobHero Organizes Your Job Hunt, Reminds You to Follow Up&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://twocents.lifehacker.com/effectively-negotiate-your-bills-with-the-silent-treatm-1691608228&quot;&gt;Effectively Negotiate Your Bills With the Silent Treatment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/negotiate-a-lower-credit-card-apr-with-this-script-1690542594&quot;&gt;Negotiate a Lower Credit Card APR with This Script&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+  &lt;/div&gt; --&gt;
+&lt;/div&gt;
+
+
+</description>
+        <pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.nyc/home/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/home/</guid>
+        
+        
+        <category>resources</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS Exceptions</title>
+        <description>&lt;p&gt;Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting &lt;em&gt;other&lt;/em&gt; browsers or systems.&lt;/p&gt;
+&lt;h1&gt;Step 1: Modernizr&lt;/h1&gt;
+&lt;p&gt;Modernizr scans browser capabilities and reports its findings as classes on &lt;tt&gt;&lt;tt&gt;html&lt;/tt&gt;&lt;/tt&gt; tag.&lt;/p&gt;
+&lt;p&gt;For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals &lt;tt&gt;touch&lt;/tt&gt; class on &lt;tt&gt;html&lt;/tt&gt;. The same page, on desktops and notebooks reveals &lt;tt&gt;no-touch&lt;/tt&gt; class instead.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;http://modernizr.com&quot;&gt;download it here&lt;/a&gt; or &lt;a href=&quot;https://cdnjs.com/libraries/modernizr&quot;&gt;use the CDN version&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Step 2: Detectizr&lt;/h1&gt;
+&lt;p&gt;Detectizr expands modernizr detection, by revealing browser operating system (&lt;tt&gt;mac&lt;/tt&gt;, &lt;tt&gt;android&lt;/tt&gt;, &lt;tt&gt;ios&lt;/tt&gt;, &lt;tt&gt;windows&lt;/tt&gt;, &lt;tt&gt;linux&lt;/tt&gt;, etc) browser type (&lt;tt&gt;safari&lt;/tt&gt;, &lt;tt&gt;chrome&lt;/tt&gt;, &lt;tt&gt;firefox&lt;/tt&gt;, &lt;tt&gt;ie&lt;/tt&gt;, etc) and even specific versions.&lt;/p&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://github.com/barisaydinoglu/Detectizr&quot;&gt;download it here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Step 3: Write your CSS exceptions&lt;/h1&gt;
+&lt;p&gt;Your page is now using javascript for what it does best:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;detection&lt;/li&gt;
+  &lt;li&gt;right on top of your DOM&lt;/li&gt;
+  &lt;li&gt;affecting &lt;em&gt;anything&lt;/em&gt; below it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You know where we&#39;re heading, correct? You can now style CSS exceptions freely. For instance,&lt;/p&gt;
+&lt;tt&gt;.foo {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;background-color: red;&lt;br&gt;
+}&lt;br&gt;
+html.safari .foo {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;background-color: blue;&lt;br&gt;
+}&lt;/tt&gt;
+&lt;p&gt;renders any object with &lt;tt&gt;foo&lt;/tt&gt; class as red except if browser is safari, rendering blue instead.&lt;/p&gt;
+&lt;p&gt;You can use any of the classes above to differentiate.&lt;/p&gt;
+&lt;h1&gt;Automation: &lt;em&gt;Only&lt;/em&gt; and &lt;em&gt;Unless&lt;/em&gt; Mixins&lt;/h1&gt;
+&lt;p&gt;We can make the code better, correct? If you use SASS 3.1+, use these mixins&lt;/p&gt;
+&lt;tt&gt;@mixin only($only) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;html.#{$only} &amp; {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@content;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+}&lt;br&gt;
+@mixin unless($unless) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;html:not(.#{$unless}) &amp; {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@content;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+}&lt;/tt&gt;
+&lt;!-- &lt;script src=&quot;https://gist.github.com/nonlinear/c898ba58bc46f12d87e1.js&quot;&gt;&lt;/script&gt; --&gt;
+&lt;p&gt;so you can write exceptions inside the objects, way easier to read:&lt;/p&gt;
+&lt;tt&gt;.foo {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;background-color: red;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;@include only(safari) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color: blue;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+}&lt;/tt&gt;
+&lt;p&gt;You can do the inverse by writing rules for all browsers &lt;em&gt;except&lt;/em&gt; the one listed with &lt;tt&gt;unless&lt;/tt&gt;. For instance,&lt;/p&gt;
+&lt;tt&gt;.foo {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;@include unless(safari) {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;display: none;&lt;br&gt;
+&amp;nbsp;&amp;nbsp;}&lt;br&gt;
+}&lt;/tt&gt;
+&lt;p&gt;hides objects with class &lt;tt&gt;foo&lt;/tt&gt;, &lt;em&gt;unless&lt;/em&gt; browser is safari.&lt;/p&gt;
+&lt;h1&gt;Bonus Phase: Visibility&lt;/h1&gt;
+&lt;p&gt;Why stop there? We can add visibility rules and show or hide objects at will.&lt;/p&gt;
+&lt;tt&gt;
+html:not(.mac) .visible-mac,&lt;br&gt;
+html.mac .hidden-mac,&lt;br&gt;
+html:not(.windows) .visible-windows,&lt;br&gt;
+html.windows .hidden-windows,&lt;br&gt;
+html:not(.linux) .visible-linux,&lt;br&gt;
+html.linux .hidden-linux,&lt;br&gt;
+html:not(.ios) .visible-ios,&lt;br&gt;
+html.ios .hidden-ios,&lt;br&gt;
+html:not(.android) .visible-android,&lt;br&gt;
+html.android .hidden-android,&lt;br&gt;
+html:not(.firefox) .visible-firefox,&lt;br&gt;
+html.firefox .hidden-firefox,&lt;br&gt;
+html:not(.chrome) .visible-chrome,&lt;br&gt;
+html.chrome .hidden-chrome,&lt;br&gt;
+html:not(.ie) .visible-ie,&lt;br&gt;
+html.ie .hidden-ie,&lt;br&gt;
+html:not(.safari) .visible-safari,&lt;br&gt;
+html.safari .hidden-safari,&lt;br&gt;
+html:not(.touch) .visible-touch,&lt;br&gt;
+html.touch .hidden-touch  {&lt;br&gt;
+&amp;nbsp;&amp;nbsp;display: none !important;&lt;br&gt;
+}&lt;/tt&gt;
+&lt;!-- &lt;script src=&quot;https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js&quot;&gt;&lt;/script&gt; --&gt;
+&lt;p&gt;Now you can use class &lt;tt&gt;visible-&lt;/tt&gt; or &lt;tt&gt;hidden-&lt;/tt&gt; for any system or browser above.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1&gt;Conclusion and More&lt;/h1&gt;
+&lt;p&gt;There you have it, powerful and readable exception rules for your CSS. It saved my skin more than once at work.&lt;/p&gt;
+&lt;p&gt;This and other CSS lifesavers are in &lt;a href=&quot;http://www.nicholasfrota.com/codecode&quot;&gt;Code/Code&lt;/a&gt;, a collection of macros to simplify coding.&lt;/p&gt;
+&lt;p&gt;If you use Sublime Text &lt;a href=&quot;http://www.nicholasfrota.com/codecode&quot;&gt;make sure to install it&lt;/a&gt;, so you have it always at your fingertips.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.nyc/css-exceptions/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/css-exceptions/</guid>
+        
+        
+        <category>code</category>
+        
+      </item>
+    
+      <item>
+        <title>Design Resources</title>
+        <description>&lt;div class=&quot;grid three&quot;&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;h1&gt;Everyday&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;http://sidebar.io&quot;&gt;Sidebar.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thenews.im/&quot;&gt;News 2&lt;/a&gt;&lt;/li&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://newswordy.com&quot;&gt;Newswordy&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://news.layervault.com&quot;&gt;Designer News&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;https://ello.co/friends&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt; --&gt;
+  &lt;li&gt;&lt;a href=&quot;http://typographicposters.com&quot;&gt;Typographic Posters&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://feedly.com/#latest&quot;&gt;Feedly&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.pinterest.com&quot;&gt;Pinterest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mojotech.com/shots&quot;&gt;Dribble Infinite Scroll&lt;/a&gt;&lt;/li&gt;
+
+
+
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;h1&gt;Social&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://tumblr.com&quot;&gt;Tumblr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://instagram.com&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://thefancy.com&quot;&gt;Fancy&lt;/a&gt;&lt;/li&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://www.bootstrappers.io&quot;&gt;Bootstrappers&lt;/a&gt;&lt;/li&gt; --&gt;
+
+		&lt;/ul&gt;
+	&lt;/div&gt;
+
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;h1&gt;Design&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;http://feedly.com/#saved&quot;&gt;Feedly, Saved&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://capptivate.co&quot;&gt;CAPTIVATE.co&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://bootsnipp.com&quot;&gt;Bootsnipp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://ui-animations.tumblr.com&quot;&gt;UI Animations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sixux.com&quot;&gt;SIX UX Transitions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://benplum.com/formstone&quot;&gt;Formstone&lt;/a&gt;&lt;/li&gt;
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://selection.datavisualization.ch&quot;&gt;Datavisualization.ch&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;li&gt;&lt;a href=&quot;http://veerle.duoh.com/inspiration&quot;&gt;The inspiration Stream&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://uigifs.com&quot;&gt;uiGIFs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.materialup.com/&quot;&gt;MaterialUp&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://instagram.com/userinterfacesio/&quot;&gt;userinterfacesio&lt;/a&gt;&lt;/li&gt;
+
+&lt;!--   &lt;li&gt;&lt;a href=&quot;http://useyourinterface.com&quot;&gt;Use Your Interface&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;li&gt;&lt;a href=&quot;https://unsplash.com/&quot;&gt;Unsplash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://unheap.com&quot;&gt;Unheap&lt;/a&gt;&lt;/li&gt;
+
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;Coding Resources&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://apps.stupid-studio.com/&quot;&gt;The Sprite Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ProgressButtonStyles/&quot;&gt;Progress Button Styles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codeseven.github.io/toastr/demo.html&quot;&gt;toastr examples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://highcharttable.org/&quot;&gt;jQuery HighchartTable plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nth-test.com/&quot;&gt;NTH-TEST&lt;/a&gt;, nth-child and nth-of-type Tester&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://responsivedesign.is/articles/the-printer-is-a-device-too!&quot;&gt;The printer is a device too!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://docs.emmet.io/cheat-sheet/&quot;&gt;Emmet Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kimonolabs.com/&quot;&gt;kimono&lt;/a&gt;, Turn websites into structured APIs from your browser in seconds&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://shapecatcher.com/&quot;&gt;Shapecatcher&lt;/a&gt;, Draw the Unicode character you want!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.csstrashman.com/&quot;&gt;CSS Trashman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://css2sass.heroku.com/&quot;&gt;css2sass&lt;/a&gt;, Convert CSS Snippets to Syntactically Awesome StyleSheets code&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gradientfinder.com/&quot;&gt;GradientFinder&lt;/a&gt;, Convert your Images into CSS Gradients&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dochub.io/#css/&quot;&gt;DocHub&lt;/a&gt;, Instant Documentation Search&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jsbeautifier.org/&quot;&gt;Online JavaScript beautifier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hackertyper.net/&quot;&gt;‎hackertyper.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://resizemybrowser.com/&quot;&gt;resizeMyBrowser&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mergely.com/editor&quot;&gt;Mergely&lt;/a&gt;, Diff online, merge documents&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://entitifier.sambowler.com/&quot;&gt;Entitifier&lt;/a&gt;, Convert obscure characters to the proper HTML entities&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://htmlkit.com/services/cssposter/&quot;&gt;HTMLKit.com CSS Poster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.css3factory.com/linear-gradients/&quot;&gt;CSS Gradient Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://colorblendy.com/&quot;&gt;ColorBlendy&lt;/a&gt;, Blend colors with different modes like multiply, overlay, dodge.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://primarycss.com/&quot;&gt;Primary CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scriptsrc.net/&quot;&gt;jQuery google api and other google hosted javascript libraries&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://customelements.io/&quot;&gt;Custom Elements&lt;/a&gt;, A Web Components Gallery for Modern Web Apps&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://filterfactory.mobi/&quot;&gt;FilterFactory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tools.medialab.sciences-po.fr/iwanthue/&quot;&gt;iWantHue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://clippingmagic.com/&quot;&gt;Clipping Magic&lt;/a&gt;, Easily Remove Image Backgrounds Online&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://colourco.de/&quot;&gt;colourcode&lt;/a&gt;, find your colour scheme&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheet/ccc?key=0AiN0QfBTPpOCdDFjWlM0eU1ra21XanZkekxGbjA2WWc#gid=0&quot;&gt;Styleguide &amp;amp; Boilerplate Patterns&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://html.fwpolice.com/css/&quot;&gt;CSS Beautifier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://webcolourdata.com/&quot;&gt;Colours&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://copypastecharacter.com/&quot;&gt;CopyPasteCharacter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/audreyr/favicon-cheat-sheet&quot;&gt;favicon-cheat-sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://extractcss.com/&quot;&gt;extractCSS&lt;/a&gt;, Online CSS Extractor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fontastic.me/&quot;&gt;Free Icon Font Generator&lt;/a&gt;, Create your Icon Font in seconds with 6000 ready to use Vector Icons&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://welcomemat.co/&quot;&gt;WelcomeMat.co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.grumpicon.com/&quot;&gt;Grumpicon&lt;/a&gt;, A Web app for the Grunticon workflow&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dpi.lv/&quot;&gt;DPI love&lt;/a&gt;, Easily find the DPI/PPI of any screen&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://screensiz.es/phone&quot;&gt;Screen Sizes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://newstoebook.com&quot;&gt;RSS feed to ebook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.notehub.org&quot;&gt;NoteHub&lt;/a&gt;, Free Pastebin for One-Off Markdown Publishing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.browsersupport.net/CSS/&quot;&gt;Browser Support&lt;/a&gt;, CSS Properties, Selectors, @ rules, Values, Property/Value Pairs and Media features&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fronteed.com/iCheck/#features&quot;&gt;Checkboxes and radio buttons customization plugin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://unicode.johnholtripley.co.uk/&quot;&gt;Unify&lt;/a&gt;, Unicode support on browsers and devices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://easings.net/&quot;&gt;Easing Functions Cheat Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheet/lv?key=0AoUAJWmYgaHHdHZZWWpPQkx4eHpBaUxna3dyMGkzLUE&amp;amp;pli=1&quot;&gt;Device Viewport Widths&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lavishbootstrap.com/&quot;&gt;Lavish&lt;/a&gt;, Generate your own Bootstrap color scheme&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kanduvisla.github.io/httool/&quot;&gt;.htTool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://makeappicon.com/#&quot;&gt;Makeappicon &lt;/a&gt;Generate app icons of all sizes in a click!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://qrafti.com/&quot;&gt;Qrafti&lt;/a&gt;, The simple, powerful and free QR code generator.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://browserhacks.com/&quot;&gt;Browserhacks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://dev.bowdenweb.com/a/css/media-queries-boilerplate.css&quot;&gt;‎media-queries-boilerplate.css&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uibox.in&quot;&gt;UIBox&lt;/a&gt;, curated HTML,CSS, JS UI Component&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.twitter.com/2014/open-sourcing-twitter-emoji-for-everyone&quot;&gt;Twitter emoji&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://zencode.in/lining.js/&quot;&gt;Lining.js&lt;/a&gt; creates CSS down-to-the-line control&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jex.im/regulex/&quot;&gt;Regulex&lt;/a&gt;JavaScript Regular Expression Visualizer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bennettfeely.com/clippy/&quot;&gt;Clippy&lt;/a&gt; — CSS clip-path maker&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://paymentfont.io/&quot;&gt;PaymentFont&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://samherbert.net/svg-loaders/&quot;&gt;SVG Loaders&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://photoswipe.com/&quot;&gt;PhotoSwipe - JavaScript Image Gallery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sarasoueidan.com/articles/&quot;&gt;SVG Articles by Sara Soueidan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-compatibility.github.io/&quot;&gt;Sass Compatibility&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tympanus.net/Development/ElasticSVGElements/index.html&quot;&gt;Elastic SVG Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://libscore.com/#*&quot;&gt;Libscore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pleeease.io/play/&quot;&gt;Pleeease Play&lt;/a&gt; · Prefix CSS3, convert rem, CSS filters, pleeease.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kenwheeler.github.io/slick/&quot;&gt;slick - the last carousel you&#39;ll ever need&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/aarontgrogg/06406ace9b9d592bb679&quot;&gt;Create a QR Code for the current page, so it can be easily scanned by other devices.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://neilj.github.io/Squire/&quot;&gt;Squire&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jakearchibald.github.io/svgomg/&quot;&gt;SVGOMG&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/christiannaths/Redacted-Font&quot;&gt;Redacted-Font&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jxnblk.com/shade/?base=00ccff&amp;hueShift=-130&amp;saturate=0&amp;lighten=0&quot;&gt;shade&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mckl.webtype.com/&quot;&gt;MCKL&#39;s Fort and Shift on Webtype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://leaverou.github.io/awesomplete/&quot;&gt;Awesomplete: Ultra lightweight, highly customizable, simple autocomplete, by Lea Verou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://framerjs.tumblr.com/post/111565942792/framer-for-android&quot;&gt;Framer Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wicky.nillia.ms/enquire.js/&quot;&gt;enquire.js&lt;/a&gt; - Awesome Media Queries in JavaScript&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mckl.webtype.com/&quot;&gt;MCKL&#39;s Fort and Shift on Webtype&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://leaverou.github.io/awesomplete/&quot;&gt;Awesomplete: Ultra lightweight, highly customizable, simple autocomplete, by Lea Verou&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://alistapart.com/article/quantity-queries-for-css&quot;&gt;Quantity Queries for CSS · An A List Apart Article&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/&quot;&gt;More Transparent UI Code with Namespaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://updates.html5rocks.com/2015/03/push-notificatons-on-the-open-web&quot;&gt;Push Notifications on the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.nicholasfrota.com&amp;tab=desktop&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://speedcurve.com/&quot;&gt;SpeedCurve: Monitor front-end performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://smallpdf.com/&quot;&gt;Smallpdf.com - A Free Solution to all your PDF Problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://pmg.softwaretailoring.net/&quot;&gt;Pie Menu Generator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://sebastianpontow.de/css2compass/&quot;&gt;css2scss - from css to scss&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://callmecavs.github.io/layzr.js/&quot;&gt;Layzr.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://howtocenterincss.com/&quot;&gt;How to Center in CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wheelnavjs.softwaretailoring.net/examples.html&quot;&gt;wheelnav.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Test your website at different screen resolutions: &lt;a href=&quot;http://whatismyscreenresolution.net/multi-screen-test&quot;&gt;Multi Screen Test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.rich-harris.co.uk/ramjet/&quot;&gt;ramjet&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1&gt;Design Resources&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://madebyvadim.tumblr.com/&quot;&gt;Photoshoplr&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://madebyvadim.com/layrs/&quot;&gt;Layrs&lt;/a&gt;, free PS extension&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hackingui.com/design/export-photoshop-layer-to-svg/&quot;&gt;Free script&lt;/a&gt;, Export your layers from photoshop to SVG in a single click!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://niice.co/&quot;&gt;Niice&lt;/a&gt;, A search engine with taste.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://iloveligatures.tumblr.com/&quot;&gt;I Love Ligatures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lokeshdhakar.com/projects/color-thief/&quot;&gt;Color Thief&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thepatternlibrary.com/#wild-sea&quot;&gt;The Pattern Library&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://generatedpaper.com/en/graphandgrid&quot;&gt;Graph &amp;amp; Grid @ generatedpaper&lt;/a&gt;, free printable papers for the daily use&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.flickr.com/photos/bartsol/sets/72157627595663028/with/6115056022/&quot;&gt;The Bart&amp;amp;Co.&lt;/a&gt;, Historic Clip Art Collection&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tiff.herokuapp.com/&quot;&gt;Tiff&lt;/a&gt;, a visual typeface diff tool.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://paperkit.net/&quot;&gt;Paperkit&lt;/a&gt;, Printable graph paper template in PDF&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://retrovectors.com&quot;&gt;Retro Vectors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sketchmine.co&quot;&gt;Sketch App Sources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mapsdesign.tumblr.com&quot;&gt;Beautiful Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hudsandguis.com&quot;&gt;Huds and Guis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://quasimondo.com/ZorroSVG/&quot;&gt;ZorroSVG&lt;/a&gt; - Put a Mask on it&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.invisionapp.com/7-tips-for-designing-awesome-gifs/&quot;&gt;7 tips for designing awesome animated GIFs&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt; &lt;a href=&quot;http://glench.com/hash/&quot;&gt;i&#39;m sorry&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://ai2html.org/&quot;&gt;ai2html&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://sarasoueidan.com/tools/circulus/&quot;&gt;CIRCULUS.SVG: The SVG Circular Menu Generator&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://github.com/MengTo/AppStoreSketch&quot;&gt;MengTo/AppStoreSketch&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://launchkit.io/screenshots&quot;&gt;App Store Screenshot Builder&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://typejs.org/&quot;&gt;type.js&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://videos.pexels.com/?ref=producthunt&quot;&gt;Free stock videos – Pexels Videos&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://thenuschool.com/free-stock-photos-websites-awesome-list/#list_starts&quot;&gt;The Badass List of Free Stock Photos Websites for Designers&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://viget.com/inspire/responsive-logos-part-2-making-logos-truly-responsive-with-svg&quot;&gt; Making Logos Truly Responsive with Inline SVG&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://markovuletic.com/store/15-iphone6-mockups/&quot;&gt;iPhone 6 Mockups&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://qrohlf.com/trianglify-generator/&quot;&gt;Trianglify Generator&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://peek.space/&quot;&gt;P E E K S P A C E&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://css-tricks.com/sites-with-high-quality-photos-you-can-use-for-free/&quot;&gt;Sites with High Quality Photos You Can Use for Free&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;http://katydecorah.com/font-library/&quot;&gt;Font Library&lt;/a&gt; | An open source project to tag and organize Google Fonts.&lt;/li&gt;
+
+
+
+&lt;/ul&gt;
+
+&lt;h1&gt;Resources for Prototyping&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://facebook.github.io/origami/&quot;&gt;Origami&lt;/a&gt;, Design prototyping with Quartz Composer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://redpen.io&quot;&gt;Red Pen&lt;/a&gt;, Effing fast feedback&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uinames.com/&quot;&gt;uinames.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://randomuser.me/&quot;&gt;Random User Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://usabilityhub.com/&quot;&gt;Five Second Test&lt;/a&gt;, Click Test and Nav Flow&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mockuphone.com/&quot;&gt;MockUPhone&lt;/a&gt;, One Click to Wrap App Screenshots in Device Mockup!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://powwowapp.net/&quot;&gt;PowWow&lt;/a&gt;, Making User Research Scheduling Easy&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://userium.com/&quot;&gt;Usability checklist&lt;/a&gt;, Catch common usability problems before user testing.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uifaces.com/&quot;&gt;User Interfaces&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.docracy.com/&quot;&gt;Docracy&lt;/a&gt;, Free Legal Documents&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://useronboard.com&quot;&gt;User Onboarding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cooper.com/prototyping-tools&quot;&gt;Prototyping Tools | Cooper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lukejamestaylor.com/portfolio/css-devices/&quot;&gt;CSS Devices&lt;/a&gt;, Simple pure CSS iOS devices for mockups&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/gifgrabber/id668208984?mt=12&quot;&gt;GifGrabber&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mockable.io/?ref=producthunt&quot;&gt;Mockable&lt;/a&gt;, Quickly create REST and SOAP mocks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mariuszostrowski/wireframingbrush&quot;&gt;mariuszostrowski/wireframingbrush&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1&gt;HTML Email Resources&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://backgrounds.cm/&quot;&gt;Bulletproof background images&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/leemunroe/html-email-template&quot;&gt;html-email-template&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://putsmail.com/&quot;&gt;PutsMail&lt;/a&gt;, It’s a mail test tool to test your mails before sending them&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://beefree.io/index.aspx&quot;&gt;BeeFree&lt;/a&gt;, Free email editor to build responsive design messages&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/uglyemail/ldgiafaliifpknmgofiifianlnbgflgj&quot;&gt;UglyEmail - Chrome Web Store&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://responsiveemailresources.com/&quot;&gt;Responsive Email Resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://litmus.com/&quot;&gt;Litmus&lt;/a&gt;, Email Testing and Email Marketing Analytics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://glennsmith.me/email/framework/&quot;&gt;Email Framework - Version 1.0 Beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://seesparkbox.com/foundry/email_lab_a_starter_kit_for_html_emails&quot;&gt;Email Lab&lt;/a&gt;: A Starter Kit for HTML Emails&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1&gt;Mapping Resources&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.instantstreetview.com/&quot;&gt;Instant Google Street View&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://winstonwolf.pl/clickable-maps/europe.html&quot;&gt;Europe&lt;/a&gt;, CSS + jQuery clickable map&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.webiconset.com/map-icons/&quot;&gt;Map Icons Designer&lt;/a&gt;, Google Map Icons, Location Pins, Location Markers, POI, Map Application Design Kit&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://intridea.github.io/stately/&quot;&gt;Stately&lt;/a&gt;, The simple map font&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://maps.stamen.com/#terrain/12/37.7706/-122.3782&quot;&gt;Stamen Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://osvaldas.info/lazy-loading-google-maps&quot;&gt;Lazy-loading Google Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.scottlogic.com/blog/2015/02/02/svg-layout-flexbox.html&quot;&gt;SVG layout with Flexbox for simpler D3 charts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flowingdata.com/2015/03/13/bivariate-choropleth-how-to/&quot;&gt;Bivariate choropleth how-to&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mapsdesign.tumblr.com/&quot;&gt;Beautiful Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://flowingdata.com/2015/03/27/making-better-social-media-maps/&quot;&gt;Making better social media maps&lt;/a&gt;&lt;/li&gt;
+
+
+&lt;/ul&gt;
+
+&lt;h1&gt;User Research Resources&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://dangrover.com/blog/2014/12/01/chinese-mobile-app-ui-trends.html&quot;&gt;Chinese Mobile App UI Trends&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.michaelvillar.com/motion&quot;&gt;Motion experiments&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wonderfulfeedback.com/client/&quot;&gt;Feedback Template&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxmas.com/2014/7-things-i-wish-everyone-knew-about-interaction-design&quot;&gt;7 Things I Wish Everyone Knew About Interaction Design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxrecipe.github.io&quot;&gt;UX Recipe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxchecklist.github.io/&quot;&gt;UX Project Checklist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codeascraft.com/2015/02/02/transitioning-to-scss-at-scale/&quot;&gt;Transitioning to SCSS at Scale&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/yourbrowser-is-shares-your-browser-and-computer-info-by-1691305385&quot;&gt;Yourbrowser.is Shares Your Browser and Computer Info by Email&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webdesignquote.beewits.com/&quot;&gt;Web Design Quotation Generator&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hbr.org/2015/03/a-checklist-for-planning-your-next-big-meeting&quot;&gt;A Checklist for Planning Your Next Big Meeting - HBR&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/yourbrowser-is-shares-your-browser-and-computer-info-by-1691305385&quot;&gt;Yourbrowser.is Shares Your Browser and Computer Info by Email&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.layervault.com/stories/47742-ask-dn-where-do-you-get-participants-for-uxusability-research&quot;&gt;Ask DN: Where do you get participants for UX/Usability Research? - Designer News&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@houbenkristof/localise-designs-with-sketch-6300cd9165f6&quot;&gt;Localise designs with Sketch and Invision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@lchapmanruiz/designer-s-toolkit-a-primer-on-capturing-research-775e7e8bc05e&quot;&gt;Designer’s Toolkit: A Primer On Capturing Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://webdesignstack.com/&quot;&gt;Web Design Stack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wwwhere.io/&quot;&gt;wwwhere&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.webflow.com/always-choose-prototypes-over-mockups&quot;&gt;Choose prototypes over mockups&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h1&gt;Gigs&lt;/h1&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.coroflot.com/jobs#location=New%20York,%20NY&amp;specialties=15&quot;&gt;Coroflot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://weeklydesignjobs.com&quot;&gt;WDJ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LinkedIn
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/job/ui-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/job/interface-designer-jobs-new-york-ny/?trk=jserp_search_button_execute&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;GlassDoor
+  &lt;p&gt;&lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=ui+designer&amp;locT=C&amp;locId=1132348&quot;&gt;UI&lt;/a&gt;, &lt;a href=&quot;http://www.glassdoor.com/Job/jobs.htm?suggestCount=0&amp;suggestChosen=false&amp;clickSource=searchBtn&amp;typedKeyword=&amp;sc.keyword=interface+designer&amp;locT=C&amp;locId=1132348&quot;&gt;Interface&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;https://dribbble.com/jobs?utf8=✓&amp;location=New+York&quot;&gt;Dribble&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://designjobs.aiga.org/#keywords=Interaction%20Designer&amp;location=New%20York,%20NY&amp;job_levels=4,3,6&quot;&gt;AIGA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://source.jobvite.com/js/jobseeker/applications.html?ticket=7C31268FEA7B0A0A2E92E05ED42BC8863D90A265F9216B93CD00D7CB55E1C7EC&amp;&amp;#/list&quot;&gt;JobVite&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.nyc/resources/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/resources/</guid>
+        
+        
+        <category>resources</category>
+        
+      </item>
+    
+      <item>
+        <title>My Portfolio</title>
+        <description>&lt;div class=&quot;grid three&quot;&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Clients&lt;/h1&gt;
+    &lt;ul&gt;
+      &lt;li&gt;JP Morgan Chase&lt;/li&gt;
+      &lt;li&gt;Fresh Direct&lt;/li&gt;
+      &lt;li&gt;Verizon&lt;/li&gt;
+      &lt;li&gt;MoMA&lt;/li&gt;
+      &lt;li&gt;Pfizer&lt;/li&gt;
+      &lt;li&gt;Ithaka/JSTOR&lt;/li&gt;
+      &lt;li&gt;TicketEvolution&lt;/li&gt;
+      &lt;li&gt;Snapple&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;cell&quot;&gt;
+        &lt;h1&gt;Contact&lt;/h1&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Nicholas Frota,&lt;/li&gt;
+        &lt;li&gt;Interface Designer&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;mailto:info@nicholasfrota.com?Subject=Nicholas Frota, Portfolio&quot;&gt;info@nicholasfrota.com&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;tel://+1-917-512-1486&quot;&gt;+1-917-512-1486&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/in/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://www.twitter.com/nonlinear&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+      &lt;h1&gt;Github&lt;/h1&gt;
+      &lt;iframe frameborder=&quot;0&quot; height=&quot;450px&quot; scrolling=&quot;no&quot; src=&quot;/octocard.html&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;grid three&quot;&gt;
+
+    &lt;div class=&quot;cell&quot;&gt;
+      &lt;h1&gt;Projects&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;http://nycmeshnet.github.io&quot; target=&quot;_blank&quot;&gt;NYC Mesh&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://nonlinear.github.io/codecode&quot; target=&quot;_blank&quot;&gt;Code/Code&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://carbon.ticketevolution.com&quot; target=&quot;_blank&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://cheaptickets.com/events&quot; target=&quot;_blank&quot;&gt;CheapTickets Events&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- &lt;li&gt;&lt;a href=&quot;http://binsapp.com&quot; target=&quot;_blank&quot;&gt;Bins&lt;/a&gt;&lt;/li&gt; --&gt;
+        &lt;li&gt;&lt;a href=&quot;http://stephenmayes.co&quot; target=&quot;_blank&quot;&gt;Stephen Mayes&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://plants.jstor.org/&quot; target=&quot;_blank&quot;&gt;JSTOR Plants Science&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://audit.portico.org/portico&quot; target=&quot;_blank&quot;&gt;Portico Audit&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+      &lt;h1&gt;Prototypes&lt;/h1&gt;
+      &lt;ul&gt;
+        &lt;!-- &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/infoFD/&quot; target=&quot;_blank&quot;&gt;Fresh Direct HR&lt;/a&gt;&lt;/li&gt; --&gt;
+        &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/prototypes/carbon/RC35/&quot; target=&quot;_blank&quot;&gt;Carbon&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://ticketevolution.github.io/prototypes/cheaptickets/&quot; target=&quot;_blank&quot;&gt;CheapTickets Events&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;http://www.nicholasfrota.com/mesh&quot; target=&quot;_blank&quot;&gt;Serval Mesh&lt;/a&gt;&lt;/li&gt;
+        &lt;!-- &lt;li&gt;&lt;a href=&quot;http://lab.nicholasfrota.com/goodtalk&quot; target=&quot;_blank&quot;&gt;Good Talk&lt;/a&gt;&lt;/li&gt; --&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/partnerportal/home.html&quot; target=&quot;_blank&quot;&gt;On Deck Capital Partner Portal&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/instantdecision/index.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/instantdecision/business.html&quot; target=&quot;_blank&quot;&gt;OnDeck Instant Decision 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/tools/portfolio/prototypes/conprep/&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cell&quot;&gt;
+    &lt;h1&gt;Wireframes&lt;/h1&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/agent_v1.pdf&quot; target=&quot;_blank&quot;&gt;Fresh Direct 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/JPMC_campus_events.pdf&quot; target=&quot;_blank&quot;&gt;JP Morgan Chase 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/nicholasfrota/bins-1&quot; target=&quot;_blank&quot;&gt;Bins Environments&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/nicholasfrota/makers-badge-wireframe&quot; target=&quot;_blank&quot;&gt;Makers Badge&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ativity_alpha_wireframe.pdf&quot; target=&quot;_blank&quot;&gt;Ativiti 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ConPrep_List.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 1&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ConPrep_Record.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 2&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/ConPrep_Stories.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka ConPrep 3&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/eBooks_02.pdf&quot; target=&quot;_blank&quot;&gt;Ithaka E-Books&lt;/a&gt;, pdf&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/UI_Design_Presentation.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;/tools/portfolio/wireframes/view_complete_list.pdf&quot; target=&quot;_blank&quot;&gt;Monitor110&amp;nbsp;2&lt;/a&gt;, pdf&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.nyc/portfolio/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/portfolio/</guid>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+      <item>
+        <title>About Me</title>
+        <description>&lt;div class=&quot;grid three&quot;&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;&lt;ul&gt;&lt;li&gt;Interface designer.&lt;/li&gt;
+		&lt;li&gt;Illustrator.&lt;/li&gt;
+		&lt;li&gt;Brazilian-american.&lt;/li&gt;
+		&lt;li&gt;Aquarius.&lt;/li&gt;
+		&lt;li&gt;Left-handed.&lt;/li&gt;
+		&lt;li&gt;40 yo.&lt;/li&gt;
+		&lt;li&gt;What else?&lt;/li&gt;
+	&lt;/ul&gt;&lt;/div&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;h1&gt;Links&lt;/h1&gt;
+		&lt;p&gt;I’m all over the place:&lt;/p&gt;
+		&lt;ol&gt;
+			&lt;li&gt;&lt;a href=&quot;http://twitter.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://instagram.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Instagram&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://github.com/nonlinear&quot; target=&quot;_blank&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://ello.co/nonlinear&quot; target=&quot;_blank&quot;&gt;Ello&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://nicholasfrota.tumblr.com&quot; target=&quot;_blank&quot;&gt;Illustration Blog&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://nonlinear.tumblr.com&quot; target=&quot;_blank&quot;&gt;Inspiration Blog&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.linkedin.com/in/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Linkedin&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;https://soundcloud.com/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Soundcloud&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.last.fm/user/nicholasfrota&quot; target=&quot;_blank&quot;&gt;Last.FM&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.thefancy.com/nonlinear&quot; target=&quot;_blank&quot;&gt;The Fancy&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.amazon.com/registry/wishlist/UZ8VC79375WE/ref=cm_sw_r_tw_ws_c1ZDqb11943A2&quot; target=&quot;_blank&quot;&gt;Amazon Wish List&lt;/a&gt;&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;cell&quot;&gt;
+		&lt;h1&gt;Contact&lt;/h1&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href=&quot;mailto:info@nicholasfrota.com?Subject=Nicholas%20Frota%20Portfolio&quot;&gt;info@nicholasfrota.com&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;tel://917-512-1486&quot;&gt;917-512-1486&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href=&quot;http://www.twitter.com/nonlinear&quot;&gt;@nonlinear&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://nonlinear.nyc/about/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/about/</guid>
+        
+        <category>me</category>
+        
+        <category>master</category>
+        
+        <category>list</category>
+        
+        
+        <category>personal</category>
         
       </item>
     
