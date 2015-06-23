@@ -2,3 +2,59 @@
 h1, h2, h3, h4
   text-transform: uppercase
 
+*
+  +border-box
+
+.container
+  width: 320px
+  margin: 0 auto
+
+h1, h2, h3, h4, h5, p, li
+  background-color: white
+  display: inline
+  +clearfix
+
+.start
+  height: 300px
+  padding: 20px 0
+
+tt
+  background-color: lighten(yellow, 30%)
+
+.post, body, html
+  height: 100%
+
+a
+  +transition
+
+.list
+  display: block
+  padding: 10px
+
+// base category colors
+
+=category ($category)
+  background-color: $category
+  h1, h2, h3, h4, p
+    color: darken($category, 30%)
+  a:hover
+    h1, h2, h3, h4, p
+      color: darken($category, 10%)
+
+.index
+  +category(#DAB0BB)
+.personal
+  +category(#B1D0C3)
+.resources
+  +category(#00B4AE)
+.code
+  +category(#35A6DE)
+.arts
+  +category(#B1D0C3)
+.design
+  +category(#00B4AE)
+.comics
+  +category(#35A6DE)
+.anime
+  +category(#B1D0C3)
+

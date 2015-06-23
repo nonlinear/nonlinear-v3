@@ -5,8 +5,8 @@
     <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quo!</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Jun 2015 11:36:44 -0400</pubDate>
-    <lastBuildDate>Tue, 23 Jun 2015 11:36:44 -0400</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2015 12:51:40 -0400</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2015 12:51:40 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -667,14 +667,16 @@ html.touch .hidden-touch  {&lt;br&gt;
         <title>About Me</title>
         <description>&lt;div class=&quot;grid three&quot;&gt;
 	&lt;div class=&quot;cell&quot;&gt;
-		&lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;&lt;ul&gt;&lt;li&gt;Interface designer.&lt;/li&gt;
+		&lt;img class=&quot;avatar&quot; src=&quot;/assets/images/me.jpg&quot;&gt;&lt;ul&gt;
+		&lt;li&gt;Interface designer.&lt;/li&gt;
 		&lt;li&gt;Illustrator.&lt;/li&gt;
 		&lt;li&gt;Brazilian-american.&lt;/li&gt;
 		&lt;li&gt;Aquarius.&lt;/li&gt;
 		&lt;li&gt;Left-handed.&lt;/li&gt;
 		&lt;li&gt;40 yo.&lt;/li&gt;
 		&lt;li&gt;What else?&lt;/li&gt;
-	&lt;/ul&gt;&lt;/div&gt;
+	&lt;/ul&gt;
+&lt;/div&gt;
 	&lt;div class=&quot;cell&quot;&gt;
 		&lt;h1&gt;Links&lt;/h1&gt;
 		&lt;p&gt;I’m all over the place:&lt;/p&gt;

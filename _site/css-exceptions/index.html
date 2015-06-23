@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>CSS Exceptions</title>
   <meta name="description" content="Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rule...">
   <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css" />
@@ -14,40 +13,19 @@
 </head>
 
 
-  <body>
+<body>
 
-    <header class="site-header">
+  
+  <div class="index">
+    <div class="container">
+      <a href="http://nonlinear.nyc"><h2>nonlinear.nyc</h2></a>
 
-  <div class="wrapper">
-
-    <a class="site-title" href="/">nonlinear.nyc</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-      </div>
-    </nav>
-
+    </div>
   </div>
-
-</header>
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting <em>other</em> browsers or systems.</p>
+  <div class="code post">
+  <div class="container">
+    <h1>CSS Exceptions</h1>
+    <p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting <em>other</em> browsers or systems.</p>
 <h1>Step 1: Modernizr</h1>
 <p>Modernizr scans browser capabilities and reports its findings as classes on <tt><tt>html</tt></tt> tag.</p>
 <p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on <tt>html</tt>. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
@@ -131,63 +109,16 @@ html.touch .hidden-touch  {<br>
 <p>This and other CSS lifesavers are in <a href="http://www.nicholasfrota.com/codecode">Code/Code</a>, a collection of macros to simplify coding.</p>
 <p>If you use Sublime Text <a href="http://www.nicholasfrota.com/codecode">make sure to install it</a>, so you have it always at your fingertips.</p>
 
-      </div>
-    </div>
-
-    <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">nonlinear.nyc</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>nonlinear.nyc</li>
-          <li><a href="mailto:info@nicholasfrota.com">info@nicholasfrota.com</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
-          
-          <li>
-            <a href="https://github.com/nonlinear">
-              <span class="icon  icon--github">
-
-              </span>
-
-              <span class="username">nonlinear</span>
-            </a>
-          </li>
-          
-
-          
-          <li>
-            <a href="https://twitter.com/nonlinear">
-              <span class="icon  icon--twitter">
-
-              </span>
-
-              <span class="username">nonlinear</span>
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quo!</p>
-      </div>
-    </div>
-
   </div>
+</div>
+  
 
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 <script src="https://raw.githubusercontent.com/barisaydinoglu/Detectizr/master/dist/detectizr.js"></script>
 
 
-  </body>
+</body>
 
 </html>
