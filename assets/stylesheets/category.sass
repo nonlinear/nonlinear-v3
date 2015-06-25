@@ -38,7 +38,7 @@ $anime: #B1D0C3
   background: linear-gradient(to bottom, $top 0%,$top $bp,$bottom ($bp + 1),$bottom 100%)
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 )
 
-=gallery($title: fumetti, $count: 9, $path: "../images/galleries/")
+=gallery($title: fumetti, $count: 10, $path: "../images/galleries/")
   & > *
     +size(square, 285px)
     +media(iphone5, landscape)
@@ -49,7 +49,7 @@ $anime: #B1D0C3
     +highlight(transparent, 0, 0)
     @for $i from 1 through $count
       &:nth-of-type(#{$i})
-        background-image: url("#{$path}#{$title}/0#{$i}.jpg")
+        background-image: url("#{$path}#{$title}/#{$i}.jpg")
     +prefixer(background-size, contain, webkit moz spec)
     +transition
     // &:active
