@@ -50,10 +50,16 @@ a, a h2
   height: 70px
   overflow: hidden
   +transition
-  h2:after
-    height: 10px
-  &:hover
-    height: 105px
+  h2
+    &:after
+      height: 10px
+  +except(touch)
+    &:hover
+      height: 105px
+    +media(iphone5, portrait)
+      &:hover
+        height: 130px
+
 
 .post
   h1, p, h2
