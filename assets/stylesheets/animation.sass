@@ -1,7 +1,5 @@
 // animation variables
 
-$prefixes: webkit moz ms o spec
-
 $prefix-for-webkit: true !default
 $prefix-for-mozilla: true !default
 $prefix-for-microsoft: true !default
@@ -21,8 +19,8 @@ $prefix-for-spec: true !default
 =duration($duration: 1s)
   +prefixer(animation-duration, $duration, $prefixes)
 
-=delay($delay: .2s)
-  +prefixer(animation-delay, $delay, $prefixes)
+=delay($step: 1, $delay: .2s)
+  +prefixer(animation-delay, ($delay * $step), $prefixes)
 
 =function($function: ease)
   +prefixer(animation-timing-function, $function, $prefixes)
@@ -78,26 +76,6 @@ $prefix-for-spec: true !default
   $prefix-for-microsoft:  $original-prefix-for-microsoft !global
   $prefix-for-opera:      $original-prefix-for-opera !global
   $prefix-for-spec:       $original-prefix-for-spec !global
-
-=prefixer($property, $value, $prefixes)
-  @each $prefix in $prefixes
-    @if $prefix == webkit
-      @if $prefix-for-webkit
-        -webkit-#{$property}: $value
-    @else if $prefix == moz
-      @if $prefix-for-mozilla
-        -moz-#{$property}: $value
-    @else if $prefix == ms
-      @if $prefix-for-microsoft
-        -ms-#{$property}: $value
-    @else if $prefix == o
-      @if $prefix-for-opera
-        -o-#{$property}: $value
-    @else if $prefix == spec
-      @if $prefix-for-spec
-        #{$property}: $value
-    @else
-      @warn "Unrecognized prefix: #{$prefix}"
 
 =disable-prefix-for-all()
   $prefix-for-webkit:    false !global

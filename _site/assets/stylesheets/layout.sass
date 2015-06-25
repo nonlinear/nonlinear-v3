@@ -21,10 +21,12 @@ hr
   +highlight(white, $right: 0)
   border-top: white
 
+
 .start
   height: 370px
   padding-top: 137px
   +clearfix
+  +fadeInLeft
   h2
     font-size: $h3-font-size
   svg
@@ -45,11 +47,22 @@ a, a h2
   +transition
   text-decoration: none
 
+.home.nav
+  +fadeInDown
+
+.post
+  +fadeInLeft($delay: .6s)
+.post .share
+  +fadeInLeft($delay: 1.2s)
+
 .preview
   display: block
   height: 70px
   overflow: hidden
   +transition
+  @for $i from 1 through 10
+    &:nth-of-type(#{$i})
+      +fadeInDown($delay: (.3s * $i))
   h2
     &:after
       height: 10px
