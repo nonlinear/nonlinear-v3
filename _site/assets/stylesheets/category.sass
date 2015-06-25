@@ -135,8 +135,8 @@ body
         background-image: url("#{$folder}#{$title}-01.png")
         background-position: center top
 
-=grid($count: 6)
-  +media(321px, min)
+=grid($count: 6, $collapse: 568px)
+  +media($collapse, min)
     display: table
     width: 100%
     & > *
