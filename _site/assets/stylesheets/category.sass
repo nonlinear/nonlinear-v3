@@ -1,0 +1,165 @@
+$home: #DAB0BB
+$personal: #B1D0C3
+$resources: #00B4AE
+$code: #35A6DE
+$arts: #B1D0C3
+$design: #00B4AE
+$comics: #35A6DE
+$anime: #B1D0C3
+
+=highlight($color: white, $left: 20px, $right: 5px)
+  -webkit-box-shadow: $right 0 0 $color, ($left * -1) 0 0 $color
+  -moz-box-shadow: $right 0 0 $color, ($left * -1) 0 0 $color
+  box-shadow: $right 0 0 $color, ($left * -1) 0 0 $color
+  background: $color
+
+=category ($category)
+  background-color: $category
+  svg
+    fill: currentColor
+  h1, h2, h3, h4, p, svg, .share a
+    color: darken($category, 20%)
+  .share a:hover
+    background-color: $category
+  a:hover
+    h1, h2, h3, h4, p
+      color: darken($category, 10%)
+
+
+
+=bgstripe($bottom: $home, $top: $index, $bp: 50%)
+  background-repeat: fixed !important
+  background: $top
+  background: -moz-linear-gradient(top, $top 0%, $top $bp, $bottom ($bp + 1), $bottom 100%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop($bp,$top), color-stop(($bp + 1),$bottom), color-stop(100%,$bottom))
+  background: -webkit-linear-gradient(top, $top 0%,$top $bp,$bottom ($bp + 1),$bottom 100%)
+  background: -o-linear-gradient(top, $top 0%,$top $bp,$bottom ($bp + 1),$bottom 100%)
+  background: -ms-linear-gradient(top, $top 0%,$top $bp,$bottom ($bp + 1),$bottom 100%)
+  background: linear-gradient(to bottom, $top 0%,$top $bp,$bottom ($bp + 1),$bottom 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$top', endColorstr='$bottom',GradientType=0 )
+
+=gallery($title: fumetti, $count: 9, $path: "../images/galleries/")
+  & > *
+    +size(square, 285px)
+    +media(iphone5, landscape)
+      +size(square, 460px)
+    +media(iphone5, portrait)
+      +size(square, 300px)
+    display: inline-block
+    +highlight(transparent, 0, 0)
+    @for $i from 1 through $count
+      &:nth-of-type(#{$i})
+        background-image: url("#{$path}#{$title}/0#{$i}.jpg")
+    +prefixer(background-size, contain, webkit moz spec)
+    +transition
+    // &:active
+    //   +size(square, 570px)
+
+.gallery
+  &.fumetti
+    +gallery(fumetti, 9)
+  &.quick
+    +gallery(quick, 10)
+
+
+.home
+  +category($home)
+.personal
+  +category($personal)
+.resources
+  +category($resources)
+.code
+  +category($code)
+.arts
+  +category($arts)
+.design
+  +category($design)
+.comics
+  +category($comics)
+.anime
+  +category($anime)
+
+//failsafe for when 2 posts same category are shown.
+
+.preview
+  &.personal + .preview.personal
+    background-color: darken($personal, 5%)
+  &.resources + .preview.resources
+    background-color: darken($resources, 5%)
+  &.code + .preview.code
+    background-color: darken($code, 5%)
+  &.arts + .preview.arts
+    background-color: darken($arts, 5%)
+  &.design + .preview.design
+    background-color: darken($design, 5%)
+  &.comics + .preview.comics
+    background-color: darken($comics, 5%)
+  &.anime + .preview.anime
+    background-color: darken($anime, 5%)
+
+body
+  text-rendering: optimizeLegibility
+  &.bg-home
+    +bgstripe($top: $home)
+  &.bg-personal
+    +bgstripe($top: $personal)
+  &.bg-resources
+    +bgstripe($top: $resources)
+  &.bg-code
+    +bgstripe($top: $code)
+  &.bg-arts
+    +bgstripe($top: $arts)
+  &.bg-design
+    +bgstripe($top: $design)
+  &.bg-comics
+    +bgstripe($top: $comics)
+  &.bg-anime
+    +bgstripe($top: $anime)
+
+=slideshow($title: 'index', $folder: '../images/bgs/', $duration: 5s, $function: $animation-function, $delay: $animation-delay, $count: infinite, $fill: $animation-fill, $visibility: $animation-visibility)
+  @include animation(slideshow $duration $function $delay $count $fill)
+  @include visibility($visibility)
+  background-repeat: repeat-x
+  @at-root
+    @include keyframes(slideshow)
+      0%
+        background-image: url("#{$folder}#{$title}-01.png")
+        background-position: center top
+      33%
+        background-image: url("#{$folder}#{$title}-02.png")
+        background-position: center top
+      66%
+        background-image: url("#{$folder}#{$title}-03.png")
+        background-position: center top
+      100%
+        background-image: url("#{$folder}#{$title}-01.png")
+        background-position: center top
+
+=grid($count: 6)
+  +media(321px, min)
+    display: table
+    width: 100%
+    & > *
+      display: table-cell
+      &:not(:first-of-type)
+        padding-left: 5px
+        border-left: solid 1px white
+        h1, h2, h3, h4, p, li, a
+          +highlight(white, $left: 5px)
+      &:not(:last-of-type)
+        padding-right: 5px
+      width: (100% / $count)
+
+.grid
+  &.two
+    +grid(2)
+  &.three
+    +grid(3)
+  &.four
+    +grid(4)
+  &.five
+    +grid(5)
+
+
+
+

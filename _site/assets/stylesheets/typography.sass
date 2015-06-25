@@ -3,10 +3,10 @@
 $rhythm-unit: 'px' !default
 // The length unit in which to output vertical rhythm values (px, em, rem)
 $strict-normalize: true !default
-$h1-font-size: 2 * $base-font-size !default
-$h2-font-size: 1.5 * $base-font-size !default
+$h1-font-size: 2    * $base-font-size !default
+$h2-font-size: 1.5  * $base-font-size !default
 $h3-font-size: 1.17 * $base-font-size !default
-$h4-font-size: 1 * $base-font-size !default
+$h4-font-size: 1    * $base-font-size !default
 $h5-font-size: 0.83 * $base-font-size !default
 $h6-font-size: 0.60 * $base-font-size !default
 
@@ -44,8 +44,11 @@ $h6-font-size: 0.60 * $base-font-size !default
 
 // typography rules
 
+h1, h2, h3, h4, h5, h6 p
+  line-height: 1.1em
+
 h1
-  font-size: if($rhythm-unit == "px", $h1-font-size, ($h1-font-size / $base-font-size)#{$rhythm-unit})
+  font-size: $h1-font-size
 
 h2
   font-size: if($rhythm-unit == "px", $h2-font-size, ($h2-font-size / $base-font-size)#{$rhythm-unit})

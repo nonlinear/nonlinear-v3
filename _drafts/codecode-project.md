@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Code/Code Project"
+title: "codecode Project"
+description: "my snippet collection"
 permalink: /codecode-project/
 category: code
 ---

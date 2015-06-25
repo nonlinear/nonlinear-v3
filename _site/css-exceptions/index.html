@@ -7,33 +7,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CSS Exceptions</title>
   <meta name="description" content="Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rule...">
-  <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+   <link rel="stylesheet" type="text/css" href="http://nonlinear.nyc/sneakpeek/assets/stylesheets/style.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css" /> -->
   <link rel="canonical" href="http://nonlinear.nyc/css-exceptions/">
   <link rel="alternate" type="application/rss+xml" title="nonlinear.nyc" href="http://nonlinear.nyc/feed.xml" />
 </head>
 
 
-<body>
+<body class="bg-code">
 
   
-  <div class="index">
+  <div class="home">
     <div class="container">
       <a href="http://nonlinear.nyc"><h2>nonlinear.nyc</h2></a>
-
     </div>
   </div>
   <div class="code post">
-  <div class="container">
-    <h1>CSS Exceptions</h1>
-    <p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting <em>other</em> browsers or systems.</p>
-<h1>Step 1: Modernizr</h1>
+    <div class="container">
+      <div class="share">
+        <a href="http://twitter.com/home?status=CSS Exceptions http://nonlinear.nyc/css-exceptions/ @nonlinear"
+        target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://nonlinear.nyc/css-exceptions/"
+      target="_blank">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="mailto:?subject=CSS Exceptions&body=http://nonlinear.nyc/css-exceptions/">
+          <i class="fa fa-envelope"></i>
+        </a>
+  </div>
+
+      <h1>CSS Exceptions</h1>
+      <p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting <em>other</em> browsers or systems.</p>
+<h2>Step 1: Modernizr</h2>
 <p>Modernizr scans browser capabilities and reports its findings as classes on <tt><tt>html</tt></tt> tag.</p>
 <p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on <tt>html</tt>. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
 <p>You can <a href="http://modernizr.com">download it here</a> or <a href="https://cdnjs.com/libraries/modernizr">use the CDN version</a>.</p>
-<h1>Step 2: Detectizr</h1>
+<h2>Step 2: Detectizr</h2>
 <p>Detectizr expands modernizr detection, by revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even specific versions.</p>
 <p>You can <a href="https://github.com/barisaydinoglu/Detectizr">download it here</a>.</p>
-<h1>Step 3: Write your CSS exceptions</h1>
+<h2>Step 3: Write your CSS exceptions</h2>
 <p>Your page is now using javascript for what it does best:</p>
 <ul>
   <li>detection</li>
@@ -49,7 +64,7 @@ html.safari .foo {<br>
 }</tt>
 <p>renders any object with <tt>foo</tt> class as red except if browser is safari, rendering blue instead.</p>
 <p>You can use any of the classes above to differentiate.</p>
-<h1>Automation: <em>Only</em> and <em>Unless</em> Mixins</h1>
+<h2>Automation: <em>Only</em> and <em>Unless</em> Mixins</h2>
 <p>We can make the code better, correct? If you use SASS 3.1+, use these mixins</p>
 <tt>@mixin only($only) {<br>
 &nbsp;&nbsp;html.#{$only} & {<br>
@@ -76,7 +91,7 @@ html.safari .foo {<br>
 &nbsp;&nbsp;}<br>
 }</tt>
 <p>hides objects with class <tt>foo</tt>, <em>unless</em> browser is safari.</p>
-<h1>Bonus Phase: Visibility</h1>
+<h2>Bonus Phase: Visibility</h2>
 <p>Why stop there? We can add visibility rules and show or hide objects at will.</p>
 <tt>
 html:not(.mac) .visible-mac,<br>
@@ -104,18 +119,39 @@ html.touch .hidden-touch  {<br>
 <!-- <script src="https://gist.github.com/nonlinear/c61d97ab024198f3b3fb.js"></script> -->
 <p>Now you can use class <tt>visible-</tt> or <tt>hidden-</tt> for any system or browser above.</p>
 <hr>
-<h1>Conclusion and More</h1>
+<h2>Conclusion and More</h2>
 <p>There you have it, powerful and readable exception rules for your CSS. It saved my skin more than once at work.</p>
 <p>This and other CSS lifesavers are in <a href="http://www.nicholasfrota.com/codecode">Code/Code</a>, a collection of macros to simplify coding.</p>
 <p>If you use Sublime Text <a href="http://www.nicholasfrota.com/codecode">make sure to install it</a>, so you have it always at your fingertips.</p>
 
+      <hr>
+      <div class="footer">
+        <!-- <a href="#" class="btn">
+          <i class="fa fa-plus"></i>
+          more code
+        </a> -->
+        <div class="share">
+        <a href="http://twitter.com/home?status=CSS Exceptions http://nonlinear.nyc/css-exceptions/ @nonlinear"
+        target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://nonlinear.nyc/css-exceptions/"
+      target="_blank">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="mailto:?subject=CSS Exceptions&body=http://nonlinear.nyc/css-exceptions/">
+          <i class="fa fa-envelope"></i>
+        </a>
   </div>
-</div>
+
+      </div>
+    </div>
+  </div>
   
 
 
 
- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 <script src="https://raw.githubusercontent.com/barisaydinoglu/Detectizr/master/dist/detectizr.js"></script>
 
 

@@ -1,7 +1,7 @@
 # Site settings
 title: nonlinear.nyc
 email: info@nicholasfrota.com
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quo!
+description: Here we go
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nonlinear.nyc" # the base hostname & protocol for your site
 twitter_username: nonlinear

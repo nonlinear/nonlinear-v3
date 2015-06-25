@@ -6,55 +6,107 @@ h1, h2, h3, h4
   +border-box
 
 .container
-  width: 320px
+  width: 600px
+  padding: 10px
+  +media(600px, max)
+    width: 100%
   margin: 0 auto
 
 h1, h2, h3, h4, h5, p, li
-  background-color: white
   display: inline
   +clearfix
+  +highlight(white)
+
+hr
+  +highlight(white, $right: 0)
+  border-top: white
 
 .start
-  height: 300px
-  padding: 20px 0
+  height: 370px
+  padding-top: 137px
+  +clearfix
+  h2
+    font-size: $h3-font-size
+  svg
+    +size(square, 60px)
+    background-color: white
+    +radius(normal, 50%)
+    padding: 5px
+    margin-bottom: 10px
+    path:first-of-type
+      +translate(-7, 0)
 
 tt
-  background-color: lighten(yellow, 30%)
+  +highlight(lighten(yellow, 40%), 5px)
+  p &
+    +shadow(normal, none)
 
-.post, body, html
-  height: 100%
-
-a
+a, a h2
   +transition
+  text-decoration: none
 
-.list
+.preview
   display: block
-  padding: 10px
+  height: 70px
+  overflow: hidden
+  +transition
+  h2:after
+    height: 10px
+  &:hover
+    height: 105px
 
-// base category colors
+.post
+  h1, p, h2
+    &:after
+      height: 10px
+  ul, ol
+    margin-top: 0
+    margin-left: -40px
 
-=category ($category)
-  background-color: $category
-  h1, h2, h3, h4, p
-    color: darken($category, 30%)
-  a:hover
-    h1, h2, h3, h4, p
-      color: darken($category, 10%)
+    a
+      font-family: $font-title
+      text-transform: uppercase
+      font-size: 30px
+      +highlight
+.footer
+  +clearfix
+.share
+  float: right
+  a
+    +size(square, 30px)
+    display: inline-block
+    background-color: white
+    +radius(normal, 50%)
+    text-align: center
+    font-size: 20px
+    margin-left: -5px
+    padding-top: 1px
+    &:hover
+      color: white
 
-.index
-  +category(#DAB0BB)
-.personal
-  +category(#B1D0C3)
-.resources
-  +category(#00B4AE)
-.code
-  +category(#35A6DE)
-.arts
-  +category(#B1D0C3)
-.design
-  +category(#00B4AE)
-.comics
-  +category(#35A6DE)
-.anime
-  +category(#B1D0C3)
+
+.btn
+  padding: 5px 15px
+  font-family: $font-title
+  text-transform: uppercase
+  font-size: 25px
+  i
+    font-size: 20px
+    margin-right: 5px
+
+.portfolio
+  .fa
+    padding-right: 10px
+    font-size: 15px
+    vertical-align: middle
+    padding-bottom: 4px
+  iframe
+    height: 450px
+    padding-bottom: 10px
+
+.avatar
+  +size(square, 150px)
+  +radius(normal, 50%)
+  margin-bottom: 10px
+
 

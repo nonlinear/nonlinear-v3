@@ -1,0 +1,107 @@
+=bg-index($duration: 5s, $function: $animation-function, $delay: $animation-delay, $count: infinite, $fill: $animation-fill, $visibility: $animation-visibility)
+  @include animation(bg-index $duration $function $delay $count $fill)
+  @include visibility($visibility)
+  background-repeat: repeat-x
+  @at-root
+    @include keyframes(bg-index)
+      0%
+        background-image: url("../images/bgs/index-01.png")
+        background-position: center top
+      33%
+        background-image: url("../images/bgs/index-02.png")
+        background-position: center top
+      66%
+        background-image: url("../images/bgs/index-03.png")
+        background-position: center top
+      100%
+        background-image: url("../images/bgs/index-01.png")
+        background-position: center top
+
+=bg-code($duration: 5s, $function: $animation-function, $delay: $animation-delay, $count: infinite, $fill: $animation-fill, $visibility: $animation-visibility)
+  @include animation(bg-code $duration $function $delay $count $fill)
+  @include visibility($visibility)
+  background-repeat: repeat-x
+  @at-root
+    @include keyframes(bg-code)
+      0%
+        background-image: url("../images/bgs/code-01.png")
+        background-position: center top
+      33%
+        background-image: url("../images/bgs/code-02.png")
+        background-position: center top
+      66%
+        background-image: url("../images/bgs/code-03.png")
+        background-position: center top
+      100%
+        background-image: url("../images/bgs/code-01.png")
+        background-position: center top
+
+=bg-personal($duration: 5s, $function: $animation-function, $delay: $animation-delay, $count: infinite, $fill: $animation-fill, $visibility: $animation-visibility)
+  @include animation(bg-personal $duration $function $delay $count $fill)
+  @include visibility($visibility)
+  background-repeat: repeat-x
+  @at-root
+    @include keyframes(bg-personal)
+      0%
+        background-image: url("../images/bgs/personal-01.png")
+        background-position: center top
+      33%
+        background-image: url("../images/bgs/personal-02.png")
+        background-position: center top
+      66%
+        background-image: url("../images/bgs/personal-03.png")
+        background-position: center top
+      100%
+        background-image: url("../images/bgs/personal-01.png")
+        background-position: center top
+
+=bg-resources($duration: 5s, $function: $animation-function, $delay: $animation-delay, $count: infinite, $fill: $animation-fill, $visibility: $animation-visibility)
+  @include animation(bg-resources $duration $function $delay $count $fill)
+  @include visibility($visibility)
+  background-repeat: repeat-x
+  @at-root
+    @include keyframes(bg-resources)
+      0%
+        background-image: url("../images/bgs/resources-01.png")
+        background-position: center top
+      33%
+        background-image: url("../images/bgs/resources-02.png")
+        background-position: center top
+      66%
+        background-image: url("../images/bgs/resources-03.png")
+        background-position: center top
+      100%
+        background-image: url("../images/bgs/resources-01.png")
+        background-position: center top
+
+=bg-arts($duration: 5s, $function: $animation-function, $delay: $animation-delay, $count: infinite, $fill: $animation-fill, $visibility: $animation-visibility)
+  @include animation(bg-arts $duration $function $delay $count $fill)
+  @include visibility($visibility)
+  background-repeat: repeat-x
+  @at-root
+    @include keyframes(bg-arts)
+      0%
+        background-image: url("../images/bgs/arts-01.png")
+        background-position: center top
+      33%
+        background-image: url("../images/bgs/arts-02.png")
+        background-position: center top
+      66%
+        background-image: url("../images/bgs/arts-03.png")
+        background-position: center top
+      100%
+        background-image: url("../images/bgs/arts-01.png")
+        background-position: center top
+
+.index.start
+  +bg-index
+
+.preview
+  &.code:hover
+    +bg-code
+  &.personal:hover
+    +bg-personal
+  &.resources:hover
+    +bg-resources
+  &.arts:hover
+    +bg-arts
