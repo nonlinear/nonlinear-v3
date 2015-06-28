@@ -1,0 +1,19 @@
+.legend
+  position: absolute
+  +size(square, 30px)
+  display: inline-block
+  background-color: red
+  @include radius(normal, 50%)
+  font-family: $font-title
+  font-size: 20px
+  margin-top: -20px
+  color: white
+  text-align: center
+  &.appear-1
+    +bounceIn($delay: 1s + (.3s * 1))
+  &.appear-2
+    +bounceIn($delay: 1s + (.3s * 2))
+  &.appear-3
+    +bounceIn($delay: 1s + (.3s * 3))
+  &.appear-4
+    +bounceIn($delay: 1s + (.3s * 4))
