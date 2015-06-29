@@ -80,19 +80,19 @@ $anime: #B1D0C3
 //failsafe for when 2 posts same category are shown.
 
 .preview
-  &.personal + .preview.personal
+  &.personal + .preview.personal:nth-of-type(even)
     background-color: darken($personal, 5%)
   &.resources + .preview.resources
     background-color: darken($resources, 5%)
-  &.code + .preview.code
+  &.code + .preview.code:nth-of-type(even)
     background-color: darken($code, 5%)
-  &.arts + .preview.arts
+  &.arts + .preview.arts:nth-of-type(even)
     background-color: darken($arts, 5%)
-  &.design + .preview.design
+  &.design + .preview.design:nth-of-type(even)
     background-color: darken($design, 5%)
-  &.comics + .preview.comics
+  &.comics + .preview.comics:nth-of-type(even)
     background-color: darken($comics, 5%)
-  &.anime + .preview.anime
+  &.anime + .preview.anime:nth-of-type(even)
     background-color: darken($anime, 5%)
 
 body
