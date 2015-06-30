@@ -5,15 +5,22 @@ permalink: /snippets/
 description: easy code automation
 category: code
 ---
-<h2>Why it's useful</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt facere, eius accusamus dolores vel a dolorum repudiandae dicta dignissimos non, quae magni ad cupiditate autem earum eos expedita nobis temporibus.</p>
-<h2>Main structure</h2>
-<ol>
-  <li>where folder goes</li>
-  <li>save it as <tt>NAME-HERE.sublime-snippet</tt></li>
-</ol>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos fuga at in? Eaque quaerat eligendi accusamus molestiae maxime? Delectus necessitatibus quaerat maxime praesentium corrupti odit ad nihil temporibus quia eaque!</p>
-<p>Quaerat similique maxime illum provident consectetur aut cupiditate, harum ab quo possimus! Nihil, suscipit, quidem? Veniam explicabo minima eligendi adipisci saepe, nostrum sit nihil. Amet porro impedit laborum ipsa repellat.</p>
+<p>Snippets are <a href="Sublime Text">Sublime Text</a> idea of macros. This article explains how to create and manage your own.</p>
+<p>Snippets reside in your computer, so it works offline and are the best way to manage your code collection. Luckily once you learn the basics of it you can take some time to abstract your reusable code and have it at your fingertips, instead of jumping from project to project. It's just, tidy.</p>
+<p>As a UI Designer <a href="/codecode">I use it mostly for SASS and HTML</a>, but the system is pretty agnostic, so it works fine with any language you throw at it.</p>
+<h2>Requirements</h2>
+<p>In order for it to work, snippets must be:</p>
+  <div class="legend">
+    <p>one per file</p>
+  <p>named with <tt>.sublime-snippet</tt> extension</p>
+  <p>inside a <tt>/Packages</tt> folder (per system, below)</p>
+    <p>under a certain syntax (also below)</p>
+  </div>
+  <h2>The Packages Folder</h2>
+<p>On a Mac, <tt>Packages</tt> folder is under <tt>~/Library/Application\ Support/Sublime\ Text\ 2</tt> (or 3)</p>
+<p>On Windows, it's <tt>%APPDATA%/Sublime\ Text\ 2</tt> (or 3) and on Linux, on <tt>~/.config/sublime-text-2</tt> (or 3)</p>
+<p>You can add the <tt>.sublime-snippet</tt> file right there, but better to create a folder (call it <tt>snippets</tt> maybe?) and move your creations there. I'll explain why later.</p>
+<h2>Syntax</h2>
 <div class="chart snippet-1">
 <ol class="legend">
   <li></li>
@@ -31,13 +38,14 @@ content<br>
 &lt;/snippet&gt;</tt>
 </div>
 <div class="legend">
-  <p><tt>trigger</tt> is the word you type to call snippet</p>
-  <p><tt>description</tt> appears when you have more than one snippet using same trigger, to differentiate</p>
+  <p><tt>trigger</tt> is what to type to call snippet. It's the only part you should remember, so choose wisely.</p>
+  <p><tt>description</tt> appears when you have more than one snippet using same trigger, to differentiate, so be, well... descriptive.</p>
   <p><tt>content</tt> is your actual code.</p>
 </div>
+<p>As a convention, I name my files as <tt>trigger-extension</tt>, like <tt>clearfix-SASS.sublime-snippet</tt> or <tt>email-HTML.sublime-snippet</tt> but you can name your <tt>.sublime-snippet</tt> however you want.</p>
+<h2>The Content</h2>
+<p>Anything you paste between <tt>&lt;!&lsqb;CDATA&lsqb;</tt> and <tt>&rsqb;&rsqb;&gt;</tt> becomes the content... Except <tt>$<tt> sign, reserved for variables. So if your language needs <tt>$<tt>, use <tt>\$<tt> instead.</p>
 <h2>Variables</h2>
-<p>Fugiat voluptatibus quaerat quam architecto placeat maiores similique modi, pariatur doloribus deserunt delectus error blanditiis numquam dicta sapiente enim consequuntur ullam ipsum. Neque minus delectus illo odio facere eaque soluta.</p>
-<h2>Sharing</h2>
 <p>Velit dolores alias eligendi omnis, natus dolorum temporibus magnam, aliquam dolorem quisquam quibusdam odit, accusantium eos illum repellendus in incidunt non eaque vitae dolor vero iste quas voluptates dicta. Neque.</p>
 <hr>
 <p>This and other CSS lifesavers are in <a href="http://nonlinear.nyc/codecode">codecode</a>, a collection of macros to simplify coding. If you use Sublime Text <a href="http://nonlinear.nyc/codecode">make sure to install it</a>, so you have it always at your fingertips.</p>
