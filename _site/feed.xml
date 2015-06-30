@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Jun 2015 17:50:01 -0400</pubDate>
-    <lastBuildDate>Tue, 30 Jun 2015 17:50:01 -0400</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2015 19:22:52 -0400</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2015 19:22:52 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,7 +14,7 @@
         <description>&lt;p&gt;Snippets are &lt;a href=&quot;Sublime Text&quot;&gt;Sublime Text&lt;/a&gt; idea of macros. This article explains how to create and manage your own.&lt;/p&gt;
 &lt;p&gt;Snippets reside in your computer, so it works offline and are the best way to manage your code collection. Luckily once you learn the basics of it you can take some time to abstract your reusable code and have it at your fingertips, instead of jumping from project to project. It&#39;s just, tidy.&lt;/p&gt;
 &lt;p&gt;As a UI Designer &lt;a href=&quot;/codecode&quot;&gt;I use it mostly for SASS and HTML&lt;/a&gt;, but the system is pretty agnostic, so it works fine with any language you throw at it.&lt;/p&gt;
-&lt;h2&gt;Requirements&lt;/h2&gt;
+&lt;hr&gt;&lt;h2&gt;Requirements&lt;/h2&gt;
 &lt;p&gt;In order for it to work, snippets must be:&lt;/p&gt;
   &lt;div class=&quot;legend&quot;&gt;
     &lt;p&gt;one per file&lt;/p&gt;
@@ -22,11 +22,11 @@
   &lt;p&gt;inside a &lt;tt&gt;/Packages&lt;/tt&gt; folder (per system, below)&lt;/p&gt;
     &lt;p&gt;under a certain syntax (also below)&lt;/p&gt;
   &lt;/div&gt;
-  &lt;h2&gt;The Packages Folder&lt;/h2&gt;
+  &lt;hr&gt;&lt;h2&gt;The Packages Folder&lt;/h2&gt;
 &lt;p&gt;On a Mac, &lt;tt&gt;Packages&lt;/tt&gt; folder is under &lt;tt&gt;~/Library/Application\ Support/Sublime\ Text\ 2&lt;/tt&gt; (or 3)&lt;/p&gt;
 &lt;p&gt;On Windows, it&#39;s &lt;tt&gt;%APPDATA%/Sublime\ Text\ 2&lt;/tt&gt; (or 3) and on Linux, on &lt;tt&gt;~/.config/sublime-text-2&lt;/tt&gt; (or 3)&lt;/p&gt;
 &lt;p&gt;You can add the &lt;tt&gt;.sublime-snippet&lt;/tt&gt; file right there, but better to create a folder (call it &lt;tt&gt;snippets&lt;/tt&gt; maybe?) and move your creations there. I&#39;ll explain why later.&lt;/p&gt;
-&lt;h2&gt;Syntax&lt;/h2&gt;
+&lt;hr&gt;&lt;h2&gt;Syntax&lt;/h2&gt;
 &lt;div class=&quot;chart snippet-1&quot;&gt;
 &lt;ol class=&quot;legend&quot;&gt;
   &lt;li&gt;&lt;/li&gt;
@@ -49,14 +49,38 @@ content&lt;br&gt;
   &lt;p&gt;&lt;tt&gt;content&lt;/tt&gt; is your actual code.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;As a convention, I name my files as &lt;tt&gt;trigger-extension&lt;/tt&gt;, like &lt;tt&gt;clearfix-SASS.sublime-snippet&lt;/tt&gt; or &lt;tt&gt;email-HTML.sublime-snippet&lt;/tt&gt; but you can name your &lt;tt&gt;.sublime-snippet&lt;/tt&gt; however you want.&lt;/p&gt;
-&lt;h2&gt;The Content&lt;/h2&gt;
-&lt;p&gt;Anything you paste between &lt;tt&gt;&amp;lt;!&amp;lsqb;CDATA&amp;lsqb;&lt;/tt&gt; and &lt;tt&gt;&amp;rsqb;&amp;rsqb;&amp;gt;&lt;/tt&gt; becomes the content... Except &lt;tt&gt;$&lt;tt&gt; sign, reserved for variables. So if your language needs &lt;tt&gt;$&lt;tt&gt;, use &lt;tt&gt;\$&lt;tt&gt; instead.&lt;/p&gt;
-&lt;h2&gt;Variables&lt;/h2&gt;
-&lt;p&gt;Velit dolores alias eligendi omnis, natus dolorum temporibus magnam, aliquam dolorem quisquam quibusdam odit, accusantium eos illum repellendus in incidunt non eaque vitae dolor vero iste quas voluptates dicta. Neque.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;This and other CSS lifesavers are in &lt;a href=&quot;http://nonlinear.nyc/codecode&quot;&gt;codecode&lt;/a&gt;, a collection of macros to simplify coding. If you use Sublime Text &lt;a href=&quot;http://nonlinear.nyc/codecode&quot;&gt;make sure to install it&lt;/a&gt;, so you have it always at your fingertips.&lt;/p&gt;
+&lt;hr&gt;&lt;h2&gt;The Content&lt;/h2&gt;
+&lt;p&gt;Anything you paste between &lt;tt&gt;&amp;lt;!&amp;lsqb;CDATA&amp;lsqb;&lt;/tt&gt; and &lt;tt&gt;&amp;rsqb;&amp;rsqb;&amp;gt;&lt;/tt&gt; becomes the content... Except &lt;tt&gt;$&lt;/tt&gt; sign, reserved for variables. So if your language needs it, use &lt;tt&gt;\$&lt;/tt&gt; instead.&lt;/p&gt;
+&lt;hr&gt;&lt;h2&gt;Variables&lt;/h2&gt;
+&lt;p&gt;By convention, typing the trigger + tab switches trigger for content, and that&#39;s about it.&lt;/p&gt;
+&lt;p&gt;But you can also assign where cursor lands, too. For that, you just need to add &lt;tt&gt;$&lt;/tt&gt; to it.&lt;/p&gt;
+&lt;p&gt;You can also jump to more than one variable, tab, tab, tab, to customize your code. You need to order it accordingly, with &lt;tt&gt;${1}&lt;/tt&gt;, &lt;tt&gt;${2}&lt;/tt&gt;, &lt;tt&gt;${3}&lt;/tt&gt;... &lt;/p&gt;
+&lt;p&gt;Lastly, you can also add preset copy to it, with &lt;tt&gt;${1:content}&lt;/tt&gt;. I use it for default variables... You can keep it as it is (tab way) or change it (easy since it&#39;s preselected.&lt;/p&gt;
+&lt;p&gt;You can even have more than one variable with same number and Sublime Text will select all at once with its multiple cursor feature.&lt;/p&gt;
+&lt;p&gt;Sadly it will show content of first variable with same number, disregarding the others.&lt;/p&gt;
+&lt;hr&gt;&lt;h2&gt;Learning&lt;/h2&gt;
+&lt;p&gt;Snippets simplify your coding, but you still need to familiarize yourself with the triggers you have, and where to use it. Take your time to learn it, and document it.&lt;/p&gt;
+&lt;hr&gt;&lt;h2&gt;Organization&lt;/h2&gt;
+&lt;p&gt;So let&#39;s assume you were diligent and took the trouble to abstract away all your reusable code under snippets, on a folder of your choice. So what?&lt;/p&gt;
+&lt;p&gt;Yes, you have it ready on your machine, and you&#39;ll grow dependent of it. You should back it up, correct?&lt;/p&gt;
+&lt;p&gt;If you are versed in git, you can create a respository that points to this folder, so you can clone your snippets into any other machine you land on.&lt;/p&gt;
+&lt;p&gt;The entire &lt;a href=&quot;/codecode&quot;&gt;codecode project&lt;/a&gt; is me eating my own dog food, organizing my best practices.&lt;/p&gt;
+&lt;p&gt;Trading snippets with fellow developers (as if building a deck) is also something I&#39;d like to see. I just don&#39;t know what to do with dependencies, since some snippets don&#39;t work on their own. &lt;a href=&quot;mailto:info@nicholasfrota.com?subject=snippet trading idea&quot;&gt;I&#39;m open to suggestions&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;&lt;h2&gt;Beyond&lt;/h2&gt;
+&lt;p&gt;Snippets only work inside Sublime Text. But what about other text editors? Is there a way to translate it to them?&lt;/p&gt;
+&lt;p&gt;Forget about text editors: What about a system-wide snippet system... Working on any app? Mac has &lt;a href=&quot;https://smilesoftware.com/TextExpander/index.html&quot; target=&quot;_blank&quot;&gt;Textexpander&lt;/a&gt; and &lt;a href=&quot;https://www.trankynam.com/atext/&quot;target=&quot;_blank&quot;&gt;aText&lt;/a&gt;, and iPhones have keyboard shortcuts. But snippets are hard to manage and trade.&lt;/p&gt;
+&lt;hr&gt;&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Snippets are an open, scalable, agnostic way to organize your reusable code. &lt;a href=&quot;/codecode&quot;&gt;Codecode&lt;/a&gt; made my code so fast (with bootstrap presets, CDN links, SASS mixins), I in fact ditched wireframing and jumped straight in rapid (really rapid) prototyping.&lt;/p&gt;
+&lt;p&gt;I can&#39;t wait to see what other people can do to it... If you create your own snippets or need help, feel free to talk either on &lt;a href=&quot;http://twitter.com/home?status=@nonlinear&quot;
+ target=&quot;_blank&quot;&gt;twitter&lt;/a&gt; or &lt;a href=&quot;mailto:info@nicholasfrota.com?subject=snippet trading idea&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- &lt;hr&gt;&lt;h2&gt;Scope&lt;/h2&gt;
+&lt;p&gt;There are some other features I don&#39;t use but are interesting:&lt;/p&gt;
+&lt;p&gt;If you want the snippet to work only on certain filetypes, add &lt;tt&gt;&amp;nbsp;&amp;nbsp;&amp;lt;scope&amp;gt;source.extension&amp;lt;/scope&amp;gt;&lt;/tt&gt; right before description.&lt;/p&gt;
+&lt;p&gt;You can even assing more than one: triggers with &lt;tt&gt;&amp;nbsp;&amp;nbsp;&amp;lt;scope&amp;gt;source.html, source.php&amp;lt;/scope&amp;gt;&lt;/tt&gt; will only apper on .html and .php files.&lt;/p&gt;
+&lt;p&gt;also, if you copy and paste heavily, &lt;tt&gt;$TM_FILEPATH&lt;/tt&gt; pastes whatever is on your clipboard.&lt;/p&gt; --&gt;
+
 </description>
-        <pubDate>Tue, 30 Jun 2015 17:44:25 -0400</pubDate>
+        <pubDate>Tue, 30 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://nonlinear.nyc/snippets/</link>
         <guid isPermaLink="true">http://nonlinear.nyc/snippets/</guid>
         

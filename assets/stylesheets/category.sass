@@ -7,11 +7,28 @@ $design: #00B4AE
 $comics: #35A6DE
 $anime: #B1D0C3
 
-=highlight($color: white, $left: 20px, $right: 5px)
+=highlight($color: white, $left: 20px, $right: 5px, $bottom: 5px)
   -webkit-box-shadow: $right 0 0 $color, ($left * -1) 0 0 $color
   -moz-box-shadow: $right 0 0 $color, ($left * -1) 0 0 $color
   box-shadow: $right 0 0 $color, ($left * -1) 0 0 $color
   background: $color
+
+=underline($color: red, $color-2: white)
+  background:
+    image: linear-gradient($color, $color)
+    position: 0 4rem
+    repeat: repeat-x
+  color: darken($color, 20%)
+  padding: 0.25rem
+  text-decoration: underline
+  transition: all 200ms ease-out
+  &:hover,&:focus
+    background:
+      image: linear-gradient(to top, $color, $color 7%, $color 7%, $color)
+      position: 0 0
+      size: 100% 100%
+    color: $color-2
+    transition: all 200ms ease-out
 
 =category ($category)
   background-color: $category
@@ -76,6 +93,24 @@ $anime: #B1D0C3
   +category($comics)
 .anime
   +category($anime)
+
+.post
+  &.home a
+    +underline($home)
+  &.personal a
+    +underline($personal)
+  &.resources a
+    +underline($resources)
+  &.code a
+    +underline($code)
+  &.arts a
+    +underline($arts)
+  &.design a
+    +underline($design)
+  &.comics a
+    +underline($comics)
+  &.anime a
+    +underline($anime)
 
 //failsafe for when 2 posts same category are shown.
 

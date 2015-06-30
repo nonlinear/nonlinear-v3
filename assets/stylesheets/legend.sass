@@ -1,8 +1,6 @@
 .chart
   padding: 10px 0
-  overflow-x: auto
-  &:hover .legend
-    +opacity(0)
+  overflow-x: hidden
 .legend
   & > *
     @for $i from 1 through 10
@@ -30,17 +28,21 @@
         @include rotate(25)
 
 
-.chart.snippet-1 .legend > *
-  &:nth-of-type(1)
-    &:before, &:after
-      margin-top: 70px
-      margin-left: 200px
-  &:nth-of-type(2)
-    &:before, &:after
-      margin-top: 90px
-      margin-left: 230px
-  &:nth-of-type(3)
-    &:before, &:after
-      margin-top: -10px
-      margin-left: 100px
+.chart.snippet-1
+  +media(iphone5, portrait)
+    border-right: dashed 2px white
+
+  .legend
+    & > *:nth-of-type(1)
+      &:before, &:after
+        margin-top: 70px
+        margin-left: 200px
+    & > *:nth-of-type(2)
+      &:before, &:after
+        margin-top: 90px
+        margin-left: 230px
+    & > *:nth-of-type(3)
+      &:before, &:after
+        margin-top: -10px
+        margin-left: 100px
 
