@@ -76,7 +76,6 @@ $anime: #B1D0C3
   &.quick
     +gallery(quick, 10)
 
-
 .home
   +category($home)
 .personal
@@ -94,25 +93,28 @@ $anime: #B1D0C3
 .anime
   +category($anime)
 
+// (\_/)   fancy underline for post links
+// ('ㅅ')づ based on codepen.io/reverendgeneral/pen/AqFim
+
 .post
-  &.home a
+  &.home a:not(.social)
     +underline($home)
-  &.personal a
+  &.personal a:not(.social)
     +underline($personal)
-  &.resources a
+  &.resources a:not(.social)
     +underline($resources)
-  &.code a
+  &.code a:not(.social)
     +underline($code)
-  &.arts a
+  &.arts a:not(.social)
     +underline($arts)
-  &.design a
+  &.design a:not(.social)
     +underline($design)
-  &.comics a
+  &.comics a:not(.social)
     +underline($comics)
-  &.anime a
+  &.anime a:not(.social)
     +underline($anime)
 
-//failsafe for when 2 posts same category are shown.
+// ('ㅅ')づ failsafe for when 2 posts same category are shown.
 
 .preview
   &.personal + .preview.personal:nth-of-type(even)
