@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Jul 2015 12:48:31 -0400</pubDate>
-    <lastBuildDate>Wed, 01 Jul 2015 12:48:31 -0400</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2015 19:46:39 -0400</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2015 19:46:39 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -279,7 +279,7 @@ content&lt;br&gt;
       </item>
     
       <item>
-        <title>CSS Exceptions</title>
+        <title>on CSS Browser Debugging</title>
         <description>&lt;p&gt;Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting &lt;em&gt;other&lt;/em&gt; browsers or systems.&lt;/p&gt;
 &lt;h2&gt;Step 1: Modernizr&lt;/h2&gt;
 &lt;p&gt;Modernizr scans browser capabilities and reports its findings as classes on &lt;tt&gt;&lt;tt&gt;html&lt;/tt&gt;&lt;/tt&gt; tag.&lt;/p&gt;
@@ -365,8 +365,8 @@ html.touch .hidden-touch  {&lt;br&gt;
 &lt;p&gt;If you use Sublime Text &lt;a href=&quot;http://nonlinear.nyc/codecode&quot;&gt;make sure to install it&lt;/a&gt;, so you have it always at your fingertips.&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Jan 2015 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.nyc/css-exceptions/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/css-exceptions/</guid>
+        <link>http://nonlinear.nyc/css-browser-debugging/</link>
+        <guid isPermaLink="true">http://nonlinear.nyc/css-browser-debugging/</guid>
         
         
         <category>code</category>
