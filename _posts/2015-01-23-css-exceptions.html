@@ -7,15 +7,18 @@ category: code
 ---
 <p>Sometimes you need CSS rules only for a certain browser or operating system to save the day. In this article, I explain a foolproof way to add exception rules precisely, without affecting <em>other</em> browsers or systems.</p>
 <h2>Step 1: Modernizr</h2>
-<p>Modernizr scans browser capabilities and reports its findings as classes on <tt><tt>html</tt></tt> tag.</p>
+<p><a href="http://modernizr.com" target="_blank">Modernizr</a> scans browser capabilities and reports its findings as classes on <tt><tt>html</tt></tt> tag.</p>
 <p>For instance, a page using modernizr on a touchscreen browser (cellphone, tablet) reveals <tt>touch</tt> class on <tt>html</tt>. The same page, on desktops and notebooks reveals <tt>no-touch</tt> class instead.</p>
-<p>You can <a href="http://modernizr.com">download it here</a> or <a href="https://cdnjs.com/libraries/modernizr">use the CDN version</a>.</p>
+<p>You can install it with CDN, with <tt>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"&gt;&lt;/script&gt;
+</tt> or <a href="http://modernizr.com" target="_blank">download and install</a>  a local version.</p>
 <h2>Step 2: Detectizr</h2>
-<p>Detectizr expands modernizr detection, by revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even specific versions.</p>
-<p>You can <a href="https://github.com/barisaydinoglu/Detectizr">download it here</a>.</p>
+<p><a href="https://github.com/barisaydinoglu/Detectizr" target="_blank">Detectizr</a> expands modernizr detection, by revealing browser operating system (<tt>mac</tt>, <tt>android</tt>, <tt>ios</tt>, <tt>windows</tt>, <tt>linux</tt>, etc) browser type (<tt>safari</tt>, <tt>chrome</tt>, <tt>firefox</tt>, <tt>ie</tt>, etc) and even specific versions.</p>
+<p>Install it with CDN with <tt>&lt;script src="https://raw.githubusercontent.com/barisaydinoglu/Detectizr/master/dist/detectizr.js"&gt;&lt;/script&gt;
+</tt> or <a href="https://github.com/barisaydinoglu/Detectizr" target="_blank">download and install</a> local version.</p>
+<p>since detectizr depends on modernizr, it should go <em>after</em> modernizr script.</p>
 <h2>Step 3: Write your CSS exceptions</h2>
 <p>Your page is now using javascript for what it does best:</p>
-<ul>
+<ul class="legend">
   <li>detection</li>
   <li>right on top of your DOM</li>
   <li>affecting <em>anything</em> below it</li>
