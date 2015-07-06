@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Jul 2015 20:03:56 -0400</pubDate>
-    <lastBuildDate>Sun, 05 Jul 2015 20:03:56 -0400</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2015 20:06:10 -0400</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2015 20:06:10 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -364,7 +364,7 @@ html.touch .hidden-touch  {&lt;br&gt;
 &lt;hr&gt;
 &lt;h2&gt;Conclusion and More&lt;/h2&gt;
 &lt;p&gt;There you have it, powerful and readable exception rules for your CSS. It saved my skin more than once at work.&lt;/p&gt;
-&lt;p&gt;This and other CSS lifesavers are in &lt;a href=&quot;http://nonlinear.nyc/codecode&quot;&gt;Code/Code&lt;/a&gt;, a collection of macros to simplify coding.&lt;/p&gt;
+&lt;p&gt;This and other CSS lifesavers are in &lt;a href=&quot;http://nonlinear.nyc/codecode&quot;&gt;codecode&lt;/a&gt;, a collection of macros to simplify coding.&lt;/p&gt;
 &lt;p&gt;If you use Sublime Text &lt;a href=&quot;http://nonlinear.nyc/codecode&quot;&gt;make sure to install it&lt;/a&gt;, so you have it always at your fingertips.&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Jan 2015 00:00:00 -0500</pubDate>
