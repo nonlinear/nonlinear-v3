@@ -1,0 +1,335 @@
+//colors
+$white: #fff
+$black: #000
+$white_80: rgba(255,255,255,.8)
+
+//urls
+$url_0: url(../images/map-blank.jpg)
+
+//@extend-elements
+//original selectors
+//html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, em, img, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, legend, label, input, textarea, select, button, table, caption, thead, tbody, tfoot, tr, th, td
+.extend_1
+  border: 0
+  font: inherit
+  font-size: 100%
+  margin: 0
+  padding: 0
+
+
+//original selectors
+//.clear:after, .wrapper:after, nav ul:after
+.extend_2
+  clear: both
+  content: ""
+  display: block
+  height: 0
+  visibility: hidden
+
+
+
+html
+  @extend %extend_1 !optional
+  height: 100%
+
+body
+  @extend %extend_1 !optional
+  background: $white
+  color: $black
+  font: 14px/1.5 Helvetica, Arial, sans-serif
+  height: 100%
+
+div
+  @extend %extend_1 !optional
+
+span
+  @extend %extend_1 !optional
+
+object
+  @extend %extend_1 !optional
+
+iframe
+  @extend %extend_1 !optional
+
+h1
+  @extend %extend_1 !optional
+  font-weight: normal
+  line-height: normal
+
+h2
+  @extend %extend_1 !optional
+  font-weight: normal
+  line-height: normal
+
+h3
+  @extend %extend_1 !optional
+  font-weight: normal
+  line-height: normal
+
+h4
+  @extend %extend_1 !optional
+  font-weight: normal
+  line-height: normal
+
+h5
+  @extend %extend_1 !optional
+  font-weight: normal
+  line-height: normal
+
+h6
+  @extend %extend_1 !optional
+  font-weight: normal
+  line-height: normal
+
+p
+  @extend %extend_1 !optional
+
+blockquote
+  @extend %extend_1 !optional
+
+pre
+  @extend %extend_1 !optional
+
+a
+  @extend %extend_1 !optional
+
+abbr
+  @extend %extend_1 !optional
+
+address
+  @extend %extend_1 !optional
+  font-style: normal
+  font-weight: normal
+
+cite
+  @extend %extend_1 !optional
+  font-style: normal
+  font-weight: normal
+
+code
+  @extend %extend_1 !optional
+  font-style: normal
+  font-weight: normal
+
+em
+  @extend %extend_1 !optional
+  font-style: normal
+  font-weight: normal
+
+img
+  @extend %extend_1 !optional
+  display: block
+  max-width: 100%
+
+small
+  @extend %extend_1 !optional
+
+strong
+  @extend %extend_1 !optional
+  font-style: normal
+  font-weight: normal
+
+sub
+  @extend %extend_1 !optional
+
+sup
+  @extend %extend_1 !optional
+
+dl
+  @extend %extend_1 !optional
+
+dt
+  @extend %extend_1 !optional
+
+dd
+  @extend %extend_1 !optional
+
+ol
+  @extend %extend_1 !optional
+  list-style: none
+
+ul
+  @extend %extend_1 !optional
+  list-style: none
+
+li
+  @extend %extend_1 !optional
+
+fieldset
+  @extend %extend_1 !optional
+
+form
+  @extend %extend_1 !optional
+
+legend
+  @extend %extend_1 !optional
+
+label
+  @extend %extend_1 !optional
+
+input
+  @extend %extend_1 !optional
+  display: block
+  resize: none
+
+textarea
+  @extend %extend_1 !optional
+  display: block
+  resize: none
+
+select
+  @extend %extend_1 !optional
+  display: block
+  resize: none
+
+button
+  @extend %extend_1 !optional
+  display: block
+  resize: none
+
+table
+  @extend %extend_1 !optional
+  border-collapse: collapse
+  border-spacing: 0
+
+caption
+  @extend %extend_1 !optional
+
+thead
+  @extend %extend_1 !optional
+
+tbody
+  @extend %extend_1 !optional
+
+tfoot
+  @extend %extend_1 !optional
+
+tr
+  @extend %extend_1 !optional
+
+th
+  @extend %extend_1 !optional
+
+td
+  @extend %extend_1 !optional
+
+article
+  display: block
+
+aside
+  display: block
+
+details
+  display: block
+
+figcaption
+  display: block
+
+figure
+  display: block
+
+footer
+  display: block
+
+header
+  display: block
+
+hgroup
+  display: block
+
+main
+  display: block
+
+nav
+  display: block
+  ul:after
+    @extend %extend_2 !optional
+
+
+section
+  display: block
+
+audio
+  display: block
+
+canvas
+  display: block
+
+video
+  display: block
+
+*
+  //If you use compass, instead of the line below you could use + box-sizing($bs)
+  box-sizing: border-box
+  &:before
+    //If you use compass, instead of the line below you could use + box-sizing($bs)
+    box-sizing: border-box
+
+  &:after
+    //If you use compass, instead of the line below you could use + box-sizing($bs)
+    box-sizing: border-box
+
+
+.map-module
+  background: $url_0 no-repeat
+  height: 1080px
+  position: relative
+  width: 1280px
+
+.point
+  position: absolute
+
+.hq-point
+  background: $white_80
+  //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+  border-radius: 50%
+  height: 18px
+  left: 507px
+  position: relative
+  top: 550px
+  width: 18px
+  &:after
+    animation: pointBubble 1s ease infinite
+    border: 2px solid $white_80
+    //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+    border-radius: 50%
+    content: ""
+    height: 18px
+    left: 0
+    position: absolute
+    top: 0
+    width: 18px
+
+
+@keyframes pointBubble
+  0%
+    opacity: 1
+    //If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scale(1)
+
+  75%
+    opacity: .75
+
+  100%
+    opacity: 0
+    //If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scale(2)
+
+
+@media only screen and(min--moz-device-pixel-ratio: 2),only screen and(-o-min-device-pixel-ratio: 2/1),only screen and(-webkit-min-device-pixel-ratio: 2),only screen and(min-device-pixel-ratio: 2)
+
+@media screen and(max-width: 1024px)
+
+@media screen and(max-width: 768px)
+
+@media screen and(max-width: 640px)
+
+@media screen and(max-width: 400px)
+
+.clear:after
+  @extend %extend_2 !optional
+
+.wrapper:after
+  @extend %extend_2 !optional
+
+

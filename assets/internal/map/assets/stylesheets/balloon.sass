@@ -1,0 +1,46 @@
+$white:  rgba(225, 225, 225, .9)
+$arrow: 15px
+
+.balloon
+  background-color: $white !important
+  padding: ($arrow * 1.5)
+  width: 295px
+  position: absolute
+  top: 520px
+  left: 550px
+  +shadow(normal, 2px 2px 5px rgba(0, 0, 0, 0.25))
+
+
+
+//colors
+
+
+.arrow-up
+  width: 0
+  height: 0
+  border-left: $arrow solid transparent
+  border-right: $arrow solid transparent
+  border-bottom: $arrow solid $white
+
+.arrow-down
+  width: 0
+  height: 0
+  border-left: $arrow solid transparent
+  border-right: $arrow solid transparent
+  border-top: $arrow solid $white
+
+.arrow-right
+  width: 0
+  height: 0
+  border-top: $arrow solid transparent
+  border-bottom: $arrow solid transparent
+  border-left: $arrow solid $white
+
+.arrow-left
+  width: 0
+  height: 0
+  border-top: $arrow solid transparent
+  border-bottom: $arrow solid transparent
+  border-right: $arrow solid $white
+  margin-left: ($arrow * -2.5)
+  position: absolute
