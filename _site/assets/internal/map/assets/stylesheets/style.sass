@@ -1,0 +1,64 @@
+// (\_/)   codecode/style
+// ('ㅅ')づ free to edit, needs base module on
+// (")(")  refer to nonlinear.nyc/codecode/style
+
+// ('ㅅ')づ font variables
+
+$font-title: Georgia, serif
+$font-text: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+$font-mono: "Courier New", Courier, monospace
+$base-font-size: 16px !default
+
+// font size set on the root html element.
+$base-line-height: 24px !default
+
+// base line height determines the basic unit of vertical rhythm.
+
+// ('ㅅ')づ color variables
+
+$color-bg: white
+$color-text: black
+$color-title: black
+$color-link: grey
+$color-link-hover: lighten($color-link, 20%)
+$button: blue
+$button-hover: lighten($button, 10%)
+$button-border: darken($button, 20%)
+$button-border-hover: lighten($button-border, 10%)
+$button-text: white
+$button-text-hover: lighten($button-text, 10%)
+$color-select: #b3d4fc
+$color-accent: $color-select
+
+// ('ㅅ')づ function variables
+
+$prefixes: (webkit moz ms o spec)
+$legacy_support_for_ie: false !default
+
+// Set to true for IE6 and IE7 support
+
+// (\_/)   animation variables
+// ('ㅅ')づ refer to nonlinear.nyc/codecode/animation
+
+$animation-duration: 1s !default
+$animation-function: ease !default
+$animation-delay: .2s !default
+$animation-count: 1 !default
+$animation-fill: both !default
+$animation-visibility: hidden !default
+
+// (\_/)   codecode modules import
+// ('ㅅ')づ refer to nonlinear.nyc/codecode/
+
+@import 'base'
+// @import 'typography'
+// @import 'images'
+@import 'animation'
+// @import 'forms'
+// @import 'devices'
+// @import 'bootstrap-fix'
+
+// ('ㅅ')づ project imports
+
+@import 'layout'
+@import 'balloon'

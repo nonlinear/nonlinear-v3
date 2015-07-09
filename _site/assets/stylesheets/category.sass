@@ -170,19 +170,19 @@ body
         background-image: url("#{$folder}#{$title}-01.png")
         background-position: center top
 
-=grid($count: 6, $collapse: 568px)
+=grid($count: 6, $gutter: 10px, $collapse: 568px)
   +media($collapse, min)
     display: table
     width: 100%
     & > *
       display: table-cell
       &:not(:first-of-type)
-        padding-left: 5px
+        padding-left: ($gutter / 2)
         border-left: solid 1px white
         h1, h2, h3, h4, p, li, a
-          +highlight(white, $left: 5px)
+          +highlight(white)
       &:not(:last-of-type)
-        padding-right: 5px
+        padding-right: ($gutter / 2)
       width: (100% / $count)
 
 .grid

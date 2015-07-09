@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, p, li
   +highlight(white)
 
 hr
-  +highlight(white, $right: 0)
+  +highlight(white)
   border-top: white
 
 
@@ -131,5 +131,29 @@ a, a h2
   +size(square, 150px)
   +radius(normal, 50%)
   margin-bottom: 10px
+
+.pending
+  +disable(link)
+  text-decoration: none !important
+  font-style: italic
+
+.menu
+  i.fa
+    padding-right: 10px
+    font-size: 15px
+
+.screen
+  +grid(2)
+  & > *
+    vertical-align: top
+  img
+    +highlight
+    width: 100%
+    height: 100%
+    padding: 10px 0
+    margin-top: 1px
+  .content
+    padding-left: 20px
+
 
 
