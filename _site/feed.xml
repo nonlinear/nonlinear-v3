@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Jul 2015 21:02:06 -0400</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2015 21:02:06 -0400</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2015 21:16:38 -0400</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2015 21:16:38 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -215,30 +215,71 @@ content&lt;br&gt;
   &lt;li&gt;Conversation methods are text, file, image, voice message (30&quot; limit), video (15&quot; limit) with possible plugins.&lt;/li&gt;
   &lt;li&gt;Easy conversation retrieval.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Contacts Panel&lt;/h2&gt;
-&lt;p&gt;Contacts panel cycles Friends (contacts both agreed to talk), Groups (groups user belongs to) and Requests (permissions asked and requested)&lt;/p&gt;
+
 &lt;hr&gt;
-&lt;h2&gt;Friends to Conversation&lt;/h2&gt;
 &lt;div class=&quot;screen&quot;&gt;
-  &lt;img src=&quot;/assets/images/serval/conversation-1.gif&quot; alt=&quot;conversation-1&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-contacts.gif&quot; alt=&quot;contacts&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
-    &lt;h2&gt;aaa&lt;/h2&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore commodi odio magnam, et maxime deserunt eaque quo atque molestiae unde!&lt;/p&gt;
+    &lt;h2&gt;Contacts Panel&lt;/h2&gt;
+    &lt;p&gt;Contacts panel cycles Friends (contacts both agreed to talk), Groups (groups user belongs to) and Requests (permissions asked and requested)&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-
-&lt;p class=&quot;todo&quot;&gt;iphone, ipad&lt;/p&gt;
-&lt;h2&gt;Text input&lt;/h2&gt;
-&lt;p class=&quot;todo&quot;&gt;iphone, ipad&lt;/p&gt;
-&lt;h2&gt;File, camera input&lt;/h2&gt;
-&lt;p class=&quot;todo&quot;&gt;iphone, ipad&lt;/p&gt;
-&lt;h2&gt;Audio input&lt;/h2&gt;
-&lt;p class=&quot;todo&quot;&gt;iphone, ipad&lt;/p&gt;
-&lt;h2&gt;Video input&lt;/h2&gt;
-&lt;p class=&quot;todo&quot;&gt;iphone, ipad&lt;/p&gt;
-&lt;h2&gt;Search Conversation&lt;/h2&gt;
-&lt;p class=&quot;todo&quot;&gt;iphone, ipad&lt;/p&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-panel.gif&quot; alt=&quot;conversation panel&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Conversation Panel&lt;/h2&gt;
+    &lt;p&gt;scroll&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-input.gif&quot; alt=&quot;conversation input&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Inputs&lt;/h2&gt;
+    &lt;p&gt;text, camera, microphone, file, +&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-text.gif&quot; alt=&quot;text input&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Text Input&lt;/h2&gt;
+    &lt;p&gt;keyboard, etc&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-camera.gif&quot; alt=&quot;camera input&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Camera Input&lt;/h2&gt;
+    &lt;p&gt;take photo/record video/from library&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-video.gif&quot; alt=&quot;video input&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Video Input&lt;/h2&gt;
+    &lt;p&gt;square, 15 sec, card&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-mic.gif&quot; alt=&quot;microphone input&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Microphone Input&lt;/h2&gt;
+    &lt;p&gt;30 sec, card&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/images/serval/conversation-search.gif&quot; alt=&quot;search conversation&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Search Conversation&lt;/h2&gt;
+    &lt;p&gt;settings, search, etc&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;hr&gt;
 &lt;h3&gt;More of Serval Chat&lt;/h3&gt;
