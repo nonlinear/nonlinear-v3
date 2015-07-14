@@ -39,12 +39,14 @@
     </div>
   </div>
   {% for post in paginator.posts %}
+  {% unless post.draft == true  %}
   <a href="{{ post.url }}" class="preview {{ post.category }}" >
     <div class="container">
       <h2>{{ post.title }}</h2>
       <p class="description">{{ post.description }}</p>
     </div>
   </a>
+  {% endunless %}
   {% endfor %}
   {% endif %}
 {% include footer.html %}
