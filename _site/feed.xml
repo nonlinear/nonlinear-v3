@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jul 2015 12:36:38 -0400</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2015 12:36:38 -0400</lastBuildDate>
+    <pubDate>Tue, 14 Jul 2015 12:39:28 -0400</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2015 12:39:28 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -248,7 +248,7 @@ content&lt;br&gt;
   &lt;img src=&quot;/assets/projects/serval/conversation-text.gif&quot; alt=&quot;text input&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
     &lt;h2&gt;Text Input&lt;/h2&gt;
-    &lt;p&gt;keyboard, etc&lt;/p&gt;
+    &lt;p&gt;The most basic input, with keyboard.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
