@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 22:41:10 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 22:41:10 -0400</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2015 16:16:31 -0400</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2015 16:16:31 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -214,9 +214,9 @@ content&lt;br&gt;
   &lt;img src=&quot;/assets/projects/serval/conversation-contacts.gif&quot; alt=&quot;contacts&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
     &lt;h2&gt;Contacts Panel&lt;/h2&gt;
-     &lt;p&gt;&lt;strong&gt;Friends&lt;/strong&gt;, contacts allowed to talk;&lt;/p&gt;
+     &lt;p&gt;&lt;strong&gt;Friends&lt;/strong&gt; (contacts allowed to talk)&lt;/p&gt;
      &lt;p&gt;&lt;strong&gt;Groups&lt;/strong&gt; and&lt;/p&gt;
-     &lt;p&gt;&lt;strong&gt;Requests&lt;/strong&gt;, pending permissions.&lt;/p&gt;
+     &lt;p&gt;&lt;strong&gt;Requests&lt;/strong&gt; (pending permissions).&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -225,6 +225,15 @@ content&lt;br&gt;
   &lt;div class=&quot;content&quot;&gt;
     &lt;h2&gt;Conversation Panel&lt;/h2&gt;
     &lt;p&gt;Conversation panel reveals history and input panels.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;screen&quot;&gt;
+  &lt;img src=&quot;/assets/projects/serval/conversation-search.gif&quot; alt=&quot;search conversation&quot;&gt;
+  &lt;div class=&quot;content&quot;&gt;
+    &lt;h2&gt;Search Conversation&lt;/h2&gt;
+    &lt;p&gt;swiping to the right, conversation search and stats are shown.&lt;/p&gt;
+    &lt;p&gt;User searches by keyword and filter by specific media, with option to refine it more (depending on media).&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -270,14 +279,6 @@ content&lt;br&gt;
       &lt;strong&gt;Locations&lt;/strong&gt; (favorite locations)&lt;br&gt;
       &lt;strong&gt;Contacts&lt;/strong&gt; (from &lt;strong&gt;Friends&lt;/strong&gt; list) or&lt;br&gt;
       &lt;strong&gt;Searches&lt;/strong&gt; (favorite neighborhood searches)&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;div class=&quot;screen&quot;&gt;
-  &lt;img src=&quot;/assets/projects/serval/conversation-search.gif&quot; alt=&quot;search conversation&quot;&gt;
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;h2&gt;Search Conversation&lt;/h2&gt;
-    &lt;p&gt;settings, search, etc&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
