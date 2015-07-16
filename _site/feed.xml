@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 21:51:36 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 21:51:36 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2015 22:04:41 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2015 22:04:41 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -296,12 +296,12 @@ content&lt;br&gt;
      &lt;li&gt;&lt;a href=&quot;/serval-onboarding&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;1. Onboarding&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/serval-permissions&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;2. Permissions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/serval-conversation&quot;&gt;&lt;i class=&quot;fa fa-unlock-alt&quot;&gt;&lt;/i&gt;3. Conversation&lt;/a&gt;&lt;/li&gt;
-   &lt;li&gt;&lt;a href=&quot;/serval-neighborhood&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;4. Neighborhood&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&quot;/serval-nearby&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;4. Nearby&lt;/a&gt;&lt;/li&gt;
   &lt;/div&gt;
   &lt;div&gt;
 
   &lt;li&gt;&lt;a href=&quot;/serval-security&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;5. Security&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/serval-camera&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;6. Camera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/serval-scan&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;6. Scan&lt;/a&gt;&lt;/li&gt;
    &lt;li&gt;&lt;a href=&quot;/serval-identity&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;7. Identity&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/serval-marketplace&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;8. Marketplace&lt;/a&gt;&lt;/li&gt;
   &lt;/div&gt;
