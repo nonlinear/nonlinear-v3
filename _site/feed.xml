@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 22:04:41 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 22:04:41 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2015 22:10:33 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2015 22:10:33 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -206,9 +206,9 @@ content&lt;br&gt;
     
       <item>
         <title>Serval Chat, Conversation</title>
-        <description>&lt;p&gt;Serval is an Open Source australian project that provides a phone-to-phone mesh network.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.servalproject.org&quot; target=&quot;_blank&quot;&gt;The Serval Project&lt;/a&gt; provides a phone-to-phone mesh network.&lt;/p&gt;
 &lt;p&gt;In a mesh network, devices communicate with each other in a distributed fashion, bypassing a central authority.&lt;/p&gt;
-&lt;p&gt;Serval Chat is a user-friendly app version of Serval Mesh. Since the more nodes the better the connection, reducing friction is crucial.&lt;/p&gt;
+&lt;p&gt;Serval Chat is a user-friendly app version of &lt;a href=&quot;http://www.servalproject.org&quot; target=&quot;_blank&quot;&gt;The Serval Project&lt;/a&gt;. Since the more nodes the better the connection, reducing friction is crucial.&lt;/p&gt;
 &lt;h2&gt;Goals&lt;/h2&gt;
 &lt;ul class=&quot;legend&quot;&gt;
   &lt;li&gt;Consistent experience across phone/tablet/desktop&lt;/li&gt;
@@ -306,7 +306,8 @@ content&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;/serval-marketplace&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;8. Marketplace&lt;/a&gt;&lt;/li&gt;
   &lt;/div&gt;
   &lt;div&gt;
-    &lt;p&gt;Small bio on Serval, ask&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.servalproject.org&quot; target=&quot;_blank&quot;&gt;The Serval Project&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;Communicate anytime, anywhere, privately.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
