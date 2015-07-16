@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 22:10:33 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 22:10:33 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2015 22:12:57 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2015 22:12:57 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -291,6 +291,7 @@ content&lt;br&gt;
 
 &lt;hr&gt;
 &lt;h3&gt;More of Serval Chat&lt;/h3&gt;
+
 &lt;div class=&quot;grid three menu&quot;&gt;
   &lt;div&gt;
      &lt;li&gt;&lt;a href=&quot;/serval-onboarding&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;1. Onboarding&lt;/a&gt;&lt;/li&gt;
@@ -306,7 +307,7 @@ content&lt;br&gt;
   &lt;li&gt;&lt;a href=&quot;/serval-marketplace&quot; class=&quot;pending&quot;&gt;&lt;i class=&quot;fa fa-lock&quot;&gt;&lt;/i&gt;8. Marketplace&lt;/a&gt;&lt;/li&gt;
   &lt;/div&gt;
   &lt;div&gt;
-    &lt;p&gt;&lt;a href=&quot;http://www.servalproject.org&quot; target=&quot;_blank&quot;&gt;The Serval Project&lt;/a&gt;&lt;/p&gt;
+    &lt;h4&gt;&lt;a href=&quot;http://www.servalproject.org&quot; target=&quot;_blank&quot;&gt;The Serval Project&lt;/a&gt;&lt;/h4&gt;
     &lt;p&gt;Communicate anytime, anywhere, privately.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
