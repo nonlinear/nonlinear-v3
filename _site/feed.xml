@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 19:26:03 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 19:26:03 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2015 21:51:36 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2015 21:51:36 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -240,7 +240,7 @@ content&lt;br&gt;
   &lt;div class=&quot;content&quot;&gt;
     &lt;h2&gt;Inputs&lt;/h2&gt;
     &lt;p&gt;user clicks to text, or cycle for other input modes.&lt;/p&gt;
-    &lt;p&gt;Input modes are text, microphone, picture, video, file, with possibility to add plugins.&lt;/p&gt;
+    &lt;p&gt;Input modes are:&lt;br&gt; &lt;strong&gt;Text&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Media&lt;/strong&gt; (&lt;strong&gt;Audio&lt;/strong&gt; or &lt;strong&gt;Video&lt;/strong&gt;)&lt;br&gt;&lt;strong&gt;Photo&lt;/strong&gt; (&lt;strong&gt;Gallery&lt;/strong&gt; or &lt;strong&gt;Camera&lt;/strong&gt;)&lt;br&gt;&lt;strong&gt;File&lt;/strong&gt; (&lt;strong&gt;File&lt;/strong&gt;, &lt;strong&gt;Location&lt;/strong&gt;, &lt;strong&gt;Search&lt;/strong&gt;, &lt;strong&gt;Contact&lt;/strong&gt;)&lt;br&gt;and &lt;strong&gt;Plugins&lt;/strong&gt;.&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
@@ -261,26 +261,23 @@ content&lt;br&gt;
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;div class=&quot;screen&quot;&gt;
-  &lt;img src=&quot;/assets/projects/serval/conversation-mic.gif&quot; alt=&quot;microphone input&quot;&gt;
+  &lt;img src=&quot;/assets/projects/serval/conversation-media.gif&quot; alt=&quot;media input&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
-    &lt;h2&gt;Microphone Input, pending&lt;/h2&gt;
-    &lt;p&gt;30 sec, card&lt;/p&gt;
+    &lt;h2&gt;Media Input&lt;/h2&gt;
+    &lt;p&gt;Options are:&lt;br&gt;&lt;strong&gt;Audio&lt;/strong&gt; (30&quot; limit) or &lt;br&gt;&lt;strong&gt;Video&lt;/strong&gt; (15&quot; limit)&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
-&lt;div class=&quot;screen&quot;&gt;
-  &lt;img src=&quot;/assets/projects/serval/conversation-video.gif&quot; alt=&quot;video input&quot;&gt;
-  &lt;div class=&quot;content&quot;&gt;
-    &lt;h2&gt;Video Input, pending&lt;/h2&gt;
-    &lt;p&gt;square, 15 sec, card&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
 &lt;hr&gt;
 &lt;div class=&quot;screen&quot;&gt;
-  &lt;img src=&quot;/assets/projects/serval/conversation-video.gif&quot; alt=&quot;video input&quot;&gt;
+  &lt;img src=&quot;/assets/projects/serval/conversation-file.gif&quot; alt=&quot;file input&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
-    &lt;h2&gt;File Input, pending&lt;/h2&gt;
-    &lt;p&gt;defers to system&lt;/p&gt;
+    &lt;h2&gt;File Input&lt;/h2&gt;
+    &lt;p&gt;Options are:&lt;br&gt;
+      &lt;strong&gt;File&lt;/strong&gt; (any file on the device)&lt;br&gt;
+      &lt;strong&gt;Locations&lt;/strong&gt; (favorite locations)&lt;br&gt;
+      &lt;strong&gt;Contacts&lt;/strong&gt; (from &lt;strong&gt;Friends&lt;/strong&gt; list) or&lt;br&gt;
+      &lt;strong&gt;Searches&lt;/strong&gt; (favorite neighborhood searches)&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;hr&gt;
