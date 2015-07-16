@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2015 22:21:56 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2015 22:21:56 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2015 22:30:18 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2015 22:30:18 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -209,13 +209,6 @@ content&lt;br&gt;
         <description>&lt;p&gt;&lt;a href=&quot;http://www.servalproject.org&quot; target=&quot;_blank&quot;&gt;The Serval Project&lt;/a&gt; provides a phone-to-phone mesh network.&lt;/p&gt;
 &lt;p&gt;In a mesh network, devices communicate with each other in a distributed fashion, bypassing a central authority.&lt;/p&gt;
 &lt;p&gt;Serval Chat is a user-friendly app version of &lt;a href=&quot;http://www.servalproject.org&quot; target=&quot;_blank&quot;&gt;The Serval Project&lt;/a&gt;. Since the more nodes the better the connection, reducing friction is crucial.&lt;/p&gt;
-&lt;h2&gt;Goals&lt;/h2&gt;
-&lt;ul class=&quot;legend&quot;&gt;
-  &lt;li&gt;Consistent experience across phone/tablet/desktop&lt;/li&gt;
-  &lt;li&gt;Conversation methods are text, file, image, voice message (30&quot; limit), video (15&quot; limit) with possible plugins.&lt;/li&gt;
-  &lt;li&gt;Easy conversation retrieval.&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;hr&gt;
 &lt;div class=&quot;screen&quot;&gt;
   &lt;img src=&quot;/assets/projects/serval/conversation-contacts.gif&quot; alt=&quot;contacts&quot;&gt;
@@ -267,7 +260,6 @@ content&lt;br&gt;
     &lt;p&gt;Options are:&lt;br&gt;&lt;strong&gt;Audio&lt;/strong&gt; (30&quot; limit) or &lt;br&gt;&lt;strong&gt;Video&lt;/strong&gt; (15&quot; limit)&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;hr&gt;
 &lt;hr&gt;
 &lt;div class=&quot;screen&quot;&gt;
   &lt;img src=&quot;/assets/projects/serval/conversation-file.gif&quot; alt=&quot;file input&quot;&gt;
