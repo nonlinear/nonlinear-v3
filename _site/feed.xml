@@ -5,8 +5,8 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Jul 2015 16:46:58 -0400</pubDate>
-    <lastBuildDate>Thu, 16 Jul 2015 16:46:58 -0400</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2015 17:25:40 -0400</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2015 17:25:40 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -45,7 +45,7 @@
 &lt;div class=&quot;screen&quot;&gt;
   &lt;img src=&quot;/assets/projects/serval/conversation-input.gif&quot; alt=&quot;conversation input&quot;&gt;
   &lt;div class=&quot;content&quot;&gt;
-    &lt;h2&gt;Media Inputs&lt;/h2&gt;
+    &lt;h2&gt;Inputs&lt;/h2&gt;
     &lt;p&gt;user clicks to text, or cycle for other input modes.&lt;/p&gt;
     &lt;p&gt;Input modes are:&lt;br&gt; &lt;strong&gt;Text&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;Media&lt;/strong&gt; (&lt;strong&gt;Audio&lt;/strong&gt; or &lt;strong&gt;Video&lt;/strong&gt;)&lt;br&gt;&lt;strong&gt;Photo&lt;/strong&gt; (&lt;strong&gt;Gallery&lt;/strong&gt; or &lt;strong&gt;Camera&lt;/strong&gt;)&lt;br&gt;&lt;strong&gt;File&lt;/strong&gt; (&lt;strong&gt;File&lt;/strong&gt;, &lt;strong&gt;Location&lt;/strong&gt;, &lt;strong&gt;Search&lt;/strong&gt;, &lt;strong&gt;Contact&lt;/strong&gt;)&lt;br&gt;and &lt;strong&gt;Plugins&lt;/strong&gt;.&lt;/p&gt;
   &lt;/div&gt;
