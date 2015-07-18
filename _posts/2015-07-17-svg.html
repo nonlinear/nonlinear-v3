@@ -1,0 +1,32 @@
+---
+layout: default
+permalink: /svg-flow/
+title: SVG flow
+category: code
+description: from illustrator to SASS and back
+draft: true
+---
+<div class="vector vector-1">
+  {% include vector/fred.svg %}
+
+</div>
+<h2>How to save your SVG file</h2>
+<ul>
+<li><b>Profile:</b> SVG 1.1</li>
+<li><b>Fonts:</b> Type — SVG; Subsetting — Only Glyphs Used (if you use a special font for your artwork)</li>
+<li><b>Image Location:</b> Link</li>
+<li><b>CSS Properties:</b> Style Elements</li>
+<li><b>Decimal Places:</b> 1</li>
+<li><b>Output Fewer &lt;tspan&gt; Elements:</b> Select this option</li>
+<li><b>Use &lt;textPath&gt; Element For Text On Path:</b> Select this option</li>
+</ul>
+<p>from <a href="http://www.adobe.com/inspire/2013/09/exporting-svg-illustrator.html">Exporting SVG for the web</a></p>
+<h2>How Illustrator arranges classes</h2>
+<p>for each object you create, illsutrator assigns a class to it: <tt>.st0</tt>, <tt>.st1</tt>,  <tt>.st2</tt> etc.</p>
+<p>objects with same color share the same class, so it's the best way to group it, rounding to whoever comes first (so if you assign <tt>.st5</tt> with same color as <tt>.st17</tt> for instance, <em>both</em> become <tt>.st5</tt>).</p>
+<h2>Class properties</h2>
+<p><tt>fill</tt>, <tt>fill-opacity</tt>, <tt>stroke</tt>, <tt>stroke-width</tt>, <tt>stroke-opacity</tt>, <tt>stroke-dasharray</tt></p>
+<p>from <a href="http://blog.studio.gd/blog/id/10/how_to_style_svg_with_css_-_part_2-3">How to style SVG with CSS</a></p>
+<h2>SVG patterns</h2>
+<p>from <a href="http://zslabs.com/articles/svg-background-fill/">ZS Labs - Modifying SVG Background Fills</a>, test it in SASS</p>
+
