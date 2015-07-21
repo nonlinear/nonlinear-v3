@@ -41,6 +41,8 @@ $anime: #B1D0C3
   a:hover
     h1, h2, h3, h4, p
       color: darken($category, 10%)
+  .pending
+    color: $category !important
 
 =bgstripe($bottom: $home, $top: $index, $bp: 50%)
   background-repeat: fixed !important
@@ -97,21 +99,21 @@ $anime: #B1D0C3
 // ('ㅅ')づ based on codepen.io/reverendgeneral/pen/AqFim
 
 .post
-  &.home a:not(.social)
+  &.home a:not(.social):not(.pending)
     +underline($home)
-  &.personal a:not(.social)
+  &.personal a:not(.social):not(.pending)
     +underline($personal)
-  &.resources a:not(.social)
+  &.resources a:not(.social):not(.pending)
     +underline($resources)
-  &.code a:not(.social)
+  &.code a:not(.social):not(.pending)
     +underline($code)
-  &.arts a:not(.social)
+  &.arts a:not(.social):not(.pending)
     +underline($arts)
-  &.design a:not(.social)
+  &.design a:not(.social):not(.pending)
     +underline($design)
-  &.comics a:not(.social)
+  &.comics a:not(.social):not(.pending)
     +underline($comics)
-  &.anime a:not(.social)
+  &.anime a:not(.social):not(.pending)
     +underline($anime)
 
 // ('ㅅ')づ failsafe for when 2 posts same category are shown.

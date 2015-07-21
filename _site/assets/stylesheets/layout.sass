@@ -80,10 +80,19 @@ a, a h2
   h1, p, h2, h3
     &:after
       height: 10px
+  img.clip
+    +highlight
+    display: block
+    padding: 5px 0
   ul, ol
     margin-top: 0
     margin-left: -40px
-    a
+    li
+      line-height: 5px
+      vertical-align: baseline
+      &:before
+        padding-bottom: 15px
+    a:first-of-type
       font-family: $font-title
       text-transform: uppercase
       font-size: 30px
@@ -135,7 +144,6 @@ a, a h2
 .pending
   +disable(link)
   text-decoration: none !important
-  +opacity(60)
 
 
 .menu
