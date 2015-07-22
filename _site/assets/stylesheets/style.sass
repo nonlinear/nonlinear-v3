@@ -25,30 +25,31 @@ $color-accent: $color-select
 
 // function variables
 
-$prefixes: (webkit moz ms o spec)
+$prefixes: webkit moz ms o spec
 $legacy_support_for_ie: false !default
 
 // animation variables (only work when animation module is activated)
 
 $animation-duration: 1s !default
 $animation-function: ease !default
-$animation-delay: .2s !default
+$animation-delay: 0.2s !default
 $animation-count: 1 !default
 $animation-fill: both !default
 $animation-visibility: hidden !default
 
 // codecode imports
 
-@import 'base'
-@import 'typography'
-@import 'animation'
-@import 'forms'
-@import 'devices'
+@import base
+@import typography
+@import animation
+@import forms
+@import devices
 
 // per project imports
 
-@import 'category'
+@import category
+
 // @import 'bgs'
-@import 'layout'
-@import 'legend'
-@import 'vector'
+@import layout
+@import legend
+@import vector

@@ -74,26 +74,21 @@ a, a h2
       &:hover
         height: 130px
 
-
-
 .post
   h1, p, h2, h3
     &:after
       height: 10px
-  img.clip
-    +highlight
-    display: block
-    padding: 5px 0
-    +media(iphone5, landscape)
-      width: 100%
+  a.clip
+    img
+      +highlight
+      @include translate(0, -6)
+      display: block
+      padding: 5px 0
+      +media(iphone5, landscape)
+        width: 100%
   ul, ol
     margin-top: 0
     margin-left: -40px
-    li
-      line-height: 5px
-      vertical-align: baseline
-      &:before
-        padding-bottom: 15px
     a:first-of-type
       font-family: $font-title
       text-transform: uppercase
@@ -165,6 +160,5 @@ a, a h2
     margin-top: 1px
   .content
     padding-left: 20px
-
 
 
