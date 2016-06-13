@@ -24,7 +24,7 @@ hr
 
 .start
   height: 370px
-  padding-top: 137px
+  padding-top: 200px
   +clearfix
   +fadeInLeft
   h2
@@ -48,8 +48,9 @@ a, a h2
   +transition
   text-decoration: none
 
-.home.nav
-  +fadeInDown
+.home
+  &.nav
+    +fadeInDown
 
 .post
   +fadeInLeft($delay: .6s)
