@@ -5,9 +5,9 @@
     <description>Here we go</description>
     <link>http://nonlinear.nyc/</link>
     <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Aug 2016 11:04:21 -0400</pubDate>
-    <lastBuildDate>Mon, 08 Aug 2016 11:04:21 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Fri, 16 Dec 2016 20:21:10 -0500</pubDate>
+    <lastBuildDate>Fri, 16 Dec 2016 20:21:10 -0500</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>Illustration Calendar</title>
@@ -42,8 +42,8 @@
         <title>Some cool anime</title>
         <description>&lt;p&gt;Finding a good anime to watch can be daunting. There’s a lot out there and you shouldn’t spend your time on bullshit. &lt;/p&gt;
 &lt;p&gt;Below is a list of the best ones I’ve watched so far, mostly on hulu.&lt;/p&gt;
-&lt;p&gt;For those into it, I&#39;m more of a &lt;em&gt;shoujo&lt;/em&gt; guy: That means I&#39;m not really into action-packed stories, and I&#39;m more interested in character&#39;s development.&lt;/p&gt;
-&lt;p&gt;I tried to group series into genres, to set the overall mood: if you like one of the list, chances are you&#39;ll like the others too.&lt;/p&gt;
+&lt;p&gt;For those into it, I'm more of a &lt;em&gt;shoujo&lt;/em&gt; guy: That means I'm not really into action-packed stories, and I'm more interested in character's development.&lt;/p&gt;
+&lt;p&gt;I tried to group series into genres, to set the overall mood: if you like one of the list, chances are you'll like the others too.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;Parapsychology&lt;/h3&gt;
 &lt;ul&gt;
@@ -123,7 +123,7 @@
   &lt;li&gt;
     &lt;a class=&quot;clip&quot; href=&quot;http://www.hulu.com/eureka-seven&quot;&gt;Eureka Seven
     &lt;img src=&quot;/assets/images/anime/eureka.gif&quot;&gt;&lt;/a&gt;
-    ecology, fly with the winds, military insurrection, our place as humans. also: cool as fuck. There&#39;s a spinoff, &lt;a href=&quot;http://www.hulu.com/eureka-seven-astral-ocean&quot;&gt;Astral Ocean&lt;/a&gt;
+    ecology, fly with the winds, military insurrection, our place as humans. also: cool as fuck. There's a spinoff, &lt;a href=&quot;http://www.hulu.com/eureka-seven-astral-ocean&quot;&gt;Astral Ocean&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
@@ -190,7 +190,7 @@
     revenge, curses/diseases from deep space, the lies of our fathers, the lines of karma, gorgeous designs (to be seen in HD, large screen)
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a class=&quot;clip&quot; href=&quot;http://www.hulu.com/le-chevalier-deon&quot;&gt;Le Chevalier d&#39;Eon
+    &lt;a class=&quot;clip&quot; href=&quot;http://www.hulu.com/le-chevalier-deon&quot;&gt;Le Chevalier d'Eon
     &lt;img src=&quot;/assets/images/anime/chevalier.gif&quot;&gt;&lt;/a&gt;
      golems, necromancy, a poet cabal, european intrigue, the gospel of righteous anger
   &lt;/li&gt;
@@ -206,10 +206,10 @@
   &lt;li&gt;
     &lt;a class=&quot;clip&quot; href=&quot;http://www.hulu.com/death-note&quot;&gt;Death Note
     &lt;img src=&quot;/assets/images/anime/deathnote.gif&quot;&gt;&lt;/a&gt;
-    death gods, curses, frenemies, mind games. &lt;strong&gt;alert:&lt;/strong&gt; as amazing as Death Note writing it is, it&#39;s very mysogynistic... most (if not all) guys are aloof geniuses, &lt;em&gt;all&lt;/em&gt; women are emotional bimbos (except the death god one - yes, one is female)&lt;/li&gt;
+    death gods, curses, frenemies, mind games. &lt;strong&gt;alert:&lt;/strong&gt; as amazing as Death Note writing it is, it's very mysogynistic... most (if not all) guys are aloof geniuses, &lt;em&gt;all&lt;/em&gt; women are emotional bimbos (except the death god one - yes, one is female)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3&gt;A genre of it&#39;s own&lt;/h3&gt;
+&lt;h3&gt;A genre of it's own&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a class=&quot;pending clip&quot;&gt;Paranoia Agent
     &lt;img src=&quot;/assets/images/anime/paranoia.gif&quot;&gt;&lt;/a&gt;
@@ -3126,7 +3126,7 @@ d/wvT8ZVJ9EirEKLepYV2UCAI8Hq9QJp/jD5nLe3k+9fIMA/d5P/M7+ZLJer/WQ/X4MnN5/b+W6/
 &lt;p&gt;from &lt;a href=&quot;http://www.adobe.com/inspire/2013/09/exporting-svg-illustrator.html&quot;&gt;Exporting SVG for the web&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;How Illustrator arranges classes&lt;/h2&gt;
 &lt;p&gt;for each object you create, illsutrator assigns a class to it: &lt;tt&gt;.st0&lt;/tt&gt;, &lt;tt&gt;.st1&lt;/tt&gt;,  &lt;tt&gt;.st2&lt;/tt&gt; etc.&lt;/p&gt;
-&lt;p&gt;objects with same color share the same class, so it&#39;s the best way to group it, rounding to whoever comes first (so if you assign &lt;tt&gt;.st5&lt;/tt&gt; with same color as &lt;tt&gt;.st17&lt;/tt&gt; for instance, &lt;em&gt;both&lt;/em&gt; become &lt;tt&gt;.st5&lt;/tt&gt;).&lt;/p&gt;
+&lt;p&gt;objects with same color share the same class, so it's the best way to group it, rounding to whoever comes first (so if you assign &lt;tt&gt;.st5&lt;/tt&gt; with same color as &lt;tt&gt;.st17&lt;/tt&gt; for instance, &lt;em&gt;both&lt;/em&gt; become &lt;tt&gt;.st5&lt;/tt&gt;).&lt;/p&gt;
 &lt;h2&gt;Class properties&lt;/h2&gt;
 &lt;p&gt;&lt;tt&gt;fill&lt;/tt&gt;, &lt;tt&gt;fill-opacity&lt;/tt&gt;, &lt;tt&gt;stroke&lt;/tt&gt;, &lt;tt&gt;stroke-width&lt;/tt&gt;, &lt;tt&gt;stroke-opacity&lt;/tt&gt;, &lt;tt&gt;stroke-dasharray&lt;/tt&gt;&lt;/p&gt;
 &lt;p&gt;from &lt;a href=&quot;http://blog.studio.gd/blog/id/10/how_to_style_svg_with_css_-_part_2-3&quot;&gt;How to style SVG with CSS&lt;/a&gt;&lt;/p&gt;
@@ -3257,7 +3257,7 @@ d/wvT8ZVJ9EirEKLepYV2UCAI8Hq9QJp/jD5nLe3k+9fIMA/d5P/M7+ZLJer/WQ/X4MnN5/b+W6/
       <item>
         <title>On Sublime Snippets</title>
         <description>&lt;p&gt;Snippets are &lt;a href=&quot;Sublime Text&quot;&gt;Sublime Text&lt;/a&gt; idea of macros. This article explains how to create and manage your own.&lt;/p&gt;
-&lt;p&gt;Snippets reside in your computer, so it works offline and are the best way to manage your code collection. Luckily once you learn the basics of it you can take some time to abstract your reusable code and have it at your fingertips, instead of jumping from project to project. It&#39;s just, tidy.&lt;/p&gt;
+&lt;p&gt;Snippets reside in your computer, so it works offline and are the best way to manage your code collection. Luckily once you learn the basics of it you can take some time to abstract your reusable code and have it at your fingertips, instead of jumping from project to project. It's just, tidy.&lt;/p&gt;
 &lt;p&gt;As a UI Designer &lt;a href=&quot;http://nonlinear.nyc/codecode&quot; target=&quot;_blank&quot;&gt;I use it mostly for SASS and HTML&lt;/a&gt;, but the system is pretty agnostic, so it works fine with any language you throw at it.&lt;/p&gt;
 &lt;hr&gt;&lt;h2&gt;Requirements&lt;/h2&gt;
 &lt;p&gt;In order for it to work, snippets must be:&lt;/p&gt;
@@ -3269,8 +3269,8 @@ d/wvT8ZVJ9EirEKLepYV2UCAI8Hq9QJp/jD5nLe3k+9fIMA/d5P/M7+ZLJer/WQ/X4MnN5/b+W6/
   &lt;/div&gt;
   &lt;hr&gt;&lt;h2&gt;The Packages Folder&lt;/h2&gt;
 &lt;p&gt;On a Mac, &lt;tt&gt;Packages&lt;/tt&gt; folder is under &lt;tt&gt;~/Library/Application\ Support/Sublime\ Text\ 2&lt;/tt&gt; (or 3)&lt;/p&gt;
-&lt;p&gt;On Windows, it&#39;s &lt;tt&gt;%APPDATA%/Sublime\ Text\ 2&lt;/tt&gt; (or 3) and on Linux, on &lt;tt&gt;~/.config/sublime-text-2&lt;/tt&gt; (or 3)&lt;/p&gt;
-&lt;p&gt;You can add the &lt;tt&gt;.sublime-snippet&lt;/tt&gt; file right there, but better to create a folder (call it &lt;tt&gt;snippets&lt;/tt&gt; maybe?) and move your creations there. I&#39;ll explain why later.&lt;/p&gt;
+&lt;p&gt;On Windows, it's &lt;tt&gt;%APPDATA%/Sublime\ Text\ 2&lt;/tt&gt; (or 3) and on Linux, on &lt;tt&gt;~/.config/sublime-text-2&lt;/tt&gt; (or 3)&lt;/p&gt;
+&lt;p&gt;You can add the &lt;tt&gt;.sublime-snippet&lt;/tt&gt; file right there, but better to create a folder (call it &lt;tt&gt;snippets&lt;/tt&gt; maybe?) and move your creations there. I'll explain why later.&lt;/p&gt;
 &lt;hr&gt;&lt;h2&gt;Syntax&lt;/h2&gt;
 &lt;div class=&quot;chart snippet-1&quot;&gt;
 &lt;ol class=&quot;legend&quot;&gt;
@@ -3289,7 +3289,7 @@ content&lt;br&gt;
 &amp;lt;/snippet&amp;gt;&lt;/tt&gt;
 &lt;/div&gt;
 &lt;div class=&quot;legend&quot;&gt;
-  &lt;p&gt;&lt;tt&gt;trigger&lt;/tt&gt; is what to type to call snippet. It&#39;s the only part you should remember, so choose wisely.&lt;/p&gt;
+  &lt;p&gt;&lt;tt&gt;trigger&lt;/tt&gt; is what to type to call snippet. It's the only part you should remember, so choose wisely.&lt;/p&gt;
   &lt;p&gt;&lt;tt&gt;description&lt;/tt&gt; appears when you have more than one snippet using same trigger, to differentiate, so be, well... descriptive.&lt;/p&gt;
   &lt;p&gt;&lt;tt&gt;content&lt;/tt&gt; is your actual code.&lt;/p&gt;
 &lt;/div&gt;
@@ -3297,29 +3297,29 @@ content&lt;br&gt;
 &lt;hr&gt;&lt;h2&gt;The Content&lt;/h2&gt;
 &lt;p&gt;Anything you paste between &lt;tt&gt;&amp;lt;!&amp;lsqb;CDATA&amp;lsqb;&lt;/tt&gt; and &lt;tt&gt;&amp;rsqb;&amp;rsqb;&amp;gt;&lt;/tt&gt; becomes the content... Except &lt;tt&gt;$&lt;/tt&gt; sign, reserved for variables. So if your language needs it, use &lt;tt&gt;\$&lt;/tt&gt; instead.&lt;/p&gt;
 &lt;hr&gt;&lt;h2&gt;Variables&lt;/h2&gt;
-&lt;p&gt;By convention, typing the trigger + tab switches trigger for content, and that&#39;s about it.&lt;/p&gt;
+&lt;p&gt;By convention, typing the trigger + tab switches trigger for content, and that's about it.&lt;/p&gt;
 &lt;p&gt;But you can also assign where cursor lands, too. For that, you just need to add &lt;tt&gt;$&lt;/tt&gt; to it.&lt;/p&gt;
 &lt;p&gt;You can also jump to more than one variable, tab, tab, tab, to customize your code. You need to order it accordingly, with &lt;tt&gt;${1}&lt;/tt&gt;, &lt;tt&gt;${2}&lt;/tt&gt;, &lt;tt&gt;${3}&lt;/tt&gt;... &lt;/p&gt;
-&lt;p&gt;Lastly, you can also add preset copy to it, with &lt;tt&gt;${1:content}&lt;/tt&gt;. I use it for default variables... You can keep it as it is (tab way) or change it (easy since it&#39;s preselected.&lt;/p&gt;
+&lt;p&gt;Lastly, you can also add preset copy to it, with &lt;tt&gt;${1:content}&lt;/tt&gt;. I use it for default variables... You can keep it as it is (tab way) or change it (easy since it's preselected.&lt;/p&gt;
 &lt;p&gt;You can even have more than one variable with same number and Sublime Text will select all at once with its multiple cursor feature.&lt;/p&gt;
 &lt;p&gt;Sadly it will show content of first variable with same number, disregarding the others.&lt;/p&gt;
 &lt;hr&gt;&lt;h2&gt;Learning&lt;/h2&gt;
 &lt;p&gt;Snippets simplify your coding, but you still need to familiarize yourself with the triggers you have, and where to use it. Take your time to learn it, and document it.&lt;/p&gt;
 &lt;hr&gt;&lt;h2&gt;Organization&lt;/h2&gt;
-&lt;p&gt;So let&#39;s assume you were diligent and took the trouble to abstract away all your reusable code under snippets, on a folder of your choice. So what?&lt;/p&gt;
-&lt;p&gt;Yes, you have it ready on your machine, and you&#39;ll grow dependent of it. You should back it up, correct?&lt;/p&gt;
+&lt;p&gt;So let's assume you were diligent and took the trouble to abstract away all your reusable code under snippets, on a folder of your choice. So what?&lt;/p&gt;
+&lt;p&gt;Yes, you have it ready on your machine, and you'll grow dependent of it. You should back it up, correct?&lt;/p&gt;
 &lt;p&gt;If you are versed in git, you can create a respository that points to this folder, so you can clone your snippets into any other machine you land on.&lt;/p&gt;
 &lt;p&gt;The entire &lt;a href=&quot;http://nonlinear.nyc/codecode&quot; target=&quot;_blank&quot;&gt;codecode project&lt;/a&gt; is me eating my own dog food, organizing my best practices.&lt;/p&gt;
-&lt;p&gt;Trading snippets with fellow developers (as if building a deck) is also something I&#39;d like to see. I just don&#39;t know what to do with dependencies, since some snippets don&#39;t work on their own. &lt;a href=&quot;mailto:info@nicholasfrota.com?subject=snippet trading idea&quot;&gt;I&#39;m open to suggestions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Trading snippets with fellow developers (as if building a deck) is also something I'd like to see. I just don't know what to do with dependencies, since some snippets don't work on their own. &lt;a href=&quot;mailto:info@nicholasfrota.com?subject=snippet trading idea&quot;&gt;I'm open to suggestions&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;&lt;h2&gt;Beyond&lt;/h2&gt;
 &lt;p&gt;Snippets only work inside Sublime Text. But what about other text editors? Is there a way to translate it to them?&lt;/p&gt;
 &lt;p&gt;Forget about text editors: What about a system-wide snippet system... Working on any app? Mac has &lt;a href=&quot;https://smilesoftware.com/TextExpander/index.html&quot; target=&quot;_blank&quot;&gt;Textexpander&lt;/a&gt; and &lt;a href=&quot;https://www.trankynam.com/atext/&quot;target=&quot;_blank&quot;&gt;aText&lt;/a&gt;, and iPhones have keyboard shortcuts. But snippets are hard to manage and trade.&lt;/p&gt;
 &lt;hr&gt;&lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;Snippets are an open, scalable, agnostic way to organize your reusable code. &lt;a href=&quot;http://nonlinear.nyc/codecode&quot; target=&quot;_blank&quot;&gt;Codecode&lt;/a&gt; made my code so fast (with bootstrap presets, CDN links, SASS mixins), I in fact ditched wireframing and jumped straight in rapid (really rapid) prototyping.&lt;/p&gt;
-&lt;p&gt;I can&#39;t wait to see what other people can do to it... If you create your own snippets or need help, feel free to talk either on &lt;a href=&quot;http://twitter.com/home?status=@nonlinear&quot;
+&lt;p&gt;I can't wait to see what other people can do to it... If you create your own snippets or need help, feel free to talk either on &lt;a href=&quot;http://twitter.com/home?status=@nonlinear&quot;
  target=&quot;_blank&quot;&gt;twitter&lt;/a&gt; or &lt;a href=&quot;mailto:info@nicholasfrota.com?subject=snippet trading idea&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
 &lt;!-- &lt;hr&gt;&lt;h2&gt;Scope&lt;/h2&gt;
-&lt;p&gt;There are some other features I don&#39;t use but are interesting:&lt;/p&gt;
+&lt;p&gt;There are some other features I don't use but are interesting:&lt;/p&gt;
 &lt;p&gt;If you want the snippet to work only on certain filetypes, add &lt;tt&gt;&amp;nbsp;&amp;nbsp;&amp;lt;scope&amp;gt;source.extension&amp;lt;/scope&amp;gt;&lt;/tt&gt; right before description.&lt;/p&gt;
 &lt;p&gt;You can even assing more than one: triggers with &lt;tt&gt;&amp;nbsp;&amp;nbsp;&amp;lt;scope&amp;gt;source.html, source.php&amp;lt;/scope&amp;gt;&lt;/tt&gt; will only apper on .html and .php files.&lt;/p&gt;
 &lt;p&gt;also, if you copy and paste heavily, &lt;tt&gt;$TM_FILEPATH&lt;/tt&gt; pastes whatever is on your clipboard.&lt;/p&gt; --&gt;
@@ -3361,8 +3361,8 @@ content&lt;br&gt;
     
       <item>
         <title>Podcasts I listen to</title>
-        <description>&lt;p&gt;I&#39;m a major podcast listener for a while. Sadly, no podcast app gives me the ability to show my subscriptions to others, so below is a compilation of the ones I follow.&lt;/p&gt;
-&lt;p&gt;If you&#39;re new to all of it, I suggest using &lt;a target=&quot;_blank&quot; href=&quot;http://www.shiftyjelly.com/pocketcasts&quot;&gt;PocketCasts&lt;/a&gt; as a player. It&#39;s what I use.&lt;/p&gt;
+        <description>&lt;p&gt;I'm a major podcast listener for a while. Sadly, no podcast app gives me the ability to show my subscriptions to others, so below is a compilation of the ones I follow.&lt;/p&gt;
+&lt;p&gt;If you're new to all of it, I suggest using &lt;a target=&quot;_blank&quot; href=&quot;http://www.shiftyjelly.com/pocketcasts&quot;&gt;PocketCasts&lt;/a&gt; as a player. It's what I use.&lt;/p&gt;
 &lt;h2&gt;Design&lt;/h2&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://99percentinvisible.org/subscribe/&quot;&gt;99% Invisible&lt;/a&gt;&lt;br /&gt;short stories of man-made structures mostly invisible to us.&lt;/li&gt;
@@ -3379,7 +3379,7 @@ content&lt;br&gt;
 &lt;ul&gt;
 	&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.beyondbooking.com/podcast.asp&quot;&gt;The Bunker Podcast&lt;/a&gt;&lt;br /&gt;best brooklyn techno party&lt;/li&gt;
 	&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://ghostly.com/media&quot;&gt;GhostlyCast&lt;/a&gt;&lt;/li&gt;
-	&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.rte.ie/2fm/white-noise/&quot;&gt;Dave Clarke&#39;s White Noise&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.rte.ie/2fm/white-noise/&quot;&gt;Dave Clarke's White Noise&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.verbotennewyork.com/transmissions/&quot;&gt;Verboten Transmissions&lt;/a&gt;&lt;/li&gt;
 	&lt;li&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.wolflambmusic.com&quot;&gt;Wolf + Lamb Radio&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -3435,7 +3435,7 @@ content&lt;br&gt;
 &lt;li&gt;&lt;a href=&quot;http://hackerspace.lifehacker.com/killer-tips-that-make-packing-and-moving-easier-1693637086&quot;&gt;Killer Tips That Make Packing and Moving Easier&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://lawtendr.com/&quot;&gt;Lawtendr&lt;/a&gt;&lt;br&gt;Find a lawyer the easy way with Lawtendr&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/how-tracking-what-i-do-every-day-helped-me-find-better-1710608636&quot;&gt;How Tracking What I Do Every Day Helped Me Find Better Work-Life Balance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/unclog-a-toilet-with-a-mop-and-plastic-bag-when-you-don-1715119224&quot;&gt;Unclog a Toilet With a Mop and Plastic Bag When You Don&#39;t Have a Plunger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/unclog-a-toilet-with-a-mop-and-plastic-bag-when-you-don-1715119224&quot;&gt;Unclog a Toilet With a Mop and Plastic Bag When You Don't Have a Plunger&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.instructables.com/id/Indoor-hammock-wall-mount/&quot;&gt;Indoor Hammock Wall Mount&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
@@ -3448,12 +3448,12 @@ content&lt;br&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Travel&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You&#39;re Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ask-for-cash-instead-of-a-voucher-when-youre-bumped-fr-494629829&quot;&gt;Ask for Cash Instead of a Voucher When You're Bumped from a Flight&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.roomertravel.com/&quot;&gt;Roomer&lt;/a&gt;&lt;br&gt;Sell Hotel Reservation, Buy Cancelled Hotel Rooms&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/organize-and-share-your-vacation-with-this-travel-plann-1684919711&quot;&gt;Organize and Share Your Vacation with This Travel Planning Spreadsheet&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/book-cheap-fares-you-find-on-ita-matrix-with-hipmunk-1688454739&quot;&gt;Book Cheap Fares You Find on ITA Matrix with Hipmunk&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://lifehacker.com/dreamcheaper-automatically-rebooks-your-hotel-room-if-t-1702287245&quot;&gt;DreamCheaper&lt;/a&gt;&lt;br&gt;Automatically Rebooks Your Hotel Room If the Rate Drops&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ten-great-travel-destinations-if-youre-a-vegetarian-1717606282&quot;&gt;Ten Great Travel Destinations if You&#39;re a Vegetarian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://lifehacker.com/ten-great-travel-destinations-if-youre-a-vegetarian-1717606282&quot;&gt;Ten Great Travel Destinations if You're a Vegetarian&lt;/a&gt;&lt;/li&gt;
 
 &lt;/ul&gt;
 &lt;h2&gt;Finances&lt;/h2&gt;
