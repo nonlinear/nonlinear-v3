@@ -10,5 +10,5 @@ paginate: 10
 gems: [jekyll-paginate]
 markdown: rdiscount
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
