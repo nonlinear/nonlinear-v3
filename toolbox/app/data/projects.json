@@ -1,12 +1,10 @@
 {
   "projects": [
     {"name": "canvas",
-  "description": "a gulp framework for rapid prototyping"},
-  {"name": "tangle",
-  "description": "a js library to extend CSS triggers"},
-  {"name": "cloud",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, iure."},
-  {"name": "snippets",
-  "description": "snippets for rapid prototyping"}
+    "description": "a gulp framework for rapid prototyping"},
+    {"name": "tangle",
+    "description": "a js library to extend CSS triggers"},
+    {"name": "snippets",
+    "description": "snippets for rapid prototyping"}
   ]
 }

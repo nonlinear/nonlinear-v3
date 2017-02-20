@@ -81,7 +81,7 @@ h1, h2, h3, h4
     text-transform: uppercase
 
 $container: 800px
-$percent: 0.3
+$percent: 0.24
 $title: ($container * $percent)
 $description: ($container - ($container * $percent))
 
@@ -152,6 +152,7 @@ body, html
     width: $container
 
 
+
 header
     background-blend-mode: multiply
     padding: 10px
@@ -183,7 +184,7 @@ section
         padding: 20px
     &.header
         height: 200px
-        background-image: url("/images/gradient.png")
+        background-image: url("/assets/images/gradient.png")
         background-repeat: repeat-y
         background-size: 40px 100%
         background-position: 1px 0
@@ -200,7 +201,7 @@ section
                 +fadeIn($delay: 300ms)
                 padding-left: 25px
                 +rotate(-10)
-                margin-top: -1px
+                margin-top: 3px
                 margin-left: -33px
             h1
                 font-size: 50px
@@ -229,9 +230,16 @@ section
             margin-top: 0
         &:last-of-type
             margin-bottom: 0
+    h2
+        &:first-of-type
+            margin-top: 0
+        &:not(:first-of-type)
+            border-top: solid 1px #333
+            padding-top: 20px
+
 
 .actions
-    padding-top: 15px
+    margin-top: 15px
     width: 100%
     +clearfix
     .btn
@@ -241,6 +249,9 @@ section
             float: left
         &:last-of-type, &:only-of-type
             float: right
+
+a:not(.btn)
+    color: black
 
 .btn
     border: none

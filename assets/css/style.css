@@ -11023,7 +11023,7 @@ section {
     padding: 20px; }
   section.header {
     height: 200px;
-    background-image: url("/images/gradient.png");
+    background-image: url("/assets/images/gradient.png");
     background-repeat: repeat-y;
     background-size: 40px 100%;
     background-position: 1px 0; }
@@ -11054,7 +11054,7 @@ section {
         padding-left: 25px;
         -webkit-transform: rotate(-10deg);
         transform: rotate(-10deg);
-        margin-top: -1px;
+        margin-top: 3px;
         margin-left: -33px; }
       section.header .title h1 {
         font-size: 50px;
@@ -11087,7 +11087,7 @@ section {
         padding-right: 5px; }
 
 .title {
-  width: 240px; }
+  width: 192px; }
   .title h1, .title h2, .title h3, .title h4, .title .nav li a, .nav li .title a {
     margin-top: 0; }
 
@@ -11097,8 +11097,15 @@ section {
 .description p:last-of-type {
   margin-bottom: 0; }
 
+.description h2:first-of-type {
+  margin-top: 0; }
+
+.description h2:not(:first-of-type) {
+  border-top: solid 1px #333;
+  padding-top: 20px; }
+
 .actions {
-  padding-top: 15px;
+  margin-top: 15px;
   width: 100%;
   zoom: 1; }
   .actions:before, .actions:after {
@@ -11107,12 +11114,15 @@ section {
   .actions:after {
     clear: both; }
   .actions .btn {
-    width: 240px;
+    width: 264px;
     margin: 0; }
     .actions .btn:first-of-type {
       float: left; }
     .actions .btn:last-of-type, .actions .btn:only-of-type {
       float: right; }
+
+a:not(.btn) {
+  color: black; }
 
 .btn {
   border: none;
