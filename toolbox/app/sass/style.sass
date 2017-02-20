@@ -1,0 +1,254 @@
+// (\_/)   codecode
+// ('ㅅ')づ free to personalize
+// (")(")  refer to nonlinear.nyc/codecode
+
+// ('ㅅ')づ font variables
+
+$font-title: dense
+$font-text: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+$font-mono: "Courier New", Courier, monospace
+
+// ('ㅅ')づ critical variables
+
+$gap: 20px
+$bp: 770px
+
+// ('ㅅ')づ color variables
+
+$color-bg: white
+$color-text: black
+$color-title: black
+$color-link: grey
+$color-divider: grey
+$color-link-hover: lighten($color-link, 20%)
+
+// button color variables
+
+$button:               #eee
+$button-hover:         darken($button, 10%)
+$button-border:        #999999
+$button-border-hover:  $button-border
+$button-text:          #666
+$button-text-hover:    black
+$color-select:         #b3d4fc
+$color-accent:         $color-select
+
+// ('ㅅ')づ status color variables
+
+$status: #eee
+$status-font: #3A4351
+$status-border: #999EA5
+$status-primary: #00A882
+$status-primary-font: white
+$status-primary-border: $status-primary
+$status-success: #1B97BB
+$status-success-font: white
+$status-success-border: $status-success
+$status-warning: #FFA51A
+$status-warning-font: white
+$status-warning-border: $status-warning
+$status-danger: #DB2B53
+$status-danger-font: white
+$status-danger-border: $status-danger
+
+// ('ㅅ')づ toggle variables
+
+$toggle_height: 20px
+$toggle_half: ($toggle_height / 2)
+$toggle_width: ($toggle_height * 2)
+$toggle_gap: 1px
+$toggle_bg: $color-bg
+$toggle_off: #999
+$toggle_on: #666
+
+// ('ㅅ')づ function variables
+
+$prefixes: webkit moz ms o spec
+$legacy_support_for_ie: false !default
+$icons_on: true
+
+// ('ㅅ')づ global imports, don't remove
+
+@import 'vendors/framework'
+
+// ('ㅅ')づ project imports
+
+@import 'layout'
+
++font-face(dense)
+
+h1, h2, h3, h4
+    text-transform: uppercase
+
+$container: 800px
+$percent: 0.3
+$title: ($container * $percent)
+$description: ($container - ($container * $percent))
+
+$project-00-a: red
+$project-00-b: $project-00-a
+$project-00-c: $project-00-a
+$project-00-d: $project-00-a
+$project-01-a: orange
+$project-01-b: darken($project-01-a, 5%)
+$project-01-c: #C0546E
+$project-01-d: #F0F4D7
+$project-02-a: red
+$project-02-b: $project-02-a
+$project-02-c: $project-02-a
+$project-02-d: $project-02-a
+$project-03-a: #6DB8D8
+$project-03-b: #6076EF
+$project-03-c: #B8E986
+$project-03-d: #50E3C2
+$project-04-a: green
+$project-04-b: $project-04-a
+$project-04-c: $project-04-a
+$project-04-d: $project-04-a
+$project-05-a: orange
+$project-05-b: $project-05-a
+$project-05-c: $project-05-a
+$project-05-d: $project-05-a
+
+=project($color-a: $project-00-a, $color-b: $project-00-b, $color-c: $project-00-c, $color-d: $project-00-d)
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, $color-a), color-stop(1, $color-b))
+    background-image: -o-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: -moz-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: -webkit-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: -ms-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: linear-gradient(to left top, $color-a 0%, $color-b 100%)
+    header
+        background-color: rgba($color-c, .7)
+    section:not(.header)
+            &:nth-of-type(2n)
+                background-color: rgba($color-c, .4)
+            &:nth-of-type(2n-1)
+                background-color: rgba($color-d, .4)
+
+body.toolbox
+    +project($project-00-a, $project-00-b, $project-00-c, $project-00-d)
+body.canvas
+    +project($project-01-a, $project-01-b, $project-01-c, $project-01-d)
+body.cloud
+    +project($project-02-a, $project-02-b, $project-02-c, $project-02-d)
+body.tangle
+    +project($project-03-a, $project-03-b, $project-03-c, $project-03-d)
+body.snippets
+    +project($project-04-a, $project-04-b, $project-04-c, $project-04-d)
+
+body, html
+    height: 100%
+    font-size: 16px
+    background-attachment: fixed
+
+.noise
+    background-image: url("/images/noise.png")
+    background-blend-mode: multiply
+    background-attachment: fixed
+    background-size: 200px 200px
+
+
+.container
+    width: $container
+
+
+header
+    background-blend-mode: multiply
+    padding: 10px
+    ul
+        +reset(all)
+        +reset(list)
+        li
+            display: inline-block
+            &:not(:last-of-type):after
+                content: "/"
+                padding-left: 5px
+            a
+                font-family: $font-title
+                color: rgba(black, .5) !important
+                text-decoration: none !important
+                text-transform: uppercase
+                &:hover
+                    color: rgba(black, .8) !important
+
+
+
+
+section
+    display: table
+    width: 100%
+    .title, .description
+        display: table-cell
+        vertical-align: top
+        padding: 20px
+    &.header
+        height: 200px
+        background-image: url("/images/gradient.png")
+        background-repeat: repeat-y
+        background-size: 40px 100%
+        background-position: 1px 0
+        .title, .description
+            overflow: hidden
+        .title
+            padding-top: 30px
+            h1, h2, h3, h4
+                background-color: rgba(white, .5)
+                display: inline-block
+                line-height: 110%
+                padding-right: 15px
+                margin: 0
+                +fadeIn($delay: 300ms)
+                padding-left: 25px
+                +rotate(-10)
+                margin-top: -1px
+                margin-left: -33px
+            h1
+                font-size: 50px
+                padding-right: 20px
+                +fadeIn($delay: 600ms)
+    &.footer
+        background-color: rgba(black, .5) !important
+        color: white
+        font-size: 80%
+        h1, h2, h3, h4
+            color: white
+        p
+            display: table-cell
+            &:not(:first-of-type)
+                padding-left: 5px
+            &:not(:last-of-type)
+                padding-right: 5px
+
+.title
+    width: $title
+    h1, h2, h3, h4
+        margin-top: 0
+.description
+    p
+        &:first-of-type
+            margin-top: 0
+        &:last-of-type
+            margin-bottom: 0
+
+.actions
+    padding-top: 15px
+    width: 100%
+    +clearfix
+    .btn
+        width: (($description / 2) - 40)
+        margin: 0
+        &:first-of-type
+            float: left
+        &:last-of-type, &:only-of-type
+            float: right
+
+.btn
+    border: none
+    +radius(normal, 0)
+    background-color: rgba(white, .4)
+    +transition
+    font-family: $font-title
+    text-transform: uppercase
+    font-size: 20px
+    &:hover
+        background-color: rgba(white, .6)
