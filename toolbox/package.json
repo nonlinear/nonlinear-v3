@@ -45,9 +45,8 @@
     "require-dir": "^0.3.0",
     "run-sequence": "^1.1.4",
     "svg2png": "^2.0.0",
-    "ttf2woff2": "^2.0.3"
-  },
-  "dependencies": {
-    "gulp-real-favicon": "^0.2.1"
+    "ttf2woff2": "^2.0.3",
+    "gulp-real-favicon": "^0.2.1",
+    "gulp-replace": "^0.5.4"
   }
 }
