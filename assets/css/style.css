@@ -10570,7 +10570,7 @@ body, html {
   background-attachment: fixed; }
 
 .noise {
-  background-image: url("/images/noise.png");
+  background-image: url("../images/noise.png");
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-size: 200px 200px; }
