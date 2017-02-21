@@ -51,13 +51,13 @@ gulp.task('no-filters', function(){
 
 gulp.task('loaders', function(){
   gulp.src(config.main.src + '/sass/required/required.sass')
-    .pipe(replace('// (`ㅅ`)づ optional imports\n', '// (`ㅅ`)づ optional imports\n\n@import vendors/SpinThatShit/loaders.scss'))
+    .pipe(replace('// (`ㅅ`)づ optional imports\n', '// (`ㅅ`)づ optional imports\n\n@import optional/SpinThatShit/loaders.scss'))
     .pipe(gulp.dest(config.main.src + '/sass/required'));
 });
 
 gulp.task('no-loaders', function(){
   gulp.src(config.main.src + '/sass/required/required.sass')
-    .pipe(replace('\n@import vendors/SpinThatShit/loaders.scss', ''))
+    .pipe(replace('\n@import optional/SpinThatShit/loaders.scss', ''))
     .pipe(gulp.dest(config.main.src + '/sass/required'));
 });
 
