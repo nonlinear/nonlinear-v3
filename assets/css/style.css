@@ -10986,6 +10986,10 @@ body, html {
 
 .container {
   width: 800px; }
+  @media screen and (max-width: 770px) {
+    .container {
+      width: 100%;
+      padding: 0; } }
 
 header {
   background-blend-mode: multiply;
@@ -11015,22 +11019,34 @@ header {
           color: rgba(0, 0, 0, 0.8) !important; }
 
 section {
-  display: table;
   width: 100%; }
-  section .title, section .description {
-    display: table-cell;
-    vertical-align: top;
-    padding: 20px; }
+  @media screen and (max-width: 770px) {
+    section {
+      padding: 20px 10px; } }
+  @media screen and (min-width: 770px) {
+    section {
+      display: table; }
+      section .title, section .description {
+        display: table-cell;
+        vertical-align: top; } }
+  @media screen and (min-width: 770px) {
+    section .title, section .description {
+      padding: 20px; } }
   section.header {
-    height: 200px;
     background-image: url("/assets/images/gradient.png");
     background-repeat: repeat-y;
-    background-size: 40px 100%;
-    background-position: 1px 0; }
+    background-size: 40px 100%; }
+    @media screen and (min-width: 770px) {
+      section.header {
+        height: 200px; } }
     section.header .title, section.header .description {
       overflow: hidden; }
     section.header .title {
       padding-top: 30px; }
+      @media screen and (max-width: 770px) {
+        section.header .title {
+          padding: 10px 0 40px 0;
+          margin-left: -10px; } }
       section.header .title h1, section.header .title h2, section.header .title h3, section.header .title h4, section.header .title .nav li a, .nav li section.header .title a {
         background-color: rgba(255, 255, 255, 0.5);
         display: inline-block;
@@ -11054,8 +11070,13 @@ section {
         padding-left: 25px;
         -webkit-transform: rotate(-10deg);
         transform: rotate(-10deg);
-        margin-top: 3px;
-        margin-left: -33px; }
+        margin-top: 3px; }
+        @media screen and (min-width: 770px) {
+          section.header .title h1, section.header .title h2, section.header .title h3, section.header .title h4, section.header .title .nav li a, .nav li section.header .title a {
+            margin-left: -33px; } }
+        @media screen and (max-width: 770px) {
+          section.header .title h1, section.header .title h2, section.header .title h3, section.header .title h4, section.header .title .nav li a, .nav li section.header .title a {
+            margin-left: -15px; } }
       section.header .title h1 {
         font-size: 50px;
         padding-right: 20px;
@@ -11086,10 +11107,12 @@ section {
       section.footer p:not(:last-of-type) {
         padding-right: 5px; }
 
-.title {
-  width: 192px; }
-  .title h1, .title h2, .title h3, .title h4, .title .nav li a, .nav li .title a {
-    margin-top: 0; }
+@media screen and (min-width: 770px) {
+  .title {
+    width: 192px; } }
+
+.title h1, .title h2, .title h3, .title h4, .title .nav li a, .nav li .title a {
+  margin-top: 0; }
 
 .description p:first-of-type {
   margin-top: 0; }
@@ -11097,29 +11120,35 @@ section {
 .description p:last-of-type {
   margin-bottom: 0; }
 
-.description h2:first-of-type {
-  margin-top: 0; }
-
-.description h2:not(:first-of-type) {
+.description h2 {
   border-top: solid 1px #333;
   padding-top: 20px; }
+  @media screen and (min-width: 770px) {
+    .description h2:first-of-type {
+      margin-top: 0;
+      border: none;
+      padding-top: 0; } }
 
 .actions {
-  margin-top: 15px;
   width: 100%;
-  zoom: 1; }
+  zoom: 1;
+  margin-top: 15px; }
   .actions:before, .actions:after {
     display: table;
     content: ""; }
   .actions:after {
     clear: both; }
-  .actions .btn {
-    width: 264px;
-    margin: 0; }
-    .actions .btn:first-of-type {
-      float: left; }
-    .actions .btn:last-of-type, .actions .btn:only-of-type {
-      float: right; }
+  @media screen and (max-width: 770px) {
+    .actions .btn {
+      display: block; } }
+  @media screen and (min-width: 770px) {
+    .actions .btn {
+      width: 264px;
+      margin: 0; }
+      .actions .btn:first-of-type {
+        float: left; }
+      .actions .btn:last-of-type, .actions .btn:only-of-type {
+        float: right; } }
 
 a:not(.btn) {
   color: black; }

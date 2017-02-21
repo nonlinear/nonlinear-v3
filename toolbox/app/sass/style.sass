@@ -150,6 +150,10 @@ body, html
 
 .container
     width: $container
+    +media($bp, max)
+        width: 100%
+        padding: 0
+
 
 
 
@@ -176,22 +180,30 @@ header
 
 
 section
-    display: table
+    +media($bp, max)
+        padding: 20px 10px
+    +media($bp, min)
+        display: table
+        .title, .description
+            display: table-cell
+            vertical-align: top
     width: 100%
     .title, .description
-        display: table-cell
-        vertical-align: top
-        padding: 20px
+        +media($bp, min)
+            padding: 20px
     &.header
-        height: 200px
+        +media($bp, min)
+            height: 200px
         background-image: url("/assets/images/gradient.png")
         background-repeat: repeat-y
         background-size: 40px 100%
-        background-position: 1px 0
         .title, .description
             overflow: hidden
         .title
             padding-top: 30px
+            +media($bp, max)
+                padding: 10px 0 40px 0
+                margin-left: -10px
             h1, h2, h3, h4
                 background-color: rgba(white, .5)
                 display: inline-block
@@ -202,7 +214,10 @@ section
                 padding-left: 25px
                 +rotate(-10)
                 margin-top: 3px
-                margin-left: -33px
+                +media($bp, min)
+                    margin-left: -33px
+                +media($bp, max)
+                    margin-left: -15px
             h1
                 font-size: 50px
                 padding-right: 20px
@@ -221,7 +236,8 @@ section
                 padding-right: 5px
 
 .title
-    width: $title
+    +media($bp, min)
+        width: $title
     h1, h2, h3, h4
         margin-top: 0
 .description
@@ -231,24 +247,31 @@ section
         &:last-of-type
             margin-bottom: 0
     h2
-        &:first-of-type
-            margin-top: 0
-        &:not(:first-of-type)
-            border-top: solid 1px #333
-            padding-top: 20px
+        border-top: solid 1px #333
+        padding-top: 20px
+        +media($bp, min)
+            &:first-of-type
+                margin-top: 0
+                border: none
+                padding-top: 0
+
 
 
 .actions
-    margin-top: 15px
     width: 100%
     +clearfix
-    .btn
-        width: (($description / 2) - 40)
-        margin: 0
-        &:first-of-type
-            float: left
-        &:last-of-type, &:only-of-type
-            float: right
+    margin-top: 15px
+    +media($bp, max)
+        .btn
+            display: block
+    +media($bp, min)
+        .btn
+            width: (($description / 2) - 40)
+            margin: 0
+            &:first-of-type
+                float: left
+            &:last-of-type, &:only-of-type
+                float: right
 
 a:not(.btn)
     color: black
