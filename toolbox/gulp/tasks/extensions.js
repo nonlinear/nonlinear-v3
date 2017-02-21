@@ -190,13 +190,13 @@ gulp.task('no-chosen', function(callback) {
 
 gulp.task('flexslidercss', function(){
   gulp.src(config.main.src + '/sass/required/required.sass')
-    .pipe(replace('// (`ㅅ`)づ framework imports\n', '// (`ㅅ`)づ framework imports\n\n@import optionals/flexslider'))
+    .pipe(replace('// (`ㅅ`)づ optional imports\n', '// (`ㅅ`)づ optional imports\n\n@import optional/flexslider'))
     .pipe(gulp.dest(config.main.src + '/sass/required'));
 });
 
 gulp.task('no-flexslidercss', function(){
   gulp.src(config.main.src + '/sass/required/required.sass')
-    .pipe(replace('\n@import optionals/flexslider', ''))
+    .pipe(replace('\n@import optional/flexslider', ''))
     .pipe(gulp.dest(config.main.src + '/sass/required'));
 });
 
