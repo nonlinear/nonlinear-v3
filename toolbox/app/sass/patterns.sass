@@ -1,12 +1,6 @@
-html.no-touch .slides
-  h3, .pattern
-    padding: 0 40px
 
-.pattern
-  +reset(list)
-  li
-    height: 70px
-    margin-bottom: 10px
+
+.slides
   .code
     position: absolute
     z-index: 1000
@@ -19,6 +13,13 @@ html.no-touch .slides
     +shadow(normal, 3px 3px 0 rgba(0, 0, 0, 0.1))
     margin-top: 10px !important
     margin-left: -10px
+
+.pattern
+  +reset(list)
+  li
+    height: 70px
+    margin-bottom: 10px
+
 
 .pattern.lines
   li:nth-of-type(1)

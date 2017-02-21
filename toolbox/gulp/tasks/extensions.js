@@ -37,13 +37,13 @@ gulp.task('no-patterns', function(){
 
 gulp.task('filters', function(){
   gulp.src(config.main.src + '/sass/required/required.sass')
-    .pipe(replace('// (`ㅅ`)づ optional imports\n', '// (`ㅅ`)づ optional imports\n\n@import required/filters'))
+    .pipe(replace('// (`ㅅ`)づ optional imports\n', '// (`ㅅ`)づ optional imports\n\n@import optional/filters'))
     .pipe(gulp.dest(config.main.src + '/sass/required'));
 });
 
 gulp.task('no-filters', function(){
   gulp.src(config.main.src + '/sass/required/required.sass')
-    .pipe(replace('\n@import required/filters', ''))
+    .pipe(replace('\n@import optional/filters', ''))
     .pipe(gulp.dest(config.main.src + '/sass/required'));
 });
 
