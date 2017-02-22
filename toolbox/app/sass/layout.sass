@@ -4,7 +4,7 @@ h1, h2, h3, h4
     text-transform: uppercase
 
 $container: 800px
-$percent: 0.24
+$percent: 0.27
 $title: ($container * $percent)
 $description: ($container - ($container * $percent))
 
@@ -12,10 +12,10 @@ $project-00-a: red
 $project-00-b: $project-00-a
 $project-00-c: $project-00-a
 $project-00-d: $project-00-a
-$project-01-a: orange
-$project-01-b: darken($project-01-a, 5%)
-$project-01-c: #C0546E
-$project-01-d: #F0F4D7
+$project-01-a: #B0D86D
+$project-01-b: #97B873
+$project-01-c: darken(#7ED321, 10%)
+$project-01-d: #50E3C2
 $project-02-a: red
 $project-02-b: $project-02-a
 $project-02-c: $project-02-a
@@ -142,8 +142,10 @@ section
                 +media($bp, max)
                     margin-left: -15px
             h1
-                font-size: 50px
+                font-size: 80px
+                margin-top: -2px
                 padding-right: 20px
+                line-heighT: 90%
                 +fadeIn($delay: 600ms)
     &.footer
         background-color: rgba(black, .5) !important

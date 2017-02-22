@@ -10517,16 +10517,16 @@ body.toolbox {
     background-color: rgba(255, 0, 0, 0.4); }
 
 body.canvas {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, orange), color-stop(1, #e69500));
-  background-image: -webkit-linear-gradient(left top, orange 0%, #e69500 100%);
-  background-image: -webkit-linear-gradient(right bottom, orange 0%, #e69500 100%);
-  background-image: linear-gradient(to left top, orange 0%, #e69500 100%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #B0D86D), color-stop(1, #97B873));
+  background-image: -webkit-linear-gradient(left top, #B0D86D 0%, #97B873 100%);
+  background-image: -webkit-linear-gradient(right bottom, #B0D86D 0%, #97B873 100%);
+  background-image: linear-gradient(to left top, #B0D86D 0%, #97B873 100%); }
   body.canvas header {
-    background-color: rgba(192, 84, 110, 0.7); }
+    background-color: rgba(100, 167, 26, 0.7); }
   body.canvas section:not(.header):nth-of-type(2n) {
-    background-color: rgba(192, 84, 110, 0.4); }
+    background-color: rgba(100, 167, 26, 0.4); }
   body.canvas section:not(.header):nth-of-type(2n-1) {
-    background-color: rgba(240, 244, 215, 0.4); }
+    background-color: rgba(80, 227, 194, 0.4); }
 
 body.cloud {
   background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, red), color-stop(1, red));
@@ -10669,8 +10669,10 @@ section {
           section.header .title h1, section.header .title h2, section.header .title h3, section.header .title h4, section.header .title .nav li a, .nav li section.header .title a {
             margin-left: -15px; } }
       section.header .title h1 {
-        font-size: 50px;
+        font-size: 80px;
+        margin-top: -2px;
         padding-right: 20px;
+        line-heighT: 90%;
         -webkit-animation-name: fadeIn;
         animation-name: fadeIn;
         -webkit-animation-iteration-count: 1;
@@ -10700,7 +10702,7 @@ section {
 
 @media screen and (min-width: 770px) {
   .title {
-    width: 192px; } }
+    width: 216px; } }
 
 .title h1, .title h2, .title h3, .title h4, .title .nav li a, .nav li .title a {
   margin-top: 0; }
@@ -10734,7 +10736,7 @@ section {
       display: block; } }
   @media screen and (min-width: 770px) {
     .actions .btn {
-      width: 264px;
+      width: 252px;
       margin: 0; }
       .actions .btn:first-of-type {
         float: left; }
