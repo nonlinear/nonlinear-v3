@@ -10700,7 +10700,9 @@ section {
     background-size: 40px 100%; }
     @media screen and (min-width: 770px) {
       section.header {
-        height: 200px; } }
+        height: 200px;
+        background-position: 1px 0;
+        margin-left: -1px; } }
     section.header .title, section.header .description {
       overflow: hidden; }
     section.header .title {
