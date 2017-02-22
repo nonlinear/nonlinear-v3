@@ -1,10 +1,13 @@
 {
   "projects": [
     {"name": "canvas",
-    "description": "a gulp framework for rapid prototyping"},
+    "description": "a gulp framework for rapid prototyping",
+"link": "nonlinear.nyc/canvas"},
     {"name": "tangle",
-    "description": "a js library to extend CSS triggers"},
-    {"name": "snippets",
-    "description": "snippets for rapid prototyping"}
+    "description": "a js library to extend CSS triggers",
+"link": "nonlinear.nyc/tangle"},
+    {"name": "blog",
+    "description": "articles, illustrations and tutorials",
+"link": "nonlinear.nyc"}
   ]
 }
