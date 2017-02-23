@@ -11260,9 +11260,11 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
 
 .social a {
   color: white;
-  font-size: 15px;
-  text-decoration: none !important;
-  padding-right: 5px; }
+  font-size: 18px;
+  text-decoration: none !important; }
+  .social a:not(:first-of-type):before {
+    content: "/";
+    padding: 0 2px; }
 
 .tooltip-arrow {
   display: none; }
