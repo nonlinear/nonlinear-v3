@@ -70,14 +70,11 @@ body, html
     background-attachment: fixed
     background-size: 200px 200px
 
-
 .container
     width: $container
     +media($bp, max)
         width: 100%
         padding: 0
-
-
 
 
 header
@@ -98,7 +95,6 @@ header
                 text-transform: uppercase
                 &:hover
                     color: rgba(black, .8) !important
-
 
 
 
@@ -286,3 +282,17 @@ html.no-touch .slides
     text-align: left
     +shadow(normal, 0 2px 0 rgba(0,0,0, 0.1))
     line-heighT: 110%
+
+section:not(.header)
+    background-repeat: no-repeat
+    background-position: -20px -20px
+    +media($bp, max)
+        background-position: right -20px
+    &.canvas-proto
+        background-image: url("../images/poster/canvas-proto.svg")
+    &.canvas-tools
+        background-image: url("../images/poster/canvas-tools.svg")
+    &.canvas-css
+        background-image: url("../images/poster/canvas-css.svg")
+    &.canvas-helpers
+        background-image: url("../images/poster/canvas-helpers.svg")

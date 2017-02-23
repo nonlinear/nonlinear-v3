@@ -11284,6 +11284,21 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
   line-heighT: 110%; }
 
+section:not(.header) {
+  background-repeat: no-repeat;
+  background-position: -20px -20px; }
+  @media screen and (max-width: 770px) {
+    section:not(.header) {
+      background-position: right -20px; } }
+  section:not(.header).canvas-proto {
+    background-image: url("../images/poster/canvas-proto.svg"); }
+  section:not(.header).canvas-tools {
+    background-image: url("../images/poster/canvas-tools.svg"); }
+  section:not(.header).canvas-css {
+    background-image: url("../images/poster/canvas-css.svg"); }
+  section:not(.header).canvas-helpers {
+    background-image: url("../images/poster/canvas-helpers.svg"); }
+
 .slides .code {
   position: absolute;
   z-index: 1000;
