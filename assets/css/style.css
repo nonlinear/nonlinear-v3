@@ -10575,27 +10575,15 @@ html[xmlns] .flexslider .slides {
 h1, h2, h3, h4, .nav li a {
   text-transform: uppercase; }
 
-body.toolbox {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, red), color-stop(1, red));
-  background-image: -webkit-linear-gradient(left top, red 0%, red 100%);
-  background-image: -webkit-linear-gradient(right bottom, red 0%, red 100%);
-  background-image: linear-gradient(to left top, red 0%, red 100%); }
-  body.toolbox header {
-    background-color: rgba(255, 0, 0, 0.7); }
-  body.toolbox section:not(.header):nth-of-type(2n) {
-    background-color: rgba(255, 0, 0, 0.4); }
-  body.toolbox section:not(.header):nth-of-type(2n-1) {
-    background-color: rgba(255, 0, 0, 0.4); }
-
 body.canvas {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #B0D86D), color-stop(1, #97B873));
-  background-image: -webkit-linear-gradient(left top, #B0D86D 0%, #97B873 100%);
-  background-image: -webkit-linear-gradient(right bottom, #B0D86D 0%, #97B873 100%);
-  background-image: linear-gradient(to left top, #B0D86D 0%, #97B873 100%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #6DB8D8), color-stop(1, #6076EF));
+  background-image: -webkit-linear-gradient(left top, #6DB8D8 0%, #6076EF 100%);
+  background-image: -webkit-linear-gradient(right bottom, #6DB8D8 0%, #6076EF 100%);
+  background-image: linear-gradient(to left top, #6DB8D8 0%, #6076EF 100%); }
   body.canvas header {
-    background-color: rgba(100, 167, 26, 0.7); }
+    background-color: rgba(184, 233, 134, 0.7); }
   body.canvas section:not(.header):nth-of-type(2n) {
-    background-color: rgba(100, 167, 26, 0.4); }
+    background-color: rgba(184, 233, 134, 0.4); }
   body.canvas section:not(.header):nth-of-type(2n-1) {
     background-color: rgba(80, 227, 194, 0.4); }
 
@@ -10612,28 +10600,16 @@ body.cloud {
     background-color: rgba(255, 0, 0, 0.4); }
 
 body.tangle {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #6DB8D8), color-stop(1, #6076EF));
-  background-image: -webkit-linear-gradient(left top, #6DB8D8 0%, #6076EF 100%);
-  background-image: -webkit-linear-gradient(right bottom, #6DB8D8 0%, #6076EF 100%);
-  background-image: linear-gradient(to left top, #6DB8D8 0%, #6076EF 100%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #ff8080), color-stop(1, #97B873));
+  background-image: -webkit-linear-gradient(left top, #ff8080 0%, #97B873 100%);
+  background-image: -webkit-linear-gradient(right bottom, #ff8080 0%, #97B873 100%);
+  background-image: linear-gradient(to left top, #ff8080 0%, #97B873 100%); }
   body.tangle header {
-    background-color: rgba(184, 233, 134, 0.7); }
+    background-color: rgba(100, 167, 26, 0.7); }
   body.tangle section:not(.header):nth-of-type(2n) {
-    background-color: rgba(184, 233, 134, 0.4); }
+    background-color: rgba(100, 167, 26, 0.4); }
   body.tangle section:not(.header):nth-of-type(2n-1) {
     background-color: rgba(80, 227, 194, 0.4); }
-
-body.snippets {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, green), color-stop(1, green));
-  background-image: -webkit-linear-gradient(left top, green 0%, green 100%);
-  background-image: -webkit-linear-gradient(right bottom, green 0%, green 100%);
-  background-image: linear-gradient(to left top, green 0%, green 100%); }
-  body.snippets header {
-    background-color: rgba(0, 128, 0, 0.7); }
-  body.snippets section:not(.header):nth-of-type(2n) {
-    background-color: rgba(0, 128, 0, 0.4); }
-  body.snippets section:not(.header):nth-of-type(2n-1) {
-    background-color: rgba(0, 128, 0, 0.4); }
 
 body, html {
   height: 100%;

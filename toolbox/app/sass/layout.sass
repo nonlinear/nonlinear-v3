@@ -8,30 +8,20 @@ $percent: 0.27
 $title: ($container * $percent)
 $description: ($container - ($container * $percent))
 
-$project-00-a: red
-$project-00-b: $project-00-a
-$project-00-c: $project-00-a
-$project-00-d: $project-00-a
-$project-01-a: #B0D86D
-$project-01-b: #97B873
-$project-01-c: darken(#7ED321, 10%)
-$project-01-d: #50E3C2
-$project-02-a: red
-$project-02-b: $project-02-a
-$project-02-c: $project-02-a
-$project-02-d: $project-02-a
-$project-03-a: #6DB8D8
-$project-03-b: #6076EF
-$project-03-c: #B8E986
-$project-03-d: #50E3C2
-$project-04-a: green
-$project-04-b: $project-04-a
-$project-04-c: $project-04-a
-$project-04-d: $project-04-a
-$project-05-a: orange
-$project-05-b: $project-05-a
-$project-05-c: $project-05-a
-$project-05-d: $project-05-a
+$canvas-color-a: #6DB8D8
+$canvas-color-b: #6076EF
+$canvas-color-c: #B8E986
+$canvas-color-d: #50E3C2
+
+$cloud-color-a: red
+$cloud-color-b: $cloud-color-a
+$cloud-color-c: $cloud-color-a
+$cloud-color-d: $cloud-color-a
+
+$tangle-color-a: lighten(red, 25%)
+$tangle-color-b: #97B873
+$tangle-color-c: darken(#7ED321, 10%)
+$tangle-color-d: #50E3C2
 
 =project($color-a: $project-00-a, $color-b: $project-00-b, $color-c: $project-00-c, $color-d: $project-00-d)
     background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, $color-a), color-stop(1, $color-b))
@@ -48,16 +38,12 @@ $project-05-d: $project-05-a
             &:nth-of-type(2n-1)
                 background-color: rgba($color-d, .4)
 
-body.toolbox
-    +project($project-00-a, $project-00-b, $project-00-c, $project-00-d)
 body.canvas
-    +project($project-01-a, $project-01-b, $project-01-c, $project-01-d)
+    +project($canvas-color-a, $canvas-color-b, $canvas-color-c, $canvas-color-d)
 body.cloud
-    +project($project-02-a, $project-02-b, $project-02-c, $project-02-d)
+    +project($cloud-color-a, $cloud-color-b, $cloud-color-c, $cloud-color-d)
 body.tangle
-    +project($project-03-a, $project-03-b, $project-03-c, $project-03-d)
-body.snippets
-    +project($project-04-a, $project-04-b, $project-04-c, $project-04-d)
+    +project($tangle-color-a, $tangle-color-b, $tangle-color-c, $tangle-color-d)
 
 body, html
     height: 100%
