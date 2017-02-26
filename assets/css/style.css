@@ -11251,7 +11251,7 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
       vertical-align: top;
       width: 33%;
       padding-left: 20px;
-      border-left: dashed 1px white; }
+      border-left: dashed 1px rgba(255, 255, 255, 0.4); }
       .team > *:not(:last-of-type) {
         padding-right: 20px; }
     .team .user {
@@ -11262,9 +11262,9 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
     displaY: block;
     vertical-align: top;
     padding-top: 20px;
-    border-top: dashed 1px white; }
+    border-top: dashed 1px rgba(255, 255, 255, 0.4); }
     .team > *:not(:last-of-type) {
-      padding-bottom: 20px; }
+      padding-bottom: 10px; }
   .team .social {
     float: right;
     margin-top: -40px; } }
