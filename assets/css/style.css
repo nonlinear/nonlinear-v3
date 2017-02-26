@@ -10738,16 +10738,9 @@ section {
         backface-visibility: hidden; }
   section.footer {
     background-color: rgba(0, 0, 0, 0.5) !important;
-    color: white;
-    font-size: 80%; }
+    color: white; }
     section.footer h1, section.footer h2, section.footer h3, section.footer h4, section.footer .nav li a, .nav li section.footer a {
       color: white; }
-    section.footer p {
-      display: table-cell; }
-      section.footer p:not(:first-of-type) {
-        padding-left: 5px; }
-      section.footer p:not(:last-of-type) {
-        padding-right: 5px; }
 
 @media screen and (min-width: 770px) {
   .title {
@@ -11234,13 +11227,52 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
   display: inline-block;
   vertical-align: top; }
 
-.social a {
-  color: white;
-  font-size: 18px;
-  text-decoration: none !important; }
-  .social a:not(:first-of-type):before {
-    content: "/";
-    padding: 0 2px; }
+.team {
+  display: table;
+  width: 100%; }
+  .team > * {
+    displaY: table-cell; }
+  .team .user {
+    zoom: 1; }
+    .team .user:before, .team .user:after {
+      display: table;
+      content: ""; }
+    .team .user:after {
+      clear: both; }
+    .team .user h1, .team .user h2, .team .user h3, .team .user h4, .team .user .nav li a, .nav li .team .user a {
+      margin: 0px !important;
+      padding: 0px !important;
+      border: none;
+      background: transparent; }
+      .team .user h1:focus, .team .user h2:focus, .team .user h3:focus, .team .user h4:focus, .team .user .nav li a:focus, .nav li .team .user a:focus {
+        outline-width: 0;
+        outline: none;
+        outline-color: transparent;
+        outline-style: none; }
+  .team .avatar {
+    border: solid 1px white;
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-clip: padding-box;
+    margin-right: 10px;
+    background-size: cover; }
+  .team .nicholas .avatar {
+    background-image: url("../images/team/nicholas.jpg"); }
+  .team .josh .avatar {
+    background-image: url("../images/team/josh.jpg"); }
+
+.social {
+  padding-top: 10px; }
+  .social a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none !important; }
+    .social a:not(:first-of-type):before {
+      content: "/";
+      padding: 0 1px; }
 
 .tooltip-arrow {
   display: none; }
