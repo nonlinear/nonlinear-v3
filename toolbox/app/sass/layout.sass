@@ -32,6 +32,13 @@ $tangle-color-d: #50E3C2
     background-image: linear-gradient(to left top, $color-a 0%, $color-b 100%)
     header
         background-color: rgba($color-c, .7)
+    .modal-content
+        background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, $color-a), color-stop(1, $color-b))
+        background-image: -o-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: -moz-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: -webkit-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: -ms-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: linear-gradient(to left top, $color-a 0%, $color-b 100%)
     section:not(.header)
             &:nth-of-type(2n)
                 background-color: rgba($color-c, .4)
@@ -245,14 +252,25 @@ html.no-touch .slides
     width: 100%
     & > *
         displaY: table-cell
+        vertical-align: top
+        width: 33%
+        padding-left: 20px
+        border-left: dashed 1px white
+        &:not(:last-of-type)
+            padding-right: 20px
+
     .user
-        +clearfix
+        display: table
+        height: 70px
+        width: 100%
+        .cell
+            display: table-cell
+            vertical-align: top
         h1, h2, h3, h4
             +reset(all)
     .avatar
         border: solid 1px white
         display: inline-block
-        float: left
         width: 50px
         height: 50px
         +radius(normal, 50%)
@@ -290,6 +308,14 @@ html.no-touch .slides
     +shadow(normal, 0 2px 0 rgba(0,0,0, 0.1))
     line-heighT: 110%
 
+.subscribe
+    p
+        font-size: 80%
+        line-height: 130%
+        padding-bottom: 10px
+    .btn
+        display: block
+
 // section:not(.header)
 //     background-repeat: no-repeat
 //     background-position: -20px -20px
@@ -303,3 +329,28 @@ html.no-touch .slides
 //         background-image: url("../images/poster/canvas-css.svg")
 //     &.canvas-helpers
 //         background-image: url("../images/poster/canvas-helpers.svg")
+
+.modal-dialog
+    width: 500px
+    top: 0 !important
+
+.modal-content
+    +radius(normal, 0)
+    padding: 20px
+    border: none
+    color: white
+    +shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.1))
+    h1, h2, h3, h4
+        margin-top: 0
+        padding-top: 0
+    input
+        +placeholder
+            font-family: $font-title
+            text-transform: uppercase
+            font-size: 20px
+    .response
+        // refer to nonlinear.nyc/codecode/patterns.html
+        +pattern(lines-up-a, 5px, white, white, .5, 0)
+        padding: 10px
+        color: black
+        margin-bottom: 10px

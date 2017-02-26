@@ -10582,6 +10582,11 @@ body.canvas {
   background-image: linear-gradient(to left top, #6DB8D8 0%, #6076EF 100%); }
   body.canvas header {
     background-color: rgba(184, 233, 134, 0.7); }
+  body.canvas .modal-content {
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #6DB8D8), color-stop(1, #6076EF));
+    background-image: -webkit-linear-gradient(left top, #6DB8D8 0%, #6076EF 100%);
+    background-image: -webkit-linear-gradient(right bottom, #6DB8D8 0%, #6076EF 100%);
+    background-image: linear-gradient(to left top, #6DB8D8 0%, #6076EF 100%); }
   body.canvas section:not(.header):nth-of-type(2n) {
     background-color: rgba(184, 233, 134, 0.4); }
   body.canvas section:not(.header):nth-of-type(2n-1) {
@@ -10594,6 +10599,11 @@ body.cloud {
   background-image: linear-gradient(to left top, red 0%, red 100%); }
   body.cloud header {
     background-color: rgba(255, 0, 0, 0.7); }
+  body.cloud .modal-content {
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, red), color-stop(1, red));
+    background-image: -webkit-linear-gradient(left top, red 0%, red 100%);
+    background-image: -webkit-linear-gradient(right bottom, red 0%, red 100%);
+    background-image: linear-gradient(to left top, red 0%, red 100%); }
   body.cloud section:not(.header):nth-of-type(2n) {
     background-color: rgba(255, 0, 0, 0.4); }
   body.cloud section:not(.header):nth-of-type(2n-1) {
@@ -10606,6 +10616,11 @@ body.tangle {
   background-image: linear-gradient(to left top, #ff8080 0%, #97B873 100%); }
   body.tangle header {
     background-color: rgba(100, 167, 26, 0.7); }
+  body.tangle .modal-content {
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #ff8080), color-stop(1, #97B873));
+    background-image: -webkit-linear-gradient(left top, #ff8080 0%, #97B873 100%);
+    background-image: -webkit-linear-gradient(right bottom, #ff8080 0%, #97B873 100%);
+    background-image: linear-gradient(to left top, #ff8080 0%, #97B873 100%); }
   body.tangle section:not(.header):nth-of-type(2n) {
     background-color: rgba(100, 167, 26, 0.4); }
   body.tangle section:not(.header):nth-of-type(2n-1) {
@@ -11231,14 +11246,20 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
   display: table;
   width: 100%; }
   .team > * {
-    displaY: table-cell; }
+    displaY: table-cell;
+    vertical-align: top;
+    width: 33%;
+    padding-left: 20px;
+    border-left: dashed 1px white; }
+    .team > *:not(:last-of-type) {
+      padding-right: 20px; }
   .team .user {
-    zoom: 1; }
-    .team .user:before, .team .user:after {
-      display: table;
-      content: ""; }
-    .team .user:after {
-      clear: both; }
+    display: table;
+    height: 70px;
+    width: 100%; }
+    .team .user .cell {
+      display: table-cell;
+      vertical-align: top; }
     .team .user h1, .team .user h2, .team .user h3, .team .user h4, .team .user .nav li a, .nav li .team .user a {
       margin: 0px !important;
       padding: 0px !important;
@@ -11252,7 +11273,6 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
   .team .avatar {
     border: solid 1px white;
     display: inline-block;
-    float: left;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -11291,6 +11311,58 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
   text-align: left;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
   line-heighT: 110%; }
+
+.subscribe p {
+  font-size: 80%;
+  line-height: 130%;
+  padding-bottom: 10px; }
+
+.subscribe .btn {
+  display: block; }
+
+.modal-dialog {
+  width: 500px;
+  top: 0 !important; }
+
+.modal-content {
+  border-radius: 0;
+  background-clip: padding-box;
+  padding: 20px;
+  border: none;
+  color: white;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1); }
+  .modal-content h1, .modal-content h2, .modal-content h3, .modal-content h4, .modal-content .nav li a, .nav li .modal-content a {
+    margin-top: 0;
+    padding-top: 0; }
+  .modal-content input.placeholder {
+    font-family: dense;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .modal-content input::-webkit-input-placeholder {
+    font-family: dense;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .modal-content input:-moz-placeholder {
+    font-family: dense;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .modal-content input::-moz-placeholder {
+    font-family: dense;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .modal-content input:-ms-input-placeholder {
+    font-family: dense;
+    text-transform: uppercase;
+    font-size: 20px; }
+  .modal-content .response {
+    position: relative;
+    z-index: 1;
+    background-size: 5px;
+    background-color: none;
+    background-image: url("data:image/svg+xml,%3C?xml%20version%3D%271.0%27%20encoding%3D%27utf-8%27?%3E%0A%3C!--%20Generator%3A%20Adobe%20Illustrator%2016.0.0%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200)%20%20--%3E%0A%3C!DOCTYPE%20svg%20PUBLIC%20%27-//W3C//DTD%20SVG%201.1//EN%27%20%27http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%27%3E%0A%3Csvg%20version%3D%271.1%27%20id%3D%27Layer_1%27%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20xmlns%3Axlink%3D%27http%3A//www.w3.org/1999/xlink%27%20x%3D%270px%27%20y%3D%270px%27%0A  %20width%3D%2712px%27%20height%3D%2712px%27%20viewBox%3D%270%200%2012%2012%27%20enable-background%3D%27new%200%200%2012%2012%27%20xml%3Aspace%3D%27preserve%27%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0.5)%27%20points%3D%2712%2C12%2012%2C11.293%2011.293%2C12%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0.5)%27%20points%3D%270.707%2C0%200%2C0%200%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0.5)%27%20points%3D%270.707%2C0%200%2C0%200%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0.5)%27%20points%3D%270.707%2C12%200%2C12%200%2C11.293%2011.293%2C0%2012%2C0%2012%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0)%27%20points%3D%270%2C11.293%2011.293%2C0%200.707%2C0%200%2C0.707%20%27/%3E%0A%3Cpolygon%20fill%3D%27rgba(255, 255, 255, 0)%27%20points%3D%270.707%2C12%2012%2C0.707%2012%2C11.293%2011.293%2C12%20%27/%3E%0A%3C/svg%3E");
+    padding: 10px;
+    color: black;
+    margin-bottom: 10px; }
 
 .slides .code {
   position: absolute;
