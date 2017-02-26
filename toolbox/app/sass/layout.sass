@@ -248,24 +248,40 @@ html.no-touch .slides
         vertical-align: top
 
 .team
-    display: table
-    width: 100%
-    & > *
-        displaY: table-cell
-        vertical-align: top
-        width: 33%
-        padding-left: 20px
-        border-left: dashed 1px white
-        &:not(:last-of-type)
-            padding-right: 20px
+    +media($bp, min)
+        display: table
+        width: 100%
+        & > *
+            displaY: table-cell
+            vertical-align: top
+            width: 33%
+            padding-left: 20px
+            border-left: dashed 1px white
+            &:not(:last-of-type)
+                padding-right: 20px
+        .user
+            height: 70px
+    +media($bp, max)
+        & > *
+            displaY: block
+            vertical-align: top
+            padding-top: 20px
+            border-top: dashed 1px white
+            &:not(:last-of-type)
+                padding-bottom: 20px
+        .social
+            float: right
+            margin-top: -40px
+
 
     .user
         display: table
-        height: 70px
         width: 100%
         .cell
             display: table-cell
             vertical-align: top
+            &:nth-of-type(1)
+                width: 60px
         h1, h2, h3, h4
             +reset(all)
     .avatar
@@ -274,7 +290,6 @@ html.no-touch .slides
         width: 50px
         height: 50px
         +radius(normal, 50%)
-        margin-right: 10px
         background-size: cover
     .nicholas .avatar
         background-image: url("../images/team/nicholas.jpg")
@@ -310,8 +325,9 @@ html.no-touch .slides
 
 .subscribe
     p
-        font-size: 80%
-        line-height: 130%
+        +media($bp, min)
+            font-size: 80%
+            line-height: 130%
         padding-bottom: 10px
     .btn
         display: block
@@ -332,25 +348,40 @@ html.no-touch .slides
 
 .modal-dialog
     width: 500px
-    top: 0 !important
+    margin: 0 auto
+    +media($bp, max)
+        width: 100%
+
+
 
 .modal-content
     +radius(normal, 0)
     padding: 20px
+    margin: 0 10px
+    +fadeInDown
     border: none
     color: white
     +shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.1))
     h1, h2, h3, h4
         margin-top: 0
         padding-top: 0
+        border: none
     input
+        &.name, &.email
+            font-family: $font-title
+            text-transform: uppercase
+            font-size: 20px
+            border: none
+            background-color: rgba(white, .7)
+            +shadow(normal, 0 2px 2px rgba(0, 0, 0, 0.20) inset)
         +placeholder
             font-family: $font-title
             text-transform: uppercase
             font-size: 20px
     .response
-        // refer to nonlinear.nyc/codecode/patterns.html
         +pattern(lines-up-a, 5px, white, white, .5, 0)
         padding: 10px
         color: black
         margin-bottom: 10px
+        a:hover
+            color: black

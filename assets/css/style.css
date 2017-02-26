@@ -11242,47 +11242,66 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
   display: inline-block;
   vertical-align: top; }
 
-.team {
+@media screen and (min-width: 770px) {
+  .team {
+    display: table;
+    width: 100%; }
+    .team > * {
+      displaY: table-cell;
+      vertical-align: top;
+      width: 33%;
+      padding-left: 20px;
+      border-left: dashed 1px white; }
+      .team > *:not(:last-of-type) {
+        padding-right: 20px; }
+    .team .user {
+      height: 70px; } }
+
+@media screen and (max-width: 770px) {
+  .team > * {
+    displaY: block;
+    vertical-align: top;
+    padding-top: 20px;
+    border-top: dashed 1px white; }
+    .team > *:not(:last-of-type) {
+      padding-bottom: 20px; }
+  .team .social {
+    float: right;
+    margin-top: -40px; } }
+
+.team .user {
   display: table;
   width: 100%; }
-  .team > * {
-    displaY: table-cell;
-    vertical-align: top;
-    width: 33%;
-    padding-left: 20px;
-    border-left: dashed 1px white; }
-    .team > *:not(:last-of-type) {
-      padding-right: 20px; }
-  .team .user {
-    display: table;
-    height: 70px;
-    width: 100%; }
-    .team .user .cell {
-      display: table-cell;
-      vertical-align: top; }
-    .team .user h1, .team .user h2, .team .user h3, .team .user h4, .team .user .nav li a, .nav li .team .user a {
-      margin: 0px !important;
-      padding: 0px !important;
-      border: none;
-      background: transparent; }
-      .team .user h1:focus, .team .user h2:focus, .team .user h3:focus, .team .user h4:focus, .team .user .nav li a:focus, .nav li .team .user a:focus {
-        outline-width: 0;
-        outline: none;
-        outline-color: transparent;
-        outline-style: none; }
-  .team .avatar {
-    border: solid 1px white;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-clip: padding-box;
-    margin-right: 10px;
-    background-size: cover; }
-  .team .nicholas .avatar {
-    background-image: url("../images/team/nicholas.jpg"); }
-  .team .josh .avatar {
-    background-image: url("../images/team/josh.jpg"); }
+  .team .user .cell {
+    display: table-cell;
+    vertical-align: top; }
+    .team .user .cell:nth-of-type(1) {
+      width: 60px; }
+  .team .user h1, .team .user h2, .team .user h3, .team .user h4, .team .user .nav li a, .nav li .team .user a {
+    margin: 0px !important;
+    padding: 0px !important;
+    border: none;
+    background: transparent; }
+    .team .user h1:focus, .team .user h2:focus, .team .user h3:focus, .team .user h4:focus, .team .user .nav li a:focus, .nav li .team .user a:focus {
+      outline-width: 0;
+      outline: none;
+      outline-color: transparent;
+      outline-style: none; }
+
+.team .avatar {
+  border: solid 1px white;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-clip: padding-box;
+  background-size: cover; }
+
+.team .nicholas .avatar {
+  background-image: url("../images/team/nicholas.jpg"); }
+
+.team .josh .avatar {
+  background-image: url("../images/team/josh.jpg"); }
 
 .social {
   padding-top: 10px; }
@@ -11313,27 +11332,55 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
   line-heighT: 110%; }
 
 .subscribe p {
-  font-size: 80%;
-  line-height: 130%;
   padding-bottom: 10px; }
+  @media screen and (min-width: 770px) {
+    .subscribe p {
+      font-size: 80%;
+      line-height: 130%; } }
 
 .subscribe .btn {
   display: block; }
 
 .modal-dialog {
   width: 500px;
-  top: 0 !important; }
+  margin: 0 auto; }
+  @media screen and (max-width: 770px) {
+    .modal-dialog {
+      width: 100%; } }
 
 .modal-content {
   border-radius: 0;
   background-clip: padding-box;
   padding: 20px;
+  margin: 0 10px;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   border: none;
   color: white;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1); }
   .modal-content h1, .modal-content h2, .modal-content h3, .modal-content h4, .modal-content .nav li a, .nav li .modal-content a {
     margin-top: 0;
-    padding-top: 0; }
+    padding-top: 0;
+    border: none; }
+  .modal-content input.name, .modal-content input.email {
+    font-family: dense;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2) inset; }
   .modal-content input.placeholder {
     font-family: dense;
     text-transform: uppercase;
@@ -11363,6 +11410,8 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
     padding: 10px;
     color: black;
     margin-bottom: 10px; }
+    .modal-content .response a:hover {
+      color: black; }
 
 .slides .code {
   position: absolute;
