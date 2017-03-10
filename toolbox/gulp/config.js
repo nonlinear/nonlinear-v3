@@ -54,6 +54,7 @@ var config = {
           './bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
           './app/js/flexslider.js',
           './bower_components/modernizr/modernizr.js',
+          './bower_components/tangle/tangle.js',
           './bower_components/detectizr/dist/detectizr.js',
           './bower_components/chosen/chosen.jquery.js',
           './app/js/*.js'],

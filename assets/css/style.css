@@ -11618,3 +11618,8 @@ html.no-touch .slides h3, html.no-touch .slides .pattern {
     z-index: 1;
     background-size: 130px;
     background-color: none; }
+
+.aaa-target {
+  border: dashed 1px red !important; }
+  .aaa-target.aaa-active {
+    border: dashed 1px blue !important; }
