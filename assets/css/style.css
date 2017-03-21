@@ -10627,21 +10627,21 @@ body.tangle {
     background-color: rgba(80, 227, 194, 0.4); }
 
 body.tile {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #b2953e), color-stop(1, #cc5d43));
-  background-image: -webkit-linear-gradient(left top, #b2953e 0%, #cc5d43 100%);
-  background-image: -webkit-linear-gradient(right bottom, #b2953e 0%, #cc5d43 100%);
-  background-image: linear-gradient(to left top, #b2953e 0%, #cc5d43 100%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #586A6A), color-stop(1, #93B7BE));
+  background-image: -webkit-linear-gradient(left top, #586A6A 0%, #93B7BE 100%);
+  background-image: -webkit-linear-gradient(right bottom, #586A6A 0%, #93B7BE 100%);
+  background-image: linear-gradient(to left top, #586A6A 0%, #93B7BE 100%); }
   body.tile header {
-    background-color: rgba(212, 191, 130, 0.7); }
+    background-color: rgba(212, 197, 199, 0.7); }
   body.tile .modal-content {
-    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #b2953e), color-stop(1, #cc5d43));
-    background-image: -webkit-linear-gradient(left top, #b2953e 0%, #cc5d43 100%);
-    background-image: -webkit-linear-gradient(right bottom, #b2953e 0%, #cc5d43 100%);
-    background-image: linear-gradient(to left top, #b2953e 0%, #cc5d43 100%); }
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #586A6A), color-stop(1, #93B7BE));
+    background-image: -webkit-linear-gradient(left top, #586A6A 0%, #93B7BE 100%);
+    background-image: -webkit-linear-gradient(right bottom, #586A6A 0%, #93B7BE 100%);
+    background-image: linear-gradient(to left top, #586A6A 0%, #93B7BE 100%); }
   body.tile section:not(.header):nth-of-type(2n) {
-    background-color: rgba(212, 191, 130, 0.4); }
+    background-color: rgba(212, 197, 199, 0.4); }
   body.tile section:not(.header):nth-of-type(2n-1) {
-    background-color: rgba(178, 149, 62, 0.4); }
+    background-color: rgba(141, 159, 135, 0.4); }
 
 body, html {
   height: 100%;
