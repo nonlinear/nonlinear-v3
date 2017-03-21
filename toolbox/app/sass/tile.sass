@@ -18,7 +18,8 @@
   li
     height: 70px
     margin-bottom: 10px
-
+    cursor: pointer
+    +transition
   &.lines
     li:nth-of-type(1)
       +tile(lines-a, 10px, white, black, 1, 0)
@@ -26,6 +27,13 @@
       +tile(lines-b, 10px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(lines-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-c, 30px, white, black, 1, 0)
 
   &.lines-up
     li:nth-of-type(1)
@@ -34,6 +42,13 @@
       +tile(lines-up-b, 10px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(lines-up-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-up-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-up-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-up-c, 30px, white, black, 1, 0)
 
   &.lines-down
     li:nth-of-type(1)
@@ -42,6 +57,13 @@
       +tile(lines-down-b, 10px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(lines-down-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-down-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-down-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-down-c, 30px, white, black, 1, 0)
 
   &.lines-vert
     li:nth-of-type(1)
@@ -50,6 +72,13 @@
       +tile(lines-vert-b, 10px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(lines-vert-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-vert-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-vert-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-vert-c, 30px, white, black, 1, 0)
 
   &.cross
     li:nth-of-type(1)
@@ -58,6 +87,13 @@
       +tile(cross-b, 20px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(cross-c, 20px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(cross-a, 60px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(cross-b, 60px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(cross-c, 60px, white, black, 1, 0)
 
   &.candy
     li:nth-of-type(1)
@@ -66,6 +102,13 @@
       +tile(candy-b, 60px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(candy-c, 60px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(candy-a, 120px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(candy-b, 120px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(candy-c, 120px, white, black, 1, 0)
 
   &.cross-thin
     li:nth-of-type(1)
@@ -74,6 +117,14 @@
       +tile(cross-thin-b, 20px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(cross-thin-c, 20px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(cross-thin-a, 40px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(cross-thin-b, 40px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(cross-thin-c, 40px, white, black, 1, 0)
+
   &.dots
     li:nth-of-type(1)
       +tile(dots-a, 20px, white, black, 1, 0)
@@ -81,6 +132,13 @@
       +tile(dots-b, 20px, white, black, 1, 0)
     li:nth-of-type(3)
       +tile(dots-c, 20px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(dots-a, 40px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(dots-b, 40px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(dots-c, 40px, white, black, 1, 0)
 
 .testpattern
   font-size: 100px
