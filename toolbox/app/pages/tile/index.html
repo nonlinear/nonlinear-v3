@@ -1,0 +1,215 @@
+{% extends "layout.html" %}
+{% block project %}tile{% endblock %}
+{% block content %}
+
+<section class="header">
+
+  <div class="gradient"></div>
+  <div class="title">
+    <h3>{{project.title}}/</h3>
+    <br>
+    <h1>tile</h1>
+  </div>
+  <div class="description">
+    <p>configurable SVG tiles.</p>
+    <div class="actions">
+      <a target="wiki" href="https://github.com/nonlinear/tile/wiki/requirements" class="btn">View Requirements</a>
+      <a target="wiki" href="https://github.com/nonlinear/tile/wiki/installation" class="btn">Installation and Usage</a>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="title">
+    <h1>lines</h1>
+  </div>
+  <div class="description">
+    <ul class="tile lines">
+      <li>
+        <p class="code">lines-a</p>
+      </li>
+      <li>
+        <p class="code">lines-b</p>
+      </li>
+      <li>
+        <p class="code">lines-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>lines-down</h1>
+  </div>
+  <div class="description">
+    <ul class="tile lines-down">
+      <li>
+        <p class="code">lines-down-a</p>
+      </li>
+      <li>
+        <p class="code">lines-down-b</p>
+      </li>
+      <li>
+        <p class="code">lines-down-c</p>
+      </ul>
+    </li>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>lines-up</h1>
+  </div>
+  <div class="description">
+    <ul class="tile lines-up">
+      <li>
+        <p class="code">lines-up-a</p>
+      </li>
+      <li>
+        <p class="code">lines-up-b</p>
+      </li>
+      <li>
+        <p class="code">lines-up-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>lines-vert</h1>
+  </div>
+  <div class="description">
+    <ul class="tile lines-vert">
+      <li>
+        <p class="code">lines-vert-a</p>
+      </li>
+      <li>
+        <p class="code">lines-vert-b</p>
+      </li>
+      <li>
+        <p class="code">lines-vert-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>cross</h1>
+  </div>
+  <div class="description">
+    <ul class="tile cross">
+      <li>
+        <p class="code">cross-a</p>
+      </li>
+      <li>
+        <p class="code">cross-b</p>
+      </li>
+      <li>
+        <p class="code">cross-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>cross-thin</h1>
+  </div>
+  <div class="description">
+    <ul class="tile cross-thin">
+      <li>
+        <p class="code">cross-thin-a</p>
+      </li>
+      <li>
+        <p class="code">cross-thin-b</p>
+      </li>
+      <li>
+        <p class="code">cross-thin-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>candy</h1>
+  </div>
+  <div class="description">
+    <ul class="tile candy">
+      <li>
+        <p class="code">candy-a</p>
+      </li>
+      <li>
+        <p class="code">candy-b</p>
+      </li>
+      <li>
+        <p class="code">candy-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>dots</h1>
+  </div>
+  <div class="description">
+    <ul class="tile dots">
+      <li>
+        <p class="code">dots-a</p>
+      </li>
+      <li>
+        <p class="code">dots-b</p>
+      </li>
+      <li>
+        <p class="code">dots-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- <section>
+  <div class="title">
+    <h1>noise</h1>
+  </div>
+  <div class="description">
+    <ul class="tile noise">
+      <li>
+        <p class="code">noise-a</p>
+      </li>
+      <li>
+        <p class="code">noise-b</p>
+      </li>
+      <li>
+        <p class="code">noise-c</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>grid</h1>
+  </div>
+  <div class="description">
+    <ul class="tile grid">
+      <li>
+        <p class="code">grid-a</p>
+      </li>
+      <li>
+        <p class="code">grid-b</p>
+      </li>
+      <li>
+        <p class="code">grid-c</p>
+      </li>
+    </ul>
+  </section> -->
+
+<section class="footer">
+  <div class="title">
+    <h2>Team</h2>
+  </div>
+  <div class="description">
+  <div class="team">
+    {% include "partials/nicholas.html" %}
+    {% include "partials/subscribe.html" %}
+  </div>
+  </div>
+</div>
+</section>
+{% endblock %}

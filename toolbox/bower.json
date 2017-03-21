@@ -11,6 +11,7 @@
     "chosen": "~1.5.1",
     "semantic-ui-sass": "*",
     "clipboard": "^1.5.12",
-    "tangle": "*"
+    "tangle": "*",
+    "tile": "*"
   }
 }

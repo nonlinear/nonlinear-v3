@@ -6,6 +6,9 @@
     {"name": "tangle",
     "description": "a js library to extend CSS triggers",
 "link": "nonlinear.nyc/tangle"},
+ {"name": "tile",
+    "description": "configurable SVG patterns",
+"link": "nonlinear.nyc/tile"},
     {"name": "blog",
     "description": "articles, illustrations and tutorials",
 "link": "nonlinear.nyc"}

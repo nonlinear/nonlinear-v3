@@ -1,80 +1,78 @@
 
 
-.slides
-  .code
-    position: absolute
-    z-index: 1000
-    font-family: $font-title
-    text-transform: uppercase
-    display: inline-block
-    float: left
-    padding: 0 10px
-    background-color: yellow
-    +shadow(normal, 3px 3px 0 rgba(0, 0, 0, 0.1))
-    margin-top: 10px !important
-    margin-left: -10px
+.code
+  position: absolute
+  z-index: 1000
+  font-family: $font-title
+  text-transform: uppercase
+  display: inline-block
+  float: left
+  padding: 0 10px
+  background-color: yellow
+  +shadow(normal, 3px 3px 0 rgba(0, 0, 0, 0.1))
+  margin-top: 10px !important
+  margin-left: -10px
 
-.pattern
+.pattern, .tile
   +reset(list)
   li
     height: 70px
     margin-bottom: 10px
 
+  &.lines
+    li:nth-of-type(1)
+      +pattern(lines-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +pattern(lines-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +pattern(lines-c, 10px, white, black, 1, 0)
 
-.pattern.lines
-  li:nth-of-type(1)
-    +pattern(lines-a, 10px, white, black, 1, 0)
-  li:nth-of-type(2)
-    +pattern(lines-b, 10px, white, black, 1, 0)
-  li:nth-of-type(3)
-    +pattern(lines-c, 10px, white, black, 1, 0)
+  &.lines-up
+    li:nth-of-type(1)
+      +pattern(lines-up-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +pattern(lines-up-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +pattern(lines-up-c, 10px, white, black, 1, 0)
 
-.pattern.lines-up
-  li:nth-of-type(1)
-    +pattern(lines-up-a, 10px, white, black, 1, 0)
-  li:nth-of-type(2)
-    +pattern(lines-up-b, 10px, white, black, 1, 0)
-  li:nth-of-type(3)
-    +pattern(lines-up-c, 10px, white, black, 1, 0)
+  &.lines-down
+    li:nth-of-type(1)
+      +pattern(lines-down-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +pattern(lines-down-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +pattern(lines-down-c, 10px, white, black, 1, 0)
 
-.pattern.lines-down
-  li:nth-of-type(1)
-    +pattern(lines-down-a, 10px, white, black, 1, 0)
-  li:nth-of-type(2)
-    +pattern(lines-down-b, 10px, white, black, 1, 0)
-  li:nth-of-type(3)
-    +pattern(lines-down-c, 10px, white, black, 1, 0)
+  &.lines-vert
+    li:nth-of-type(1)
+      +pattern(lines-vert-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +pattern(lines-vert-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +pattern(lines-vert-c, 10px, white, black, 1, 0)
 
-.pattern.lines-vert
-  li:nth-of-type(1)
-    +pattern(lines-vert-a, 10px, white, black, 1, 0)
-  li:nth-of-type(2)
-    +pattern(lines-vert-b, 10px, white, black, 1, 0)
-  li:nth-of-type(3)
-    +pattern(lines-vert-c, 10px, white, black, 1, 0)
+  &.cross
+    li:nth-of-type(1)
+      +pattern(cross-a, 20px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +pattern(cross-b, 20px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +pattern(cross-c, 20px, white, black, 1, 0)
 
-.pattern.cross
-  li:nth-of-type(1)
-    +pattern(cross-a, 20px, white, black, 1, 0)
-  li:nth-of-type(2)
-    +pattern(cross-b, 20px, white, black, 1, 0)
-  li:nth-of-type(3)
-    +pattern(cross-c, 20px, white, black, 1, 0)
-
-.pattern.cross-thin
-  li:nth-of-type(1)
-    +pattern(cross-thin-a, 20px, white, black, 1, 0)
-  li:nth-of-type(2)
-    +pattern(cross-thin-b, 20px, white, black, 1, 0)
-  li:nth-of-type(3)
-    +pattern(cross-thin-c, 20px, white, black, 1, 0)
-.pattern.dots
-  li:nth-of-type(1)
-    +pattern(dots-a, 20px, white, black, 1, 0)
-  li:nth-of-type(2)
-    +pattern(dots-b, 20px, white, black, 1, 0)
-  li:nth-of-type(3)
-    +pattern(dots-c, 20px, white, black, 1, 0)
+  &.cross-thin
+    li:nth-of-type(1)
+      +pattern(cross-thin-a, 20px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +pattern(cross-thin-b, 20px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +pattern(cross-thin-c, 20px, white, black, 1, 0)
+  &.dots
+    li:nth-of-type(1)
+      +pattern(dots-a, 20px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +pattern(dots-b, 20px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +pattern(dots-c, 20px, white, black, 1, 0)
 
 .testpattern
   font-size: 100px
