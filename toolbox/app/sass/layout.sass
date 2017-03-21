@@ -402,9 +402,14 @@ body.tile
         +reset(all)
     ul.tile
         +reset(all)
-        display: table
-        width: 100%
-        li
-            display: table-cell
-            height: 200px
+    +media($bp, min)
+        ul.tile
+            display: table
+            width: 100%
+            li
+                display: table-cell
+                height: 200px
+    +media($bp, max)
+        ul.tile li
+            height: 100px
 
