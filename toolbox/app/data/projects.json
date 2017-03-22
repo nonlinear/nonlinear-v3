@@ -1,11 +1,11 @@
 {
   "projects": [
-    {"name": "canvas",
-    "description": "a gulp framework for rapid prototyping",
+    {"name": "Dillon",
+    "description": "the digital illustration magazine",
+"link": "dillonmag.com"},
+ {"name": "canvas",
+    "description": "rapid prototyping with gulp",
 "link": "nonlinear.nyc/codecode"},
-    {"name": "tangle",
-    "description": "powercharge your CSS transitions",
-"link": "nonlinear.nyc/tangle"},
  {"name": "tile",
     "description": "configurable SVG patterns",
 "link": "nonlinear.nyc/tile"},
