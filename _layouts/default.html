@@ -28,11 +28,32 @@
   </div>
   {% else %}
   <div class="start home">
+
     <div class="container first">
-      <h1>{{ site.title }}</h1>
-      <!-- <h4>{{ site.description }}</h4> -->
-      <a href="/me/"><h2>about me</h2></a>
-      <a href="/portfolio/"><h2>portfolio</h2></a>
+      <div class="projects">
+        <a href="http://dillonmag.com">
+          <h3>Dillon</h3>
+          <div class="description">the digital illustration magazine</div>
+        </a>
+        <a href="/canvas">
+          <h3>Canvas</h3>
+          <div class="description">rapid prototyping with gulp</div>
+        </a>
+        <a href="/tile">
+          <h3>Tile</h3>
+          <div class="description">configurable SVG patterns</div>
+        </a>
+
+        <a href="/tangle">
+          <h3>Tangle</h3>
+          <div class="description">powercharge your CSS transitions</div>
+        </a>
+      </div>
+      <header>
+        <h1>{{ site.title }}</h1>
+        <a href="/me/"><h2>about me</h2></a>
+        <a href="/portfolio/"><h2>portfolio</h2></a>
+      </header>
     </div>
   </div>
   {% for post in paginator.posts %}
@@ -46,7 +67,7 @@
   {% endunless %}
   {% endfor %}
   {% endif %}
-{% include footer.html %}
+  {% include footer.html %}
 </body>
 
 </html>

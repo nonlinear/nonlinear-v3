@@ -10,8 +10,8 @@
   <meta name="description" content="Here we go">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="/assets/stylesheets/style.css" />
-  <link rel="canonical" href="http://nonlinear.nyc/page2/">
-  <link rel="alternate" type="application/rss+xml" title="nonlinear.nyc" href="http://nonlinear.nyc/feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/page2/">
+  <link rel="alternate" type="application/rss+xml" title="nonlinear.nyc" href="http://localhost:4000/feed.xml" />
 </head>
 
 
@@ -19,11 +19,32 @@
 
   
   <div class="start home">
+
     <div class="container first">
-      <h1>nonlinear.nyc</h1>
-      <!-- <h4>Here we go</h4> -->
-      <a href="/me/"><h2>about me</h2></a>
-      <a href="/portfolio/"><h2>portfolio</h2></a>
+      <div class="projects">
+        <a href="http://dillonmag.com">
+          <h3>Dillon</h3>
+          <div class="description">the magazine for digital illustration</div>
+        </a>
+        <a href="/canvas">
+          <h3>Canvas</h3>
+          <div class="description">rapid prototyping with gulp</div>
+        </a>
+        <a href="/tile">
+          <h3>Tile</h3>
+          <div class="description">configurable SVG patterns</div>
+        </a>
+
+        <a href="/tangle">
+          <h3>Tangle</h3>
+          <div class="description">powercharge your CSS transitions</div>
+        </a>
+      </div>
+      <header>
+        <h1>nonlinear.nyc</h1>
+        <a href="/me/"><h2>about me</h2></a>
+        <a href="/portfolio/"><h2>portfolio</h2></a>
+      </header>
     </div>
   </div>
   
@@ -64,7 +85,7 @@
   
   
   
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 <script src="https://raw.githubusercontent.com/barisaydinoglu/Detectizr/master/dist/detectizr.js"></script>
 <script>
   (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

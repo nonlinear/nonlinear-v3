@@ -24,11 +24,12 @@ hr
 
 .start
   height: 370px
-  padding-top: 200px
   +clearfix
   +fadeInLeft
   h2
     font-size: $h3-font-size
+  header
+    padding-top: 200px
   svg
     +size(square, 60px)
     background-color: white
@@ -162,4 +163,49 @@ a, a h2
   .content
     padding-left: 20px
 
+$delay: .5s
 
+.start .projects
+  float: right
+  a
+    vertical-align: top
+    padding: 10px
+    padding-top: 15px
+    text-align: center
+    margin-left: -3px !important
+    &:first-of-type
+      +bounceIn($delay: ($delay * 2) + $delay)
+    &:nth-of-type(2)
+      +bounceIn($delay: ($delay * 2) + ($delay * 2))
+    &:nth-of-type(3)
+      +bounceIn($delay: ($delay * 2) + ($delay * 3))
+    &:nth-of-type(4)
+      +bounceIn($delay: ($delay * 2) + ($delay * 4))
+    h3
+      font-size: 20px
+    h3, .description
+      & , &:before, &:after
+        +reset(all)
+        +shadow(normal, none)
+        background: none
+    display: inline-block
+    width: 55px
+    height: 55px
+    +transition
+    background-color: #FFF
+    +radius(normal, 50%)
+    .description
+      font-size: 13px
+      width: 80px
+      line-height: 110%
+      color: #BC929B
+      +transition
+      +opacity(0)
+    &:hover
+      width: 100px
+      height: 100px
+      padding-top: 10px
+      h3
+        font-size: 30px
+      .description
+        +opacity(100)

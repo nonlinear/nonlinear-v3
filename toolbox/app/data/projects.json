@@ -4,7 +4,7 @@
     "description": "a gulp framework for rapid prototyping",
 "link": "nonlinear.nyc/codecode"},
     {"name": "tangle",
-    "description": "a js library to extend CSS triggers",
+    "description": "powercharge your CSS transitions",
 "link": "nonlinear.nyc/tangle"},
  {"name": "tile",
     "description": "configurable SVG patterns",

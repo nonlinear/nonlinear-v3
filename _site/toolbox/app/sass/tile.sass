@@ -1,0 +1,154 @@
+
+
+.code
+  position: absolute
+  z-index: 1000
+  font-family: $font-title
+  text-transform: uppercase
+  display: inline-block
+  float: left
+  padding: 0 10px
+  background-color: yellow
+  +shadow(normal, 3px 3px 0 rgba(0, 0, 0, 0.1))
+  margin-top: 10px !important
+  margin-left: -10px
+
+.pattern, .tile
+  +reset(list)
+  li
+    height: 70px
+    margin-bottom: 10px
+    cursor: pointer
+    +transition
+  &.lines
+    li:nth-of-type(1)
+      +tile(lines-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(lines-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(lines-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-c, 30px, white, black, 1, 0)
+
+  &.lines-up
+    li:nth-of-type(1)
+      +tile(lines-up-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(lines-up-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(lines-up-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-up-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-up-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-up-c, 30px, white, black, 1, 0)
+
+  &.lines-down
+    li:nth-of-type(1)
+      +tile(lines-down-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(lines-down-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(lines-down-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-down-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-down-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-down-c, 30px, white, black, 1, 0)
+
+  &.lines-vert
+    li:nth-of-type(1)
+      +tile(lines-vert-a, 10px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(lines-vert-b, 10px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(lines-vert-c, 10px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(lines-vert-a, 30px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(lines-vert-b, 30px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(lines-vert-c, 30px, white, black, 1, 0)
+
+  &.cross
+    li:nth-of-type(1)
+      +tile(cross-a, 20px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(cross-b, 20px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(cross-c, 20px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(cross-a, 40px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(cross-b, 40px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(cross-c, 40px, white, black, 1, 0)
+
+  &.candy
+    li:nth-of-type(1)
+      +tile(candy-a, 60px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(candy-b, 60px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(candy-c, 60px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(candy-a, 120px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(candy-b, 120px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(candy-c, 120px, white, black, 1, 0)
+
+  &.cross-thin
+    li:nth-of-type(1)
+      +tile(cross-thin-a, 20px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(cross-thin-b, 20px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(cross-thin-c, 20px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(cross-thin-a, 40px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(cross-thin-b, 40px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(cross-thin-c, 40px, white, black, 1, 0)
+
+  &.dots
+    li:nth-of-type(1)
+      +tile(dots-a, 20px, white, black, 1, 0)
+    li:nth-of-type(2)
+      +tile(dots-b, 20px, white, black, 1, 0)
+    li:nth-of-type(3)
+      +tile(dots-c, 20px, white, black, 1, 0)
+    li:hover
+      &:nth-of-type(1)
+        +tile(dots-a, 40px, white, black, 1, 0)
+      &:nth-of-type(2)
+        +tile(dots-b, 40px, white, black, 1, 0)
+      &:nth-of-type(3)
+        +tile(dots-c, 40px, white, black, 1, 0)
+
+.testpattern
+  font-size: 100px
+  font-family: $font-title
+  text-transform: uppercase
+  margin-top: -40px
+  +tile(candy-a, 70px, red, pink)
+  background-position: center center
+  +transition
+  -webkit-text-fill-color: transparent
+  -webkit-background-clip: text
+  &:hover
+    +tile(candy-a, 130px, red, pink)

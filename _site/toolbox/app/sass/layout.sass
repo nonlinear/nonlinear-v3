@@ -1,0 +1,415 @@
++font-face(dense)
+
+h1, h2, h3, h4
+    text-transform: uppercase
+
+$container: 800px
+$percent: 0.27
+$title: ($container * $percent)
+$description: ($container - ($container * $percent))
+
+$canvas-color-a: #6DB8D8
+$canvas-color-b: #6076EF
+$canvas-color-c: #B8E986
+$canvas-color-d: #50E3C2
+
+$tile-color-a: #586A6A
+$tile-color-b: #93B7BE
+$tile-color-c: #D4C5C7
+$tile-color-d: #8D9F87
+
+$cloud-color-a: red
+$cloud-color-b: $cloud-color-a
+$cloud-color-c: $cloud-color-a
+$cloud-color-d: $cloud-color-a
+
+$tangle-color-a: lighten(red, 25%)
+$tangle-color-b: #97B873
+$tangle-color-c: darken(#7ED321, 10%)
+$tangle-color-d: #50E3C2
+
+=project($color-a: $project-00-a, $color-b: $project-00-b, $color-c: $project-00-c, $color-d: $project-00-d)
+    background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, $color-a), color-stop(1, $color-b))
+    background-image: -o-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: -moz-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: -webkit-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: -ms-linear-gradient(left top, $color-a 0%, $color-b 100%)
+    background-image: linear-gradient(to left top, $color-a 0%, $color-b 100%)
+    header
+        background-color: rgba($color-c, .7)
+    .modal-content
+        background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, $color-a), color-stop(1, $color-b))
+        background-image: -o-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: -moz-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: -webkit-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: -ms-linear-gradient(left top, $color-a 0%, $color-b 100%)
+        background-image: linear-gradient(to left top, $color-a 0%, $color-b 100%)
+    section:not(.header)
+            &:nth-of-type(2n)
+                background-color: rgba($color-c, .4)
+            &:nth-of-type(2n-1)
+                background-color: rgba($color-d, .4)
+
+body.canvas
+    +project($canvas-color-a, $canvas-color-b, $canvas-color-c, $canvas-color-d)
+body.cloud
+    +project($cloud-color-a, $cloud-color-b, $cloud-color-c, $cloud-color-d)
+body.tangle
+    +project($tangle-color-a, $tangle-color-b, $tangle-color-c, $tangle-color-d)
+body.tile
+    +project($tile-color-a, $tile-color-b, $tile-color-c, $tile-color-d)
+
+body, html
+    height: 100%
+    font-size: 16px
+    background-attachment: fixed
+
+.noise
+    background-image: url("../images/noise.png")
+    background-blend-mode: multiply
+    background-attachment: fixed
+    background-size: 200px 200px
+
+.container
+    width: $container
+    +media($bp, max)
+        width: 100%
+        padding: 0
+
+
+header
+    background-blend-mode: multiply
+    padding: 10px
+    ul
+        +reset(all)
+        +reset(list)
+        li
+            display: inline-block
+            &:not(:last-of-type):after
+                content: "/"
+                padding-left: 5px
+            a
+                font-family: $font-title
+                color: rgba(black, .5) !important
+                text-decoration: none !important
+                text-transform: uppercase
+                &:hover
+                    color: rgba(black, .8) !important
+
+
+
+section
+    +media($bp, max)
+        padding: 20px 10px
+    +media($bp, min)
+        display: table
+        .title, .description
+            display: table-cell
+            vertical-align: top
+    width: 100%
+    .title, .description
+        +media($bp, min)
+            padding: 20px
+    &.header
+        +media($bp, min)
+            height: 200px
+            background-position: 1px 0
+            margin-left: -1px
+        background-image: url("/assets/images/gradient.png")
+        background-repeat: repeat-y
+        background-size: 40px 100%
+        .title, .description
+            overflow: hidden
+        .title
+            padding-top: 30px
+            +media($bp, max)
+                padding: 10px 0 40px 0
+                margin-left: -10px
+            h1, h2, h3, h4
+                background-color: rgba(white, .5)
+                display: inline-block
+                line-height: 110%
+                padding-right: 15px
+                margin: 0
+                +fadeIn($delay: 300ms)
+                padding-left: 25px
+                +rotate(-10)
+                margin-top: 3px
+                +media($bp, min)
+                    margin-left: -33px
+                +media($bp, max)
+                    margin-left: -15px
+            h1
+                font-size: 80px
+                margin-top: -2px
+                padding-right: 20px
+                line-heighT: 90%
+                +fadeIn($delay: 600ms)
+    &.footer
+        background-color: rgba(black, .5) !important
+        color: white
+        h1, h2, h3, h4
+            color: white
+
+
+
+
+.title
+    +media($bp, min)
+        width: $title
+    h1, h2, h3, h4
+        margin-top: 0
+.description
+    p
+        &:first-of-type
+            margin-top: 0
+        &:last-of-type
+            margin-bottom: 0
+    h2
+        border-top: solid 1px #333
+        padding-top: 20px
+        +media($bp, min)
+            &:first-of-type
+                margin-top: 0
+                border: none
+                padding-top: 0
+
+
+
+.actions
+    width: 100%
+    +clearfix
+    margin-top: 15px
+    +media($bp, max)
+        .btn
+            display: block
+    +media($bp, min)
+        .btn
+            width: (($description / 2) - 40)
+            margin: 0
+            &:first-of-type
+                float: left
+            &:last-of-type, &:only-of-type
+                float: right
+
+a:not(.btn)
+    color: black
+
+.btn
+    border: none
+    +radius(normal, 0)
+    background-color: rgba(white, .4)
+    +transition
+    font-family: $font-title
+    text-transform: uppercase
+    font-size: 20px
+    &:hover
+        background-color: rgba(white, .6)
+
+html.no-touch .slides
+  h3, .pattern
+    padding: 0 40px
+
+.filters
+    .filter
+        margin: 0 40px
+
+.loaders
+    .code
+        margin-left: 50px !important
+    .loader
+        margin: 20px auto
+        width: 100%
+    .loader01
+        +loader01
+    .loader02
+        +loader02
+    .loader03
+        +loader03
+    .loader04
+        +loader04
+    .loader05
+        +loader05
+    .loader06
+        +loader06
+    .loader07
+        +loader07
+    .loader08
+        +loader08
+    .loader09
+        +loader09
+    .loader10
+        +loader10
+    .loader11
+        +loader11
+    .loader12
+        +loader12
+
+.toggle
+    .title
+        padding: 0
+        width: auto
+        margin-top: -3px
+    & + p, &
+        display: inline-block
+        vertical-align: top
+
+.team
+    +media($bp, min)
+        display: table
+        width: 100%
+        & > *
+            displaY: table-cell
+            vertical-align: top
+            width: 33%
+            padding-left: 10px
+            border-left: dashed 1px rgba(white, .4)
+            &:not(:last-of-type)
+                padding-right: 10px
+        .user
+            height: 70px
+    +media($bp, max)
+        & > *
+            displaY: block
+            vertical-align: top
+            padding-top: 20px
+            border-top: dashed 1px rgba(white, .4)
+            &:not(:last-of-type)
+                padding-bottom: 10px
+        .social
+            float: right
+            margin-top: -40px
+
+
+    .user
+        display: table
+        width: 100%
+        .cell
+            display: table-cell
+            vertical-align: top
+            &:nth-of-type(1)
+                width: 60px
+        h1, h2, h3, h4
+            +reset(all)
+    .avatar
+        border: solid 1px white
+        display: inline-block
+        width: 50px
+        height: 50px
+        +radius(normal, 50%)
+        background-size: cover
+    .nicholas .avatar
+        background-image: url("../images/team/nicholas.jpg")
+    .josh .avatar
+        background-image: url("../images/team/josh.jpg")
+
+
+.social
+    padding-top: 10px
+    a
+        color: white
+        font-size: 15px
+        text-decoration: none !important
+        &:not(:first-of-type):before
+            content: "/"
+            padding: 0 1px
+
+.tooltip-arrow
+    display: none
+.tooltip-inner
+    max-width: 120px
+    background-color: #FFF
+    color: black
+    +radius(normal, 0)
+    padding: 5px 10px
+    margin-left: 68px
+    font-family: $font-title
+    text-transform: uppercase
+    font-size: 18px
+    text-align: left
+    +shadow(normal, 0 2px 0 rgba(0,0,0, 0.1))
+    line-heighT: 110%
+
+.subscribe
+    p
+        +media($bp, min)
+            font-size: 80%
+            line-height: 130%
+        padding-bottom: 10px
+    .btn
+        display: block
+
+// section:not(.header)
+//     background-repeat: no-repeat
+//     background-position: -20px -20px
+//     +media($bp, max)
+//         background-position: right -20px
+//     &.canvas-proto
+//         background-image: url("../images/poster/canvas-proto.svg")
+//     &.canvas-tools
+//         background-image: url("../images/poster/canvas-tools.svg")
+//     &.canvas-css
+//         background-image: url("../images/poster/canvas-css.svg")
+//     &.canvas-helpers
+//         background-image: url("../images/poster/canvas-helpers.svg")
+
+.modal-dialog
+    width: 500px
+    margin: 0 auto
+    +media($bp, max)
+        width: 100%
+
+
+
+.modal-content
+    +radius(normal, 0)
+    padding: 20px
+    margin: 0 10px
+    +fadeInDown
+    border: none
+    color: white
+    +shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.1))
+    h1, h2, h3, h4
+        margin-top: 0
+        padding-top: 0
+        border: none
+    input
+        &.name, &.email
+            font-family: $font-title
+            text-transform: uppercase
+            font-size: 20px
+            border: none
+            background-color: rgba(white, .7)
+            +shadow(normal, 0 2px 2px rgba(0, 0, 0, 0.20) inset)
+        +placeholder
+            font-family: $font-title
+            text-transform: uppercase
+            font-size: 20px
+    .response
+        +tile(lines-up-a, 5px, white, white, .5, 0)
+        padding: 10px
+        color: black
+        margin-bottom: 10px
+        +fadeInDown
+        a:hover
+            color: black
+
+body.tile
+    section.header .title h1
+        margin-top: 4px
+    header ul li
+        height: auto
+        +reset(all)
+    ul.tile
+        +reset(all)
+    +media($bp, min)
+        ul.tile
+            display: table
+            width: 100%
+            li
+                display: table-cell
+                height: 200px
+    +media($bp, max)
+        ul.tile li
+            height: 100px
+

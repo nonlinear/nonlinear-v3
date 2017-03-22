@@ -3,11 +3,11 @@
   <channel>
     <title>nonlinear.nyc</title>
     <description>Here we go</description>
-    <link>http://nonlinear.nyc/</link>
-    <atom:link href="http://nonlinear.nyc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Dec 2016 00:17:04 -0500</pubDate>
-    <lastBuildDate>Wed, 21 Dec 2016 00:17:04 -0500</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 22 Mar 2017 10:47:45 -0400</pubDate>
+    <lastBuildDate>Wed, 22 Mar 2017 10:47:45 -0400</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Illustration Calendar</title>
@@ -16,8 +16,8 @@
 &lt;iframe src=&quot;https://www.google.com/calendar/embed?showTitle=0&amp;amp;showNav=0&amp;amp;showDate=0&amp;amp;showPrint=0&amp;amp;showCalendars=0&amp;amp;mode=AGENDA&amp;amp;wkst=1&amp;amp;bgcolor=%2300BAB0&amp;amp;src=nicholasfrota.com_5c88grol9ef740tdn5g50u24g0%40group.calendar.google.com&amp;amp;ctz=America%2FNew_York&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 24 Jun 2016 00:00:00 -0400</pubDate>
-        <link>http://nonlinear.nyc/illustration-calendar/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/illustration-calendar/</guid>
+        <link>http://localhost:4000/illustration-calendar/</link>
+        <guid isPermaLink="true">http://localhost:4000/illustration-calendar/</guid>
         
         
         <category>resources</category>
@@ -30,8 +30,8 @@
 &lt;iframe src=&quot;https://www.google.com/calendar/embed?showTitle=0&amp;amp;showNav=0&amp;amp;showDate=0&amp;amp;showPrint=0&amp;amp;showCalendars=0&amp;amp;mode=AGENDA&amp;amp;wkst=1&amp;amp;bgcolor=%2300BAB0&amp;amp;src=bovlt0j8kat236p859h4adt3ck%40group.calendar.google.com&amp;amp;ctz=America%2FNew_York&quot; width=&quot;100%&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 31 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://nonlinear.nyc/shit-to-do/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/shit-to-do/</guid>
+        <link>http://localhost:4000/shit-to-do/</link>
+        <guid isPermaLink="true">http://localhost:4000/shit-to-do/</guid>
         
         
         <category>resources</category>
@@ -230,8 +230,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 20 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://nonlinear.nyc/anime/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/anime/</guid>
+        <link>http://localhost:4000/anime/</link>
+        <guid isPermaLink="true">http://localhost:4000/anime/</guid>
         
         
         <category>resources</category>
@@ -3135,8 +3135,8 @@ d/wvT8ZVJ9EirEKLepYV2UCAI8Hq9QJp/jD5nLe3k+9fIMA/d5P/M7+ZLJer/WQ/X4MnN5/b+W6/
 
 </description>
         <pubDate>Fri, 17 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://nonlinear.nyc/svg-flow/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/svg-flow/</guid>
+        <link>http://localhost:4000/svg-flow/</link>
+        <guid isPermaLink="true">http://localhost:4000/svg-flow/</guid>
         
         
         <category>code</category>
@@ -3246,8 +3246,8 @@ d/wvT8ZVJ9EirEKLepYV2UCAI8Hq9QJp/jD5nLe3k+9fIMA/d5P/M7+ZLJer/WQ/X4MnN5/b+W6/
 
 </description>
         <pubDate>Thu, 16 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://nonlinear.nyc/serval-conversation/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/serval-conversation/</guid>
+        <link>http://localhost:4000/serval-conversation/</link>
+        <guid isPermaLink="true">http://localhost:4000/serval-conversation/</guid>
         
         
         <category>code</category>
@@ -3326,8 +3326,8 @@ content&lt;br&gt;
 
 </description>
         <pubDate>Tue, 30 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://nonlinear.nyc/snippets/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/snippets/</guid>
+        <link>http://localhost:4000/snippets/</link>
+        <guid isPermaLink="true">http://localhost:4000/snippets/</guid>
         
         
         <category>code</category>
@@ -3351,8 +3351,8 @@ content&lt;br&gt;
 
 </description>
         <pubDate>Wed, 24 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://nonlinear.nyc/quick/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/quick/</guid>
+        <link>http://localhost:4000/quick/</link>
+        <guid isPermaLink="true">http://localhost:4000/quick/</guid>
         
         
         <category>arts</category>
@@ -3390,8 +3390,8 @@ content&lt;br&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 23 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.nyc/podcasts/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/podcasts/</guid>
+        <link>http://localhost:4000/podcasts/</link>
+        <guid isPermaLink="true">http://localhost:4000/podcasts/</guid>
         
         
         <category>resources</category>
@@ -3414,8 +3414,8 @@ content&lt;br&gt;
 
 </description>
         <pubDate>Tue, 17 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.nyc/fumetti/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/fumetti/</guid>
+        <link>http://localhost:4000/fumetti/</link>
+        <guid isPermaLink="true">http://localhost:4000/fumetti/</guid>
         
         
         <category>arts</category>
@@ -3474,8 +3474,8 @@ content&lt;br&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 31 Jan 2015 00:00:00 -0500</pubDate>
-        <link>http://nonlinear.nyc/home/</link>
-        <guid isPermaLink="true">http://nonlinear.nyc/home/</guid>
+        <link>http://localhost:4000/home/</link>
+        <guid isPermaLink="true">http://localhost:4000/home/</guid>
         
         
         <category>resources</category>

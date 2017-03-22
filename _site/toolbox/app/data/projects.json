@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {"name": "canvas",
+    "description": "a gulp framework for rapid prototyping",
+"link": "nonlinear.nyc/codecode"},
+    {"name": "tangle",
+    "description": "powercharge your CSS transitions",
+"link": "nonlinear.nyc/tangle"},
+ {"name": "tile",
+    "description": "configurable SVG patterns",
+"link": "nonlinear.nyc/tile"},
+    {"name": "blog",
+    "description": "articles, illustrations and tutorials",
+"link": "nonlinear.nyc"}
+  ]
+}
