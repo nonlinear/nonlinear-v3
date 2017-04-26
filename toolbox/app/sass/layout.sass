@@ -413,3 +413,31 @@ body.tile
         ul.tile li
             height: 100px
 
+
+
+
+
+.red-target, .blue-target, .orange-target
+    padding: 10px
+    +transition
+    background-color: rgba(white, .3)
+    margin-bottom: 10px
+
+.red-target.red-active
+    background-color: rgba(red, .3)
+
+.blue-target.blue-active
+    background-color: rgba(blue, .3)
+
+.orange-target.orange-active
+    background-color: rgba(orange, .3)
+
+tt
+    background-color: #999
+    display: inline-block
+    padding: 2px 5px
+
+.text:before
+    content: "without"
+    .red-active &, .blue-active &, .orange-active &
+        content: "with"
