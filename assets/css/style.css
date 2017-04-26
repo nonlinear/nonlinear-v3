@@ -11488,6 +11488,8 @@ body.tile ul.tile {
   transition: all 300ms ease-out !important;
   background-color: rgba(255, 255, 255, 0.3);
   margin-bottom: 10px; }
+  .red-target.red-active, .red-target.blue-active, .red-target.orange-active, .blue-target.red-active, .blue-target.blue-active, .blue-target.orange-active, .orange-target.red-active, .orange-target.blue-active, .orange-target.orange-active {
+    padding: 20px 10px; }
 
 .red-target.red-active {
   background-color: rgba(255, 0, 0, 0.3); }
@@ -11498,13 +11500,17 @@ body.tile ul.tile {
 .orange-target.orange-active {
   background-color: rgba(255, 165, 0, 0.3); }
 
+.trigger {
+  padding-bottom: 20px; }
+
 tt {
   background-color: #999;
   display: inline-block;
   padding: 2px 5px; }
 
 .text:before {
-  content: "without"; }
+  content: "without";
+  font-weight: bold; }
   .red-active .text:before, .blue-active .text:before, .orange-active .text:before {
     content: "with"; }
 
