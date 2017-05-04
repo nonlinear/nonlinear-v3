@@ -11,6 +11,7 @@
   </div>
   <div class="description">
   <p>Pursuance is an open-source, zero-knowledge collaboration platform.</p>
+  <p>In this page I am organizing the UI design collaboration to this project.</p>
  <div class="actions">
       <a target="wiki" href="https://beta.cryptpad.fr/pad/#/1/edit/t+oDVDzxqnfUTarzhRbsTQ/hKDaq7dgWubrCpOJuMAtPs9i" class="btn">View Documentation</a>
     </div>
@@ -33,56 +34,56 @@
   </ul>
   </div>
   <div class="row">
-    <div class="col-xs-6">
+    <div class="col-md-6">
     <h2>Fields</h2>
-<ul class="list">
-  <li>
+<ol class="list">
+  <li><h3>
   Title
-<span class="notes">input, required</span>
+</h3><span class="notes">input, required</span>
 </li>
-<li>Description
-<span class="notes">textarea, possibly markdown, checklist completion as progress metrics</span>
+<li><h3>Description
+</h3><span class="notes">textarea, possibly markdown, checklist completion as progress metrics</span>
 </li>
-  <li>Manager
-<span class="notes">user list, defaults to host. defines who assigns and reviews Task</span>
+  <li><h3>Manager
+</h3><span class="notes">user list, defaults to host. defines who assigns and reviews Task</span>
 </li>
-  <li>Volunteer
-<span class="notes">user list, default blank. defines who accomplishes it</span>
+  <li><h3>Volunteer
+</h3><span class="notes">user list, default blank. defines who accomplishes it</span>
 </li>
-  <li>Deliverable?
-<span class="notes">default is NO (Deliverables are outside the System, and just Manager Approval is enough), if yes, File Upload is unlocked (define specs: picture, pdf, word document, text document)</span>
+  <li><h3>Deliverable?
+</h3><span class="notes">default is NO (Deliverables are outside the System, and just Manager Approval is enough), if yes, File Upload is unlocked (define specs: picture, pdf, word document, text document)</span>
 </li>
-  <li>Sequential?
-<span class="notes">default is NO. if YES, opens up new form asking Parent Task (Task can only start after Parent Task is Approved) or Child Task (Task approval unlocks Child Task)</span>
+  <li><h3>Sequential?
+</h3><span class="notes">default is NO. if YES, opens up new form asking Parent Task (Task can only start after Parent Task is Approved) or Child Task (Task approval unlocks Child Task)</span>
 </li>
-  <li>Forum
-<span class="notes">like Main Forum, and open to all Volunteers. think channel</span>
+  <li><h3>Forum
+</h3><span class="notes">like Main Forum, and open to all Volunteers. think channel</span>
 </li>
-</ul>
+</ol>
 
     </div>
-    <div class="col-xs-6">
+    <div class="col-md-6">
     <h2>Phases</h2>
 <ol class="list">
-  <li>
+  <li><h3>
   Unassigned
-<span class="notes">Task is not paired with a Volunteer</span>
+</h3><span class="notes">Task is not paired with a Volunteer</span>
 </li>
-<li>
+<li><h3>
 In Progress
-<span class="notes">Task is paired with a Volunteer. depending on project pacing, it nags Volunteer to finish it, via Notification</span>
+</h3><span class="notes">Task is paired with a Volunteer. depending on project pacing, it nags Volunteer to finish it, via Notification</span>
 </li>
-<li>
+<li><h3>
 On Hold
-<span class="notes">Task is paired with a Volunteer, but has a Parent Task that is not Approved</span>
+</h3><span class="notes">Task is paired with a Volunteer, but has a Parent Task that is not Approved</span>
 </li>
-<li>
+<li><h3>
 Done
-<span class="notes">Volunteer follows requirements, deem Task completed, and hits Done manually. Manager receives a Notification to review it. If Manager disagrees it's done, Task returns to In Progress, with a note (in forum). If Manager agrees it's Done, it's Approved</span>
+</h3><span class="notes">Volunteer follows requirements, deem Task completed, and hits Done manually. Manager receives a Notification to review it. If Manager disagrees it's done, Task returns to In Progress, with a note (in forum). If Manager agrees it's Done, it's Approved</span>
 </li>
-<li>
+<li><h3>
 Approved
-<span class="notes">Task is approved, System congratulates Volunteer and Manager on Main Forum (plus Notification). If Task has Children, Child Tasks move automatically from On Hold to In Progress, and both Volunteers and Managers are notified.</span>
+</h3><span class="notes">Task is approved, System congratulates Volunteer and Manager on Main Forum (plus Notification). If Task has Children, Child Tasks move automatically from On Hold to In Progress, and both Volunteers and Managers are notified.</span>
 </li>
 </ol>
 
