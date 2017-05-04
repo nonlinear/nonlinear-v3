@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+{% block project %}pursuance{% endblock %}
+{% block content %}
+<section class="header">
+
+  <div class="gradient"></div>
+  <div class="title">
+  <h3>{{project.title}}/</h3>
+  <br>
+    <h1>pursuance</h1>
+  </div>
+  <div class="description">
+
+  </div>
+</section>
+<section>
+  <div class="title">
+    <h1>Task</h1>
+  </div>
+  <div class="description">
+<div class="flexslider">
+  <ul class="slides">
+    <li>aaa</li>
+    <li>aaa</li>
+    <li>aaa</li>
+  </ul>
+  </div>
+
+
+
+  </div>
+</section>
+
+<section class="footer">
+  <div class="title">
+    <h2>Team</h2>
+  </div>
+  <div class="description">
+  <div class="team">
+    {% include "partials/nicholas.html" %}
+  </div>
+  </div>
+</div>
+</section>
+{% endblock %}

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #D9F4BE;">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>task/03</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="642" rx="3"></rect>
+        <filter x="-0.7%" y="-0.4%" width="102.7%" height="101.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="315" height="400"></rect>
+        <rect id="path-6" x="0" y="0" width="285" height="345" rx="5"></rect>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="15" y="60" width="255" height="270" rx="3"></rect>
+        <rect id="path-9" x="0" y="0" width="285" height="345" rx="5"></rect>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="15" y="60" width="255" height="270" rx="3"></rect>
+        <rect id="path-12" x="0" y="0" width="285" height="345" rx="5"></rect>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-14" x="15" y="60" width="255" height="270" rx="3"></rect>
+        <rect id="path-15" x="0" y="0" width="285" height="345" rx="5"></rect>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-17" x="15" y="60" width="255" height="270" rx="3"></rect>
+        <rect id="path-18" x="0" y="0" width="285" height="345" rx="5"></rect>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-19">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-20" x="15" y="60" width="255" height="270" rx="3"></rect>
+        <rect id="path-21" x="0" y="0" width="285" height="345" rx="5"></rect>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-23" x="15" y="60" width="255" height="270" rx="3"></rect>
+        <rect id="path-24" x="0" y="0" width="285" height="345" rx="5"></rect>
+        <filter x="-3.0%" y="-3.0%" width="106.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-25">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-26" x="15" y="60" width="255" height="270" rx="3"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="task/03">
+            <g id="object/title" transform="translate(60.000000, 35.000000)">
+                <rect id="Rectangle-5" fill="#000000" fill-rule="evenodd" x="15" y="0" width="285" height="1"></rect>
+                <text id="To-Assign" font-family="Helvetica" font-size="30" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="41">To Assign</tspan>
+                </text>
+                <text id="Libero-distinctio-id" font-family="Helvetica" font-size="13" font-weight="normal" line-spacing="15"></text>
+            </g>
+            <g id="object/title" transform="translate(60.000000, 607.000000)">
+                <rect id="Rectangle-5" fill="#000000" fill-rule="evenodd" x="15" y="0" width="285" height="1"></rect>
+                <text id="To-Assign" font-family="Helvetica" font-size="30" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="41">Tasks</tspan>
+                </text>
+                <text id="Libero-distinctio-id" font-family="Helvetica" font-size="13" font-weight="normal" line-spacing="15" fill="#666666">
+                    <tspan x="175" y="21">Libero distinctio id </tspan>
+                    <tspan x="175" y="36">voluptatem cupiditate </tspan>
+                    <tspan x="175" y="51">optio inventore </tspan>
+                </text>
+            </g>
+            <g id="object/title" transform="translate(60.000000, 547.000000)">
+                <rect id="Rectangle-5" fill="#000000" fill-rule="evenodd" x="15" y="0" width="285" height="1"></rect>
+                <text id="To-Assign" font-family="Helvetica" font-size="30" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="41">My Tasks</tspan>
+                </text>
+                <text id="Libero-distinctio-id" font-family="Helvetica" font-size="13" font-weight="normal" line-spacing="15"></text>
+            </g>
+            <g id="object/title" transform="translate(60.000000, 487.000000)">
+                <rect id="Rectangle-5" fill="#000000" fill-rule="evenodd" x="15" y="0" width="285" height="1"></rect>
+                <text id="To-Assign" font-family="Helvetica" font-size="30" font-weight="normal" fill="#000000">
+                    <tspan x="15" y="41">To Review</tspan>
+                </text>
+                <text id="Libero-distinctio-id" font-family="Helvetica" font-size="13" font-weight="normal" line-spacing="15"></text>
+            </g>
+            <path d="M25.90568,648.978632 C25.9294201,649.002374 25.9531603,649.026116 25.9769005,649.049858 C26.0006452,649.073599 26.0125153,649.08547 26.0125153,649.08547 C26.0600002,649.08547 26.1074805,649.097341 26.1549654,649.121083 C26.2024503,649.144824 26.2261905,649.156695 26.2261905,649.156695 C26.3686407,649.204179 26.4636059,649.251662 26.5110908,649.299145 L26.7959911,649.299145 C26.9384412,649.346629 27.0571512,649.346629 27.1521164,649.299145 L27.2945666,649.299145 C27.4845016,649.251662 27.6506919,649.180437 27.7931421,649.08547 C27.7931421,649.08547 27.8168823,649.061729 27.8643672,649.014245 C28.0068173,648.919278 28.0899125,648.859924 28.1136526,648.836182 C28.1373974,648.81244 28.1611375,648.776828 28.1848823,648.729345 C28.2086224,648.681861 28.2204925,648.65812 28.2204925,648.65812 L41.8244811,626.863248 C42.0619011,626.483378 42.1331216,626.079772 42.0381563,625.652422 C41.9431911,625.225071 41.7176458,624.892691 41.3615159,624.655271 C41.0053905,624.417851 40.6136549,624.34663 40.1863045,624.441595 C39.7589541,624.536561 39.4265734,624.750236 39.1891535,625.082621 L26.5823159,645.239316 L19.673484,638.472934 C19.3410988,638.188034 18.9612355,638.045584 18.5338828,638.045584 C18.1065301,638.045584 17.7385379,638.211774 17.4298942,638.54416 C17.1212507,638.876545 16.978802,639.26828 17.0025438,639.719371 C17.0262856,640.170466 17.2043465,640.538462 17.5367318,640.823362 L25.8700652,648.94302 C25.8700652,648.94302 25.8819352,648.954891 25.90568,648.978632 Z" id="Page-1" fill="#000000"></path>
+            <text id="12" font-family="Helvetica" font-size="15" font-weight="normal" fill="#000000">
+                <tspan x="199" y="574">12</tspan>
+            </text>
+            <text id="12" font-family="Helvetica" font-size="15" font-weight="normal" fill="#000000">
+                <tspan x="213" y="514">12</tspan>
+            </text>
+            <text id="12" font-family="Helvetica" font-size="15" font-weight="normal" fill="#000000">
+                <tspan x="202" y="62">12</tspan>
+            </text>
+            <g id="Group-7" transform="translate(-315.000000, -36.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(15.000000, 80.000000)">
+                        <g id="Group-4" font-size="15" font-family="Helvetica" font-weight="normal">
+                            <g id="Group-5" transform="translate(100.000000, 0.000000)" fill="#000000">
+                                <text id="Soluta,-libero-disti">
+                                    <tspan x="0" y="15">Soluta, libero distinctio id </tspan>
+                                    <tspan x="0" y="33">voluptatem cupiditate optio </tspan>
+                                    <tspan x="0" y="51">inventore excepturi sed maxime et </tspan>
+                                    <tspan x="0" y="69">doloribus eos enim nisi hic a, </tspan>
+                                    <tspan x="0" y="87">explicabo unde qui est.</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-4" transform="translate(0.000000, 134.000000)" font-size="15" font-family="Helvetica" font-weight="normal">
+                            <g id="Group-5" transform="translate(100.000000, 0.000000)" fill="#000000">
+                                <text id="optio-inventore-exce">
+                                    <tspan x="0" y="15">optio inventore excepturi sed </tspan>
+                                    <tspan x="0" y="33">maxime et doloribus eos enim nisi </tspan>
+                                    <tspan x="0" y="51">hic a, explicabo unde qui est.</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-4" transform="translate(0.000000, 232.000000)" font-size="15" font-family="Helvetica" font-weight="normal">
+                            <g id="Group-5" transform="translate(100.000000, 0.000000)" fill="#000000">
+                                <text id="Soluta,-libero-disti">
+                                    <tspan x="0" y="15">Soluta, libero distinctio id </tspan>
+                                    <tspan x="0" y="33">voluptatem cupiditate optio </tspan>
+                                    <tspan x="0" y="51">inventore excepturi sed maxime et </tspan>
+                                    <tspan x="0" y="69">doloribus eos enim nisi hic a, </tspan>
+                                    <tspan x="0" y="87">explicabo unde qui est.</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="Group-4" transform="translate(5.000000, 366.000000)">
+                            <g id="Group-9" transform="translate(297.000000, 39.000000) scale(-1, 1) translate(-297.000000, -39.000000) translate(254.000000, 0.000000)" fill="#CCCCCC">
+                                <rect id="Rectangle-4" x="0" y="0" width="60" height="60" rx="30"></rect>
+                            </g>
+                        </g>
+                        <g id="Group-8" transform="translate(0.000000, 464.000000)" font-size="15" font-family="Helvetica" font-weight="normal">
+                            <g id="Group-6" fill="#000000">
+                                <g id="Group-4">
+                                    <g id="Group-5" transform="translate(100.000000, 0.000000)">
+                                        <text id="Soluta,-libero-disti">
+                                            <tspan x="0" y="15">Soluta, libero distinctio id </tspan>
+                                            <tspan x="0" y="33">voluptatem cupiditate optio </tspan>
+                                            <tspan x="0" y="51">inventore excepturi sed maxime et </tspan>
+                                            <tspan x="0" y="69">doloribus eos enim nisi hic a, </tspan>
+                                            <tspan x="0" y="87">explicabo unde qui est.</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M14.5,628 L359.513043,628" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square" stroke-dasharray="6,5" mask="url(#mask-2)"></path>
+                <rect id="Rectangle-6" fill="#FFFFFF" mask="url(#mask-2)" x="1" y="628" width="374" height="15"></rect>
+                <g id="object/project" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 38.000000)">
+                        <rect id="Rectangle-7" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="375" height="60"></rect>
+                        <text id="Project-Title" stroke="none" fill="none" font-family="Helvetica" font-size="30" font-weight="normal">
+                            <tspan x="50" y="41" fill="#000000">Project Title</tspan>
+                        </text>
+                        <path d="M28.0817244,41.2690124 C28.2898225,41.4581923 28.3938716,41.6946636 28.3938716,41.9784335 C28.3938716,42.2622034 28.2898225,42.4986747 28.0817244,42.6878547 C27.8925467,42.8770346 27.6608027,42.9763526 27.3864926,42.9858116 C27.1121825,42.9952706 26.8804422,42.8959526 26.6912608,42.6878547 L15.3121453,31.1952318 C15.1040474,31.0060504 15,30.7743101 15,30.5 C15,30.2256899 15.1040474,29.9844876 15.3121453,29.7763895 L26.6912608,18.2837648 C26.8804422,18.0945871 27.1121825,18 27.3864926,18 C27.6608027,18 27.8925467,18.0945871 28.0817244,18.2837648 C28.2898225,18.4918629 28.3938716,18.7330652 28.3938716,19.0073753 C28.3938716,19.2816855 28.2898225,19.5134294 28.0817244,19.7026108 L17.7241773,30.4858125 L28.0817244,41.2690124 Z" id="Page-1" stroke="none" fill="#000000" fill-rule="evenodd" opacity="0.222259964"></path>
+                        <path d="M10.5,59 L355.513043,59" id="Line" stroke="#9B9B9B" stroke-width="2" fill="none" stroke-linecap="square" stroke-dasharray="6,5"></path>
+                        <text id="13-item-14-itemized" stroke="none" fill="none" font-family="Helvetica" font-size="12" font-weight="normal" line-spacing="15">
+                            <tspan x="260" y="26" fill="#9B9B9B">13 item</tspan>
+                            <tspan x="260" y="41" fill="#9B9B9B">14 itemized</tspan>
+                        </text>
+                        <rect id="Rectangle-7" stroke="none" fill-opacity="0.05" fill="#000000" fill-rule="evenodd" x="0" y="0" width="136" height="60"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="object/task-+-object/task-+-object/task-+-object/task-+-object/task-+-object/task-Mask" transform="translate(61.000000, 87.000000)">
+                <mask id="mask-5" fill="white">
+                    <use xlink:href="#path-4"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="object/task" mask="url(#mask-5)">
+                    <g transform="translate(14.000000, 8.000000)">
+                        <g id="Rectangle-6" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        </g>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="20" font-weight="normal">
+                            <tspan x="15" y="37" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="none" x="0" y="0" width="285" height="60"></rect>
+                        <text id="#20" fill="none" font-family="Helvetica" font-size="17" font-weight="normal">
+                            <tspan x="241.63623" y="36" fill="#9B9B9B">#20</tspan>
+                        </text>
+                        <g id="Rectangle-2" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="#CCCCCC" stroke-width="1" x="15.5" y="60.5" width="254" height="269" rx="3"></rect>
+                        </g>
+                        <text id="Soluta,-libero-disti" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="25" y="85" fill="#000000">Soluta, libero distinctio id </tspan>
+                            <tspan x="25" y="104" fill="#000000">voluptatem cupiditate optio </tspan>
+                            <tspan x="25" y="123" fill="#000000">inventore excepturi sed maxime et </tspan>
+                            <tspan x="25" y="142" fill="#000000">doloribus eos enim nisi hic a, </tspan>
+                            <tspan x="25" y="161" fill="#000000">explicabo unde qui est.</tspan>
+                        </text>
+                        <text id="Manager" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="199" fill="#000000">Manager</tspan>
+                        </text>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="199" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <text id="Deliverable" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="276" fill="#000000">Deliverable</tspan>
+                        </text>
+                        <text id="PDF" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="276" fill="#000000">PDF</tspan>
+                        </text>
+                        <text id="Volunteer" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="238" fill="#000000">Volunteer</tspan>
+                        </text>
+                        <text id="None.-Assign…" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="238" fill="#9B9B9B">None. Assign…</tspan>
+                        </text>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="174" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="213" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="252" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="290" width="254" height="1"></rect>
+                        <text id="Sequential" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="315" fill="#000000">Sequential</tspan>
+                        </text>
+                        <text id="No" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="315" fill="#000000">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="object/task" mask="url(#mask-5)">
+                    <g transform="translate(14.000000, 68.000000)">
+                        <g id="Rectangle-6" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="20" font-weight="normal">
+                            <tspan x="15" y="37" fill="#000000">Dolor Sit Amet</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="none" x="0" y="0" width="285" height="60"></rect>
+                        <text id="#20" fill="none" font-family="Helvetica" font-size="17" font-weight="normal">
+                            <tspan x="232.181641" y="36" fill="#9B9B9B">#123</tspan>
+                        </text>
+                        <g id="Rectangle-2" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <rect stroke="#CCCCCC" stroke-width="1" x="15.5" y="60.5" width="254" height="269" rx="3"></rect>
+                        </g>
+                        <text id="Soluta,-libero-disti" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="25" y="85" fill="#000000">Soluta, libero distinctio id </tspan>
+                            <tspan x="25" y="104" fill="#000000">voluptatem cupiditate optio </tspan>
+                            <tspan x="25" y="123" fill="#000000">inventore excepturi sed maxime et </tspan>
+                            <tspan x="25" y="142" fill="#000000">doloribus eos enim nisi hic a, </tspan>
+                            <tspan x="25" y="161" fill="#000000">explicabo unde qui est.</tspan>
+                        </text>
+                        <text id="Manager" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="199" fill="#000000">Manager</tspan>
+                        </text>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="199" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <text id="Deliverable" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="276" fill="#000000">Deliverable</tspan>
+                        </text>
+                        <text id="PDF" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="276" fill="#000000">PDF</tspan>
+                        </text>
+                        <text id="Volunteer" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="238" fill="#000000">Volunteer</tspan>
+                        </text>
+                        <text id="None.-Assign…" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="238" fill="#9B9B9B">None. Assign…</tspan>
+                        </text>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="174" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="213" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="252" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="290" width="254" height="1"></rect>
+                        <text id="Sequential" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="315" fill="#000000">Sequential</tspan>
+                        </text>
+                        <text id="No" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="315" fill="#000000">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="object/task" mask="url(#mask-5)">
+                    <g transform="translate(14.000000, 128.000000)">
+                        <g id="Rectangle-6" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                        </g>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="20" font-weight="normal">
+                            <tspan x="15" y="37" fill="#000000">Another Task</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="none" x="0" y="0" width="285" height="60"></rect>
+                        <text id="#20" fill="none" font-family="Helvetica" font-size="17" font-weight="normal">
+                            <tspan x="241.63623" y="36" fill="#9B9B9B">#37</tspan>
+                        </text>
+                        <g id="Rectangle-2" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-14"></use>
+                            <rect stroke="#CCCCCC" stroke-width="1" x="15.5" y="60.5" width="254" height="269" rx="3"></rect>
+                        </g>
+                        <text id="Soluta,-libero-disti" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="25" y="85" fill="#000000">Soluta, libero distinctio id </tspan>
+                            <tspan x="25" y="104" fill="#000000">voluptatem cupiditate optio </tspan>
+                            <tspan x="25" y="123" fill="#000000">inventore excepturi sed maxime et </tspan>
+                            <tspan x="25" y="142" fill="#000000">doloribus eos enim nisi hic a, </tspan>
+                            <tspan x="25" y="161" fill="#000000">explicabo unde qui est.</tspan>
+                        </text>
+                        <text id="Manager" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="199" fill="#000000">Manager</tspan>
+                        </text>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="199" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <text id="Deliverable" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="276" fill="#000000">Deliverable</tspan>
+                        </text>
+                        <text id="PDF" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="276" fill="#000000">PDF</tspan>
+                        </text>
+                        <text id="Volunteer" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="238" fill="#000000">Volunteer</tspan>
+                        </text>
+                        <text id="None.-Assign…" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="238" fill="#9B9B9B">None. Assign…</tspan>
+                        </text>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="174" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="213" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="252" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="290" width="254" height="1"></rect>
+                        <text id="Sequential" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="315" fill="#000000">Sequential</tspan>
+                        </text>
+                        <text id="No" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="315" fill="#000000">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="object/task" mask="url(#mask-5)">
+                    <g transform="translate(14.000000, 188.000000)">
+                        <g id="Rectangle-6" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                        </g>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="20" font-weight="normal">
+                            <tspan x="15" y="37" fill="#000000">Title Here</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="none" x="0" y="0" width="285" height="60"></rect>
+                        <text id="#20" fill="none" font-family="Helvetica" font-size="17" font-weight="normal">
+                            <tspan x="251.09082" y="36" fill="#9B9B9B">#3</tspan>
+                        </text>
+                        <g id="Rectangle-2" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                            <rect stroke="#CCCCCC" stroke-width="1" x="15.5" y="60.5" width="254" height="269" rx="3"></rect>
+                        </g>
+                        <text id="Soluta,-libero-disti" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="25" y="85" fill="#000000">Soluta, libero distinctio id </tspan>
+                            <tspan x="25" y="104" fill="#000000">voluptatem cupiditate optio </tspan>
+                            <tspan x="25" y="123" fill="#000000">inventore excepturi sed maxime et </tspan>
+                            <tspan x="25" y="142" fill="#000000">doloribus eos enim nisi hic a, </tspan>
+                            <tspan x="25" y="161" fill="#000000">explicabo unde qui est.</tspan>
+                        </text>
+                        <text id="Manager" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="199" fill="#000000">Manager</tspan>
+                        </text>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="199" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <text id="Deliverable" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="276" fill="#000000">Deliverable</tspan>
+                        </text>
+                        <text id="PDF" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="276" fill="#000000">PDF</tspan>
+                        </text>
+                        <text id="Volunteer" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="238" fill="#000000">Volunteer</tspan>
+                        </text>
+                        <text id="None.-Assign…" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="238" fill="#9B9B9B">None. Assign…</tspan>
+                        </text>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="174" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="213" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="252" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="290" width="254" height="1"></rect>
+                        <text id="Sequential" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="315" fill="#000000">Sequential</tspan>
+                        </text>
+                        <text id="No" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="315" fill="#000000">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="object/task" mask="url(#mask-5)">
+                    <g transform="translate(14.000000, 248.000000)">
+                        <g id="Rectangle-6" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-19)" xlink:href="#path-18"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-18"></use>
+                        </g>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="20" font-weight="normal">
+                            <tspan x="15" y="37" fill="#000000">Yet Another One</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="none" x="0" y="0" width="285" height="60"></rect>
+                        <text id="#20" fill="none" font-family="Helvetica" font-size="17" font-weight="normal">
+                            <tspan x="241.63623" y="36" fill="#9B9B9B">#45</tspan>
+                        </text>
+                        <g id="Rectangle-2" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-20"></use>
+                            <rect stroke="#CCCCCC" stroke-width="1" x="15.5" y="60.5" width="254" height="269" rx="3"></rect>
+                        </g>
+                        <text id="Soluta,-libero-disti" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="25" y="85" fill="#000000">Soluta, libero distinctio id </tspan>
+                            <tspan x="25" y="104" fill="#000000">voluptatem cupiditate optio </tspan>
+                            <tspan x="25" y="123" fill="#000000">inventore excepturi sed maxime et </tspan>
+                            <tspan x="25" y="142" fill="#000000">doloribus eos enim nisi hic a, </tspan>
+                            <tspan x="25" y="161" fill="#000000">explicabo unde qui est.</tspan>
+                        </text>
+                        <text id="Manager" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="199" fill="#000000">Manager</tspan>
+                        </text>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="199" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <text id="Deliverable" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="276" fill="#000000">Deliverable</tspan>
+                        </text>
+                        <text id="PDF" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="276" fill="#000000">PDF</tspan>
+                        </text>
+                        <text id="Volunteer" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="238" fill="#000000">Volunteer</tspan>
+                        </text>
+                        <text id="None.-Assign…" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="238" fill="#9B9B9B">None. Assign…</tspan>
+                        </text>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="174" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="213" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="252" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="290" width="254" height="1"></rect>
+                        <text id="Sequential" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="315" fill="#000000">Sequential</tspan>
+                        </text>
+                        <text id="No" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="315" fill="#000000">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="object/task" mask="url(#mask-5)">
+                    <g transform="translate(14.000000, 308.000000)">
+                        <g id="Rectangle-6" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                        </g>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="20" font-weight="normal">
+                            <tspan x="15" y="37" fill="#000000">Another</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="none" x="0" y="0" width="285" height="60"></rect>
+                        <text id="#20" fill="none" font-family="Helvetica" font-size="17" font-weight="normal">
+                            <tspan x="241.63623" y="36" fill="#9B9B9B">#76</tspan>
+                        </text>
+                        <g id="Rectangle-2" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                            <rect stroke="#CCCCCC" stroke-width="1" x="15.5" y="60.5" width="254" height="269" rx="3"></rect>
+                        </g>
+                        <text id="Soluta,-libero-disti" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="25" y="85" fill="#000000">Soluta, libero distinctio id </tspan>
+                            <tspan x="25" y="104" fill="#000000">voluptatem cupiditate optio </tspan>
+                            <tspan x="25" y="123" fill="#000000">inventore excepturi sed maxime et </tspan>
+                            <tspan x="25" y="142" fill="#000000">doloribus eos enim nisi hic a, </tspan>
+                            <tspan x="25" y="161" fill="#000000">explicabo unde qui est.</tspan>
+                        </text>
+                        <text id="Manager" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="199" fill="#000000">Manager</tspan>
+                        </text>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="199" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <text id="Deliverable" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="276" fill="#000000">Deliverable</tspan>
+                        </text>
+                        <text id="PDF" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="276" fill="#000000">PDF</tspan>
+                        </text>
+                        <text id="Volunteer" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="238" fill="#000000">Volunteer</tspan>
+                        </text>
+                        <text id="None.-Assign…" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="238" fill="#9B9B9B">None. Assign…</tspan>
+                        </text>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="174" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="213" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="252" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="290" width="254" height="1"></rect>
+                        <text id="Sequential" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="315" fill="#000000">Sequential</tspan>
+                        </text>
+                        <text id="No" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="315" fill="#000000">No</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="object/task" mask="url(#mask-5)">
+                    <g transform="translate(14.000000, 368.000000)">
+                        <g id="Rectangle-6" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-24"></use>
+                        </g>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="20" font-weight="normal">
+                            <tspan x="15" y="37" fill="#000000">Other Other</tspan>
+                        </text>
+                        <rect id="Rectangle" fill="none" x="0" y="0" width="285" height="60"></rect>
+                        <text id="#20" fill="none" font-family="Helvetica" font-size="17" font-weight="normal">
+                            <tspan x="251.09082" y="36" fill="#9B9B9B">#8</tspan>
+                        </text>
+                        <g id="Rectangle-2" fill="none">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-26"></use>
+                            <rect stroke="#CCCCCC" stroke-width="1" x="15.5" y="60.5" width="254" height="269" rx="3"></rect>
+                        </g>
+                        <text id="Soluta,-libero-disti" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="25" y="85" fill="#000000">Soluta, libero distinctio id </tspan>
+                            <tspan x="25" y="104" fill="#000000">voluptatem cupiditate optio </tspan>
+                            <tspan x="25" y="123" fill="#000000">inventore excepturi sed maxime et </tspan>
+                            <tspan x="25" y="142" fill="#000000">doloribus eos enim nisi hic a, </tspan>
+                            <tspan x="25" y="161" fill="#000000">explicabo unde qui est.</tspan>
+                        </text>
+                        <text id="Manager" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="199" fill="#000000">Manager</tspan>
+                        </text>
+                        <text id="Lorem-Ipsum" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="199" fill="#000000">Lorem Ipsum</tspan>
+                        </text>
+                        <text id="Deliverable" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="276" fill="#000000">Deliverable</tspan>
+                        </text>
+                        <text id="PDF" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="276" fill="#000000">PDF</tspan>
+                        </text>
+                        <text id="Volunteer" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="238" fill="#000000">Volunteer</tspan>
+                        </text>
+                        <text id="None.-Assign…" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="238" fill="#9B9B9B">None. Assign…</tspan>
+                        </text>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="174" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="213" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="252" width="254" height="1"></rect>
+                        <rect id="Rectangle-3" fill="#CCCCCC" fill-rule="evenodd" x="15" y="290" width="254" height="1"></rect>
+                        <text id="Sequential" fill="none" font-family="Helvetica-Bold, Helvetica" font-size="15" font-weight="bold" line-spacing="19">
+                            <tspan x="30" y="315" fill="#000000">Sequential</tspan>
+                        </text>
+                        <text id="No" fill="none" font-family="Helvetica" font-size="15" font-weight="normal" line-spacing="19">
+                            <tspan x="125" y="315" fill="#000000">No</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="375" height="20"></rect>
+        </g>
+    </g>
+</svg>
