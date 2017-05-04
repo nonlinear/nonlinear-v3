@@ -13,6 +13,11 @@ $canvas-color-b: #6076EF
 $canvas-color-c: #B8E986
 $canvas-color-d: #50E3C2
 
+$pursuance-color-a: #6DB8D8
+$pursuance-color-b: #6076EF
+$pursuance-color-c: #B8E986
+$pursuance-color-d: #50E3C2
+
 $tile-color-a: #586A6A
 $tile-color-b: #93B7BE
 $tile-color-c: #D4C5C7
@@ -58,6 +63,12 @@ body.tangle
     +project($tangle-color-a, $tangle-color-b, $tangle-color-c, $tangle-color-d)
 body.tile
     +project($tile-color-a, $tile-color-b, $tile-color-c, $tile-color-d)
+body.pursuance
+    +project($pursuance-color-a, $pursuance-color-b, $pursuance-color-c, $pursuance-color-d)
+    section.header .title
+        h1
+            margin-top: -5px !important
+            font-size: 60px
 
 body, html
     height: 100%

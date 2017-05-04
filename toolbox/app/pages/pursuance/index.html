@@ -10,24 +10,84 @@
     <h1>pursuance</h1>
   </div>
   <div class="description">
-
+  <p>Pursuance is an open-source, zero-knowledge collaboration platform.</p>
+ <div class="actions">
+      <a target="wiki" href="https://beta.cryptpad.fr/pad/#/1/edit/t+oDVDzxqnfUTarzhRbsTQ/hKDaq7dgWubrCpOJuMAtPs9i" class="btn">View Documentation</a>
+    </div>
   </div>
 </section>
 <section>
   <div class="title">
-    <h1>Task</h1>
+    <h1>Task Assignment</h1>
   </div>
   <div class="description">
-<div class="flexslider">
+
+<p>Mental model: Tasks as cards, sent to participants. They then have a deck to work with.</p>
+<div class="flexslider proto-phone">
   <ul class="slides">
-    <li><img src="assets/images/task/01.svg"></li>
-    <li><img src="assets/images/task/02.svg"></li>
-    <li><img src="assets/images/task/03.svg"></li>
-    <li><img src="assets/images/task/04.svg"></li>
-    <li><img src="assets/images/task/05.svg"></li>
+    <li><img src="../assets/images/task/01.svg"></li>
+    <li><img src="../assets/images/task/02.svg"></li>
+    <li><img src="../assets/images/task/03.svg"></li>
+    <li><img src="../assets/images/task/04.svg"></li>
+    <li><img src="../assets/images/task/05.svg"></li>
   </ul>
   </div>
+  <div class="row">
+    <div class="col-xs-6">
+    <h2>Fields</h2>
+<ul class="list">
+  <li>
+  Title
+<span class="notes">input, required</span>
+</li>
+<li>Description
+<span class="notes">textarea, possibly markdown, checklist completion as progress metrics</span>
+</li>
+  <li>Manager
+<span class="notes">user list, defaults to host. defines who assigns and reviews Task</span>
+</li>
+  <li>Volunteer
+<span class="notes">user list, default blank. defines who accomplishes it</span>
+</li>
+  <li>Deliverable?
+<span class="notes">default is NO (Deliverables are outside the System, and just Manager Approval is enough), if yes, File Upload is unlocked (define specs: picture, pdf, word document, text document)</span>
+</li>
+  <li>Sequential?
+<span class="notes">default is NO. if YES, opens up new form asking Parent Task (Task can only start after Parent Task is Approved) or Child Task (Task approval unlocks Child Task)</span>
+</li>
+  <li>Forum
+<span class="notes">like Main Forum, and open to all Volunteers. think channel</span>
+</li>
+</ul>
 
+    </div>
+    <div class="col-xs-6">
+    <h2>Phases</h2>
+<ol class="list">
+  <li>
+  Unassigned
+<span class="notes">Task is not paired with a Volunteer</span>
+</li>
+<li>
+In Progress
+<span class="notes">Task is paired with a Volunteer. depending on project pacing, it nags Volunteer to finish it, via Notification</span>
+</li>
+<li>
+On Hold
+<span class="notes">Task is paired with a Volunteer, but has a Parent Task that is not Approved</span>
+</li>
+<li>
+Done
+<span class="notes">Volunteer follows requirements, deem Task completed, and hits Done manually. Manager receives a Notification to review it. If Manager disagrees it's done, Task returns to In Progress, with a note (in forum). If Manager agrees it's Done, it's Approved</span>
+</li>
+<li>
+Approved
+<span class="notes">Task is approved, System congratulates Volunteer and Manager on Main Forum (plus Notification). If Task has Children, Child Tasks move automatically from On Hold to In Progress, and both Volunteers and Managers are notified.</span>
+</li>
+</ol>
+
+</div>
+  </div>
 
 
   </div>
