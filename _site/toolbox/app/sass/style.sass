@@ -31,3 +31,45 @@ $color-link-hover: lighten($color-link, 20%)
     +find(red)
     &.aaa-active
         +find(blue)
+
+.proto-phone.flexslider
+    height: 667px
+    width: 375px
+    margin: 15px auto 20px auto !important
+    +shadow(normal, 5px 5px 0px rgba(0, 0, 0, 0.05))
+    +transition
+    &:hover
+        +shadow(normal, 5px 5px 0px rgba(0, 0, 0, 0.1))
+    .flex-prev
+        display: none
+    .flex-next
+        width: 100%
+        height: 100%
+        top: 0
+        +translate(10, 20)
+        +hide-text
+    .flex-control-nav
+        padding-top: 5px !important
+
+.description h2
+    padding-top: 15px !important
+
+.list
+    +reset(all)
+    +reset(list)
+    h3
+        margin-bottom: 1px
+        padding-left: 10px
+        +opacity(70)
+        +transition
+    .notes
+        display: block
+        background-color: rgba(yellow, .2)
+        padding: 10px
+        font-size: 90%
+        +transition
+    li:hover
+        h3
+            +opacity(100)
+        .notes
+            background-color: rgba(yellow, .4)

@@ -16064,7 +16064,7 @@ $('body').on('click', function(e) {
 });
 
 $('.flexslider').flexslider({
-    animation: "slide",
+    animation: "fade",
     slideshow: false,
     animationLoop: false,
     directionNav: true,

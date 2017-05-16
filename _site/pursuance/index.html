@@ -25,7 +25,7 @@
 <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff"></head>
 
-<body class="tangle">
+<body class="pursuance">
   <div class="noise">
     <div class="container">
       <header>
@@ -51,70 +51,93 @@
   <div class="title">
   <h3>nonlinear.nyc/</h3>
   <br>
-    <h1>tangle</h1>
+    <h1>pursuance</h1>
   </div>
   <div class="description">
-    <p>Supercharge your </p>
- <!--    <div class="actions">
-      <a href="#" class="btn">Lorem Ipsum</a>
-    <a href="#" class="btn">Lorem Ipsum</a>
-    </div> -->
+  <p>Pursuance is an open-source, zero-knowledge collaboration platform.</p>
+  <p>In this page I am organizing the UI design collaboration to this project.</p>
+ <div class="actions">
+      <a target="wiki" href="https://beta.cryptpad.fr/pad/#/1/edit/t+oDVDzxqnfUTarzhRbsTQ/hKDaq7dgWubrCpOJuMAtPs9i" class="btn">View Documentation</a>
+    </div>
   </div>
 </section>
 <section>
   <div class="title">
-    <h1>Toggle</h1>
+    <h1>Task Assignment</h1>
   </div>
   <div class="description">
 
-<div class="trigger">
-        <a href="javascript:;" class="btn toggle red-toggle">Red toggle</a>
-      <a href="javascript:;" class="btn toggle blue-toggle">Blue toggle</a>
-      <a href="javascript:;" class="btn toggle orange-toggle">Orange toggle</a>
+<p>Mental model: Tasks as cards, sent to participants. They then have a deck to work with.</p>
+<div class="flexslider proto-phone">
+  <ul class="slides">
+    <li><img src="../assets/images/task/01.svg"></li>
+    <li><img src="../assets/images/task/02.svg"></li>
+    <li><img src="../assets/images/task/03.svg"></li>
+    <li><img src="../assets/images/task/04.svg"></li>
+    <li><img src="../assets/images/task/05.svg"></li>
+  </ul>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+    <h2>Fields</h2>
+<ol class="list">
+  <li><h3>
+  Title
+</h3><span class="notes">input, required</span>
+</li>
+<li><h3>Description
+</h3><span class="notes">textarea, possibly markdown, checklist completion as progress metrics</span>
+</li>
+  <li><h3>Manager
+</h3><span class="notes">user list, defaults to host. defines who assigns and reviews Task</span>
+</li>
+  <li><h3>Volunteer
+</h3><span class="notes">user list, default blank. defines who accomplishes it</span>
+</li>
+  <li><h3>Deliverable?
+</h3><span class="notes">default is NO (Deliverables are outside the System, and just Manager Approval is enough), if yes, File Upload is unlocked (define specs: picture, pdf, word document, text document)</span>
+</li>
+  <li><h3>Sequential?
+</h3><span class="notes">default is NO. if YES, opens up new form asking Parent Task (Task can only start after Parent Task is Approved) or Child Task (Task approval unlocks Child Task)</span>
+</li>
+  <li><h3>Forum
+</h3><span class="notes">like Main Forum, and open to all Volunteers. think channel</span>
+</li>
+</ol>
+
+    </div>
+    <div class="col-md-6">
+    <h2>Phases</h2>
+<ol class="list">
+  <li><h3>
+  Unassigned
+</h3><span class="notes">Task is not paired with a Volunteer</span>
+</li>
+<li><h3>
+In Progress
+</h3><span class="notes">Task is paired with a Volunteer. depending on project pacing, it nags Volunteer to finish it, via Notification</span>
+</li>
+<li><h3>
+On Hold
+</h3><span class="notes">Task is paired with a Volunteer, but has a Parent Task that is not Approved</span>
+</li>
+<li><h3>
+Done
+</h3><span class="notes">Volunteer follows requirements, deem Task completed, and hits Done manually. Manager receives a Notification to review it. If Manager disagrees it's done, Task returns to In Progress, with a note (in forum). If Manager agrees it's Done, it's Approved</span>
+</li>
+<li><h3>
+Approved
+</h3><span class="notes">Task is approved, System congratulates Volunteer and Manager on Main Forum (plus Notification). If Task has Children, Child Tasks move automatically from On Hold to In Progress, and both Volunteers and Managers are notified.</span>
+</li>
+</ol>
+
 </div>
+  </div>
 
 
- <div class="red-target">
-  This is the red target <span class="text"></span> active class
- </div>
-  <div class="orange-target">
-   This is the orange target <span class="text"></span> active class
- </div>
-   <div class="red-target red-active">
-  This is  another red target <span class="text"></span> active class
- </div>
-  <div class="blue-target">
-   This is the blue target <span class="text"></span> active class
- </div>
-   <div class="orange-target orange-active">
-   This is another orange target <span class="text"></span> active class
- </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quam impedit nisi assumenda quod eaque saepe, fuga quo accusamus suscipit quaerat distinctio dolores, dignissimos necessitatibus! Illum quos similique, optio architecto.</p>
-    <p>Non itaque deserunt illum dolore porro molestiae necessitatibus omnis provident laboriosam, a inventore tempora, harum, vitae veniam. Possimus totam maiores, vero explicabo odio ipsum esse hic incidunt vel. Ab, illum.</p>
-     <div class="actions">
-    <a href="#" class="btn">Lorem Ipsum</a>
-    </div>
   </div>
 </section>
-<section>
-  <div class="title">
-    <h1>Group</h1>
-  </div>
-  <div class="description">
-    <a href="#" class="bbb-group-1">trigger 1</a>
-  <a href="#" class="bbb-group-2">trigger 2</a>
-  <a href="#" class="bbb-group-3">trigger 3</a>
-  <p class="bbb-target-1 bbb-active">menu 1</p>
-  <p class="bbb-target-2">menu 2</p>
-  <p class="bbb-target-3">menu 3</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nostrum facere neque sequi, dolorem odit sit ducimus delectus recusandae quia.</p>
-    <p>Nisi assumenda iste quam perferendis minima. Voluptatum dicta aliquid amet quas, accusamus corrupti ullam ratione vel accusantium eius, obcaecati deleniti!</p>
-     <div class="actions">
-      <a href="#" class="btn">Lorem Ipsum</a>
-    <a href="#" class="btn">Lorem Ipsum</a>
-    </div>
-  </div>
-</section>
+
 <section class="footer">
   <div class="title">
     <h2>Team</h2>
@@ -146,28 +169,6 @@
     </a>
     <a href="http://linkedin.com/in/nicholasfrota">
         <i class="fa fa-linkedin"></i>
-    </a>
-</div>
-</div>
-    <div class="josh">
-     <div class="user">
-     <div class="cell">
-         <div class="avatar"></div>
-     </div>
-    <div class="cell">
-         <h3>Joshua Christman</h3>
-     <h4>front-end dev</h4>
-    </div>
- </div>
- <div class="social">
-     <a href="mailto:christman.joshua@gmail.com?subject=nonlinear.nyc/canvas">
-        <i class="fa fa-envelope"></i>
-    </a>
-    <a href="http://github.com/JoshuaRobert">
-        <i class="fa fa-github"></i>
-    </a>
-    <a href="http://instagram.com/iamjoshuarobert">
-        <i class="fa fa-instagram"></i>
     </a>
 </div>
 </div>

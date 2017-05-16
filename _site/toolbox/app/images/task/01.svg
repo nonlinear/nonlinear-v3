@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="667px" viewBox="0 0 375 667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>task/01</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="375" height="605"></rect>
+        <filter x="-0.7%" y="-0.4%" width="101.3%" height="101.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="2.07106781 26.0710678 12.0710678 36.0710678 2.07106781 36.0710678"></polygon>
+        <polygon id="path-5" points="2.07106781 26.0710678 12.0710678 36.0710678 2.07106781 36.0710678"></polygon>
+        <polygon id="path-6" points="2.07106781 26.0710678 12.0710678 36.0710678 2.07106781 36.0710678"></polygon>
+        <polygon id="path-7" points="2.07106781 26.0710678 12.0710678 36.0710678 2.07106781 36.0710678"></polygon>
+        <polygon id="path-8" points="2.07106781 26.0710678 12.0710678 36.0710678 2.07106781 36.0710678"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="task/01">
+            <g id="Group-10" transform="translate(-1.000000, 607.000000)">
+                <rect id="Rectangle" fill="#B0E278" x="0" y="0" width="375" height="60"></rect>
+                <rect id="Rectangle-3" fill="#F1D54B" x="0" y="0" width="60" height="60"></rect>
+                <rect id="Rectangle-3" fill="#D9F4BE" x="315" y="0" width="60" height="60"></rect>
+                <path d="M341.90568,41.9786325 C341.92942,42.0023743 341.95316,42.0261157 341.9769,42.0498575 C342.000645,42.0735994 342.012515,42.0854701 342.012515,42.0854701 C342.06,42.0854701 342.107481,42.0973408 342.154965,42.1210826 C342.20245,42.1448244 342.226191,42.1566952 342.226191,42.1566952 C342.368641,42.2041788 342.463606,42.2516617 342.511091,42.2991453 L342.795991,42.2991453 C342.938441,42.3466289 343.057151,42.3466289 343.152116,42.2991453 L343.294567,42.2991453 C343.484502,42.2516617 343.650692,42.1804373 343.793142,42.0854701 C343.793142,42.0854701 343.816882,42.0617286 343.864367,42.014245 C344.006817,41.9192778 344.089912,41.8599243 344.113653,41.8361823 C344.137397,41.8124403 344.161138,41.7768283 344.184882,41.7293447 C344.208622,41.6818612 344.220493,41.6581197 344.220493,41.6581197 L357.824481,19.8632479 C358.061901,19.4833778 358.133122,19.0797721 358.038156,18.6524217 C357.943191,18.2250712 357.717646,17.8926906 357.361516,17.6552707 C357.005391,17.4178507 356.613655,17.3466302 356.186304,17.4415954 C355.758954,17.5365607 355.426573,17.7502359 355.189153,18.0826211 L342.582316,38.2393162 L335.673484,31.4729345 C335.341099,31.1880342 334.961236,31.045584 334.533883,31.045584 C334.10653,31.045584 333.738538,31.2117744 333.429894,31.5441595 C333.121251,31.8765447 332.978802,32.2682803 333.002544,32.7193709 C333.026286,33.1704661 333.204347,33.5384615 333.536732,33.8233618 L341.870065,41.9430199 C341.870065,41.9430199 341.881935,41.9548907 341.90568,41.9786325 Z" id="Page-1" fill="#000000"></path>
+                <path d="M32.8832685,18 C30.0946677,18 27.7114241,18.988965 25.733463,20.9669261 C23.7555019,22.9448872 22.766537,25.3281307 22.766537,28.1167315 C22.766537,30.4837977 23.5123144,32.607642 25.0038911,34.4883268 L18.3404669,41.151751 C18.1134878,41.3463044 18,41.5975991 18,41.905642 C18,42.213685 18.1053816,42.4730858 18.3161479,42.6838521 C18.5269142,42.8946184 18.786315,43 19.094358,43 C19.4024009,43 19.6536956,42.8865122 19.848249,42.6595331 L26.5116732,35.9961089 C28.392358,37.4876856 30.5162023,38.233463 32.8832685,38.233463 C35.6718693,38.233463 38.0551128,37.2444981 40.0330739,35.266537 C42.011035,33.2885759 43,30.9053323 43,28.1167315 C43,25.3281307 42.011035,22.9448872 40.0330739,20.9669261 C38.0551128,18.988965 35.6718693,18 32.8832685,18 Z M32.8832685,36.6770428 C30.5162023,36.6770428 28.4977401,35.8420981 26.8278226,34.1721774 C25.1579019,32.5022599 24.3229572,30.4837977 24.3229572,28.1167315 C24.3229572,25.7496654 25.1579019,23.7312031 26.8278226,22.0612856 C28.4977401,20.391365 30.5162023,19.5564202 32.8832685,19.5564202 C35.2503346,19.5564202 37.2687969,20.391365 38.9387144,22.0612856 C40.608635,23.7312031 41.4435798,25.7496654 41.4435798,28.1167315 C41.4435798,30.4837977 40.608635,32.5022599 38.9387144,34.1721774 C37.2687969,35.8420981 35.2503346,36.6770428 32.8832685,36.6770428 Z" id="Page-1" fill="#000000"></path>
+                <path d="M195.825194,18 L179.174806,18 C178.0192,18 177.034509,18.4028281 176.220703,19.2084969 C175.406897,20.0141656 175,20.9866469 175,22.125975 L175,35.3339844 C175,36.4733125 175.362138,37.3847625 176.086426,38.0683594 C176.810713,38.7519562 177.750645,39.09375 178.90625,39.09375 L184.082031,39.09375 L187.5,43 L190.917969,39.09375 L196.09375,39.09375 C197.249356,39.09375 198.189288,38.7519562 198.913575,38.0683594 C199.637863,37.3847625 200,36.4733125 200,35.3339844 L200,22.125975 C200,20.9866469 199.593103,20.0141656 198.779297,19.2084969 C197.965491,18.4028281 196.9808,18 195.825194,18 Z M198.4375,35.1875 C198.4375,35.7571656 198.189294,36.2902 197.692872,36.7866219 C197.19645,37.2830437 196.663416,37.53125 196.09375,37.53125 L189.84375,37.53125 L187.5,40.65625 L185.15625,37.53125 L178.90625,37.53125 C178.336584,37.53125 177.803551,37.2830437 177.307129,36.7866219 C176.810707,36.2902 176.5625,35.7571656 176.5625,35.1875 L176.5625,21.90625 C176.5625,21.3365844 176.810707,20.80355 177.307129,20.3071281 C177.803551,19.8107062 178.336584,19.5625 178.90625,19.5625 L196.09375,19.5625 C196.663416,19.5625 197.19645,19.8107062 197.692872,20.3071281 C198.189294,20.80355 198.4375,21.3365844 198.4375,21.90625 L198.4375,35.1875 Z" id="Page-1" fill="#000000"></path>
+            </g>
+            <g id="Group-7" transform="translate(-1.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(15.000000, 43.000000)">
+                        <g id="Group-4">
+                            <rect id="Rectangle-4" fill="#CCCCCC" x="0" y="0" width="60" height="60" rx="30"></rect>
+                            <g id="Group-5" transform="translate(100.000000, 0.000000)" font-family="Helvetica" font-weight="normal">
+                                <text id="Soluta,-libero-disti" font-size="15" fill="#000000">
+                                    <tspan x="0" y="15">Soluta, libero distinctio id </tspan>
+                                    <tspan x="0" y="33">voluptatem cupiditate optio </tspan>
+                                    <tspan x="0" y="51">inventore excepturi sed maxime et </tspan>
+                                    <tspan x="0" y="69">doloribus eos enim nisi hic a, </tspan>
+                                    <tspan x="0" y="87">explicabo unde qui est.</tspan>
+                                </text>
+                                <text id="User,-20-min-ago" font-size="12" fill="#9B9B9B">
+                                    <tspan x="0" y="111">User, 20 min ago</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(70.000000, 0.000000)">
+                                <rect id="Rectangle-5" fill="#000000" x="6" y="0" width="1" height="114"></rect>
+                                <g id="Rectangle-5" transform="translate(7.071068, 31.071068) rotate(45.000000) translate(-7.071068, -31.071068) ">
+                                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <path stroke="#000000" stroke-width="2" d="M3.07106781,28.4852814 L9.65685425,35.0710678 L3.07106781,35.0710678 L3.07106781,28.4852814 Z"></path>
+                                </g>
+                                <polygon id="Rectangle-5" fill="#FFFFFF" transform="translate(8.571068, 31.071068) rotate(45.000000) translate(-8.571068, -31.071068) " points="3.57106781 26.0710678 13.5710678 36.0710678 3.57106781 36.0710678"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-4" transform="translate(0.000000, 134.000000)">
+                            <rect id="Rectangle-4" fill="#CCCCCC" x="0" y="0" width="60" height="60" rx="30"></rect>
+                            <g id="Group-5" transform="translate(100.000000, 0.000000)" font-family="Helvetica" font-weight="normal">
+                                <text id="optio-inventore-exce" font-size="15" fill="#000000">
+                                    <tspan x="0" y="15">optio inventore excepturi sed </tspan>
+                                    <tspan x="0" y="33">maxime et doloribus eos enim nisi </tspan>
+                                    <tspan x="0" y="51">hic a, explicabo unde qui est.</tspan>
+                                </text>
+                                <text id="User,-20-min-ago" font-size="12" fill="#9B9B9B">
+                                    <tspan x="0" y="75">User, 20 min ago</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(70.000000, 0.000000)">
+                                <rect id="Rectangle-5" fill="#000000" x="6" y="0" width="1" height="78"></rect>
+                                <g id="Rectangle-5" transform="translate(7.071068, 31.071068) rotate(45.000000) translate(-7.071068, -31.071068) ">
+                                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                    <path stroke="#000000" stroke-width="2" d="M3.07106781,28.4852814 L9.65685425,35.0710678 L3.07106781,35.0710678 L3.07106781,28.4852814 Z"></path>
+                                </g>
+                                <polygon id="Rectangle-5" fill="#FFFFFF" transform="translate(8.571068, 31.071068) rotate(45.000000) translate(-8.571068, -31.071068) " points="3.57106781 26.0710678 13.5710678 36.0710678 3.57106781 36.0710678"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-4" transform="translate(0.000000, 232.000000)">
+                            <rect id="Rectangle-4" fill="#CCCCCC" x="0" y="0" width="60" height="60" rx="30"></rect>
+                            <g id="Group-5" transform="translate(100.000000, 0.000000)" font-family="Helvetica" font-weight="normal">
+                                <text id="Soluta,-libero-disti" font-size="15" fill="#000000">
+                                    <tspan x="0" y="15">Soluta, libero distinctio id </tspan>
+                                    <tspan x="0" y="33">voluptatem cupiditate optio </tspan>
+                                    <tspan x="0" y="51">inventore excepturi sed maxime et </tspan>
+                                    <tspan x="0" y="69">doloribus eos enim nisi hic a, </tspan>
+                                    <tspan x="0" y="87">explicabo unde qui est.</tspan>
+                                </text>
+                                <text id="User,-20-min-ago" font-size="12" fill="#9B9B9B">
+                                    <tspan x="0" y="111">User, 20 min ago</tspan>
+                                </text>
+                            </g>
+                            <g id="Group" transform="translate(70.000000, 0.000000)">
+                                <rect id="Rectangle-5" fill="#000000" x="6" y="0" width="1" height="114"></rect>
+                                <g id="Rectangle-5" transform="translate(7.071068, 31.071068) rotate(45.000000) translate(-7.071068, -31.071068) ">
+                                    <use fill="#000000" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                    <path stroke="#000000" stroke-width="2" d="M3.07106781,28.4852814 L9.65685425,35.0710678 L3.07106781,35.0710678 L3.07106781,28.4852814 Z"></path>
+                                </g>
+                                <polygon id="Rectangle-5" fill="#FFFFFF" transform="translate(8.571068, 31.071068) rotate(45.000000) translate(-8.571068, -31.071068) " points="3.57106781 26.0710678 13.5710678 36.0710678 3.57106781 36.0710678"></polygon>
+                            </g>
+                        </g>
+                        <g id="Group-4" transform="translate(5.000000, 366.000000)">
+                            <g id="Group-5" font-family="Helvetica" font-weight="normal">
+                                <text id="optio-inventore-exce" font-size="15" fill="#000000">
+                                    <tspan x="0" y="15">optio inventore excepturi sed </tspan>
+                                    <tspan x="0" y="33">maxime et doloribus eos enim nisi </tspan>
+                                    <tspan x="0" y="51">hic a, explicabo unde qui est.</tspan>
+                                </text>
+                                <text id="User,-20-min-ago" font-size="12" fill="#9B9B9B">
+                                    <tspan x="149.279297" y="75">User, 20 min ago</tspan>
+                                </text>
+                            </g>
+                            <g id="Group-9" transform="translate(297.000000, 39.000000) scale(-1, 1) translate(-297.000000, -39.000000) translate(254.000000, 0.000000)">
+                                <rect id="Rectangle-4" fill="#CCCCCC" x="0" y="0" width="60" height="60" rx="30"></rect>
+                                <g id="Group" transform="translate(70.000000, 0.000000)">
+                                    <rect id="Rectangle-5" fill="#000000" x="6" y="0" width="1" height="78"></rect>
+                                    <g id="Rectangle-5" transform="translate(7.071068, 31.071068) rotate(45.000000) translate(-7.071068, -31.071068) ">
+                                        <use fill="#000000" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                        <path stroke="#000000" stroke-width="2" d="M3.07106781,28.4852814 L9.65685425,35.0710678 L3.07106781,35.0710678 L3.07106781,28.4852814 Z"></path>
+                                    </g>
+                                    <polygon id="Rectangle-5" fill="#FFFFFF" transform="translate(8.571068, 31.071068) rotate(45.000000) translate(-8.571068, -31.071068) " points="3.57106781 26.0710678 13.5710678 36.0710678 3.57106781 36.0710678"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-8" transform="translate(0.000000, 464.000000)">
+                            <g id="Group-6">
+                                <g id="Group-4">
+                                    <rect id="Rectangle-4" fill="#CCCCCC" x="0" y="0" width="60" height="60" rx="30"></rect>
+                                    <g id="Group-5" transform="translate(100.000000, 0.000000)" font-family="Helvetica" font-weight="normal">
+                                        <text id="Soluta,-libero-disti" font-size="15" fill="#000000">
+                                            <tspan x="0" y="15">Soluta, libero distinctio id </tspan>
+                                            <tspan x="0" y="33">voluptatem cupiditate optio </tspan>
+                                            <tspan x="0" y="51">inventore excepturi sed maxime et </tspan>
+                                            <tspan x="0" y="69">doloribus eos enim nisi hic a, </tspan>
+                                            <tspan x="0" y="87">explicabo unde qui est.</tspan>
+                                        </text>
+                                        <text id="User,-20-min-ago" font-size="12" fill="#9B9B9B">
+                                            <tspan x="0" y="111">User, 20 min ago</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="Group" transform="translate(70.000000, 0.000000)">
+                                        <rect id="Rectangle-5" fill="#000000" x="6" y="0" width="1" height="114"></rect>
+                                        <g id="Rectangle-5" transform="translate(7.071068, 31.071068) rotate(45.000000) translate(-7.071068, -31.071068) ">
+                                            <use fill="#000000" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                            <path stroke="#000000" stroke-width="2" d="M3.07106781,28.4852814 L9.65685425,35.0710678 L3.07106781,35.0710678 L3.07106781,28.4852814 Z"></path>
+                                        </g>
+                                        <polygon id="Rectangle-5" fill="#FFFFFF" transform="translate(8.571068, 31.071068) rotate(45.000000) translate(-8.571068, -31.071068) " points="3.57106781 26.0710678 13.5710678 36.0710678 3.57106781 36.0710678"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle-6" fill="#FFFFFF" x="-2" y="592" width="374" height="15"></rect>
+            <path d="M10.5,592 L355.513043,592" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square" stroke-dasharray="6,5"></path>
+            <g id="object/project" transform="translate(0.000000, 20.000000)">
+                <rect id="Rectangle-7" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="375" height="60"></rect>
+                <text id="Project-Title" font-family="Helvetica" font-size="30" font-weight="normal" fill="#000000">
+                    <tspan x="50" y="41">Project Title</tspan>
+                </text>
+                <path d="M28.0817244,41.2690124 C28.2898225,41.4581923 28.3938716,41.6946636 28.3938716,41.9784335 C28.3938716,42.2622034 28.2898225,42.4986747 28.0817244,42.6878547 C27.8925467,42.8770346 27.6608027,42.9763526 27.3864926,42.9858116 C27.1121825,42.9952706 26.8804422,42.8959526 26.6912608,42.6878547 L15.3121453,31.1952318 C15.1040474,31.0060504 15,30.7743101 15,30.5 C15,30.2256899 15.1040474,29.9844876 15.3121453,29.7763895 L26.6912608,18.2837648 C26.8804422,18.0945871 27.1121825,18 27.3864926,18 C27.6608027,18 27.8925467,18.0945871 28.0817244,18.2837648 C28.2898225,18.4918629 28.3938716,18.7330652 28.3938716,19.0073753 C28.3938716,19.2816855 28.2898225,19.5134294 28.0817244,19.7026108 L17.7241773,30.4858125 L28.0817244,41.2690124 Z" id="Page-1" fill="#000000" fill-rule="evenodd" opacity="0.222259964"></path>
+                <path d="M10.5,59 L355.513043,59" id="Line" stroke="#9B9B9B" stroke-width="2" stroke-linecap="square" stroke-dasharray="6,5"></path>
+                <text id="13-item-14-itemized" font-family="Helvetica" font-size="12" font-weight="normal" line-spacing="15" fill="#9B9B9B">
+                    <tspan x="260" y="26">13 item</tspan>
+                    <tspan x="260" y="41">14 itemized</tspan>
+                </text>
+                <rect id="Rectangle-7" fill-opacity="0.05" fill="#000000" fill-rule="evenodd" x="0" y="0" width="136" height="60"></rect>
+            </g>
+            <rect id="Rectangle-2" fill="#000000" x="0" y="0" width="375" height="20"></rect>
+        </g>
+    </g>
+</svg>
