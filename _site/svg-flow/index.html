@@ -2958,8 +2958,10 @@ d/wvT8ZVJ9EirEKLepYV2UCAI8Hq9QJp/jD5nLe3k+9fIMA/d5P/M7+ZLJer/WQ/X4MnN5/b+W6/
     </div>
   </div>
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 <script src="https://raw.githubusercontent.com/barisaydinoglu/Detectizr/master/dist/detectizr.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/jquery.flexslider.js"></script> -->
 <script>
   (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
   function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -2968,7 +2970,29 @@ d/wvT8ZVJ9EirEKLepYV2UCAI8Hq9QJp/jD5nLe3k+9fIMA/d5P/M7+ZLJer/WQ/X4MnN5/b+W6/
   r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
   ga('create','UA-64489845-1','auto');ga('send','pageview');
 </script>
+<!-- <script>
 
+$('.flexslider').flexslider({
+    animation: "fade",
+    slideshow: false,
+    animationLoop: false,
+    directionNav: true,
+    slideToStart: 0,
+    slideshowSpeed: 1000,
+    start: function(slider) {
+        $('a.slide_thumb').click(function() {
+            $('.flexslider').show();
+            var slideTo = $(this).attr("rel")//Grab rel value from link;
+            var slideToInt = parseInt(slideTo)//Make sure that this value is an integer;
+            if (slider.currentSlide != slideToInt) {
+                slider.flexAnimate(slideToInt)//move the slider to the correct slide  (Unless the slider is also already showing the slide we want);
+            }
+        });
+    }
+});
+</script>
+
+ -->
 </body>
 
 </html>

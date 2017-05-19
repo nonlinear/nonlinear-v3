@@ -53,9 +53,53 @@ $animation-visibility: hidden !default
 @import layout
 @import legend
 @import vector
+@import flexslider
+
 
 #panorama
     width: 600px
     height: 400px
     border: none
     margin-left: -20px
+
+.scroll
+    overflow-x: auto
+    margin-left: -20px
+    img
+        height: 667px
+        width: 375px
+        +shadow(normal, 5px 5px 0px rgba(0, 0, 0, 0.05))
+        margin: 0 15px 15px 0
+table.lists
+    td
+        vertical-align: top
+    td:nth-of-type(2)
+        padding-left: 50px
+    h4
+        white-space: nowrap
+
+
+// .proto-phone.flexslider
+//     +clearfix
+//     height: 667px
+//     width: 375px
+//     margin: 15px auto 30px auto !important
+//     +shadow(normal, 5px 5px 0px rgba(0, 0, 0, 0.05))
+//     +transition
+//     li, a
+//         +shadow(normal, none !important)
+//     &:hover
+//         +shadow(normal, 5px 5px 0px rgba(0, 0, 0, 0.1))
+//     .flex-prev
+//         display: none
+//     .flex-next
+//         width: 100%
+//         background: none
+//         height: 100%
+//         top: 0
+//         +translate(10, 20)
+//         +hide-text
+//         &:before, &:after
+//             +hide-text
+//     .flex-control-nav
+//         display: none
