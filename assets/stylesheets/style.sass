@@ -65,11 +65,16 @@ $animation-visibility: hidden !default
 .scroll
     overflow-x: auto
     margin-left: -20px
+    height: 93vh
+    max-height: 690px
     img
-        height: 667px
-        width: 375px
+        height: 90vh
+        max-height: 667px
         +shadow(normal, 5px 5px 0px rgba(0, 0, 0, 0.05))
-        margin: 0 15px 15px 0
+    td
+        padding: 0 15px 10px 0
+        &:last-of-type
+            padding-right: 0
 table.lists
     td
         vertical-align: top
