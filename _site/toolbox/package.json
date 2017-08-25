@@ -46,5 +46,8 @@
     "ttf2woff2": "^2.0.3",
     "gulp-real-favicon": "^0.2.1",
     "gulp-replace": "^0.5.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
