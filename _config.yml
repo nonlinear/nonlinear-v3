@@ -8,7 +8,7 @@ twitter_username: nonlinear
 github_username: nonlinear
 paginate: 10
 gems: [jekyll-paginate]
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 highlighter: rouge
 
