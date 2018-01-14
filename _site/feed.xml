@@ -5,82 +5,111 @@
     <description>Here we go</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 May 2017 20:19:27 -0400</pubDate>
-    <lastBuildDate>Thu, 18 May 2017 20:19:27 -0400</lastBuildDate>
-    <generator>Jekyll v3.3.1</generator>
+    <pubDate>Sun, 14 Jan 2018 13:16:40 -0500</pubDate>
+    <lastBuildDate>Sun, 14 Jan 2018 13:16:40 -0500</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>My crib</title>
+        <description>&lt;p&gt;A panorama of my old apartment at East Village, shot by my brother. (you can see us in the mirror)&lt;/p&gt;
+&lt;style type=&quot;text/css&quot;&gt;.kuula7lfcz { width: 100%; height: 640px; }&lt;/style&gt;&lt;iframe class=&quot;kuula7lfcz&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;true&quot; src=&quot;https://kuula.co/share/7lfCz?fs=0&amp;autorotate=1&amp;margin=22&amp;alpha=0.60&amp;logo=0&quot;&gt;&lt;/iframe&gt;</description>
+        <pubDate>Fri, 14 Jul 2017 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/crib/</link>
+        <guid isPermaLink="true">http://localhost:4000/crib/</guid>
+        
+        
+        <category>arts</category>
+        
+      </item>
     
       <item>
         <title>Pursuance Tasks</title>
-        <description>&lt;p&gt;Mental model: Tasks as cards, sent to participants. They then have a deck to work with.&lt;/p&gt;
-&lt;div class=&quot;flexslider proto-phone&quot;&gt;
-  &lt;ul class=&quot;slides&quot;&gt;
-    &lt;li&gt;&lt;img src=&quot;../assets/images/task/01.svg&quot;&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;img src=&quot;../assets/images/task/02.svg&quot;&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;img src=&quot;../assets/images/task/03.svg&quot;&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;img src=&quot;../assets/images/task/04.svg&quot;&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;img src=&quot;../assets/images/task/05.svg&quot;&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;div class=&quot;scroll&quot;&gt;
+    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;img src=&quot;../assets/images/task/01.svg&quot;&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;img src=&quot;../assets/images/task/02.svg&quot;&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;img src=&quot;../assets/images/task/03.svg&quot;&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;img src=&quot;../assets/images/task/04.svg&quot;&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;img src=&quot;../assets/images/task/05.svg&quot;&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
 &lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Roles&lt;/h2&gt;
+&lt;table class=&quot;lists&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Volunteers&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;Receives and completes &lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Host&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;Creates and assigns &lt;strong&gt;Task&lt;/strong&gt;, default &lt;strong&gt;Manager&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Manager&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;Reviews &lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;hr&gt;
 &lt;h2&gt;Fields&lt;/h2&gt;
-&lt;ol&gt;
-    &lt;li&gt;
-        &lt;h3&gt;Title&lt;/h3&gt;
-        &lt;span class=&quot;notes&quot;&gt;input, required&lt;/span&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-        &lt;h3&gt;Description&lt;/h3&gt;
-        &lt;span class=&quot;notes&quot;&gt;textarea, possibly markdown, checklist completion as progress metrics&lt;/span&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;h3&gt;Manager&lt;/h3&gt;
-      &lt;span class=&quot;notes&quot;&gt;user list, defaults to host. defines who assigns and reviews Task&lt;/span&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-
-    &lt;h3&gt;Volunteer&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;user list, default blank. defines who accomplishes it&lt;/span&gt;
-&lt;/li&gt;
-&lt;li&gt;
-
-    &lt;h3&gt;Deliverable?&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;default is NO (Deliverables are outside the System, and just Manager Approval is enough), if yes, File Upload is unlocked (define specs: picture, pdf, word document, text document)&lt;/span&gt;
-&lt;/li&gt;
-&lt;li&gt;
-
-    &lt;h3&gt;Sequential?&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;default is NO. if YES, opens up new form asking Parent Task (Task can only start after Parent Task is Approved) or Child Task (Task approval unlocks Child Task)&lt;/span&gt;
-&lt;/li&gt;
-&lt;li&gt;
-
-    &lt;h3&gt;Forum&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;like Main Forum, and open to all Volunteers. think channel&lt;/span&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-
+&lt;table class=&quot;lists&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Title&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;input, required&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Description&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;textarea with markdown&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Manager&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;user list, defaults to &lt;strong&gt;Host&lt;/strong&gt;. defines who assigns and reviews &lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Volunteer&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;user list, default blank. defines who accomplishes &lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Deliverable?&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;default is &lt;strong&gt;No&lt;/strong&gt; (Deliverables are outside the System, and just &lt;strong&gt;Manager&lt;/strong&gt; approval is enough), if &lt;strong&gt;Yes&lt;/strong&gt;, File Upload is unlocked (define specs: picture, pdf, word document, text document)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Sequential?&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;default is &lt;strong&gt;No&lt;/strong&gt;. If &lt;strong&gt;Yes&lt;/strong&gt;, opens up new form asking &lt;strong&gt;Required Task&lt;/strong&gt; (&lt;strong&gt;Task&lt;/strong&gt; can only start after &lt;strong&gt;Required Task&lt;/strong&gt; is &lt;strong&gt;Approved&lt;/strong&gt;) or &lt;strong&gt;Dependent Task&lt;/strong&gt; (&lt;strong&gt;Task&lt;/strong&gt; approval unlocks &lt;strong&gt;Dependent Task&lt;/strong&gt;)&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Forum&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;like Main Forum, and open to all &lt;strong&gt;Volunteers&lt;/strong&gt;.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+&lt;hr&gt;
 &lt;h2&gt;Phases&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-
-    &lt;h3&gt;  Unassigned&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;Task is not paired with a Volunteer&lt;/span&gt;
-&lt;/li&gt;
-&lt;li&gt;
-    &lt;h3&gt;In Progress&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;Task is paired with a Volunteer. depending on project pacing, it nags Volunteer to finish it, via Notification&lt;/span&gt;
-&lt;/li&gt;
-&lt;li&gt;
-    &lt;h3&gt;On Hold&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;Task is paired with a Volunteer, but has a Parent Task that is not Approved&lt;/span&gt;
-&lt;/li&gt;
-&lt;li&gt;
-    &lt;h3&gt;Done&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;Volunteer follows requirements, deem Task completed, and hits Done manually. Manager receives a Notification to review it. If Manager disagrees it's done, Task returns to In Progress, with a note (in forum). If Manager agrees it's Done, it's Approved&lt;/span&gt;
-&lt;/li&gt;
-&lt;li&gt;
-    &lt;h3&gt;Approved&lt;/h3&gt;
-    &lt;span class=&quot;notes&quot;&gt;Task is approved, System congratulates Volunteer and Manager on Main Forum (plus Notification). If Task has Children, Child Tasks move automatically from On Hold to In Progress, and both Volunteers and Managers are notified.&lt;/span&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;p&gt;Tasks have a lifecycle, moved by triggers, till completion.&lt;/p&gt;
+&lt;img src=&quot;../assets/images/task/task-flow.svg&quot; class=&quot;slide&quot;&gt;
+&lt;table class=&quot;lists&quot;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Unassigned&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt; is not paired with a &lt;strong&gt;Volunteer&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;In Progress&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt; is paired with a &lt;strong&gt;Volunteer&lt;/strong&gt;. Depending on project pacing, it nags &lt;strong&gt;Volunteer&lt;/strong&gt; to finish it, via &lt;strong&gt;Notification&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;On Hold&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt; is paired with a &lt;strong&gt;Volunteer&lt;/strong&gt;, but has a &lt;strong&gt;Required Task&lt;/strong&gt; that is not &lt;strong&gt;Approved&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Done&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;&lt;strong&gt;Volunteer&lt;/strong&gt; follows requirements, deem &lt;strong&gt;Task&lt;/strong&gt; completed, and hits &lt;strong&gt;Done&lt;/strong&gt; manually. &lt;strong&gt;Manager&lt;/strong&gt; receives a &lt;strong&gt;Notification&lt;/strong&gt; to review it. If &lt;strong&gt;Manager&lt;/strong&gt; disagrees it's &lt;strong&gt;Done&lt;/strong&gt;, &lt;strong&gt;Task&lt;/strong&gt; returns to &lt;strong&gt;In Progress&lt;/strong&gt;, with a note (in forum). If &lt;strong&gt;Manager&lt;/strong&gt; agrees it's &lt;strong&gt;Done&lt;/strong&gt;, then it's &lt;strong&gt;Approved&lt;/strong&gt;&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;&lt;h4&gt;Approved&lt;/h4&gt;&lt;/td&gt;
+        &lt;td&gt;&lt;p&gt;System congratulates &lt;strong&gt;Volunteer&lt;/strong&gt; and &lt;strong&gt;Manager&lt;/strong&gt; on Main Forum (plus &lt;strong&gt;Notification&lt;/strong&gt;). If &lt;strong&gt;Required Task&lt;/strong&gt;,  &lt;strong&gt;Dependent Task&lt;/strong&gt; moves automatically from &lt;strong&gt;On Hold&lt;/strong&gt; to &lt;strong&gt;In Progress&lt;/strong&gt;, and both &lt;strong&gt;Volunteers&lt;/strong&gt; and &lt;strong&gt;Managers&lt;/strong&gt; are notified.&lt;/p&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</description>
         <pubDate>Thu, 18 May 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/pursuance-tasks/</link>
         <guid isPermaLink="true">http://localhost:4000/pursuance-tasks/</guid>
@@ -290,7 +319,7 @@
     death gods, curses, frenemies, mind games. &lt;strong&gt;alert:&lt;/strong&gt; as amazing as Death Note writing it is, it's very mysogynistic... most (if not all) guys are aloof geniuses, &lt;em&gt;all&lt;/em&gt; women are emotional bimbos (except the death god one - yes, one is female)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3&gt;A genre of it's own&lt;/h3&gt;
+&lt;h3&gt;A genre of its own&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a class=&quot;pending clip&quot;&gt;Paranoia Agent
     &lt;img src=&quot;/assets/images/anime/paranoia.gif&quot;&gt;&lt;/a&gt;
@@ -3476,30 +3505,6 @@ content&lt;br&gt;
         
         
         <category>resources</category>
-        
-      </item>
-    
-      <item>
-        <title>Fumetti Drawings</title>
-        <description>&lt;ul class=&quot;gallery fumetti&quot;&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 17 Feb 2015 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/fumetti/</link>
-        <guid isPermaLink="true">http://localhost:4000/fumetti/</guid>
-        
-        
-        <category>arts</category>
         
       </item>
     
