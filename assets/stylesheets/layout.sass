@@ -2,6 +2,21 @@
 h1, h2, h3, h4
   text-transform: uppercase
 
+.mastodon
+  svg
+    padding-right: 10px
+    width: 23px
+    height: 23px
+    path
+      +transition
+      &:first-of-type
+        fill: #71aa92
+  &:hover svg path
+    &:first-of-type
+      fill: white
+    &:not(:first-of-type)
+      fill: $personal
+
 *
   +border-box
 

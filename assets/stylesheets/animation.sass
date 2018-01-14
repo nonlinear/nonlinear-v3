@@ -257,8 +257,10 @@ $prefix-for-spec: true !default
   +visibility($visibility)
   @at-root
     +keyframes(fadeIn)
-      0%opacity: 0
-      100%opacity: 1
+      0%
+        opacity: 0
+      100%
+        opacity: 1
 
 =fadeInDown($duration: $animation-duration, $function: $animation-function, $delay: $animation-delay, $count: $animation-count, $fill: $animation-fill, $visibility: $animation-visibility)
   +animation(fadeInDown $duration $function $delay $count $fill)
